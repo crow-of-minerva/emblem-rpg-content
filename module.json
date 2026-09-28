@@ -1,0 +1,102 @@
+{
+  "id": "emblem-rpg-content",
+  "title": "Emblem RPG Content",
+  "description": "<p>Official content for Emblem RPG.</p>",
+  "version": "1.0.0",
+  "manifest": "https://github.com/crow-of-minerva/emblem-rpg-content/releases/latest/download/module.json",
+  "download": "https://github.com/crow-of-minerva/emblem-rpg-content/releases/download/v1.0.0/emblem-rpg-content.zip",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "authors": [
+    {
+      "name": "Anathena"
+    }
+  ],
+  "esmodules": [
+    "scripts/emblem-rpg-content.mjs"
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "emblem-rpg",
+        "type": "system",
+        "compatibility": {
+          "minimum": "1.0.0",
+          "verified": "1.0.0"
+        },
+        "manifest": "https://github.com/crow-of-minerva/emblem-rpg/releases/latest/download/system.json"
+      }
+    ],
+    "requires": [
+      {
+        "id": "emblem-rpg",
+        "type": "system",
+        "reason": "This content module is designed for the Emblem RPG system.",
+        "manifest": "https://github.com/crow-of-minerva/emblem-rpg/releases/latest/download/system.json"
+      }
+    ]
+  },
+  "packs": [
+    {
+      "name": "classes",
+      "label": "Emblem RPG | Classes",
+      "path": "packs/classes",
+      "type": "Item",
+      "system": "emblem-rpg",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "features",
+      "label": "Emblem RPG | Features",
+      "path": "packs/features",
+      "type": "Item",
+      "system": "emblem-rpg",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "items",
+      "label": "Emblem RPG | Items",
+      "path": "packs/items",
+      "type": "Item",
+      "system": "emblem-rpg",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "actors",
+      "label": "Emblem RPG | Actors",
+      "path": "packs/actors",
+      "type": "Actor",
+      "system": "emblem-rpg",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "TRUSTED": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Emblem RPG",
+      "sorting": "m",
+      "color": "#4a1c1c",
+      "packs": [
+        "classes",
+        "features",
+        "items",
+        "actors"
+      ],
+      "folders": []
+    }
+  ]
+}
