@@ -1,56 +1,6 @@
-<<<<<<< HEAD
-2026/09/28-15:21:23.887 10420 Recovering log #393
-2026/09/28-15:21:23.887 10420 Level-0 table #398: started
-2026/09/28-15:21:23.892 10420 Level-0 table #398: 153634 bytes OK
-2026/09/28-15:21:23.900 10420 Delete type=2 #391
-2026/09/28-15:21:23.901 10420 Delete type=2 #392
-2026/09/28-15:21:23.901 10420 Delete type=0 #393
-2026/09/28-15:21:23.901 10420 Delete type=2 #394
-2026/09/28-15:21:23.901 10420 Delete type=3 #368
-2026/09/28-15:21:24.094 e044 Compacting 1@0 + 2@1 files
-2026/09/28-15:21:24.113 e044 Generated table #400@0: 322 keys, 2107092 bytes
-2026/09/28-15:21:24.133 e044 Generated table #401@0: 514 keys, 1146587 bytes
-2026/09/28-15:21:24.133 e044 Compacted 1@0 + 2@1 files => 3253679 bytes
-2026/09/28-15:21:24.135 e044 compacted to: files[ 0 2 0 0 0 0 0 ]
-=======
-2026/09/28-08:35:15.891 e3c Recovering log #364
-2026/09/28-08:35:15.899 e3c Level-0 table #369: started
-2026/09/28-08:35:15.907 e3c Level-0 table #369: 586465 bytes OK
-2026/09/28-08:35:15.910 e3c Delete type=2 #362
-2026/09/28-08:35:15.910 e3c Delete type=2 #363
-2026/09/28-08:35:15.910 e3c Delete type=0 #364
-2026/09/28-08:35:15.910 e3c Delete type=2 #365
-2026/09/28-08:35:15.910 e3c Delete type=3 #347
-2026/09/28-08:35:16.018 199c Compacting 1@0 + 2@1 files
-2026/09/28-08:35:16.028 199c Generated table #371@0: 93 keys, 2115172 bytes
-2026/09/28-08:35:16.042 199c Generated table #372@0: 743 keys, 1562433 bytes
-2026/09/28-08:35:16.042 199c Compacted 1@0 + 2@1 files => 3677605 bytes
-2026/09/28-08:35:16.042 199c compacted to: files[ 0 2 0 0 0 0 0 ]
-2026/09/28-08:45:50.130 199c Level-0 table #374: started
-2026/09/28-08:45:50.150 199c Level-0 table #374: 1771614 bytes OK
-2026/09/28-08:45:50.150 199c Delete type=2 #366
-2026/09/28-08:45:50.158 199c Delete type=2 #367
-2026/09/28-08:45:50.158 199c Delete type=2 #369
-2026/09/28-08:45:50.158 199c Delete type=0 #370
-2026/09/28-08:45:50.544 199c Compacting 1@0 + 2@1 files
-2026/09/28-08:45:50.566 199c Generated table #375@0: 101 keys, 2114685 bytes
-2026/09/28-08:45:50.596 199c Generated table #376@0: 735 keys, 1397014 bytes
-2026/09/28-08:45:50.596 199c Compacted 1@0 + 2@1 files => 3511699 bytes
-2026/09/28-08:45:50.597 199c compacted to: files[ 0 2 0 0 0 0 0 ]
-2026/09/28-08:45:50.598 199c Delete type=2 #371
-2026/09/28-08:45:50.598 199c Delete type=2 #372
-2026/09/28-08:45:50.598 199c Delete type=2 #374
-2026/09/28-08:46:44.951 199c Level-0 table #378: started
-2026/09/28-08:46:44.966 199c Level-0 table #378: 1408322 bytes OK
-2026/09/28-08:46:44.968 199c Delete type=0 #373
-2026/09/28-08:46:44.978 199c Manual compaction at level-0 from '!actors!1AMMjlxzzbXCuQZU' @ 72057594037927935 : 1 .. '!folders!zJ2bHaaG7PBFwI3M' @ 0 : 0; will stop at '!actors.items!zcxVP1zBjebtkBp4.sdwQbyedwkboWmYW' @ 12676 : 1
-2026/09/28-08:46:44.978 199c Compacting 1@0 + 2@1 files
-2026/09/28-08:46:44.994 199c Generated table #379@0: 321 keys, 2109506 bytes
-2026/09/28-08:46:45.007 199c Generated table #380@0: 515 keys, 1150368 bytes
-2026/09/28-08:46:45.007 199c Compacted 1@0 + 2@1 files => 3259874 bytes
-2026/09/28-08:46:45.007 199c compacted to: files[ 0 2 0 0 0 0 0 ]
-2026/09/28-08:46:45.007 199c Delete type=2 #375
-2026/09/28-08:46:45.007 199c Delete type=2 #376
-2026/09/28-08:46:45.007 199c Delete type=2 #378
-2026/09/28-08:46:45.047 199c Manual compaction at level-0 from '!actors.items!zcxVP1zBjebtkBp4.sdwQbyedwkboWmYW' @ 12676 : 1 .. '!folders!zJ2bHaaG7PBFwI3M' @ 0 : 0; will stop at (end)
->>>>>>> e0d260f63956194bd6cd690c68d384b8f298284f
+2026/10/03-10:15:24.918 7084 Recovering log #478
+2026/10/03-10:15:24.922 7084 Delete type=2 #474
+2026/10/03-10:15:24.922 7084 Delete type=2 #475
+2026/10/03-10:15:24.922 7084 Delete type=2 #477
+2026/10/03-10:15:24.922 7084 Delete type=0 #478
+2026/10/03-10:15:24.922 7084 Delete type=3 #476

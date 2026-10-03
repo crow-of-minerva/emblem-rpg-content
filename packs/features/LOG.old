@@ -1,34 +1,3 @@
-<<<<<<< HEAD
-2026/09/28-15:21:23.821 7d6c Recovering log #220
-2026/09/28-15:21:23.825 7d6c Level-0 table #223: started
-2026/09/28-15:21:23.835 7d6c Level-0 table #223: 866447 bytes OK
-2026/09/28-15:21:23.844 7d6c Delete type=2 #217
-2026/09/28-15:21:23.845 7d6c Delete type=2 #219
-2026/09/28-15:21:23.845 7d6c Delete type=0 #220
-2026/09/28-15:21:23.845 7d6c Delete type=3 #218
-2026/09/28-15:22:02.253 e044 Compacting 1@0 + 1@1 files
-2026/09/28-15:22:02.269 e044 Generated table #225@0: 174 keys, 436563 bytes
-2026/09/28-15:22:02.269 e044 Compacted 1@0 + 1@1 files => 436563 bytes
-2026/09/28-15:22:02.272 e044 compacted to: files[ 0 1 0 0 0 0 0 ]
-2026/09/28-15:22:02.272 e044 Delete type=2 #221
-2026/09/28-15:22:02.273 e044 Delete type=2 #223
-=======
-2026/09/28-08:35:15.808 24ec Recovering log #216
-2026/09/28-08:35:15.808 24ec Level-0 table #219: started
-2026/09/28-08:35:15.816 24ec Level-0 table #219: 393202 bytes OK
-2026/09/28-08:35:15.820 24ec Delete type=2 #213
-2026/09/28-08:35:15.820 24ec Delete type=2 #215
-2026/09/28-08:35:15.820 24ec Delete type=0 #216
-2026/09/28-08:35:15.820 24ec Delete type=3 #214
-2026/09/28-08:46:44.969 199c Level-0 table #222: started
-2026/09/28-08:46:44.969 199c Level-0 table #222: 0 bytes OK
-2026/09/28-08:46:44.970 199c Delete type=0 #220
-2026/09/28-08:46:45.007 199c Manual compaction at level-0 from '!folders!15z1Dl2hHuqTjHRp' @ 72057594037927935 : 1 .. '!items!zt4y3AWLHaXJ2nDR' @ 0 : 0; will stop at '!items!zt4y3AWLHaXJ2nDR' @ 1072 : 1
-2026/09/28-08:46:45.007 199c Compacting 1@0 + 1@1 files
-2026/09/28-08:46:45.018 199c Generated table #223@0: 174 keys, 427704 bytes
-2026/09/28-08:46:45.018 199c Compacted 1@0 + 1@1 files => 427704 bytes
-2026/09/28-08:46:45.018 199c compacted to: files[ 0 1 0 0 0 0 0 ]
-2026/09/28-08:46:45.018 199c Delete type=2 #217
-2026/09/28-08:46:45.018 199c Delete type=2 #219
-2026/09/28-08:46:45.047 199c Manual compaction at level-0 from '!items!zt4y3AWLHaXJ2nDR' @ 1072 : 1 .. '!items!zt4y3AWLHaXJ2nDR' @ 0 : 0; will stop at (end)
->>>>>>> e0d260f63956194bd6cd690c68d384b8f298284f
+2026/10/03-10:15:24.900 7018 Recovering log #297
+2026/10/03-10:15:24.906 7018 Delete type=0 #297
+2026/10/03-10:15:24.906 7018 Delete type=3 #295
