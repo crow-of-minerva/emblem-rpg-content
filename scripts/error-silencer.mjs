@@ -1,7 +1,7 @@
 // @ts-check
 
 /* -------------------------------------------- */
-/*  Premium asset providers                     */
+/*  Paid asset modules                          */
 /* -------------------------------------------- */
 /**
  * The paid modules this module's authored content draws animations and sounds from.
@@ -20,7 +20,10 @@ const PREMIUM_PROVIDERS = [
 /** Marks a patched prototype or singleton so a second install pass leaves it alone. */
 const SILENCED = Symbol('emblem-rpg-content silenced');
 
-/** Returned in place of a dropped toast. Inert, but answers the handle a notification caller may keep. */
+/**
+ * Returned in place of a dropped toast. Its `remove()` and `update()` do nothing, but passing it to
+ * `ui.notifications.remove()` or `has()` throws, because core rejects an id of 0.
+ */
 const DROPPED_NOTIFICATION = Object.freeze({ id: 0, pct: 0, remove() {}, update() {} });
 
 /** Distinguishes "every source was dropped" from a falsy argument Sequencer should reject itself. */
@@ -46,8 +49,7 @@ let silencedPatterns = [];
  * an effect section additionally throws out of `Sequence#play`, which loses the rest of the sequence. Nothing here
  * installs the missing modules or replaces their assets; the affected effect or sound simply does not play.
  *
- * Called from this module's `init` hook in `emblem-rpg-content.mjs`. Every premium provider being present installs
- * nothing at all, so a complete world still sees Sequencer's genuine complaints.
+ * Runs at `init`. When every paid module is active it installs nothing, so Sequencer's own errors still show.
  */
 export function installErrorSilencer() {
   const absent = PREMIUM_PROVIDERS.filter(provider => !isModuleActive(provider.module));
@@ -84,7 +86,7 @@ function patchSequencer() {
  * Skip a section whose file can only come from an absent module, before Sequencer looks the file up.
  *
  * `Section#_execute` treats a false `_shouldPlay` as a clean skip, marks the section SKIPPED and moves on, which is
- * what an unplayable premium effect deserves. Every section type inherits this one method from
+ * what an effect from a missing paid module needs. Every section type inherits this one method from
  * `Sequencer.BaseSection`, so effects and sounds are both covered, and a section without a file answers false here
  * and is left to Sequencer's own `playIf` handling.
  */
@@ -101,7 +103,7 @@ function skipSectionsMissingAssets() {
 }
 
 /**
- * Drop unresolvable premium paths from a preload request.
+ * Drop paths that only a missing paid module could supply from a preload request.
  *
  * `SequencerPreloader#_cleanSrcs` passes a path it cannot find in the database through as a file name, so the
  * fetch that follows asks the server for `jb2a.something` and logs a failure per entry. Dropping them first keeps
@@ -139,9 +141,12 @@ function keptSources(sources) {
  * Withhold error and warning toasts that name an absent module's assets.
  *
  * Sequencer reports a missing database entry through `ui.notifications.error` and never inspects the return value.
- * `Notifications#error` and `#warn` both delegate to `#notify`, so the one wrapper covers them, and the prototype
+ * `Notifications#error` and `#warn` both call the public `notify`, so the one wrapper covers them, and the prototype
  * is patched rather than the singleton because `ui.notifications` is not built yet at `init`. Success and info
  * notices are left alone. Dropping a toast also drops the console line Foundry logs alongside it.
+ *
+ * The method is replaced by plain assignment, not through libWrapper, so another module that also replaces
+ * `notify` runs before or after this one depending on load order.
  */
 function silenceNotifications() {
   const prototype = foundry?.applications?.ui?.Notifications?.prototype;
@@ -163,18 +168,11 @@ function silenceNotifications() {
  * without a notification, so the toast filter alone leaves the log full of the same absences. The browser's own
  * network log still records the failed requests, which no script can suppress.
  *
- * Only the first argument is tested. Every missing-asset message found in Sequencer (`SequencerFileCache`'s
- * `Failed to load audio: <path>`, `custom_error`/`custom_warning`'s `Sequencer | ...` text) and in Foundry's own
- * loaders (`client/audio/sound.mjs`'s `Failed to load audio element "<path>"`, `client/canvas/loader.mjs`'s
- * `Loading failed for <src>...` and `The requested asset <src> could not be loaded...`) carries the identifying
- * path or database key in that first argument. Testing every argument risked dropping an unrelated second one,
- * such as a distinct Error logged alongside a generic first-argument label.
+ * Only the first argument is checked; that is where Sequencer and Foundry put the missing path. A message that
+ * merely quotes a paid path is hidden too, including a typo in an authored effect key.
  *
- * This still cannot prove a first-argument message is really about an absent module: any single-argument log
- * whose text happens to contain a silenced prefix or `<namespace>.` token is dropped even when its real cause is
- * different, for example a genuine typo in an authored effect key, or an unrelated diagnostic that quotes such a
- * key for context. Distinguishing those from a true absence would need the message's true cause or call origin,
- * which this text-only filter does not have.
+ * This replaces `console.error` and `console.warn` outright, so it filters every package's output, and DevTools
+ * shows this file as the source of every console error and warning.
  */
 function silenceConsole() {
   for (const level of ['error', 'warn']) {
@@ -193,8 +191,8 @@ function silenceConsole() {
 /*  Absence tests                               */
 /* -------------------------------------------- */
 /**
- * Whether a section's file can only come from an absent module. A section plays whenever any of its candidates
- * can still resolve, since Sequencer picks one at random and the message filters cover an unlucky draw.
+ * Whether a section's file can only come from an absent module. If any candidate file can load, the section
+ * plays; Sequencer picks one at random, and a failed pick is hidden by the message filters.
  */
 function unavailableFile(file) {
   if (typeof file === 'string') return unavailableReference(file);
@@ -231,7 +229,7 @@ function namesAbsentAsset(text) {
   return silencedPatterns.some(pattern => pattern.test(text));
 }
 
-/** One console argument's contribution to the test above. Errors are read for their message. */
+/** Whether one console argument names an absent module's assets. Errors are read for their message. */
 function argumentNamesAbsentAsset(value) {
   if (typeof value === 'string') return namesAbsentAsset(value);
   if (value instanceof Error) return namesAbsentAsset(value.message);

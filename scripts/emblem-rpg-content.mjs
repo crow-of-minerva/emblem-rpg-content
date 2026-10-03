@@ -10,9 +10,8 @@ const MODULE_ID = 'emblem-rpg-content';
 /**
  * Namespace this module claims in the Sequencer database.
  *
- * The rebuild registers none of its own, so the short name belongs to the content that ships the files. Every
- * bundled sound answers below `emblem.sound`, addressed by its family folder and hyphenated name, so
- * `sound/weapon/bow-draw-1.wav` is `emblem.sound.weapon.bow.draw.1`.
+ * The system registers nothing under `emblem`, so this module uses it for its own sounds. Each sound is reached
+ * by its folder and hyphenated file name, so `sound/weapon/bow-draw-1.wav` is `emblem.sound.weapon.bow.draw.1`.
  */
 const NAMESPACE = 'emblem';
 
@@ -22,6 +21,6 @@ Hooks.once('sequencerReady', () => {
 });
 
 /* -------------------------------------------- */
-/*  Premium asset absence                       */
+/*  Missing paid asset modules                  */
 /* -------------------------------------------- */
 Hooks.once('init', installErrorSilencer);

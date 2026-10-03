@@ -8,13 +8,13 @@
  *
  * Maintained by hand; this repository has no generator script. Each leaf names one file under `sound/`: the file's
  * family folder and hyphenated stem become nested keys, so `sound/weapon/bow-draw-1.wav` is reached as
- * `weapon.bow.draw["1"]` and `sound/creature/boar-1.wav` as `creature.boar["1"]`. Add or remove a file under
- * `sound/` and its entry here together, and never rename an existing key: ids already used in authored content
- * must keep answering.
+ * `weapon.bow.draw["1"]` and `sound/creature/boar-1.wav` as `creature.boar["1"]`. Some files under `sound/`
+ * have no entry here and so cannot be reached through Sequencer. Never rename an existing key: authored content
+ * refers to these ids.
  *
  * `emblem-rpg-content.mjs` calls this once, at the `sequencerReady` hook, and registers the result under the
  * `emblem` namespace with `Sequencer.Database.registerEntries('emblem', { sound: ... })`, so every path here
- * answers as `emblem.sound.<path>`, e.g. `emblem.sound.weapon.bow.draw.1`.
+ * is reachable as `emblem.sound.<path>`, e.g. `emblem.sound.weapon.bow.draw.1`.
  * @param {string} path Module root, without a trailing slash.
  * @returns {object}
  */
