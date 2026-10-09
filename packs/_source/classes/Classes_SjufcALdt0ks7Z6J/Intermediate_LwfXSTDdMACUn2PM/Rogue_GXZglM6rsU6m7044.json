@@ -1,0 +1,253 @@
+{
+  "name": "Rogue",
+  "type": "Class",
+  "img": "modules/emblem-rpg-content/assets/classes/Rogue.png",
+  "folder": "LwfXSTDdMACUn2PM",
+  "system": {
+    "description": "Rogues are fast, evasive fighters who specialize in Covert weapons. They excel at flanking and slipping past enemy lines, but cannot hold a front line themselves.",
+    "tier": "Intermediate",
+    "baseStats": {
+      "hp": 21,
+      "stn": 3,
+      "mov": 5,
+      "bld": 5,
+      "mgt": 4,
+      "agi": 7,
+      "tqn": 6,
+      "wit": 5,
+      "cha": 3,
+      "def": 0,
+      "res": 1,
+      "spd": 4,
+      "eva": 11,
+      "acc": 1,
+      "crit": 2
+    },
+    "baseGrowths": {
+      "hp": 35,
+      "mgt": 25,
+      "agi": 35,
+      "tqn": 30,
+      "wit": 20,
+      "cha": 15,
+      "def": 5,
+      "res": 10
+    },
+    "baseCaps": {
+      "hp": 34,
+      "mgt": 13,
+      "agi": 21,
+      "tqn": 18,
+      "wit": 15,
+      "cha": 10,
+      "def": 4,
+      "res": 6
+    },
+    "proficiencies": {
+      "brawling": 0,
+      "blade": 1,
+      "polearm": 0,
+      "heavy": 0,
+      "bow": 0,
+      "covert": 2,
+      "arcane": 0,
+      "elemental": 0,
+      "divine": 0,
+      "occult": 0,
+      "armor": 1,
+      "riding": false,
+      "flying": false
+    },
+    "skills": {
+      "athletics": 0,
+      "finesse": 2,
+      "trading": 0,
+      "civics": 0,
+      "handicraft": 2,
+      "sociability": 0,
+      "command": 0,
+      "nature": 0,
+      "perception": 2,
+      "performance": 0,
+      "reason": 0,
+      "esoteric": 0
+    },
+    "unitType": {
+      "infantry": true,
+      "dragon": false,
+      "monster": false,
+      "beast": false,
+      "undead": false
+    },
+    "features": [
+      {
+        "_id": "U9Go3uBYGYsI5SKF",
+        "lvl": 7,
+        "acquisitionType": "all",
+        "choiceCount": 1,
+        "unique": true,
+        "exceptions": "",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.MflzsbDmE4FTA88Y",
+            "name": "Ambush",
+            "img": "modules/emblem-rpg-content/assets/abilities/weapon-arts/Ambush.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      },
+      {
+        "_id": "zkoD348GLA5jJplr",
+        "lvl": 17,
+        "acquisitionType": "all",
+        "choiceCount": 1,
+        "unique": false,
+        "exceptions": "",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.x97Cs91mjJ90sKyl",
+            "name": "Shove",
+            "img": "modules/emblem-rpg-content/assets/abilities/active/Shove.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.yIKvNOmbF25YqF3X",
+            "name": "Swap",
+            "img": "modules/emblem-rpg-content/assets/abilities/active/Swap.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.WAorDL65BTLwUvAf",
+            "name": "Retrieve",
+            "img": "modules/emblem-rpg-content/assets/abilities/active/Retrieve.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.MKGTANdQGu9NmO26",
+            "name": "Threaten",
+            "img": "modules/emblem-rpg-content/assets/abilities/active/Threaten.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.LtJS8QnVGj1acmGd",
+            "name": "Dash",
+            "img": "modules/emblem-rpg-content/assets/abilities/active/Dash.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      },
+      {
+        "_id": "BmB5qpJXdD74DhjH",
+        "lvl": 13,
+        "acquisitionType": "all",
+        "choiceCount": 1,
+        "unique": true,
+        "exceptions": "",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.DwPhP6xbbIMXky8v",
+            "name": "Outflank",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/Outflank.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      },
+      {
+        "_id": "6mUUxMQV7hregdJU",
+        "lvl": 9,
+        "acquisitionType": "choice",
+        "choiceCount": 1,
+        "unique": false,
+        "exceptions": "",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.3AEoCMEtZiJQgAzh",
+            "name": "Prowess: Covert",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/Prowess_ Covert.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.CgdWE3pnwOOkzAMi",
+            "name": "Bow Weapon Proficiency",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/Bow%20Weapon%20Proficiency.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.9bpiyPp5ZJuK6QGi",
+            "name": "Mov +1",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/Mov%20%2B1.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      }
+    ],
+    "promotions": []
+  },
+  "_id": "GXZglM6rsU6m7044",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1789181106165,
+    "modifiedTime": 1790612897676,
+    "lastModifiedBy": "emblembuilder000",
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "sort": 300000,
+  "_key": "!items!GXZglM6rsU6m7044"
+}

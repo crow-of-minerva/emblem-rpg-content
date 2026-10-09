@@ -1,0 +1,25 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Classes",
+  "color": null,
+  "sorting": "m",
+  "_id": "SjufcALdt0ks7Z6J",
+  "description": "",
+  "sort": 100000,
+  "flags": {
+    "emblem-rpg": {
+      "icon": "modules/emblem-rpg-content/assets/classes/Lord.png"
+    }
+  },
+  "_stats": {
+    "exportSource": null,
+    "coreVersion": "14.366",
+    "systemId": "emblem-rpg",
+    "systemVersion": "0.2.0",
+    "createdTime": 1786236610975,
+    "modifiedTime": 1786239093097,
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!SjufcALdt0ks7Z6J"
+}

@@ -1,0 +1,775 @@
+{
+  "name": "Master of Arms",
+  "type": "Ability",
+  "img": "modules/emblem-rpg-content/assets/abilities/passive/Master of Arms.png",
+  "system": {
+    "isWielded": false,
+    "isWorn": false,
+    "isEquipped": false,
+    "description": "Gain a proficiency rank in every non-magical weapon type. Gain the following bonuses depending on which weapon type you are using:<div style=\"\"><br></div><div>Brawling: +2 Def&nbsp;<div>&nbsp;Blade: +7 Crit&nbsp;</div><div>Polearm: +2 Acc&nbsp;</div><div>Heavy: +2 Atk&nbsp;</div><div>Bow: +1 Eva&nbsp;</div><div>Covert: +2 Spd</div></div>",
+    "itemType": "Passive",
+    "cost": 0,
+    "wgt": 0,
+    "stealable": {
+      "flag": "None",
+      "dc": 10
+    },
+    "actionType": "Bonus Action",
+    "uses": {
+      "current": 1,
+      "max": 1,
+      "type": "limited",
+      "scaling": {
+        "factor": "Level",
+        "subject": "",
+        "type": "Additive",
+        "multiplier": 1,
+        "thresholds": [],
+        "formula": "",
+        "addToBase": false,
+        "roundDown": false
+      }
+    },
+    "aura": {
+      "enabled": false,
+      "rng": 0
+    },
+    "wepArtData": {
+      "cost": 0,
+      "brawling": false,
+      "blade": false,
+      "polearm": false,
+      "heavy": false,
+      "bow": false,
+      "covert": false
+    },
+    "requirements": [],
+    "modifiers": [
+      {
+        "name": "Brawling Prof +1",
+        "target": "prof.brawling",
+        "quantity": "1",
+        "conditionTree": null,
+        "requiresEquipped": false,
+        "requiresActivation": false,
+        "stackable": false,
+        "kind": "standard",
+        "targetType": "All",
+        "condition": ""
+      },
+      {
+        "name": "Brawling Bonus +2 Def",
+        "target": "def",
+        "quantity": "2",
+        "conditionTree": {
+          "kind": "group",
+          "op": "and",
+          "children": [
+            {
+              "kind": "compare",
+              "left": "weapon.type",
+              "op": "===",
+              "right": {
+                "literal": "Brawling"
+              }
+            }
+          ]
+        },
+        "requiresEquipped": false,
+        "requiresActivation": false,
+        "stackable": false,
+        "kind": "standard",
+        "targetType": "All",
+        "condition": ""
+      },
+      {
+        "name": "Blade Prof +1",
+        "target": "prof.blade",
+        "quantity": "1",
+        "conditionTree": null,
+        "requiresEquipped": false,
+        "requiresActivation": false,
+        "stackable": false,
+        "kind": "standard",
+        "targetType": "All",
+        "condition": ""
+      },
+      {
+        "name": "Blade Bonus +7 Crit",
+        "target": "crit",
+        "quantity": "7",
+        "conditionTree": {
+          "kind": "group",
+          "op": "and",
+          "children": [
+            {
+              "kind": "compare",
+              "left": "weapon.type",
+              "op": "===",
+              "right": {
+                "literal": "Blade"
+              }
+            }
+          ]
+        },
+        "requiresEquipped": false,
+        "requiresActivation": false,
+        "stackable": false,
+        "kind": "standard",
+        "targetType": "All",
+        "condition": ""
+      },
+      {
+        "name": "Polearm Prof +1",
+        "target": "prof.polearm",
+        "quantity": "1",
+        "conditionTree": null,
+        "requiresEquipped": false,
+        "requiresActivation": false,
+        "stackable": false,
+        "kind": "standard",
+        "targetType": "All",
+        "condition": ""
+      },
+      {
+        "name": "Polearm Bonus +2 Acc",
+        "target": "acc",
+        "quantity": "2",
+        "conditionTree": {
+          "kind": "group",
+          "op": "and",
+          "children": [
+            {
+              "kind": "compare",
+              "left": "weapon.type",
+              "op": "===",
+              "right": {
+                "literal": "Polearm"
+              }
+            }
+          ]
+        },
+        "requiresEquipped": false,
+        "requiresActivation": false,
+        "stackable": false,
+        "kind": "standard",
+        "targetType": "All",
+        "condition": ""
+      },
+      {
+        "name": "Heavy Prof +1",
+        "target": "prof.heavy",
+        "quantity": "1",
+        "conditionTree": null,
+        "requiresEquipped": false,
+        "requiresActivation": false,
+        "stackable": false,
+        "kind": "standard",
+        "targetType": "All",
+        "condition": ""
+      },
+      {
+        "name": "Heavy Bonus +2 Atk",
+        "target": "atk",
+        "quantity": "2",
+        "conditionTree": {
+          "kind": "group",
+          "op": "and",
+          "children": [
+            {
+              "kind": "compare",
+              "left": "weapon.type",
+              "op": "===",
+              "right": {
+                "literal": "Heavy"
+              }
+            }
+          ]
+        },
+        "requiresEquipped": false,
+        "requiresActivation": false,
+        "stackable": false,
+        "kind": "standard",
+        "targetType": "All",
+        "condition": ""
+      },
+      {
+        "name": "Bow Prof +1",
+        "target": "prof.bow",
+        "quantity": "1",
+        "conditionTree": null,
+        "requiresEquipped": false,
+        "requiresActivation": false,
+        "stackable": false,
+        "kind": "standard",
+        "targetType": "All",
+        "condition": ""
+      },
+      {
+        "name": "Bow Bonus +1 Eva",
+        "target": "eva",
+        "quantity": "1",
+        "conditionTree": {
+          "kind": "group",
+          "op": "and",
+          "children": [
+            {
+              "kind": "compare",
+              "left": "weapon.type",
+              "op": "===",
+              "right": {
+                "literal": "Bow"
+              }
+            }
+          ]
+        },
+        "requiresEquipped": false,
+        "requiresActivation": false,
+        "stackable": false,
+        "kind": "standard",
+        "targetType": "All",
+        "condition": ""
+      },
+      {
+        "name": "Covert Prof +1",
+        "target": "prof.covert",
+        "quantity": "1",
+        "conditionTree": null,
+        "requiresEquipped": false,
+        "requiresActivation": false,
+        "stackable": false,
+        "kind": "standard",
+        "targetType": "All",
+        "condition": ""
+      },
+      {
+        "name": "Covert Bonus +2 Spd",
+        "target": "spd",
+        "quantity": "2",
+        "conditionTree": {
+          "kind": "group",
+          "op": "and",
+          "children": [
+            {
+              "kind": "compare",
+              "left": "weapon.type",
+              "op": "===",
+              "right": {
+                "literal": "Covert"
+              }
+            }
+          ]
+        },
+        "requiresEquipped": false,
+        "requiresActivation": false,
+        "stackable": false,
+        "kind": "standard",
+        "targetType": "All",
+        "condition": ""
+      }
+    ],
+    "effectData": {
+      "params": [],
+      "type": "",
+      "rng": "4",
+      "rngType": "Single",
+      "rngShape": "Normal",
+      "losRule": "normal",
+      "rngScaling": {
+        "factor": "None",
+        "subject": "",
+        "type": "Additive",
+        "multiplier": 1,
+        "thresholds": [],
+        "formula": "",
+        "addToBase": false,
+        "roundDown": false
+      },
+      "targets": 1,
+      "targetType": "Hostile",
+      "locationRng": 0,
+      "gridColor": "Red",
+      "groundValidSquares": "All",
+      "groundMaxElevDiff": 0,
+      "deliveryType": "Skill Check",
+      "savingThrowDC": {
+        "required": false,
+        "base": 0,
+        "attribute": "None",
+        "targetAttribute": "None",
+        "ignoreForFriendly": false
+      },
+      "skillCheckDC": {
+        "required": false,
+        "base": 3,
+        "skill": "Command",
+        "targetAttribute": "Wit",
+        "ignoreForFriendly": false
+      },
+      "consumeOnFailure": true,
+      "groundUnoccupiedOnly": true
+    },
+    "consumableData": {
+      "effect": "",
+      "stat": "",
+      "statValue": 0,
+      "growth": "",
+      "growthValue": 0
+    },
+    "weapon": {
+      "req": "",
+      "rank": 0,
+      "twoHanded": false,
+      "dmgTypes": {
+        "slashing": false,
+        "slashingConditionTree": null,
+        "piercing": false,
+        "piercingConditionTree": null,
+        "crushing": false,
+        "crushingConditionTree": null,
+        "missile": false,
+        "missileConditionTree": null,
+        "fire": false,
+        "fireConditionTree": null,
+        "ice": false,
+        "iceConditionTree": null,
+        "lightning": false,
+        "lightningConditionTree": null,
+        "wind": false,
+        "windConditionTree": null,
+        "arcane": false,
+        "arcaneConditionTree": null,
+        "decay": false,
+        "decayConditionTree": null,
+        "shadow": false,
+        "shadowConditionTree": null,
+        "holy": false,
+        "holyConditionTree": null,
+        "randomize": false
+      },
+      "atkStat": "",
+      "atk": "0",
+      "rng": "1",
+      "acc": 0,
+      "brk": 0,
+      "crit": 0,
+      "extraAttacks": 0,
+      "noExtraAttacks": false,
+      "effectiveAgainst": {
+        "infantry": false,
+        "armored": false,
+        "cavalry": false,
+        "flying": false,
+        "dragon": false,
+        "beast": false,
+        "monster": false,
+        "undead": false,
+        "magic": false
+      },
+      "breaker": {
+        "brawling": false,
+        "blade": false,
+        "polearm": false,
+        "heavy": false,
+        "bow": false,
+        "covert": false,
+        "elemental": false,
+        "divine": false,
+        "occult": false,
+        "arcane": false
+      }
+    },
+    "armor": {
+      "req": "",
+      "def": 0,
+      "res": 0,
+      "stn": 0,
+      "eva": 0,
+      "brkRed": 0,
+      "critRed": 0,
+      "vulns": {
+        "slashing": false,
+        "piercing": false,
+        "crushing": false,
+        "missile": false,
+        "fire": false,
+        "ice": false,
+        "lightning": false,
+        "wind": false,
+        "arcane": false,
+        "decay": false,
+        "shadow": false,
+        "holy": false
+      },
+      "prots": {
+        "slashing": false,
+        "piercing": false,
+        "crushing": false,
+        "missile": false,
+        "fire": false,
+        "ice": false,
+        "lightning": false,
+        "wind": false,
+        "arcane": false,
+        "decay": false,
+        "shadow": false,
+        "holy": false
+      }
+    },
+    "mountData": {
+      "stats": {
+        "mov": 0,
+        "hp": 0,
+        "stn": 0,
+        "eva": 0,
+        "atk": 0,
+        "spd": 0,
+        "acc": 0,
+        "crit": 0
+      },
+      "unitTypes": {
+        "cavalry": false,
+        "flying": false,
+        "dragon": false,
+        "beast": false,
+        "monster": false,
+        "undead": false
+      }
+    },
+    "craftingData": {
+      "refinement": {
+        "tiers": [
+          {
+            "materials": [],
+            "skillCheck": "",
+            "modifiers": {
+              "atk": null,
+              "brk": null,
+              "wgt": null,
+              "acc": null,
+              "crit": null,
+              "durability": null,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": ""
+            },
+            "enabled": false,
+            "xpReq": 1,
+            "forgeMult": null
+          },
+          {
+            "materials": [],
+            "skillCheck": "",
+            "modifiers": {
+              "atk": null,
+              "brk": null,
+              "wgt": null,
+              "acc": null,
+              "crit": null,
+              "durability": null,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": ""
+            },
+            "enabled": false,
+            "xpReq": 2,
+            "forgeMult": null
+          },
+          {
+            "materials": [],
+            "skillCheck": "",
+            "modifiers": {
+              "atk": null,
+              "brk": null,
+              "wgt": null,
+              "acc": null,
+              "crit": null,
+              "durability": null,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": ""
+            },
+            "enabled": false,
+            "xpReq": 3,
+            "forgeMult": null
+          },
+          {
+            "materials": [],
+            "skillCheck": "",
+            "modifiers": {
+              "atk": null,
+              "brk": null,
+              "wgt": null,
+              "acc": null,
+              "crit": null,
+              "durability": null,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": ""
+            },
+            "enabled": false,
+            "xpReq": 4,
+            "forgeMult": null
+          },
+          {
+            "materials": [],
+            "skillCheck": "",
+            "modifiers": {
+              "atk": null,
+              "brk": null,
+              "wgt": null,
+              "acc": null,
+              "crit": null,
+              "durability": null,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": ""
+            },
+            "enabled": false,
+            "xpReq": 5,
+            "forgeMult": null
+          }
+        ]
+      },
+      "creation": {
+        "materials": [],
+        "difficultyClass": 0,
+        "skillCheck": "Nature"
+      },
+      "forging": {
+        "enabled": false,
+        "forgeMult": 1,
+        "skillCheck": "Handicraft",
+        "materials": []
+      },
+      "forgingXP": 0
+    },
+    "refreshes": false,
+    "tradeDisabled": false,
+    "anim": {
+      "attack": null,
+      "critical": null,
+      "activation": {
+        "melee": {
+          "steps": [
+            {
+              "kind": "sound",
+              "audioChannel": "environment",
+              "file": "modules/emblem-rpg-content/sound/magic/debuff-2.mp3",
+              "delay": 100
+            },
+            {
+              "kind": "effect",
+              "atLocation": "target",
+              "layer": "aboveInterface",
+              "scaleToObject": 1.5,
+              "file": "jb2a.condition.curse.01.010.red",
+              "filter": {
+                "type": "ColorMatrix",
+                "params": {
+                  "hue": 70
+                }
+              },
+              "opacity": 0.85
+            }
+          ],
+          "duration": 2500
+        },
+        "ranged": {
+          "steps": [
+            {
+              "kind": "sound",
+              "audioChannel": "environment",
+              "file": "modules/emblem-rpg-content/sound/magic/debuff-2.mp3",
+              "delay": 100
+            },
+            {
+              "kind": "effect",
+              "atLocation": "target",
+              "layer": "aboveInterface",
+              "scaleToObject": 1.5,
+              "file": "jb2a.condition.curse.01.010.red",
+              "filter": {
+                "type": "ColorMatrix",
+                "params": {
+                  "hue": 70
+                }
+              },
+              "opacity": 0.85
+            }
+          ],
+          "duration": 2500
+        }
+      }
+    },
+    "effects": []
+  },
+  "_id": "U53Lh6IyCAhHQsYD",
+  "effects": [],
+  "folder": "51N1Et0IiXAjd44x",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1789185181311,
+    "modifiedTime": 1790612898331,
+    "lastModifiedBy": "emblembuilder000",
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "sort": 600000,
+  "_key": "!items!U53Lh6IyCAhHQsYD"
+}

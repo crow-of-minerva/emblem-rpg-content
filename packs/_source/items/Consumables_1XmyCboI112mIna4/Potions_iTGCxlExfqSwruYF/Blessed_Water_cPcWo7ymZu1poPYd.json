@@ -1,0 +1,609 @@
+{
+  "name": "Blessed Water",
+  "type": "Consumable",
+  "img": "modules/emblem-rpg-content/assets/items/consumables/Blessed%20Water.png",
+  "system": {
+    "isWielded": false,
+    "isWorn": false,
+    "isEquipped": false,
+    "description": "A sacred water meant to fortify the body against witchcraft and sorcery.<div style=\"\"><br></div><div style=\"\">Raises the imbiber's Resistance by 5. This bonus diminishes by 1 per turn, until it is ineffectual. Consuming another instance of this item resets its potency.</div>",
+    "itemType": "Potion",
+    "cost": 300,
+    "tradeDisabled": false,
+    "wgt": 0,
+    "stealable": {
+      "flag": "None",
+      "dc": 10
+    },
+    "actionType": "Standard Action",
+    "uses": {
+      "current": 1,
+      "max": 1,
+      "type": "limited",
+      "scaling": {
+        "factor": "Level",
+        "subject": "",
+        "type": "Additive",
+        "multiplier": 1,
+        "thresholds": [],
+        "formula": "",
+        "addToBase": false,
+        "roundDown": false
+      }
+    },
+    "aura": {
+      "enabled": false,
+      "rng": 0
+    },
+    "wepArtData": {
+      "cost": 0,
+      "brawling": false,
+      "blade": false,
+      "polearm": false,
+      "heavy": false,
+      "bow": false,
+      "covert": false
+    },
+    "requirements": [],
+    "modifiers": [],
+    "effectData": {
+      "params": [],
+      "type": "",
+      "rng": "1",
+      "rngType": "Single",
+      "rngShape": "Normal",
+      "losRule": "normal",
+      "rngScaling": {
+        "factor": "None",
+        "subject": "",
+        "type": "Additive",
+        "multiplier": 1,
+        "thresholds": [],
+        "formula": "",
+        "addToBase": false,
+        "roundDown": false
+      },
+      "targets": 1,
+      "targetType": "Self",
+      "locationRng": 0,
+      "gridColor": "Red",
+      "groundValidSquares": "All",
+      "groundMaxElevDiff": 0,
+      "deliveryType": "Saving Throw",
+      "savingThrowDC": {
+        "required": false,
+        "base": 0,
+        "attribute": "None",
+        "targetAttribute": "None",
+        "ignoreForFriendly": false
+      },
+      "skillCheckDC": {
+        "required": false,
+        "base": 0,
+        "skill": "None",
+        "targetAttribute": "None",
+        "ignoreForFriendly": false
+      },
+      "consumeOnFailure": true,
+      "groundUnoccupiedOnly": true
+    },
+    "consumableData": {
+      "effect": "",
+      "stat": "",
+      "statValue": 0,
+      "growth": "",
+      "growthValue": 0
+    },
+    "weapon": {
+      "req": "",
+      "rank": 0,
+      "twoHanded": false,
+      "dmgTypes": {
+        "slashing": false,
+        "slashingConditionTree": null,
+        "piercing": false,
+        "piercingConditionTree": null,
+        "crushing": false,
+        "crushingConditionTree": null,
+        "missile": false,
+        "missileConditionTree": null,
+        "fire": false,
+        "fireConditionTree": null,
+        "ice": false,
+        "iceConditionTree": null,
+        "lightning": false,
+        "lightningConditionTree": null,
+        "wind": false,
+        "windConditionTree": null,
+        "arcane": false,
+        "arcaneConditionTree": null,
+        "decay": false,
+        "decayConditionTree": null,
+        "shadow": false,
+        "shadowConditionTree": null,
+        "holy": false,
+        "holyConditionTree": null,
+        "randomize": false
+      },
+      "atkStat": "",
+      "atk": "0",
+      "rng": "1",
+      "acc": 0,
+      "brk": 0,
+      "crit": 0,
+      "extraAttacks": 0,
+      "noExtraAttacks": false,
+      "effectiveAgainst": {
+        "infantry": false,
+        "armored": false,
+        "cavalry": false,
+        "flying": false,
+        "dragon": false,
+        "beast": false,
+        "monster": false,
+        "undead": false,
+        "magic": false
+      },
+      "breaker": {
+        "brawling": false,
+        "blade": false,
+        "polearm": false,
+        "heavy": false,
+        "bow": false,
+        "covert": false,
+        "elemental": false,
+        "divine": false,
+        "occult": false,
+        "arcane": false
+      }
+    },
+    "armor": {
+      "req": "",
+      "def": 0,
+      "res": 0,
+      "stn": 0,
+      "eva": 0,
+      "brkRed": 0,
+      "critRed": 0,
+      "vulns": {
+        "slashing": false,
+        "piercing": false,
+        "crushing": false,
+        "missile": false,
+        "fire": false,
+        "ice": false,
+        "lightning": false,
+        "wind": false,
+        "arcane": false,
+        "decay": false,
+        "shadow": false,
+        "holy": false
+      },
+      "prots": {
+        "slashing": false,
+        "piercing": false,
+        "crushing": false,
+        "missile": false,
+        "fire": false,
+        "ice": false,
+        "lightning": false,
+        "wind": false,
+        "arcane": false,
+        "decay": false,
+        "shadow": false,
+        "holy": false
+      }
+    },
+    "mountData": {
+      "stats": {
+        "mov": 0,
+        "hp": 0,
+        "stn": 0,
+        "eva": 0,
+        "atk": 0,
+        "spd": 0,
+        "acc": 0,
+        "crit": 0
+      },
+      "unitTypes": {
+        "cavalry": false,
+        "flying": false,
+        "dragon": false,
+        "beast": false,
+        "monster": false,
+        "undead": false
+      }
+    },
+    "craftingData": {
+      "forging": {
+        "enabled": false,
+        "forgeMult": 1,
+        "skillCheck": "Handicraft",
+        "materials": []
+      },
+      "refinement": {
+        "tiers": [
+          {
+            "enabled": false,
+            "xpReq": 1,
+            "forgeMult": null,
+            "skillCheck": "",
+            "materials": [],
+            "modifiers": {
+              "atk": null,
+              "brk": null,
+              "wgt": null,
+              "acc": null,
+              "crit": null,
+              "durability": null,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": "",
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              }
+            }
+          },
+          {
+            "enabled": false,
+            "xpReq": 2,
+            "forgeMult": null,
+            "skillCheck": "",
+            "materials": [],
+            "modifiers": {
+              "atk": null,
+              "brk": null,
+              "wgt": null,
+              "acc": null,
+              "crit": null,
+              "durability": null,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": "",
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              }
+            }
+          },
+          {
+            "enabled": false,
+            "xpReq": 3,
+            "forgeMult": null,
+            "skillCheck": "",
+            "materials": [],
+            "modifiers": {
+              "atk": null,
+              "brk": null,
+              "wgt": null,
+              "acc": null,
+              "crit": null,
+              "durability": null,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": "",
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              }
+            }
+          },
+          {
+            "enabled": false,
+            "xpReq": 4,
+            "forgeMult": null,
+            "skillCheck": "",
+            "materials": [],
+            "modifiers": {
+              "atk": null,
+              "brk": null,
+              "wgt": null,
+              "acc": null,
+              "crit": null,
+              "durability": null,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": "",
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              }
+            }
+          },
+          {
+            "enabled": false,
+            "xpReq": 5,
+            "forgeMult": null,
+            "skillCheck": "",
+            "materials": [],
+            "modifiers": {
+              "atk": null,
+              "brk": null,
+              "wgt": null,
+              "acc": null,
+              "crit": null,
+              "durability": null,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": "",
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              }
+            }
+          }
+        ]
+      },
+      "creation": {
+        "materials": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.items.Item.DFudxcGkcxCEDbmh",
+            "name": "Crystalight",
+            "img": "modules/emblem-rpg-content/assets/items/resources/Crystalight.png",
+            "quantity": 1
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.items.Item.0GxeMintk4V7ZwMQ",
+            "name": "Spirits",
+            "img": "modules/emblem-rpg-content/assets/items/resources/Spirits.png",
+            "quantity": 1
+          }
+        ],
+        "difficultyClass": 11,
+        "skillCheck": "Reason"
+      },
+      "forgingXP": 0
+    },
+    "refreshes": false,
+    "anim": {
+      "attack": null,
+      "critical": null,
+      "activation": {
+        "melee": null,
+        "ranged": null,
+        "self": {
+          "steps": [
+            {
+              "kind": "sound",
+              "file": "blfx.sound.misc.potion.drink.2",
+              "audioChannel": "environment",
+              "waitUntilFinished": 0
+            },
+            {
+              "kind": "effect",
+              "file": "blfx.spell.cast.particles.1.connected_dots1.color1",
+              "atLocation": "token",
+              "layer": "aboveInterface",
+              "scaleToObject": 2
+            },
+            {
+              "kind": "sound",
+              "file": "blfx.sound.spell.resistance.1",
+              "audioChannel": "environment",
+              "volume": 1,
+              "delay": 0,
+              "repeats": {
+                "count": 1,
+                "delayMin": 400,
+                "delayMax": 400
+              }
+            }
+          ],
+          "duration": 1500
+        }
+      }
+    },
+    "effects": [
+      {
+        "trigger": "onActivation",
+        "name": "+5 Res, Fading 1/Turn",
+        "itemNames": [],
+        "itemUuids": [],
+        "delayMs": 0,
+        "tokenAwaits": false,
+        "condition": null,
+        "action": {
+          "steps": [
+            {
+              "kind": "applyEffect",
+              "target": "target",
+              "preset": "custom",
+              "customData": {
+                "name": "Blessed Water",
+                "description": "Resistance increased by 1 per stack. Loses one stack at the start of each of this unit’s turns. Drinking another Blessed Water restores it to full potency.",
+                "statuses": [
+                  "BlessedWater"
+                ],
+                "changes": [
+                  {
+                    "key": "system.stats.res.mod",
+                    "value": 5,
+                    "priority": 20,
+                    "type": "add"
+                  }
+                ],
+                "flags": {
+                  "core": {
+                    "statusId": "BlessedWater"
+                  },
+                  "emblem-rpg": {
+                    "stackable": true,
+                    "stackCount": 5,
+                    "stackLimit": 5,
+                    "removeOnFactionPhase": true,
+                    "beneficial": true,
+                    "harmful": false,
+                    "hiddenOnToken": false,
+                    "duration": 1,
+                    "removeOnFactionPhaseEnd": false,
+                    "removeOnAnyPhaseEnd": false,
+                    "removeOnCombatSequenceEnd": false,
+                    "removeOnStanceBreak": false,
+                    "removeWhenAttacked": false,
+                    "removeOnHostileAction": false,
+                    "removeOnHostileTargeted": false,
+                    "removeStackWhenHit": false,
+                    "triggerSheds": {
+                      "removeOnFactionPhase": true
+                    }
+                  }
+                },
+                "img": "modules/emblem-rpg-content/assets/items/consumables/Blessed%20Water.png"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "retractable": false
+  },
+  "folder": "iTGCxlExfqSwruYF",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "exportSource": null,
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.2a",
+    "createdTime": 1787462976416,
+    "modifiedTime": 1791053371375,
+    "lastModifiedBy": "emblembuilder000"
+  },
+  "_id": "cPcWo7ymZu1poPYd",
+  "ownership": {
+    "default": 0
+  },
+  "sort": 0,
+  "_key": "!items!cPcWo7ymZu1poPYd"
+}

@@ -1,0 +1,25 @@
+{
+  "type": "Item",
+  "folder": "JHIaxmnb7TZWdkry",
+  "name": "Polearm",
+  "color": null,
+  "flags": {
+    "emblem-rpg": {
+      "icon": ""
+    }
+  },
+  "sorting": "m",
+  "_id": "0PLQUZiJvlI343bP",
+  "description": "",
+  "sort": 400000,
+  "_stats": {
+    "coreVersion": "14.366",
+    "systemId": "emblem-rpg",
+    "systemVersion": "0.2.0",
+    "createdTime": 1786220073492,
+    "modifiedTime": 1787432326772,
+    "lastModifiedBy": null,
+    "exportSource": null
+  },
+  "_key": "!folders!0PLQUZiJvlI343bP"
+}

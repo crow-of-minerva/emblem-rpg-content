@@ -1,0 +1,25 @@
+{
+  "type": "Item",
+  "folder": "51N1Et0IiXAjd44x",
+  "name": "Aura Effects",
+  "color": null,
+  "flags": {
+    "emblem-rpg": {
+      "icon": ""
+    }
+  },
+  "sorting": "m",
+  "_id": "FxyInTV8A4eCSQDS",
+  "description": "",
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "14.366",
+    "systemId": "emblem-rpg",
+    "systemVersion": "0.2.0",
+    "createdTime": 1787674934860,
+    "modifiedTime": 1787674934860,
+    "lastModifiedBy": "emblembuilder000",
+    "exportSource": null
+  },
+  "_key": "!folders!FxyInTV8A4eCSQDS"
+}

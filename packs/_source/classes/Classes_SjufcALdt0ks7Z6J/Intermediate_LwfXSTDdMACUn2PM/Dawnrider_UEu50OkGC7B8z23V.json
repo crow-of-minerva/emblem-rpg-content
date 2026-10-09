@@ -1,0 +1,230 @@
+{
+  "name": "Dawnrider",
+  "type": "Class",
+  "img": "modules/emblem-rpg-content/assets/classes/Dawnrider.png",
+  "folder": "LwfXSTDdMACUn2PM",
+  "system": {
+    "description": "A mounted healer. Dawnriders pair divine magic with the mobility of a horse, reaching wounded allies that healers on foot cannot.",
+    "tier": "Intermediate",
+    "baseStats": {
+      "hp": 23,
+      "stn": 3,
+      "mov": 5,
+      "bld": 4,
+      "mgt": 3,
+      "agi": 4,
+      "tqn": 4,
+      "wit": 5,
+      "cha": 7,
+      "def": 0,
+      "res": 4,
+      "spd": 2,
+      "eva": 11,
+      "acc": 1,
+      "crit": 0
+    },
+    "baseGrowths": {
+      "hp": 35,
+      "mgt": 10,
+      "agi": 25,
+      "tqn": 15,
+      "wit": 25,
+      "cha": 35,
+      "def": 0,
+      "res": 15
+    },
+    "baseCaps": {
+      "hp": 35,
+      "mgt": 9,
+      "agi": 14,
+      "tqn": 12,
+      "wit": 16,
+      "cha": 18,
+      "def": 5,
+      "res": 11
+    },
+    "proficiencies": {
+      "brawling": 0,
+      "blade": 0,
+      "polearm": 0,
+      "heavy": 0,
+      "bow": 0,
+      "covert": 0,
+      "arcane": 0,
+      "elemental": 0,
+      "divine": 2,
+      "occult": 0,
+      "armor": 0,
+      "riding": true,
+      "flying": false
+    },
+    "skills": {
+      "athletics": 0,
+      "finesse": 0,
+      "trading": 0,
+      "civics": 0,
+      "handicraft": 0,
+      "sociability": 2,
+      "command": 0,
+      "nature": 0,
+      "perception": 0,
+      "performance": 0,
+      "reason": 0,
+      "esoteric": 2
+    },
+    "unitType": {
+      "infantry": true,
+      "dragon": false,
+      "monster": false,
+      "beast": false,
+      "undead": false
+    },
+    "features": [
+      {
+        "_id": "2gAP1iBtK0NoBKK8",
+        "lvl": 5,
+        "acquisitionType": "all",
+        "choiceCount": 1,
+        "unique": true,
+        "exceptions": "",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.htCD3MeT2W0aInWB",
+            "name": "Palfrey",
+            "img": "modules/emblem-rpg-content/assets/abilities/mounts/Palfrey.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      },
+      {
+        "_id": "sRlSFw4FZXnxw5Ch",
+        "lvl": 13,
+        "acquisitionType": "all",
+        "choiceCount": 1,
+        "unique": true,
+        "exceptions": "",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.v4MchS8Dp1bs4uGO",
+            "name": "Canter",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/Canter.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      },
+      {
+        "_id": "9JaxqF08a2mJTSd3",
+        "lvl": 17,
+        "acquisitionType": "choice",
+        "choiceCount": 1,
+        "unique": false,
+        "exceptions": "",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.6HlNCAa0I2hfCOPx",
+            "name": "Ascend",
+            "img": "modules/emblem-rpg-content/assets/spells/divine/Ascend.png",
+            "type": "Spell",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.zIIhOmkF8PAvVJjT",
+            "name": "Absolve",
+            "img": "modules/emblem-rpg-content/assets/spells/divine/Absolve.png",
+            "type": "Spell",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      },
+      {
+        "_id": "PRQiuTHXNl14xpvz",
+        "lvl": 7,
+        "acquisitionType": "all",
+        "choiceCount": 1,
+        "unique": false,
+        "exceptions": "",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.oX2MQcXwlkFEJCOI",
+            "name": "Consecration",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/Consecration.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      },
+      {
+        "_id": "uwoguZMiGGTXY4TA",
+        "lvl": 9,
+        "acquisitionType": "choice",
+        "choiceCount": 1,
+        "unique": false,
+        "exceptions": "",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.erL2iiiCy9809nDv",
+            "name": "Shine",
+            "img": "modules/emblem-rpg-content/assets/spells/divine/Shine.png",
+            "type": "Spell",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.LQ2VRfqQ9DHL86HF",
+            "name": "Restore",
+            "img": "modules/emblem-rpg-content/assets/spells/divine/Restore.png",
+            "type": "Spell",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      }
+    ],
+    "promotions": []
+  },
+  "_id": "UEu50OkGC7B8z23V",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1789180168902,
+    "modifiedTime": 1790612897676,
+    "lastModifiedBy": "emblembuilder000",
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "sort": 700000,
+  "_key": "!items!UEu50OkGC7B8z23V"
+}

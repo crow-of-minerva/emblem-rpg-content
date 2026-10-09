@@ -1,0 +1,25 @@
+{
+  "_id": "ON3ePxIIToChXI8h",
+  "name": "Monsters",
+  "type": "Actor",
+  "folder": "zJ2bHaaG7PBFwI3M",
+  "sort": 146144,
+  "sorting": "m",
+  "color": null,
+  "description": "",
+  "flags": {
+    "emblem-rpg": {
+      "icon": "modules/emblem-rpg-content/assets/classes/Ogre.png"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "0.2.0",
+    "createdTime": 1789694570601,
+    "modifiedTime": 1789710492488,
+    "lastModifiedBy": "emblembuilder000",
+    "exportSource": null
+  },
+  "_key": "!folders!ON3ePxIIToChXI8h"
+}

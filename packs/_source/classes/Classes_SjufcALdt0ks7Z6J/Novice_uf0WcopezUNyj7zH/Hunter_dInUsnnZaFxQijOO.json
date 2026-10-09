@@ -1,0 +1,287 @@
+{
+  "name": "Hunter",
+  "type": "Class",
+  "img": "modules/emblem-rpg-content/assets/classes/Hunter.png",
+  "folder": "uf0WcopezUNyj7zH",
+  "system": {
+    "description": "The Hunter specializes in archery and is particularly effective against a favored enemy type. Their experience in the great outdoors grants them ease of mobility around all sorts of environmental complications.",
+    "tier": "Novice",
+    "baseStats": {
+      "hp": 24,
+      "stn": 2,
+      "mov": 5,
+      "bld": 4,
+      "mgt": 5,
+      "agi": 5,
+      "tqn": 6,
+      "wit": 2,
+      "cha": 2,
+      "def": 0,
+      "res": 0,
+      "spd": 2,
+      "eva": 8,
+      "acc": 1,
+      "crit": 0
+    },
+    "baseGrowths": {
+      "hp": 30,
+      "mgt": 20,
+      "agi": 20,
+      "tqn": 25,
+      "wit": 25,
+      "cha": 10,
+      "def": 5,
+      "res": 15
+    },
+    "baseCaps": {
+      "hp": 30,
+      "mgt": 9,
+      "agi": 10,
+      "tqn": 12,
+      "wit": 9,
+      "cha": 7,
+      "def": 3,
+      "res": 4
+    },
+    "proficiencies": {
+      "brawling": 0,
+      "blade": 1,
+      "polearm": 0,
+      "heavy": 0,
+      "bow": 2,
+      "covert": 0,
+      "arcane": 0,
+      "elemental": 0,
+      "divine": 0,
+      "occult": 0,
+      "armor": 1,
+      "riding": false,
+      "flying": false
+    },
+    "skills": {
+      "athletics": 0,
+      "finesse": 1,
+      "trading": 0,
+      "civics": 0,
+      "handicraft": 0,
+      "sociability": 0,
+      "command": 0,
+      "nature": 1,
+      "perception": 2,
+      "performance": 0,
+      "reason": 0,
+      "esoteric": 0
+    },
+    "unitType": {
+      "infantry": true,
+      "dragon": false,
+      "monster": false,
+      "beast": false,
+      "undead": false
+    },
+    "features": [
+      {
+        "_id": "Ykxg7M0XiooIQRzq",
+        "lvl": 1,
+        "acquisitionType": "choice",
+        "choiceCount": 1,
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.Wr2LqeHCUhCJIzZP",
+            "name": "Favored Enemy: Undead",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/Favored Enemy_ Undead.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.8KaRvcGPIj5f6VgJ",
+            "name": "Favored Enemy: Dragon",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/Favored Enemy_ Dragon.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.yEqyooz4JVDJxV30",
+            "name": "Favored Enemy: Beast",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/Favored Enemy_ Beast.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.VsyyUqfy9kuyB0Ea",
+            "name": "Favored Enemy: Monstrosity",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/Favored Enemy_ Monstrosity.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ],
+        "unique": false,
+        "exceptions": ""
+      },
+      {
+        "_id": "tmOg9PipfRwGy3Tk",
+        "lvl": 3,
+        "acquisitionType": "all",
+        "choiceCount": 1,
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.bXh9HdhgkVlFIog8",
+            "name": "Into the Wilds",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/Into the Wilds.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ],
+        "unique": false,
+        "exceptions": ""
+      },
+      {
+        "_id": "1HRjuNtShm0MSlQ4",
+        "lvl": 5,
+        "acquisitionType": "choice",
+        "choiceCount": 1,
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.kTyQtnHO9aYrYtMN",
+            "name": "Curved Shot",
+            "img": "modules/emblem-rpg-content/assets/abilities/weapon-arts/Curved Shot.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.j4MGHVOLZKDQErVO",
+            "name": "Power Shot",
+            "img": "modules/emblem-rpg-content/assets/abilities/weapon-arts/Power Shot.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ],
+        "unique": false,
+        "exceptions": ""
+      }
+    ],
+    "promotions": [
+      {
+        "_id": "UnXaNsQ0l1ONWAs0",
+        "lvl": 5,
+        "classUuid": "Compendium.emblem-rpg-content.classes.Item.ukEDZxNyOWBE0EU4",
+        "className": "Ranger",
+        "classImg": "modules/emblem-rpg-content/assets/classes/Ranger.png",
+        "promotionItem": {
+          "uuid": "Compendium.emblem-rpg-content.items.Item.gr1sJIROJrKs2xnq",
+          "name": "Hunter's Trophy",
+          "img": "modules/emblem-rpg-content/assets/items/consumables/promotions/Hunter%27s%20Trophy.png"
+        },
+        "proficiencies": {
+          "brawling": 0,
+          "blade": 0,
+          "polearm": 0,
+          "heavy": 0,
+          "bow": 0,
+          "covert": 0,
+          "arcane": 0,
+          "elemental": 0,
+          "divine": 0,
+          "occult": 0
+        },
+        "skills": {
+          "athletics": 0,
+          "finesse": 0,
+          "trading": 0,
+          "civics": 0,
+          "handicraft": 0,
+          "sociability": 0,
+          "command": 0,
+          "nature": 0,
+          "perception": 0,
+          "performance": 0,
+          "reason": 0,
+          "esoteric": 0
+        }
+      },
+      {
+        "_id": "7qmnIoiWCqikzgXg",
+        "lvl": 5,
+        "classUuid": "Compendium.emblem-rpg-content.classes.Item.GWjbvmZM8BjFW7tN",
+        "className": "Nomad",
+        "classImg": "modules/emblem-rpg-content/assets/classes/Nomad.png",
+        "promotionItem": {
+          "uuid": "Compendium.emblem-rpg-content.items.Item.gr1sJIROJrKs2xnq",
+          "name": "Hunter's Trophy",
+          "img": "modules/emblem-rpg-content/assets/items/consumables/promotions/Hunter%27s%20Trophy.png"
+        },
+        "proficiencies": {
+          "brawling": 0,
+          "blade": 0,
+          "polearm": 0,
+          "heavy": 0,
+          "bow": 0,
+          "covert": 0,
+          "arcane": 0,
+          "elemental": 0,
+          "divine": 0,
+          "occult": 0
+        },
+        "skills": {
+          "athletics": 0,
+          "finesse": 0,
+          "trading": 0,
+          "civics": 0,
+          "handicraft": 0,
+          "sociability": 0,
+          "command": 0,
+          "nature": 0,
+          "perception": 0,
+          "performance": 0,
+          "reason": 0,
+          "esoteric": 0
+        }
+      }
+    ]
+  },
+  "_id": "dInUsnnZaFxQijOO",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "exportSource": null,
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1786236611000,
+    "modifiedTime": 1790612897677,
+    "lastModifiedBy": "emblembuilder000"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "sort": 0,
+  "_key": "!items!dInUsnnZaFxQijOO"
+}

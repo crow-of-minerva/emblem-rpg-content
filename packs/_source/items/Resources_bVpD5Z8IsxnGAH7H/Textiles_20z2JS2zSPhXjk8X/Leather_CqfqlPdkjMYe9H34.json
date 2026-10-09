@@ -1,0 +1,40 @@
+{
+  "folder": "20z2JS2zSPhXjk8X",
+  "name": "Leather",
+  "type": "Resource",
+  "_id": "CqfqlPdkjMYe9H34",
+  "img": "modules/emblem-rpg-content/assets/items/resources/Leather.png",
+  "system": {
+    "description": "",
+    "resourceType": "Textile",
+    "foodType": "",
+    "amount": 1,
+    "cost": {
+      "perUnit": 75
+    },
+    "stealable": {
+      "flag": "None",
+      "dc": 10
+    }
+  },
+  "effects": [],
+  "sort": 450000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "emblem-rpg": {
+      "pixelArt": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1787107710687,
+    "modifiedTime": 1790612899328,
+    "lastModifiedBy": "emblembuilder000",
+    "exportSource": null
+  },
+  "_key": "!items!CqfqlPdkjMYe9H34"
+}

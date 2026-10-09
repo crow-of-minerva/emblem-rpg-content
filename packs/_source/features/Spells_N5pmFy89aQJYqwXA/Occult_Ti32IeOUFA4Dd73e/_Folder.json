@@ -1,0 +1,21 @@
+{
+  "type": "Item",
+  "folder": "N5pmFy89aQJYqwXA",
+  "name": "Occult",
+  "color": null,
+  "sorting": "m",
+  "_id": "Ti32IeOUFA4Dd73e",
+  "description": "",
+  "sort": 350000,
+  "flags": {},
+  "_stats": {
+    "exportSource": null,
+    "coreVersion": "14.366",
+    "systemId": "emblem-rpg",
+    "systemVersion": "0.2.0",
+    "lastModifiedBy": null,
+    "modifiedTime": 1781970879751,
+    "createdTime": null
+  },
+  "_key": "!folders!Ti32IeOUFA4Dd73e"
+}

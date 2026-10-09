@@ -1,0 +1,25 @@
+{
+  "type": "Item",
+  "folder": "JHIaxmnb7TZWdkry",
+  "name": "Heavy",
+  "color": null,
+  "flags": {
+    "emblem-rpg": {
+      "icon": ""
+    }
+  },
+  "sorting": "m",
+  "_id": "X6d3YBb0yfq1HyNb",
+  "description": "",
+  "sort": 600000,
+  "_stats": {
+    "coreVersion": "14.366",
+    "systemId": "emblem-rpg",
+    "systemVersion": "0.2.0",
+    "createdTime": 1786220089679,
+    "modifiedTime": 1787432326772,
+    "lastModifiedBy": null,
+    "exportSource": null
+  },
+  "_key": "!folders!X6d3YBb0yfq1HyNb"
+}

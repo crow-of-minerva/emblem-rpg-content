@@ -1,0 +1,25 @@
+{
+  "name": "Regulars (Lv 5-9)",
+  "type": "Actor",
+  "folder": "bj2omh1Fd1lGdvuS",
+  "sort": -50000,
+  "flags": {
+    "emblem-rpg": {
+      "icon": ""
+    }
+  },
+  "_id": "Ug4UEHWIbJTxnmlI",
+  "description": "",
+  "sorting": "a",
+  "color": null,
+  "_stats": {
+    "coreVersion": "14.366",
+    "systemId": "emblem-rpg",
+    "systemVersion": "0.2.0",
+    "createdTime": 1786570533651,
+    "modifiedTime": 1786570533651,
+    "lastModifiedBy": null,
+    "exportSource": null
+  },
+  "_key": "!folders!Ug4UEHWIbJTxnmlI"
+}

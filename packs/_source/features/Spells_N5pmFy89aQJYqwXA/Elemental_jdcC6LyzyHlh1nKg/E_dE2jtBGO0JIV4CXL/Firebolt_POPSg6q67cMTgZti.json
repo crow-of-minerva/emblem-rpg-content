@@ -1,0 +1,837 @@
+{
+  "name": "Firebolt",
+  "type": "Spell",
+  "img": "modules/emblem-rpg-content/assets/spells/elemental/Firebolt.png",
+  "system": {
+    "isWielded": false,
+    "isWorn": false,
+    "isEquipped": false,
+    "description": "A mundane, but nevertheless potent and reliable offensive spell for the common mage.<div style=\"\"><br></div><div style=\"\">Gain 1 additional use of this spell per unit Level.</div>",
+    "itemType": "Attack",
+    "cost": 0,
+    "wgt": 3,
+    "stealable": {
+      "flag": "None",
+      "dc": 10
+    },
+    "actionType": "Standard Action",
+    "uses": {
+      "current": 15,
+      "max": 15,
+      "type": "conditional",
+      "scaling": {
+        "factor": "Level",
+        "subject": "",
+        "type": "Additive",
+        "multiplier": 1,
+        "thresholds": [],
+        "formula": "",
+        "addToBase": false,
+        "roundDown": false
+      }
+    },
+    "aura": {
+      "enabled": false,
+      "rng": 0
+    },
+    "wepArtData": {
+      "cost": 0,
+      "brawling": false,
+      "blade": false,
+      "polearm": false,
+      "heavy": false,
+      "bow": false,
+      "covert": false
+    },
+    "requirements": [],
+    "modifiers": [],
+    "effectData": {
+      "params": [],
+      "type": "",
+      "rng": "1",
+      "rngType": "Single",
+      "rngShape": "Normal",
+      "losRule": "normal",
+      "rngScaling": {
+        "factor": "None",
+        "subject": "",
+        "type": "Additive",
+        "multiplier": 1,
+        "thresholds": [],
+        "formula": "",
+        "addToBase": false,
+        "roundDown": false
+      },
+      "targets": 1,
+      "targetType": "Any",
+      "locationRng": 0,
+      "gridColor": "Red",
+      "groundValidSquares": "All",
+      "groundMaxElevDiff": 0,
+      "deliveryType": "Saving Throw",
+      "savingThrowDC": {
+        "required": false,
+        "base": 0,
+        "attribute": "None",
+        "targetAttribute": "None",
+        "ignoreForFriendly": false
+      },
+      "skillCheckDC": {
+        "required": false,
+        "base": 0,
+        "skill": "None",
+        "targetAttribute": "None",
+        "ignoreForFriendly": false
+      },
+      "consumeOnFailure": true,
+      "groundUnoccupiedOnly": true
+    },
+    "consumableData": {
+      "effect": "",
+      "stat": "",
+      "statValue": 0,
+      "growth": "",
+      "growthValue": 0
+    },
+    "weapon": {
+      "req": "Elemental",
+      "rank": 1,
+      "twoHanded": false,
+      "dmgTypes": {
+        "slashing": false,
+        "slashingConditionTree": null,
+        "piercing": false,
+        "piercingConditionTree": null,
+        "crushing": false,
+        "crushingConditionTree": null,
+        "missile": false,
+        "missileConditionTree": null,
+        "fire": true,
+        "fireConditionTree": null,
+        "ice": false,
+        "iceConditionTree": null,
+        "lightning": false,
+        "lightningConditionTree": null,
+        "wind": false,
+        "windConditionTree": null,
+        "arcane": false,
+        "arcaneConditionTree": null,
+        "decay": false,
+        "decayConditionTree": null,
+        "shadow": false,
+        "shadowConditionTree": null,
+        "holy": false,
+        "holyConditionTree": null,
+        "randomize": false
+      },
+      "atkStat": "Wit",
+      "atk": "7",
+      "rng": "3",
+      "acc": 0,
+      "brk": 1,
+      "crit": 4,
+      "extraAttacks": 0,
+      "noExtraAttacks": false,
+      "effectiveAgainst": {
+        "infantry": false,
+        "armored": false,
+        "cavalry": false,
+        "flying": false,
+        "dragon": false,
+        "beast": false,
+        "monster": false,
+        "undead": false,
+        "magic": false
+      },
+      "breaker": {
+        "brawling": false,
+        "blade": false,
+        "polearm": false,
+        "heavy": false,
+        "bow": false,
+        "covert": false,
+        "elemental": false,
+        "divine": false,
+        "occult": false,
+        "arcane": false
+      }
+    },
+    "armor": {
+      "req": "",
+      "def": 0,
+      "res": 0,
+      "stn": 0,
+      "eva": 0,
+      "brkRed": 0,
+      "critRed": 0,
+      "vulns": {
+        "slashing": false,
+        "piercing": false,
+        "crushing": false,
+        "missile": false,
+        "fire": false,
+        "ice": false,
+        "lightning": false,
+        "wind": false,
+        "arcane": false,
+        "decay": false,
+        "shadow": false,
+        "holy": false
+      },
+      "prots": {
+        "slashing": false,
+        "piercing": false,
+        "crushing": false,
+        "missile": false,
+        "fire": false,
+        "ice": false,
+        "lightning": false,
+        "wind": false,
+        "arcane": false,
+        "decay": false,
+        "shadow": false,
+        "holy": false
+      }
+    },
+    "mountData": {
+      "stats": {
+        "mov": 0,
+        "hp": 0,
+        "stn": 0,
+        "eva": 0,
+        "atk": 0,
+        "spd": 0,
+        "acc": 0,
+        "crit": 0
+      },
+      "unitTypes": {
+        "cavalry": false,
+        "flying": false,
+        "dragon": false,
+        "beast": false,
+        "monster": false,
+        "undead": false
+      }
+    },
+    "craftingData": {
+      "forging": {
+        "enabled": false,
+        "forgeMult": 1,
+        "skillCheck": "Handicraft",
+        "materials": []
+      },
+      "refinement": {
+        "tiers": [
+          {
+            "enabled": false,
+            "xpReq": 15,
+            "forgeMult": null,
+            "skillCheck": "",
+            "materials": [],
+            "modifiers": {
+              "atk": null,
+              "brk": null,
+              "wgt": null,
+              "acc": null,
+              "crit": null,
+              "durability": null,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": ""
+            }
+          },
+          {
+            "enabled": false,
+            "xpReq": 30,
+            "forgeMult": null,
+            "skillCheck": "",
+            "materials": [],
+            "modifiers": {
+              "atk": null,
+              "brk": null,
+              "wgt": null,
+              "acc": null,
+              "crit": null,
+              "durability": null,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": ""
+            }
+          },
+          {
+            "enabled": false,
+            "xpReq": 45,
+            "forgeMult": null,
+            "skillCheck": "",
+            "materials": [],
+            "modifiers": {
+              "atk": null,
+              "brk": null,
+              "wgt": null,
+              "acc": null,
+              "crit": null,
+              "durability": null,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": ""
+            }
+          },
+          {
+            "enabled": false,
+            "xpReq": 60,
+            "forgeMult": null,
+            "skillCheck": "",
+            "materials": [],
+            "modifiers": {
+              "atk": null,
+              "brk": null,
+              "wgt": null,
+              "acc": null,
+              "crit": null,
+              "durability": null,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": ""
+            }
+          },
+          {
+            "enabled": false,
+            "xpReq": 75,
+            "forgeMult": null,
+            "skillCheck": "",
+            "materials": [],
+            "modifiers": {
+              "atk": null,
+              "brk": null,
+              "wgt": null,
+              "acc": null,
+              "crit": null,
+              "durability": null,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": ""
+            }
+          }
+        ]
+      },
+      "creation": {
+        "materials": [],
+        "difficultyClass": 0,
+        "skillCheck": "Nature"
+      },
+      "forgingXP": 0
+    },
+    "refreshes": true,
+    "tradeDisabled": false,
+    "anim": {
+      "attack": {
+        "melee": {
+          "steps": [
+            {
+              "kind": "sound",
+              "file": "psfx.cantrips.create-bonfire.v1.001",
+              "audioChannel": "interface",
+              "fadeOutAudio": 600,
+              "duration": 2200
+            },
+            {
+              "kind": "sound",
+              "file": "psfx.3rd-level-spells.fireball.v1.001.beam",
+              "audioChannel": "environment",
+              "fadeInAudio": 100,
+              "fadeOutAudio": 100,
+              "duration": 600
+            },
+            {
+              "kind": "effect",
+              "file": "jb2a.cast_generic.fire.01.orange",
+              "atLocation": "token",
+              "rotateTowards": "target",
+              "layer": "aboveInterface",
+              "scaleToObject": 1,
+              "opacity": 0.75,
+              "fadeOut": 500,
+              "spriteOffset": {
+                "gridUnits": true,
+                "x": -0.2
+              },
+              "duration": 1200,
+              "repeats": {
+                "count": 4,
+                "delayMin": 200,
+                "delayMax": 200
+              },
+              "waitUntilFinished": true
+            },
+            {
+              "kind": "effect",
+              "file": "jb2a.fire_bolt.orange",
+              "atLocation": "token",
+              "stretchTo": "target",
+              "layer": "aboveInterface",
+              "scale": 1,
+              "randomizeMirrorY": true
+            },
+            {
+              "kind": "sound",
+              "file": "psfx.weapon-swooshes.fire.v1.group01.3",
+              "audioChannel": "interface"
+            }
+          ],
+          "duration": 3000
+        },
+        "ranged": {
+          "steps": [
+            {
+              "kind": "sound",
+              "file": "psfx.cantrips.create-bonfire.v1.001",
+              "audioChannel": "interface",
+              "fadeOutAudio": 600,
+              "duration": 2200
+            },
+            {
+              "kind": "sound",
+              "file": "psfx.3rd-level-spells.fireball.v1.001.beam",
+              "audioChannel": "environment",
+              "fadeInAudio": 100,
+              "fadeOutAudio": 100,
+              "duration": 600
+            },
+            {
+              "kind": "effect",
+              "file": "jb2a.cast_generic.fire.01.orange",
+              "atLocation": "token",
+              "rotateTowards": "target",
+              "layer": "aboveInterface",
+              "scaleToObject": 1,
+              "opacity": 0.75,
+              "fadeOut": 500,
+              "spriteOffset": {
+                "gridUnits": true,
+                "x": -0.2
+              },
+              "duration": 1200,
+              "repeats": {
+                "count": 4,
+                "delayMin": 200,
+                "delayMax": 200
+              },
+              "waitUntilFinished": true
+            },
+            {
+              "kind": "effect",
+              "file": "jb2a.fire_bolt.orange",
+              "atLocation": "token",
+              "stretchTo": "target",
+              "layer": "aboveInterface",
+              "scale": 1,
+              "randomizeMirrorY": true
+            },
+            {
+              "kind": "sound",
+              "file": "psfx.weapon-swooshes.fire.v1.group01.3",
+              "audioChannel": "interface"
+            }
+          ],
+          "duration": 3000
+        }
+      },
+      "critical": {
+        "melee": {
+          "steps": [
+            {
+              "kind": "sound",
+              "file": "psfx.casting.generic.002.001.0",
+              "audioChannel": "environment",
+              "volume": 0.35,
+              "fadeInAudio": 300,
+              "fadeOutAudio": 600,
+              "duration": 2200
+            },
+            {
+              "kind": "sound",
+              "file": "psfx.3rd-level-spells.fireball.v1.001.beam",
+              "audioChannel": "environment",
+              "fadeInAudio": 100,
+              "fadeOutAudio": 100,
+              "duration": 600
+            },
+            {
+              "kind": "sound",
+              "file": "psfx.cantrips.create-bonfire.v1.001",
+              "audioChannel": "environment",
+              "fadeInAudio": 200,
+              "fadeOutAudio": 600,
+              "delay": 200,
+              "duration": 1600
+            },
+            {
+              "kind": "effect",
+              "file": "jb2a.particle_burst.01.circle.bluepurple",
+              "atLocation": "token",
+              "rotateTowards": "target",
+              "layer": "aboveInterface",
+              "scaleToObject": 1.25,
+              "opacity": 0.75,
+              "spriteOffset": {
+                "gridUnits": true,
+                "x": -0.3
+              },
+              "startTime": 600,
+              "filter": {
+                "type": "ColorMatrix",
+                "params": {
+                  "hue": -210
+                }
+              }
+            },
+            {
+              "kind": "effect",
+              "file": "jb2a.cast_generic.fire.01.orange",
+              "atLocation": "token",
+              "rotateTowards": "target",
+              "layer": "aboveInterface",
+              "scaleToObject": 1,
+              "opacity": 0.75,
+              "fadeOut": 500,
+              "spriteOffset": {
+                "gridUnits": true,
+                "x": -0.2
+              },
+              "duration": 1200,
+              "repeats": {
+                "count": 4,
+                "delayMin": 200,
+                "delayMax": 200
+              },
+              "waitUntilFinished": true
+            },
+            {
+              "kind": "sound",
+              "file": "psfx.weapon-swooshes.fire.v1.group01.3",
+              "audioChannel": "environment"
+            },
+            {
+              "kind": "sound",
+              "file": "psfx.ambient.firesources.fireplace.001",
+              "audioChannel": "environment",
+              "fadeInAudio": 100,
+              "fadeOutAudio": 250,
+              "duration": 1500
+            },
+            {
+              "kind": "effect",
+              "file": "jb2a.fire_bolt.orange",
+              "atLocation": "token",
+              "stretchTo": "target",
+              "layer": "aboveInterface",
+              "scale": 1.1,
+              "playbackRate": 0.9,
+              "randomizeMirrorY": true,
+              "waitUntilFinished": -900
+            },
+            {
+              "kind": "effect",
+              "file": "jb2a.flames.02.orange",
+              "atLocation": "target",
+              "layer": "aboveInterface",
+              "scaleToObject": 2,
+              "opacity": 0.8,
+              "fadeIn": 100,
+              "fadeOut": 250,
+              "spriteOffset": {
+                "gridUnits": true,
+                "x": -0.0263,
+                "y": -0.3158
+              },
+              "duration": 1500
+            }
+          ],
+          "duration": 3500
+        },
+        "ranged": {
+          "steps": [
+            {
+              "kind": "sound",
+              "file": "psfx.casting.generic.002.001.0",
+              "audioChannel": "environment",
+              "volume": 0.35,
+              "fadeInAudio": 300,
+              "fadeOutAudio": 600,
+              "duration": 2200
+            },
+            {
+              "kind": "sound",
+              "file": "psfx.3rd-level-spells.fireball.v1.001.beam",
+              "audioChannel": "environment",
+              "fadeInAudio": 100,
+              "fadeOutAudio": 100,
+              "duration": 600
+            },
+            {
+              "kind": "sound",
+              "file": "psfx.cantrips.create-bonfire.v1.001",
+              "audioChannel": "environment",
+              "fadeInAudio": 200,
+              "fadeOutAudio": 600,
+              "delay": 200,
+              "duration": 1600
+            },
+            {
+              "kind": "effect",
+              "file": "jb2a.particle_burst.01.circle.bluepurple",
+              "atLocation": "token",
+              "rotateTowards": "target",
+              "layer": "aboveInterface",
+              "scaleToObject": 1.25,
+              "opacity": 0.75,
+              "spriteOffset": {
+                "gridUnits": true,
+                "x": -0.3
+              },
+              "startTime": 600,
+              "filter": {
+                "type": "ColorMatrix",
+                "params": {
+                  "hue": -210
+                }
+              }
+            },
+            {
+              "kind": "effect",
+              "file": "jb2a.cast_generic.fire.01.orange",
+              "atLocation": "token",
+              "rotateTowards": "target",
+              "layer": "aboveInterface",
+              "scaleToObject": 1,
+              "opacity": 0.75,
+              "fadeOut": 500,
+              "spriteOffset": {
+                "gridUnits": true,
+                "x": -0.2
+              },
+              "duration": 1200,
+              "repeats": {
+                "count": 4,
+                "delayMin": 200,
+                "delayMax": 200
+              },
+              "waitUntilFinished": true
+            },
+            {
+              "kind": "sound",
+              "file": "psfx.weapon-swooshes.fire.v1.group01.3",
+              "audioChannel": "environment"
+            },
+            {
+              "kind": "sound",
+              "file": "psfx.ambient.firesources.fireplace.001",
+              "audioChannel": "environment",
+              "fadeInAudio": 100,
+              "fadeOutAudio": 250,
+              "duration": 1500
+            },
+            {
+              "kind": "effect",
+              "file": "jb2a.fire_bolt.orange",
+              "atLocation": "token",
+              "stretchTo": "target",
+              "layer": "aboveInterface",
+              "scale": 1.1,
+              "playbackRate": 0.9,
+              "randomizeMirrorY": true,
+              "waitUntilFinished": -900
+            },
+            {
+              "kind": "effect",
+              "file": "jb2a.flames.02.orange",
+              "atLocation": "target",
+              "layer": "aboveInterface",
+              "scaleToObject": 2,
+              "opacity": 0.8,
+              "fadeIn": 100,
+              "fadeOut": 250,
+              "spriteOffset": {
+                "gridUnits": true,
+                "x": -0.0263,
+                "y": -0.3158
+              },
+              "duration": 1500
+            }
+          ],
+          "duration": 3500
+        }
+      },
+      "activation": null
+    },
+    "effects": []
+  },
+  "folder": "dE2jtBGO0JIV4CXL",
+  "_id": "POPSg6q67cMTgZti",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "exportSource": null,
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1781667647785,
+    "modifiedTime": 1790612898326,
+    "lastModifiedBy": "emblembuilder000"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "sort": 100000,
+  "_key": "!items!POPSg6q67cMTgZti"
+}

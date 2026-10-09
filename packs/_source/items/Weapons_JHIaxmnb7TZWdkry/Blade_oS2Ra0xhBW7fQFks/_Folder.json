@@ -1,0 +1,25 @@
+{
+  "type": "Item",
+  "folder": "JHIaxmnb7TZWdkry",
+  "name": "Blade",
+  "color": null,
+  "flags": {
+    "emblem-rpg": {
+      "icon": ""
+    }
+  },
+  "sorting": "m",
+  "_id": "oS2Ra0xhBW7fQFks",
+  "description": "",
+  "sort": 300000,
+  "_stats": {
+    "coreVersion": "14.366",
+    "systemId": "emblem-rpg",
+    "systemVersion": "0.2.0",
+    "createdTime": 1786220021426,
+    "modifiedTime": 1787432326772,
+    "lastModifiedBy": null,
+    "exportSource": null
+  },
+  "_key": "!folders!oS2Ra0xhBW7fQFks"
+}

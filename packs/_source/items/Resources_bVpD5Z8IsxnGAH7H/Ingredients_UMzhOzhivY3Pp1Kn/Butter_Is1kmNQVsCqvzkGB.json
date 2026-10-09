@@ -1,0 +1,36 @@
+{
+  "name": "Butter",
+  "type": "Resource",
+  "img": "modules/emblem-rpg-content/assets/items/resources/Butter.png",
+  "folder": "UMzhOzhivY3Pp1Kn",
+  "ownership": {
+    "default": 0
+  },
+  "sort": 0,
+  "effects": [],
+  "flags": {},
+  "system": {
+    "description": "Churned fresh and packed in a crock. Turns plain fare into a proper meal.",
+    "resourceType": "Ingredient",
+    "foodType": "Dairy",
+    "amount": 1,
+    "cost": {
+      "perUnit": 4
+    },
+    "stealable": {
+      "flag": "None",
+      "dc": 10
+    }
+  },
+  "_id": "Is1kmNQVsCqvzkGB",
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1789663508316,
+    "modifiedTime": 1790612899332,
+    "lastModifiedBy": "emblembuilder000",
+    "exportSource": null
+  },
+  "_key": "!items!Is1kmNQVsCqvzkGB"
+}

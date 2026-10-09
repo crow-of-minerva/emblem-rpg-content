@@ -1,0 +1,21 @@
+{
+  "_id": "F4Koxf1IcBLMYHUJ",
+  "name": "Elites (Lv 15-19)",
+  "type": "Actor",
+  "folder": "ON3ePxIIToChXI8h",
+  "sort": -12500,
+  "sorting": "m",
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "0.2.0",
+    "createdTime": 1789694570601,
+    "modifiedTime": 1789694570601,
+    "lastModifiedBy": "emblembuilder000",
+    "exportSource": null
+  },
+  "_key": "!folders!F4Koxf1IcBLMYHUJ"
+}

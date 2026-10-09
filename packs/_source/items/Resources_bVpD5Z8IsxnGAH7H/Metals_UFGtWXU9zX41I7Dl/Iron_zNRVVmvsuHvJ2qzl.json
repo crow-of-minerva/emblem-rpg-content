@@ -1,0 +1,36 @@
+{
+  "name": "Iron",
+  "type": "Resource",
+  "img": "modules/emblem-rpg-content/assets/items/resources/Iron.png",
+  "system": {
+    "description": "A common metal used in crafting and construction. Strong, reliable, and easy to work with, it’s the foundation for basic weapons, armor, and tools. Often refined into stronger materials or used as a core crafting resource.",
+    "resourceType": "Material",
+    "foodType": "",
+    "amount": 1,
+    "cost": {
+      "perUnit": 50
+    },
+    "stealable": {
+      "flag": "None",
+      "dc": 10
+    }
+  },
+  "folder": "UFGtWXU9zX41I7Dl",
+  "_id": "zNRVVmvsuHvJ2qzl",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "exportSource": null,
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1786773642209,
+    "modifiedTime": 1790612899866,
+    "lastModifiedBy": "emblembuilder000"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "sort": 150000,
+  "_key": "!items!zNRVVmvsuHvJ2qzl"
+}

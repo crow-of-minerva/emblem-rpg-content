@@ -1,0 +1,25 @@
+{
+  "type": "Item",
+  "folder": "bVpD5Z8IsxnGAH7H",
+  "name": "Ingredients",
+  "color": null,
+  "flags": {
+    "emblem-rpg": {
+      "icon": ""
+    }
+  },
+  "sorting": "a",
+  "_id": "UMzhOzhivY3Pp1Kn",
+  "description": "",
+  "sort": 450000,
+  "_stats": {
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "emblem-rpg",
+    "systemVersion": "0.2.0",
+    "lastModifiedBy": "emblembuilder000",
+    "createdTime": 1789663508288,
+    "modifiedTime": 1789663508337
+  },
+  "_key": "!folders!UMzhOzhivY3Pp1Kn"
+}

@@ -1,0 +1,821 @@
+{
+  "name": "Shuriken",
+  "type": "Equipment",
+  "img": "modules/emblem-rpg-content/assets/items/weapons/covert/Shuriken.png",
+  "system": {
+    "isWielded": false,
+    "isWorn": false,
+    "isEquipped": false,
+    "description": "Inflicts -1 Agi and -1 Res for 1 turn per hit.\n\nAdvantage against Bow weapons.",
+    "itemType": "Weapon",
+    "cost": 400,
+    "tradeDisabled": false,
+    "wgt": 1,
+    "stealable": {
+      "flag": "None",
+      "dc": 10
+    },
+    "actionType": "Standard Action",
+    "uses": {
+      "current": 20,
+      "max": 20,
+      "type": "limited",
+      "scaling": {
+        "factor": "Level",
+        "subject": "",
+        "type": "Additive",
+        "multiplier": 1,
+        "thresholds": [],
+        "formula": "",
+        "addToBase": false,
+        "roundDown": false
+      }
+    },
+    "aura": {
+      "enabled": false,
+      "rng": 0
+    },
+    "wepArtData": {
+      "cost": 0,
+      "brawling": false,
+      "blade": false,
+      "polearm": false,
+      "heavy": false,
+      "bow": false,
+      "covert": false
+    },
+    "requirements": [],
+    "modifiers": [],
+    "effectData": {
+      "params": [],
+      "type": "",
+      "rng": "1",
+      "rngType": "Single",
+      "rngShape": "Normal",
+      "losRule": "normal",
+      "rngScaling": {
+        "factor": "None",
+        "subject": "",
+        "type": "Additive",
+        "multiplier": 1,
+        "thresholds": [],
+        "formula": "",
+        "addToBase": false,
+        "roundDown": false
+      },
+      "targets": 1,
+      "targetType": "Any",
+      "locationRng": 0,
+      "gridColor": "Red",
+      "groundValidSquares": "All",
+      "groundMaxElevDiff": 0,
+      "deliveryType": "Saving Throw",
+      "savingThrowDC": {
+        "required": false,
+        "base": 0,
+        "attribute": "None",
+        "targetAttribute": "None",
+        "ignoreForFriendly": false
+      },
+      "skillCheckDC": {
+        "required": false,
+        "base": 0,
+        "skill": "None",
+        "targetAttribute": "None",
+        "ignoreForFriendly": false
+      },
+      "consumeOnFailure": true,
+      "groundUnoccupiedOnly": true
+    },
+    "consumableData": {
+      "effect": "",
+      "stat": "",
+      "statValue": 0,
+      "growth": "",
+      "growthValue": 0
+    },
+    "weapon": {
+      "req": "Covert",
+      "rank": 2,
+      "twoHanded": false,
+      "dmgTypes": {
+        "slashing": false,
+        "slashingConditionTree": null,
+        "piercing": false,
+        "piercingConditionTree": null,
+        "crushing": false,
+        "crushingConditionTree": null,
+        "missile": true,
+        "missileConditionTree": {
+          "kind": "compare",
+          "left": "distance",
+          "op": "===",
+          "right": {
+            "literal": "ranged"
+          }
+        },
+        "fire": false,
+        "fireConditionTree": null,
+        "ice": false,
+        "iceConditionTree": null,
+        "lightning": false,
+        "lightningConditionTree": null,
+        "wind": false,
+        "windConditionTree": null,
+        "arcane": false,
+        "arcaneConditionTree": null,
+        "decay": false,
+        "decayConditionTree": null,
+        "shadow": false,
+        "shadowConditionTree": null,
+        "holy": false,
+        "holyConditionTree": null,
+        "randomize": false
+      },
+      "atkStat": "Might",
+      "atk": "4",
+      "rng": "2-3",
+      "acc": 0,
+      "brk": 1,
+      "crit": 5,
+      "extraAttacks": 0,
+      "noExtraAttacks": false,
+      "effectiveAgainst": {
+        "infantry": false,
+        "armored": false,
+        "cavalry": false,
+        "flying": false,
+        "dragon": false,
+        "beast": false,
+        "monster": false,
+        "undead": false,
+        "magic": false
+      },
+      "breaker": {
+        "brawling": false,
+        "blade": false,
+        "polearm": false,
+        "heavy": false,
+        "bow": true,
+        "covert": false,
+        "elemental": false,
+        "divine": false,
+        "occult": false,
+        "arcane": false
+      }
+    },
+    "armor": {
+      "req": "Light",
+      "def": 0,
+      "res": 0,
+      "stn": 0,
+      "eva": 0,
+      "brkRed": 0,
+      "critRed": 0,
+      "vulns": {
+        "slashing": false,
+        "piercing": false,
+        "crushing": false,
+        "missile": false,
+        "fire": false,
+        "ice": false,
+        "lightning": false,
+        "wind": false,
+        "arcane": false,
+        "decay": false,
+        "shadow": false,
+        "holy": false
+      },
+      "prots": {
+        "slashing": false,
+        "piercing": false,
+        "crushing": false,
+        "missile": false,
+        "fire": false,
+        "ice": false,
+        "lightning": false,
+        "wind": false,
+        "arcane": false,
+        "decay": false,
+        "shadow": false,
+        "holy": false
+      }
+    },
+    "mountData": {
+      "stats": {
+        "mov": 0,
+        "hp": 0,
+        "stn": 0,
+        "eva": 0,
+        "atk": 0,
+        "spd": 0,
+        "acc": 0,
+        "crit": 0
+      },
+      "unitTypes": {
+        "cavalry": false,
+        "flying": false,
+        "dragon": false,
+        "beast": false,
+        "monster": false,
+        "undead": false
+      }
+    },
+    "craftingData": {
+      "forging": {
+        "enabled": true,
+        "forgeMult": 1,
+        "skillCheck": "Handicraft",
+        "materials": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.items.Item.WyEYDp4jpJNcuuiS",
+            "name": "Steel",
+            "img": "modules/emblem-rpg-content/assets/items/resources/Steel.png",
+            "quantity": 2
+          }
+        ]
+      },
+      "refinement": {
+        "tiers": [
+          {
+            "enabled": false,
+            "xpReq": 20,
+            "forgeMult": null,
+            "skillCheck": "",
+            "materials": [],
+            "modifiers": {
+              "atk": null,
+              "brk": null,
+              "wgt": null,
+              "acc": null,
+              "crit": null,
+              "durability": null,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": "",
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              }
+            }
+          },
+          {
+            "enabled": false,
+            "xpReq": 40,
+            "forgeMult": null,
+            "skillCheck": "",
+            "materials": [],
+            "modifiers": {
+              "atk": null,
+              "brk": null,
+              "wgt": null,
+              "acc": null,
+              "crit": null,
+              "durability": null,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": "",
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              }
+            }
+          },
+          {
+            "enabled": false,
+            "xpReq": 60,
+            "forgeMult": null,
+            "skillCheck": "",
+            "materials": [],
+            "modifiers": {
+              "atk": null,
+              "brk": null,
+              "wgt": null,
+              "acc": null,
+              "crit": null,
+              "durability": null,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": "",
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              }
+            }
+          },
+          {
+            "enabled": false,
+            "xpReq": 80,
+            "forgeMult": null,
+            "skillCheck": "",
+            "materials": [],
+            "modifiers": {
+              "atk": null,
+              "brk": null,
+              "wgt": null,
+              "acc": null,
+              "crit": null,
+              "durability": null,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": "",
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              }
+            }
+          },
+          {
+            "enabled": false,
+            "xpReq": 100,
+            "forgeMult": null,
+            "skillCheck": "",
+            "materials": [],
+            "modifiers": {
+              "atk": null,
+              "brk": null,
+              "wgt": null,
+              "acc": null,
+              "crit": null,
+              "durability": null,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": "",
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              }
+            }
+          }
+        ]
+      },
+      "creation": {
+        "materials": [],
+        "difficultyClass": 0,
+        "skillCheck": "Nature"
+      },
+      "forgingXP": 0
+    },
+    "refreshes": false,
+    "anim": {
+      "attack": {
+        "melee": {
+          "steps": [
+            {
+              "kind": "sound",
+              "file": "modules/emblem-rpg-content/sound/weapon/dagger-throw.wav",
+              "delay": 0,
+              "duration": 250,
+              "startTime": 100,
+              "fadeOutAudio": 50
+            },
+            {
+              "kind": "sound",
+              "file": "modules/emblem-rpg-content/sound/weapon/dagger-throw.wav",
+              "delay": 300,
+              "duration": 650,
+              "startTime": 900,
+              "fadeInAudio": 50
+            },
+            {
+              "kind": "effect",
+              "file": "jb2a.shuriken.01",
+              "atLocation": "token",
+              "stretchTo": "target",
+              "playbackRate": 0.9
+            }
+          ],
+          "duration": 1200
+        },
+        "ranged": {
+          "steps": [
+            {
+              "kind": "sound",
+              "file": "modules/emblem-rpg-content/sound/weapon/dagger-throw.wav",
+              "delay": 0,
+              "duration": 250,
+              "startTime": 100,
+              "fadeOutAudio": 50
+            },
+            {
+              "kind": "sound",
+              "file": "modules/emblem-rpg-content/sound/weapon/dagger-throw.wav",
+              "delay": 300,
+              "duration": 650,
+              "startTime": 900,
+              "fadeInAudio": 50
+            },
+            {
+              "kind": "effect",
+              "file": "jb2a.shuriken.01",
+              "atLocation": "token",
+              "stretchTo": "target",
+              "playbackRate": 0.9
+            }
+          ],
+          "duration": 1200
+        }
+      },
+      "critical": {
+        "melee": {
+          "steps": [
+            {
+              "kind": "sound",
+              "file": "modules/emblem-rpg-content/sound/weapon/dagger-throw.wav",
+              "delay": 0,
+              "duration": 250,
+              "startTime": 100,
+              "fadeOutAudio": 50
+            },
+            {
+              "kind": "sound",
+              "file": "modules/emblem-rpg-content/sound/weapon/dagger-throw.wav",
+              "delay": 300,
+              "duration": 650,
+              "startTime": 900,
+              "fadeInAudio": 50
+            },
+            {
+              "kind": "effect",
+              "file": "jb2a.shuriken.01",
+              "atLocation": "token",
+              "stretchTo": "target",
+              "playbackRate": 0.9
+            },
+            {
+              "kind": "sound",
+              "file": "modules/emblem-rpg-content/sound/weapon/dagger-throw.wav",
+              "delay": 350,
+              "duration": 650,
+              "startTime": 900,
+              "fadeInAudio": 50
+            },
+            {
+              "kind": "effect",
+              "file": "jb2a.shuriken.01",
+              "atLocation": "token",
+              "stretchTo": "target",
+              "playbackRate": 0.9,
+              "spriteOffset": {
+                "x": -0.0526,
+                "y": 0.1053
+              }
+            },
+            {
+              "kind": "sound",
+              "file": "modules/emblem-rpg-content/sound/weapon/dagger-throw.wav",
+              "delay": 400,
+              "duration": 550,
+              "startTime": 350,
+              "fadeInAudio": 50
+            },
+            {
+              "kind": "effect",
+              "file": "jb2a.shuriken.01",
+              "atLocation": "token",
+              "stretchTo": "target",
+              "playbackRate": 0.9,
+              "mirrorY": true,
+              "spriteOffset": {
+                "x": -0.0526,
+                "y": 0.0526
+              }
+            },
+            {
+              "kind": "sound",
+              "file": "modules/emblem-rpg-content/sound/weapon/dagger-throw.wav",
+              "delay": 450,
+              "duration": 500,
+              "startTime": 350,
+              "fadeInAudio": 50
+            },
+            {
+              "kind": "effect",
+              "file": "jb2a.shuriken.01",
+              "atLocation": "token",
+              "stretchTo": "target",
+              "playbackRate": 0.9,
+              "mirrorY": true,
+              "spriteOffset": {
+                "x": 0.2105,
+                "y": 0.1053
+              },
+              "waitUntilFinished": -1000
+            },
+            {
+              "kind": "sound",
+              "file": "modules/emblem-rpg-content/sound/weapon/dagger-impact.wav"
+            }
+          ],
+          "duration": 2000
+        },
+        "ranged": {
+          "steps": [
+            {
+              "kind": "sound",
+              "file": "modules/emblem-rpg-content/sound/weapon/dagger-throw.wav",
+              "delay": 0,
+              "duration": 250,
+              "startTime": 100,
+              "fadeOutAudio": 50
+            },
+            {
+              "kind": "sound",
+              "file": "modules/emblem-rpg-content/sound/weapon/dagger-throw.wav",
+              "delay": 300,
+              "duration": 650,
+              "startTime": 900,
+              "fadeInAudio": 50
+            },
+            {
+              "kind": "effect",
+              "file": "jb2a.shuriken.01",
+              "atLocation": "token",
+              "stretchTo": "target",
+              "playbackRate": 0.9
+            },
+            {
+              "kind": "sound",
+              "file": "modules/emblem-rpg-content/sound/weapon/dagger-throw.wav",
+              "delay": 350,
+              "duration": 650,
+              "startTime": 900,
+              "fadeInAudio": 50
+            },
+            {
+              "kind": "effect",
+              "file": "jb2a.shuriken.01",
+              "atLocation": "token",
+              "stretchTo": "target",
+              "playbackRate": 0.9,
+              "spriteOffset": {
+                "x": -0.0526,
+                "y": 0.1053
+              }
+            },
+            {
+              "kind": "sound",
+              "file": "modules/emblem-rpg-content/sound/weapon/dagger-throw.wav",
+              "delay": 400,
+              "duration": 550,
+              "startTime": 350,
+              "fadeInAudio": 50
+            },
+            {
+              "kind": "effect",
+              "file": "jb2a.shuriken.01",
+              "atLocation": "token",
+              "stretchTo": "target",
+              "playbackRate": 0.9,
+              "mirrorY": true,
+              "spriteOffset": {
+                "x": -0.0526,
+                "y": 0.0526
+              }
+            },
+            {
+              "kind": "sound",
+              "file": "modules/emblem-rpg-content/sound/weapon/dagger-throw.wav",
+              "delay": 450,
+              "duration": 500,
+              "startTime": 350,
+              "fadeInAudio": 50
+            },
+            {
+              "kind": "effect",
+              "file": "jb2a.shuriken.01",
+              "atLocation": "token",
+              "stretchTo": "target",
+              "playbackRate": 0.9,
+              "mirrorY": true,
+              "spriteOffset": {
+                "x": 0.2105,
+                "y": 0.1053
+              },
+              "waitUntilFinished": -1000
+            },
+            {
+              "kind": "sound",
+              "file": "modules/emblem-rpg-content/sound/weapon/dagger-impact.wav"
+            }
+          ],
+          "duration": 2000
+        }
+      },
+      "activation": null
+    },
+    "effects": [
+      {
+        "trigger": "onHitOrCrit",
+        "name": "Shuriken Hit Effect",
+        "itemNames": [],
+        "itemUuids": [],
+        "delayMs": 0,
+        "tokenAwaits": false,
+        "condition": null,
+        "action": {
+          "steps": [
+            {
+              "kind": "applyEffect",
+              "target": "target",
+              "preset": "custom",
+              "customData": {
+                "name": "Covert Penalty: Shuriken",
+                "changes": [
+                  {
+                    "key": "system.stats.agi.penalty",
+                    "value": -1,
+                    "type": "add",
+                    "priority": 20
+                  },
+                  {
+                    "key": "system.stats.res.penalty",
+                    "value": -1,
+                    "type": "add",
+                    "priority": 20
+                  }
+                ],
+                "flags": {
+                  "emblem-rpg": {
+                    "removeOnFactionPhaseEnd": true,
+                    "harmful": true,
+                    "stackable": true,
+                    "hiddenOnToken": true,
+                    "beneficial": false,
+                    "duration": 1,
+                    "removeOnFactionPhase": false,
+                    "removeOnAnyPhaseEnd": false,
+                    "removeOnCombatSequenceEnd": false,
+                    "removeOnStanceBreak": false,
+                    "removeWhenAttacked": false,
+                    "removeOnHostileAction": false,
+                    "removeOnHostileTargeted": false,
+                    "stackCount": 1,
+                    "stackLimit": null,
+                    "removeStackWhenHit": false,
+                    "triggerSheds": {}
+                  },
+                  "core": {
+                    "statusId": "CovertPenaltyShuriken"
+                  }
+                },
+                "statuses": [
+                  "CovertPenaltyShuriken"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "retractable": false
+  },
+  "folder": "IQS2lCsiDRERF1oT",
+  "_id": "ANSiyEaWm8HgpIXa",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "exportSource": null,
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.2a",
+    "createdTime": 1787637027879,
+    "modifiedTime": 1791053371375,
+    "lastModifiedBy": "emblembuilder000"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "sort": 0,
+  "_key": "!items!ANSiyEaWm8HgpIXa"
+}

@@ -1,0 +1,25 @@
+{
+  "_id": "1XOn561BDZH46dnj",
+  "name": "Beasts",
+  "type": "Actor",
+  "folder": "zJ2bHaaG7PBFwI3M",
+  "sort": 145997,
+  "color": null,
+  "sorting": "m",
+  "flags": {
+    "emblem-rpg": {
+      "icon": "modules/emblem-rpg-content/assets/classes/Wolf.png"
+    }
+  },
+  "description": "",
+  "_stats": {
+    "coreVersion": "14.366",
+    "systemId": "emblem-rpg",
+    "systemVersion": "0.2.0",
+    "createdTime": 1786802414987,
+    "modifiedTime": 1786802637401,
+    "lastModifiedBy": null,
+    "exportSource": null
+  },
+  "_key": "!folders!1XOn561BDZH46dnj"
+}

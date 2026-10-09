@@ -1,0 +1,25 @@
+{
+  "type": "Item",
+  "folder": "51N1Et0IiXAjd44x",
+  "name": "Special Flags",
+  "color": null,
+  "flags": {
+    "emblem-rpg": {
+      "icon": ""
+    }
+  },
+  "sorting": "m",
+  "_id": "jeDBkwY92d34DFjh",
+  "description": "",
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "14.366",
+    "systemId": "emblem-rpg",
+    "systemVersion": "0.2.0",
+    "createdTime": 1786772900177,
+    "modifiedTime": 1786772996558,
+    "lastModifiedBy": null,
+    "exportSource": null
+  },
+  "_key": "!folders!jeDBkwY92d34DFjh"
+}

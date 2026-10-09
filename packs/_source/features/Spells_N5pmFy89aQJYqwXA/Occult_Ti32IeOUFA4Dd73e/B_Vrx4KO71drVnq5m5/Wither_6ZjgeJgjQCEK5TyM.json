@@ -1,0 +1,899 @@
+{
+  "name": "Wither",
+  "type": "Spell",
+  "img": "modules/emblem-rpg-content/assets/spells/occult/Wither.png",
+  "system": {
+    "isWielded": false,
+    "isWorn": false,
+    "isEquipped": false,
+    "description": "Conjure a cloud of noxious magic, rapidly rotting everything within it. Designate a point within Rng of the spell. All units within a 1 tile square radius of that point suffer 2d8 Decay damage and 1 Brk. Affected units must also succeed a Mgt Saving Throw (DC = 10 + caster Wit) or else suffer the Corpse Rot condition for 3 turns. Corpse Rot deals another 2d8 Decay damage and 1 Brk each turn. Units with Corpse Rot are considered Undead, lose any protection against Slashing, Piercing, Crushing and Missile damage, and cannot be healed.",
+    "itemType": "Utility",
+    "cost": 0,
+    "wgt": 0,
+    "stealable": {
+      "flag": "None",
+      "dc": 10
+    },
+    "actionType": "Standard Action",
+    "uses": {
+      "current": 5,
+      "max": 5,
+      "type": "limited",
+      "scaling": {
+        "factor": "Level",
+        "subject": "",
+        "type": "Additive",
+        "multiplier": 1,
+        "thresholds": [],
+        "formula": "",
+        "addToBase": false,
+        "roundDown": false
+      }
+    },
+    "aura": {
+      "enabled": false,
+      "rng": 0
+    },
+    "wepArtData": {
+      "cost": 0,
+      "brawling": false,
+      "blade": false,
+      "polearm": false,
+      "heavy": false,
+      "bow": false,
+      "covert": false
+    },
+    "requirements": [],
+    "modifiers": [],
+    "effectData": {
+      "params": [],
+      "type": "",
+      "rng": "4",
+      "rngType": "Location",
+      "rngShape": "Square",
+      "losRule": "normal",
+      "rngScaling": {
+        "factor": "None",
+        "subject": "",
+        "type": "Additive",
+        "multiplier": 1,
+        "thresholds": [],
+        "formula": "",
+        "addToBase": false,
+        "roundDown": false
+      },
+      "targets": 1,
+      "targetType": "Any",
+      "locationRng": 1,
+      "gridColor": "Red",
+      "groundValidSquares": "All",
+      "groundMaxElevDiff": 0,
+      "deliveryType": "Saving Throw",
+      "savingThrowDC": {
+        "required": true,
+        "base": 10,
+        "attribute": "Wit",
+        "targetAttribute": "Mgt",
+        "ignoreForFriendly": false
+      },
+      "skillCheckDC": {
+        "required": false,
+        "base": 0,
+        "skill": "None",
+        "targetAttribute": "None",
+        "ignoreForFriendly": false
+      },
+      "consumeOnFailure": true,
+      "groundUnoccupiedOnly": true
+    },
+    "consumableData": {
+      "effect": "",
+      "stat": "",
+      "statValue": 0,
+      "growth": "",
+      "growthValue": 0
+    },
+    "weapon": {
+      "req": "Occult",
+      "rank": 4,
+      "twoHanded": false,
+      "dmgTypes": {
+        "slashing": false,
+        "slashingConditionTree": null,
+        "piercing": false,
+        "piercingConditionTree": null,
+        "crushing": false,
+        "crushingConditionTree": null,
+        "missile": false,
+        "missileConditionTree": null,
+        "fire": true,
+        "fireConditionTree": null,
+        "ice": false,
+        "iceConditionTree": null,
+        "lightning": false,
+        "lightningConditionTree": null,
+        "wind": false,
+        "windConditionTree": null,
+        "arcane": false,
+        "arcaneConditionTree": null,
+        "decay": false,
+        "decayConditionTree": null,
+        "shadow": false,
+        "shadowConditionTree": null,
+        "holy": false,
+        "holyConditionTree": null,
+        "randomize": false
+      },
+      "atkStat": "Wit",
+      "atk": "6",
+      "rng": "1-3",
+      "acc": 0,
+      "brk": 1,
+      "crit": 0,
+      "extraAttacks": 0,
+      "noExtraAttacks": false,
+      "effectiveAgainst": {
+        "infantry": false,
+        "armored": false,
+        "cavalry": false,
+        "flying": false,
+        "dragon": false,
+        "beast": false,
+        "monster": false,
+        "undead": false,
+        "magic": false
+      },
+      "breaker": {
+        "brawling": false,
+        "blade": false,
+        "polearm": false,
+        "heavy": false,
+        "bow": false,
+        "covert": false,
+        "elemental": false,
+        "divine": false,
+        "occult": false,
+        "arcane": false
+      }
+    },
+    "armor": {
+      "req": "",
+      "def": 0,
+      "res": 0,
+      "stn": 0,
+      "eva": 0,
+      "brkRed": 0,
+      "critRed": 0,
+      "vulns": {
+        "slashing": false,
+        "piercing": false,
+        "crushing": false,
+        "missile": false,
+        "fire": false,
+        "ice": false,
+        "lightning": false,
+        "wind": false,
+        "arcane": false,
+        "decay": false,
+        "shadow": false,
+        "holy": false
+      },
+      "prots": {
+        "slashing": false,
+        "piercing": false,
+        "crushing": false,
+        "missile": false,
+        "fire": false,
+        "ice": false,
+        "lightning": false,
+        "wind": false,
+        "arcane": false,
+        "decay": false,
+        "shadow": false,
+        "holy": false
+      }
+    },
+    "mountData": {
+      "stats": {
+        "mov": 0,
+        "hp": 0,
+        "stn": 0,
+        "eva": 0,
+        "atk": 0,
+        "spd": 0,
+        "acc": 0,
+        "crit": 0
+      },
+      "unitTypes": {
+        "cavalry": false,
+        "flying": false,
+        "dragon": false,
+        "beast": false,
+        "monster": false,
+        "undead": false
+      }
+    },
+    "craftingData": {
+      "refinement": {
+        "tiers": [
+          {
+            "materials": [],
+            "skillCheck": "",
+            "modifiers": {
+              "atk": null,
+              "brk": null,
+              "wgt": null,
+              "acc": null,
+              "crit": null,
+              "durability": null,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": ""
+            },
+            "enabled": false,
+            "xpReq": 5,
+            "forgeMult": null
+          },
+          {
+            "materials": [],
+            "skillCheck": "",
+            "modifiers": {
+              "atk": null,
+              "brk": null,
+              "wgt": null,
+              "acc": null,
+              "crit": null,
+              "durability": null,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": ""
+            },
+            "enabled": false,
+            "xpReq": 10,
+            "forgeMult": null
+          },
+          {
+            "materials": [],
+            "skillCheck": "",
+            "modifiers": {
+              "atk": null,
+              "brk": null,
+              "wgt": null,
+              "acc": null,
+              "crit": null,
+              "durability": null,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": ""
+            },
+            "enabled": false,
+            "xpReq": 15,
+            "forgeMult": null
+          },
+          {
+            "materials": [],
+            "skillCheck": "",
+            "modifiers": {
+              "atk": null,
+              "brk": null,
+              "wgt": null,
+              "acc": null,
+              "crit": null,
+              "durability": null,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": ""
+            },
+            "enabled": false,
+            "xpReq": 20,
+            "forgeMult": null
+          },
+          {
+            "materials": [],
+            "skillCheck": "",
+            "modifiers": {
+              "atk": null,
+              "brk": null,
+              "wgt": null,
+              "acc": null,
+              "crit": null,
+              "durability": null,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": ""
+            },
+            "enabled": false,
+            "xpReq": 25,
+            "forgeMult": null
+          }
+        ]
+      },
+      "creation": {
+        "materials": [],
+        "difficultyClass": 0,
+        "skillCheck": "Nature"
+      },
+      "forging": {
+        "enabled": false,
+        "forgeMult": 1,
+        "skillCheck": "Handicraft",
+        "materials": []
+      },
+      "forgingXP": 0
+    },
+    "refreshes": true,
+    "tradeDisabled": false,
+    "anim": {
+      "attack": null,
+      "critical": null,
+      "activation": {
+        "melee": {
+          "steps": [
+            {
+              "kind": "sound",
+              "audioChannel": "environment",
+              "file": "modules/emblem-rpg-content/sound/magic/dark-sparks.wav"
+            },
+            {
+              "kind": "effect",
+              "atLocation": "token",
+              "file": "jb2a.energy_strands.in.purple.01",
+              "layer": "aboveInterface",
+              "scaleToObject": 1.2,
+              "filter": {
+                "type": "ColorMatrix",
+                "params": {
+                  "hue": 150
+                }
+              },
+              "repeats": {
+                "count": 3,
+                "delayMin": 500,
+                "delayMax": 500
+              }
+            },
+            {
+              "kind": "effect",
+              "atLocation": "token",
+              "delay": 300,
+              "file": "jb2a.lightning_ball.dark_purple",
+              "filter": {
+                "type": "ColorMatrix",
+                "params": {
+                  "hue": 150
+                }
+              },
+              "fadeIn": 500,
+              "fadeOut": 200,
+              "layer": "aboveInterface",
+              "scaleToObject": 1.2,
+              "waitUntilFinished": true
+            },
+            {
+              "kind": "sound",
+              "audioChannel": "environment",
+              "file": "psfx.2nd-level-spells.misty-step.v1.intro.generic"
+            },
+            {
+              "kind": "effect",
+              "atLocation": "target-location",
+              "scaleToObject": 5,
+              "layer": "aboveInterface",
+              "file": "blfx.spell.template.circle.dust.puff.poison.gas.smoke.radial.1.color1"
+            },
+            {
+              "kind": "sound",
+              "audioChannel": "environment",
+              "delay": 900,
+              "file": "psfx.cantrips.poison-spray.v1.0"
+            },
+            {
+              "kind": "effect",
+              "atLocation": "target-location",
+              "scaleToObject": 4,
+              "delay": 900,
+              "file": "jb2a.bubble.002.001.loop.greenpurple",
+              "fadeIn": 1300,
+              "fadeOut": 500,
+              "repeats": {
+                "count": 2,
+                "delayMin": 1500,
+                "delayMax": 1500
+              },
+              "zIndex": 3,
+              "layer": "aboveInterface"
+            },
+            {
+              "kind": "effect",
+              "atLocation": "target-location",
+              "scaleToObject": 4.5,
+              "delay": 1000,
+              "layer": "aboveInterface",
+              "repeats": {
+                "count": 2,
+                "delayMin": 1500,
+                "delayMax": 1500
+              },
+              "file": "blfx.spell.template.circle.dust.puff.poison.gas.smoke.radial.1.color1"
+            },
+            {
+              "kind": "effect",
+              "atLocation": "target-location",
+              "scaleToObject": 5.5,
+              "delay": 600,
+              "fadeIn": 300,
+              "fadeOut": 500,
+              "layer": "aboveInterface",
+              "duration": 5500,
+              "filter": {
+                "type": "ColorMatrix",
+                "params": {
+                  "hue": 150
+                }
+              },
+              "file": "jb2a.sleep.cloud.02.dark_orangepurple",
+              "waitUntilFinished": -1000
+            },
+            {
+              "kind": "effect",
+              "atLocation": "target-location",
+              "scaleToObject": 5.5,
+              "fadeIn": 300,
+              "fadeOut": 500,
+              "layer": "belowTokens",
+              "zIndex": -1,
+              "file": "jb2a.liquid.splash.green"
+            }
+          ],
+          "duration": 4000
+        },
+        "ranged": {
+          "steps": [
+            {
+              "kind": "sound",
+              "audioChannel": "environment",
+              "file": "modules/emblem-rpg-content/sound/magic/dark-sparks.wav"
+            },
+            {
+              "kind": "effect",
+              "atLocation": "token",
+              "file": "jb2a.energy_strands.in.purple.01",
+              "layer": "aboveInterface",
+              "scaleToObject": 1.2,
+              "filter": {
+                "type": "ColorMatrix",
+                "params": {
+                  "hue": 150
+                }
+              },
+              "repeats": {
+                "count": 3,
+                "delayMin": 500,
+                "delayMax": 500
+              }
+            },
+            {
+              "kind": "effect",
+              "atLocation": "token",
+              "delay": 300,
+              "file": "jb2a.lightning_ball.dark_purple",
+              "filter": {
+                "type": "ColorMatrix",
+                "params": {
+                  "hue": 150
+                }
+              },
+              "fadeIn": 500,
+              "fadeOut": 200,
+              "layer": "aboveInterface",
+              "scaleToObject": 1.2,
+              "waitUntilFinished": true
+            },
+            {
+              "kind": "sound",
+              "audioChannel": "environment",
+              "file": "psfx.2nd-level-spells.misty-step.v1.intro.generic"
+            },
+            {
+              "kind": "effect",
+              "atLocation": "target-location",
+              "scaleToObject": 5,
+              "layer": "aboveInterface",
+              "file": "blfx.spell.template.circle.dust.puff.poison.gas.smoke.radial.1.color1"
+            },
+            {
+              "kind": "sound",
+              "audioChannel": "environment",
+              "delay": 900,
+              "file": "psfx.cantrips.poison-spray.v1.0"
+            },
+            {
+              "kind": "effect",
+              "atLocation": "target-location",
+              "scaleToObject": 4,
+              "delay": 900,
+              "file": "jb2a.bubble.002.001.loop.greenpurple",
+              "fadeIn": 1300,
+              "fadeOut": 500,
+              "repeats": {
+                "count": 2,
+                "delayMin": 1500,
+                "delayMax": 1500
+              },
+              "zIndex": 3,
+              "layer": "aboveInterface"
+            },
+            {
+              "kind": "effect",
+              "atLocation": "target-location",
+              "scaleToObject": 4.5,
+              "delay": 1000,
+              "layer": "aboveInterface",
+              "repeats": {
+                "count": 2,
+                "delayMin": 1500,
+                "delayMax": 1500
+              },
+              "file": "blfx.spell.template.circle.dust.puff.poison.gas.smoke.radial.1.color1"
+            },
+            {
+              "kind": "effect",
+              "atLocation": "target-location",
+              "scaleToObject": 5.5,
+              "delay": 600,
+              "fadeIn": 300,
+              "fadeOut": 500,
+              "layer": "aboveInterface",
+              "duration": 5500,
+              "filter": {
+                "type": "ColorMatrix",
+                "params": {
+                  "hue": 150
+                }
+              },
+              "file": "jb2a.sleep.cloud.02.dark_orangepurple",
+              "waitUntilFinished": -1000
+            },
+            {
+              "kind": "effect",
+              "atLocation": "target-location",
+              "scaleToObject": 5.5,
+              "fadeIn": 300,
+              "fadeOut": 500,
+              "layer": "belowTokens",
+              "zIndex": -1,
+              "file": "jb2a.liquid.splash.green"
+            }
+          ],
+          "duration": 4000
+        }
+      }
+    },
+    "effects": [
+      {
+        "trigger": "onActivation",
+        "name": "2d8 Decay Dmg",
+        "itemNames": [],
+        "itemUuids": [],
+        "delayMs": 0,
+        "condition": null,
+        "action": {
+          "steps": [
+            {
+              "kind": "damage",
+              "target": "target",
+              "formula": "2d8",
+              "dmgType": "decay",
+              "brk": "1",
+              "alt": true
+            }
+          ]
+        },
+        "tokenAwaits": false
+      },
+      {
+        "trigger": "onFailedSave",
+        "name": "Corpse Rot Status Effect",
+        "itemNames": [],
+        "itemUuids": [],
+        "delayMs": 0,
+        "condition": null,
+        "action": {
+          "steps": [
+            {
+              "kind": "animation",
+              "animation": {
+                "steps": [
+                  {
+                    "kind": "effect",
+                    "file": "jb2a.bubble.002.001.loop.greenpurple",
+                    "name": "corpse-rot-effect",
+                    "fadeIn": 500,
+                    "scaleToObject": 1.1,
+                    "attachTo": "target",
+                    "persist": true
+                  }
+                ]
+              }
+            },
+            {
+              "kind": "applyEffect",
+              "target": "target",
+              "preset": "custom",
+              "linkAnimationTag": "corpse-rot-effect",
+              "customData": {
+                "name": "Corpse Rot",
+                "changes": [
+                  {
+                    "key": "system.unitType.undead",
+                    "value": true,
+                    "priority": 99,
+                    "type": "override"
+                  },
+                  {
+                    "key": "system.equipment.prots.slashing",
+                    "value": false,
+                    "priority": 99,
+                    "type": "override"
+                  },
+                  {
+                    "key": "system.equipment.prots.piercing",
+                    "value": false,
+                    "priority": 99,
+                    "type": "override"
+                  },
+                  {
+                    "key": "system.equipment.prots.crushing",
+                    "value": false,
+                    "priority": 99,
+                    "type": "override"
+                  },
+                  {
+                    "key": "system.equipment.prots.missile",
+                    "value": false,
+                    "priority": 99,
+                    "type": "override"
+                  }
+                ],
+                "statuses": [
+                  "CorpseRot"
+                ],
+                "flags": {
+                  "core": {
+                    "statusId": "CorpseRot"
+                  },
+                  "emblem-rpg": {
+                    "removeOnFactionPhaseEnd": true,
+                    "harmful": true,
+                    "duration": 3,
+                    "hiddenOnToken": false,
+                    "beneficial": false,
+                    "removeOnFactionPhase": false,
+                    "removeOnAnyPhaseEnd": false,
+                    "removeOnCombatSequenceEnd": false,
+                    "removeOnStanceBreak": false,
+                    "removeWhenAttacked": false,
+                    "removeOnHostileAction": false,
+                    "removeOnHostileTargeted": false,
+                    "stackable": false,
+                    "stackCount": 1,
+                    "stackLimit": null,
+                    "removeStackWhenHit": false,
+                    "triggerSheds": {}
+                  }
+                },
+                "img": "systems/emblem-rpg/assets/status/CorpseRot.png"
+              }
+            },
+            {
+              "kind": "animation",
+              "persistent": true,
+              "tag": "corpse-rot-effect",
+              "attachTarget": "target",
+              "attachToEffectName": "Corpse Rot",
+              "animation": {
+                "steps": [
+                  {
+                    "kind": "effect",
+                    "file": "jb2a.bubble.002.001.loop.greenpurple",
+                    "atLocation": "target",
+                    "attachTo": "target",
+                    "scaleToObject": 1.4,
+                    "fadeIn": 200
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "tokenAwaits": false
+      },
+      {
+        "trigger": "onSucceedSave",
+        "name": "Play Resist",
+        "itemNames": [],
+        "itemUuids": [],
+        "delayMs": 0,
+        "condition": null,
+        "action": {
+          "steps": [
+            {
+              "kind": "playResist",
+              "target": "target"
+            }
+          ]
+        },
+        "tokenAwaits": false
+      }
+    ],
+    "retractable": false
+  },
+  "folder": "Vrx4KO71drVnq5m5",
+  "_id": "6ZjgeJgjQCEK5TyM",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.2a",
+    "createdTime": 1789180498829,
+    "modifiedTime": 1791053371135,
+    "lastModifiedBy": "emblembuilder000",
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "sort": 0,
+  "_key": "!items!6ZjgeJgjQCEK5TyM"
+}

@@ -1,0 +1,265 @@
+{
+  "name": "Fighter",
+  "type": "Class",
+  "img": "modules/emblem-rpg-content/assets/classes/Fighter.png",
+  "folder": "uf0WcopezUNyj7zH",
+  "system": {
+    "description": "Fighters are bruisers who rely greatly on their brawn, wielding heavy weapons that crush through enemies' defenses, while resorting to their fists when speed is needed.",
+    "tier": "Novice",
+    "baseStats": {
+      "hp": 28,
+      "stn": 3,
+      "mov": 5,
+      "bld": 8,
+      "mgt": 7,
+      "agi": 3,
+      "tqn": 4,
+      "wit": 2,
+      "cha": 3,
+      "def": 1,
+      "res": 0,
+      "spd": 2,
+      "eva": 7,
+      "acc": 0,
+      "crit": 0
+    },
+    "baseGrowths": {
+      "hp": 40,
+      "mgt": 35,
+      "agi": 20,
+      "tqn": 20,
+      "wit": 10,
+      "cha": 10,
+      "def": 10,
+      "res": 5
+    },
+    "baseCaps": {
+      "hp": 30,
+      "mgt": 13,
+      "agi": 9,
+      "tqn": 8,
+      "wit": 5,
+      "cha": 6,
+      "def": 5,
+      "res": 3
+    },
+    "proficiencies": {
+      "brawling": 1,
+      "blade": 0,
+      "polearm": 0,
+      "heavy": 2,
+      "bow": 0,
+      "covert": 0,
+      "arcane": 0,
+      "elemental": 0,
+      "divine": 0,
+      "occult": 0,
+      "armor": 1,
+      "riding": false,
+      "flying": false
+    },
+    "skills": {
+      "athletics": 2,
+      "finesse": 0,
+      "trading": 0,
+      "civics": 0,
+      "handicraft": 1,
+      "sociability": 0,
+      "command": 1,
+      "nature": 0,
+      "perception": 0,
+      "performance": 0,
+      "reason": 0,
+      "esoteric": 0
+    },
+    "unitType": {
+      "infantry": true,
+      "dragon": false,
+      "monster": false,
+      "beast": false,
+      "undead": false
+    },
+    "features": [
+      {
+        "_id": "DGCJRz6JbCYreQky",
+        "lvl": 1,
+        "acquisitionType": "choice",
+        "choiceCount": 1,
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.MKGTANdQGu9NmO26",
+            "name": "Threaten",
+            "img": "modules/emblem-rpg-content/assets/abilities/active/Threaten.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.yukPGXnVYRWTs2GR",
+            "name": "Victory Rush",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/Victory Rush.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ],
+        "unique": false,
+        "exceptions": ""
+      },
+      {
+        "_id": "dbGGZLWo9RRKoH4p",
+        "lvl": 3,
+        "acquisitionType": "all",
+        "choiceCount": 1,
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.x97Cs91mjJ90sKyl",
+            "name": "Shove",
+            "img": "modules/emblem-rpg-content/assets/abilities/active/Shove.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ],
+        "unique": false,
+        "exceptions": ""
+      },
+      {
+        "_id": "4wlM9zv2PrhoSNMm",
+        "lvl": 5,
+        "acquisitionType": "choice",
+        "choiceCount": 1,
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.6C02I5dJmwdyY9mF",
+            "name": "Savage Strike",
+            "img": "modules/emblem-rpg-content/assets/abilities/weapon-arts/Savage Strike.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.FeRu4n15H0iAGKFM",
+            "name": "Second Wind",
+            "img": "modules/emblem-rpg-content/assets/abilities/active/Second Wind.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ],
+        "unique": false,
+        "exceptions": ""
+      }
+    ],
+    "promotions": [
+      {
+        "_id": "LBsw9KJH0WsM3FIT",
+        "lvl": 5,
+        "classUuid": "Compendium.emblem-rpg-content.classes.Item.4P9uzsM6YaI0tLie",
+        "className": "Gladiator",
+        "classImg": "modules/emblem-rpg-content/assets/classes/Gladiator.png",
+        "promotionItem": {
+          "uuid": "Compendium.emblem-rpg-content.items.Item.4K5JeRceamPMhUvk",
+          "name": "Battle Trophy",
+          "img": "modules/emblem-rpg-content/assets/items/consumables/promotions/Battle%20Trophy.png"
+        },
+        "proficiencies": {
+          "brawling": 0,
+          "blade": 0,
+          "polearm": 0,
+          "heavy": 0,
+          "bow": 0,
+          "covert": 0,
+          "arcane": 0,
+          "elemental": 0,
+          "divine": 0,
+          "occult": 0
+        },
+        "skills": {
+          "athletics": 0,
+          "finesse": 0,
+          "trading": 0,
+          "civics": 0,
+          "handicraft": 0,
+          "sociability": 0,
+          "command": 0,
+          "nature": 0,
+          "perception": 0,
+          "performance": 0,
+          "reason": 0,
+          "esoteric": 0
+        }
+      },
+      {
+        "_id": "1TsP7aiXmA69294G",
+        "lvl": 5,
+        "classUuid": "Compendium.emblem-rpg-content.classes.Item.D1lKBf8FEqly0kzI",
+        "className": "Warrior",
+        "classImg": "modules/emblem-rpg-content/assets/classes/Warrior.png",
+        "promotionItem": {
+          "uuid": "Compendium.emblem-rpg-content.items.Item.4K5JeRceamPMhUvk",
+          "name": "Battle Trophy",
+          "img": "modules/emblem-rpg-content/assets/items/consumables/promotions/Battle%20Trophy.png"
+        },
+        "proficiencies": {
+          "brawling": 0,
+          "blade": 0,
+          "polearm": 0,
+          "heavy": 0,
+          "bow": 0,
+          "covert": 0,
+          "arcane": 0,
+          "elemental": 0,
+          "divine": 0,
+          "occult": 0
+        },
+        "skills": {
+          "athletics": 0,
+          "finesse": 0,
+          "trading": 0,
+          "civics": 0,
+          "handicraft": 0,
+          "sociability": 0,
+          "command": 0,
+          "nature": 0,
+          "perception": 0,
+          "performance": 0,
+          "reason": 0,
+          "esoteric": 0
+        }
+      }
+    ]
+  },
+  "_id": "43xOkMzxPjlYq2WT",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "exportSource": null,
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1786236611000,
+    "modifiedTime": 1790612897674,
+    "lastModifiedBy": "emblembuilder000"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "sort": 0,
+  "_key": "!items!43xOkMzxPjlYq2WT"
+}

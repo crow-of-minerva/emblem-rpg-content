@@ -1,0 +1,695 @@
+{
+  "name": "Crossbow",
+  "type": "Equipment",
+  "img": "modules/emblem-rpg-content/assets/items/weapons/Crossbow.png",
+  "system": {
+    "isWielded": false,
+    "isWorn": false,
+    "isEquipped": false,
+    "description": "Effective against Flying units. Cannot make Extra Attacks.",
+    "itemType": "Weapon",
+    "cost": 750,
+    "wgt": 2,
+    "stealable": {
+      "flag": "None",
+      "dc": 10
+    },
+    "actionType": "Standard Action",
+    "uses": {
+      "current": 15,
+      "max": 15,
+      "type": "limited",
+      "scaling": {
+        "factor": "Level",
+        "subject": "",
+        "type": "Additive",
+        "multiplier": 1,
+        "thresholds": [],
+        "formula": "",
+        "addToBase": false,
+        "roundDown": false
+      }
+    },
+    "aura": {
+      "enabled": false,
+      "rng": 0
+    },
+    "wepArtData": {
+      "cost": 0,
+      "brawling": false,
+      "blade": false,
+      "polearm": false,
+      "heavy": false,
+      "bow": false,
+      "covert": false
+    },
+    "requirements": [],
+    "modifiers": [],
+    "effectData": {
+      "params": [],
+      "type": "",
+      "rng": "1",
+      "rngType": "Single",
+      "rngShape": "Normal",
+      "losRule": "normal",
+      "rngScaling": {
+        "factor": "None",
+        "subject": "",
+        "type": "Additive",
+        "multiplier": 1,
+        "thresholds": [],
+        "formula": "",
+        "addToBase": false,
+        "roundDown": false
+      },
+      "targets": 1,
+      "targetType": "Any",
+      "locationRng": 0,
+      "gridColor": "Red",
+      "groundValidSquares": "All",
+      "groundMaxElevDiff": 0,
+      "deliveryType": "Saving Throw",
+      "savingThrowDC": {
+        "required": false,
+        "base": 0,
+        "attribute": "None",
+        "targetAttribute": "None",
+        "ignoreForFriendly": false
+      },
+      "skillCheckDC": {
+        "required": false,
+        "base": 0,
+        "skill": "None",
+        "targetAttribute": "None",
+        "ignoreForFriendly": false
+      },
+      "consumeOnFailure": true,
+      "groundUnoccupiedOnly": true
+    },
+    "consumableData": {
+      "effect": "",
+      "stat": "",
+      "statValue": 0,
+      "growth": "",
+      "growthValue": 0
+    },
+    "weapon": {
+      "req": "Bow",
+      "rank": 3,
+      "twoHanded": true,
+      "dmgTypes": {
+        "slashing": false,
+        "slashingConditionTree": null,
+        "piercing": true,
+        "piercingConditionTree": null,
+        "crushing": false,
+        "crushingConditionTree": null,
+        "missile": false,
+        "missileConditionTree": null,
+        "fire": false,
+        "fireConditionTree": null,
+        "ice": false,
+        "iceConditionTree": null,
+        "lightning": false,
+        "lightningConditionTree": null,
+        "wind": false,
+        "windConditionTree": null,
+        "arcane": false,
+        "arcaneConditionTree": null,
+        "decay": false,
+        "decayConditionTree": null,
+        "shadow": false,
+        "shadowConditionTree": null,
+        "holy": false,
+        "holyConditionTree": null,
+        "randomize": false
+      },
+      "atkStat": "Might",
+      "atk": "10",
+      "rng": "2-3",
+      "acc": 1,
+      "brk": 2.5,
+      "crit": 5,
+      "extraAttacks": 0,
+      "noExtraAttacks": true,
+      "effectiveAgainst": {
+        "infantry": false,
+        "armored": false,
+        "cavalry": false,
+        "flying": true,
+        "dragon": false,
+        "beast": false,
+        "monster": false,
+        "undead": false,
+        "magic": false
+      },
+      "breaker": {
+        "brawling": false,
+        "blade": false,
+        "polearm": false,
+        "heavy": false,
+        "bow": false,
+        "covert": false,
+        "elemental": false,
+        "divine": false,
+        "occult": false,
+        "arcane": false
+      }
+    },
+    "armor": {
+      "req": "None",
+      "def": 0,
+      "res": 0,
+      "stn": 0,
+      "eva": 0,
+      "brkRed": 0,
+      "critRed": 0,
+      "vulns": {
+        "slashing": false,
+        "piercing": false,
+        "crushing": false,
+        "missile": false,
+        "fire": false,
+        "ice": false,
+        "lightning": false,
+        "wind": false,
+        "arcane": false,
+        "decay": false,
+        "shadow": false,
+        "holy": false
+      },
+      "prots": {
+        "slashing": false,
+        "piercing": false,
+        "crushing": false,
+        "missile": false,
+        "fire": false,
+        "ice": false,
+        "lightning": false,
+        "wind": false,
+        "arcane": false,
+        "decay": false,
+        "shadow": false,
+        "holy": false
+      }
+    },
+    "mountData": {
+      "stats": {
+        "mov": 0,
+        "hp": 0,
+        "stn": 0,
+        "eva": 0,
+        "atk": 0,
+        "spd": 0,
+        "acc": 0,
+        "crit": 0
+      },
+      "unitTypes": {
+        "cavalry": false,
+        "flying": false,
+        "dragon": false,
+        "beast": false,
+        "monster": false,
+        "undead": false
+      }
+    },
+    "craftingData": {
+      "forging": {
+        "enabled": true,
+        "forgeMult": 0.5,
+        "skillCheck": "Handicraft",
+        "materials": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.items.Item.WyEYDp4jpJNcuuiS",
+            "name": "Steel",
+            "img": "modules/emblem-rpg-content/assets/items/resources/Steel.png",
+            "quantity": 2
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.items.Item.vLWkZ2rfaLxJ0gG8",
+            "name": "Refined Wood",
+            "img": "modules/emblem-rpg-content/assets/items/resources/Refined%20Wood.png",
+            "quantity": 1
+          }
+        ]
+      },
+      "refinement": {
+        "tiers": [
+          {
+            "enabled": true,
+            "xpReq": 25,
+            "forgeMult": null,
+            "skillCheck": "",
+            "materials": [],
+            "modifiers": {
+              "atk": null,
+              "brk": null,
+              "wgt": null,
+              "acc": 1,
+              "crit": null,
+              "durability": 5,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": ""
+            }
+          },
+          {
+            "enabled": true,
+            "xpReq": 50,
+            "forgeMult": null,
+            "skillCheck": "",
+            "materials": [
+              {
+                "uuid": "Compendium.emblem-rpg-content.items.Item.WyEYDp4jpJNcuuiS",
+                "name": "Steel",
+                "img": "modules/emblem-rpg-content/assets/items/resources/Steel.png",
+                "quantity": 3
+              },
+              {
+                "uuid": "Compendium.emblem-rpg-content.items.Item.vLWkZ2rfaLxJ0gG8",
+                "name": "Refined Wood",
+                "img": "modules/emblem-rpg-content/assets/items/resources/Refined%20Wood.png",
+                "quantity": 1
+              }
+            ],
+            "modifiers": {
+              "atk": 1,
+              "brk": null,
+              "wgt": null,
+              "acc": 1,
+              "crit": null,
+              "durability": 5,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": ""
+            }
+          },
+          {
+            "enabled": true,
+            "xpReq": 75,
+            "forgeMult": null,
+            "skillCheck": "",
+            "materials": [
+              {
+                "uuid": "Compendium.emblem-rpg-content.items.Item.XZhzxkpjIj8UWK8A",
+                "name": "Silver",
+                "img": "modules/emblem-rpg-content/assets/items/resources/Silver.png",
+                "quantity": 1
+              },
+              {
+                "uuid": "Compendium.emblem-rpg-content.items.Item.vLWkZ2rfaLxJ0gG8",
+                "name": "Refined Wood",
+                "img": "modules/emblem-rpg-content/assets/items/resources/Refined%20Wood.png",
+                "quantity": 1
+              }
+            ],
+            "modifiers": {
+              "atk": 2,
+              "brk": null,
+              "wgt": null,
+              "acc": 1,
+              "crit": null,
+              "durability": 10,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": ""
+            }
+          },
+          {
+            "enabled": true,
+            "xpReq": 100,
+            "forgeMult": null,
+            "skillCheck": "",
+            "materials": [
+              {
+                "uuid": "Compendium.emblem-rpg-content.items.Item.XZhzxkpjIj8UWK8A",
+                "name": "Silver",
+                "img": "modules/emblem-rpg-content/assets/items/resources/Silver.png",
+                "quantity": 1
+              },
+              {
+                "uuid": "Compendium.emblem-rpg-content.items.Item.vLWkZ2rfaLxJ0gG8",
+                "name": "Refined Wood",
+                "img": "modules/emblem-rpg-content/assets/items/resources/Refined%20Wood.png",
+                "quantity": 2
+              }
+            ],
+            "modifiers": {
+              "atk": 2,
+              "brk": 0.5,
+              "wgt": null,
+              "acc": 1,
+              "crit": null,
+              "durability": 10,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": ""
+            }
+          },
+          {
+            "enabled": true,
+            "xpReq": 125,
+            "forgeMult": null,
+            "skillCheck": "",
+            "materials": [
+              {
+                "uuid": "Compendium.emblem-rpg-content.items.Item.XZhzxkpjIj8UWK8A",
+                "name": "Silver",
+                "img": "modules/emblem-rpg-content/assets/items/resources/Silver.png",
+                "quantity": 2
+              },
+              {
+                "uuid": "Compendium.emblem-rpg-content.items.Item.vLWkZ2rfaLxJ0gG8",
+                "name": "Refined Wood",
+                "img": "modules/emblem-rpg-content/assets/items/resources/Refined%20Wood.png",
+                "quantity": 2
+              }
+            ],
+            "modifiers": {
+              "atk": 3,
+              "brk": 0.5,
+              "wgt": null,
+              "acc": 1,
+              "crit": 5,
+              "durability": 15,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": ""
+            }
+          }
+        ]
+      },
+      "creation": {
+        "materials": [],
+        "difficultyClass": 0,
+        "skillCheck": "Nature"
+      },
+      "forgingXP": 0
+    },
+    "refreshes": false,
+    "tradeDisabled": false,
+    "anim": {
+      "attack": {
+        "melee": null,
+        "ranged": {
+          "steps": [
+            {
+              "kind": "sound",
+              "file": "psfx.impacts.slashing.v1.0",
+              "audioChannel": "environment"
+            },
+            {
+              "kind": "sound",
+              "file": "blfx.sound.weapon.range.crossbow.attack1",
+              "delay": 200
+            },
+            {
+              "kind": "effect",
+              "file": "blfx.weapon.range.crossbow1.attack1.color1",
+              "atLocation": "token",
+              "rotateTowards": "target",
+              "layer": "aboveInterface",
+              "scaleToObject": 1.5,
+              "spriteOffset": {
+                "gridUnits": true,
+                "x": -0.4
+              },
+              "waitUntilFinished": -1200
+            },
+            {
+              "kind": "sound",
+              "file": "blfx.sound.weapon.range.arrow.hit.attack5",
+              "audioChannel": "environment",
+              "delay": 400
+            },
+            {
+              "kind": "sound",
+              "file": "blfx.sound.spell.cast.acid_arrow.1",
+              "audioChannel": "environment",
+              "delay": 500
+            },
+            {
+              "kind": "effect",
+              "file": "blfx.weapon.range.bolt1.physical1.impact1.color1",
+              "atLocation": "token",
+              "stretchTo": "target",
+              "layer": "aboveInterface"
+            }
+          ],
+          "duration": 1500
+        }
+      },
+      "critical": {
+        "melee": null,
+        "ranged": {
+          "steps": [
+            {
+              "kind": "sound",
+              "file": "psfx.conditions.boon.005.01",
+              "audioChannel": "environment",
+              "startTime": 500
+            },
+            {
+              "kind": "effect",
+              "file": "blfx.misc.enchantment.7.hunters_mark2.color1",
+              "atLocation": "target",
+              "layer": "aboveInterface",
+              "scaleToObject": 3,
+              "playbackRate": 0.7,
+              "delay": 100,
+              "waitUntilFinished": -2000
+            },
+            {
+              "kind": "sound",
+              "file": "psfx.impacts.slashing.v1.0",
+              "audioChannel": "environment"
+            },
+            {
+              "kind": "sound",
+              "file": "blfx.sound.misc.impact.hit.2",
+              "delay": 200
+            },
+            {
+              "kind": "effect",
+              "file": "blfx.weapon.range.crossbow1.attack1.color1",
+              "atLocation": "token",
+              "rotateTowards": "target",
+              "layer": "aboveInterface",
+              "scaleToObject": 1.5,
+              "spriteOffset": {
+                "gridUnits": true,
+                "x": -0.4
+              },
+              "waitUntilFinished": -1200
+            },
+            {
+              "kind": "sound",
+              "file": "blfx.sound.weapon.range.arrow.hit.attack5",
+              "audioChannel": "environment",
+              "delay": 400
+            },
+            {
+              "kind": "sound",
+              "file": "blfx.sound.weapon.range.arrow.swoosh.attack3",
+              "audioChannel": "environment",
+              "delay": 500
+            },
+            {
+              "kind": "effect",
+              "file": "blfx.weapon.range.bolt1.physical1.impact1.color1",
+              "atLocation": "token",
+              "stretchTo": "target",
+              "layer": "aboveInterface"
+            },
+            {
+              "kind": "sound",
+              "file": "blfx.sound.misc.shock_wave.1",
+              "audioChannel": "environment",
+              "delay": 700
+            },
+            {
+              "kind": "effect",
+              "file": "jb2a.toll_the_dead.green.shockwave",
+              "atLocation": "target",
+              "layer": "aboveInterface",
+              "scaleToObject": 1.5,
+              "playbackRate": 2,
+              "delay": 1000
+            }
+          ],
+          "duration": 3200
+        }
+      },
+      "activation": null
+    },
+    "effects": []
+  },
+  "folder": "BUrHF6JUgEibns3h",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "exportSource": null,
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1786800814077,
+    "modifiedTime": 1790612899643,
+    "lastModifiedBy": "emblembuilder000"
+  },
+  "_id": "pwgNzMgoRfRfPQe9",
+  "ownership": {
+    "default": 0
+  },
+  "sort": 0,
+  "_key": "!items!pwgNzMgoRfRfPQe9"
+}

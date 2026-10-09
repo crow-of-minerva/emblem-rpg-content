@@ -1,0 +1,654 @@
+{
+  "name": "Sneak",
+  "type": "Ability",
+  "img": "modules/emblem-rpg-content/assets/abilities/active/Sneak.png",
+  "system": {
+    "isWielded": false,
+    "isWorn": false,
+    "isEquipped": false,
+    "description": "You make yourself less of a presence on the battlefield, gaining the 'Sneak' status effect. While Sneaking, enemies will not target you unless there are no other valid targets in their range. You may move through hostile units, and they may move through you as well.\n\nThis effect persists until you take a hostile action or become the target of a hostile action. Using this ability again while sneaking will also end the effect.",
+    "itemType": "Active",
+    "cost": 0,
+    "wgt": 0,
+    "stealable": {
+      "flag": "None",
+      "dc": 10
+    },
+    "actionType": "Standard Action",
+    "uses": {
+      "current": 1,
+      "max": 1,
+      "type": "infinite",
+      "scaling": {
+        "factor": "Level",
+        "subject": "",
+        "type": "Additive",
+        "multiplier": 1,
+        "thresholds": [],
+        "formula": "",
+        "addToBase": false,
+        "roundDown": false
+      }
+    },
+    "aura": {
+      "enabled": false,
+      "rng": 0
+    },
+    "wepArtData": {
+      "cost": 0,
+      "brawling": false,
+      "blade": false,
+      "polearm": false,
+      "heavy": false,
+      "bow": false,
+      "covert": false
+    },
+    "requirements": [],
+    "modifiers": [],
+    "effectData": {
+      "params": [],
+      "type": "",
+      "rng": "1",
+      "rngType": "Single",
+      "rngShape": "Normal",
+      "losRule": "normal",
+      "rngScaling": {
+        "factor": "None",
+        "subject": "",
+        "type": "Additive",
+        "multiplier": 1,
+        "thresholds": [],
+        "formula": "",
+        "addToBase": false,
+        "roundDown": false
+      },
+      "targets": 1,
+      "targetType": "Self",
+      "locationRng": 0,
+      "gridColor": "Red",
+      "groundValidSquares": "All",
+      "groundMaxElevDiff": 0,
+      "deliveryType": "Saving Throw",
+      "savingThrowDC": {
+        "required": false,
+        "base": 0,
+        "attribute": "None",
+        "targetAttribute": "None",
+        "ignoreForFriendly": false
+      },
+      "skillCheckDC": {
+        "required": false,
+        "base": 0,
+        "skill": "None",
+        "targetAttribute": "None",
+        "ignoreForFriendly": false
+      },
+      "consumeOnFailure": true,
+      "groundUnoccupiedOnly": true
+    },
+    "consumableData": {
+      "effect": "",
+      "stat": "",
+      "statValue": 0,
+      "growth": "",
+      "growthValue": 0
+    },
+    "weapon": {
+      "req": "",
+      "rank": 0,
+      "twoHanded": false,
+      "dmgTypes": {
+        "slashing": false,
+        "slashingConditionTree": null,
+        "piercing": false,
+        "piercingConditionTree": null,
+        "crushing": false,
+        "crushingConditionTree": null,
+        "missile": false,
+        "missileConditionTree": null,
+        "fire": false,
+        "fireConditionTree": null,
+        "ice": false,
+        "iceConditionTree": null,
+        "lightning": false,
+        "lightningConditionTree": null,
+        "wind": false,
+        "windConditionTree": null,
+        "arcane": false,
+        "arcaneConditionTree": null,
+        "decay": false,
+        "decayConditionTree": null,
+        "shadow": false,
+        "shadowConditionTree": null,
+        "holy": false,
+        "holyConditionTree": null,
+        "randomize": false
+      },
+      "atkStat": "",
+      "atk": "0",
+      "rng": "1",
+      "acc": 0,
+      "brk": 0,
+      "crit": 0,
+      "extraAttacks": 0,
+      "noExtraAttacks": false,
+      "effectiveAgainst": {
+        "infantry": false,
+        "armored": false,
+        "cavalry": false,
+        "flying": false,
+        "dragon": false,
+        "beast": false,
+        "monster": false,
+        "undead": false,
+        "magic": false
+      },
+      "breaker": {
+        "brawling": false,
+        "blade": false,
+        "polearm": false,
+        "heavy": false,
+        "bow": false,
+        "covert": false,
+        "elemental": false,
+        "divine": false,
+        "occult": false,
+        "arcane": false
+      }
+    },
+    "armor": {
+      "req": "",
+      "def": 0,
+      "res": 0,
+      "stn": 0,
+      "eva": 0,
+      "brkRed": 0,
+      "critRed": 0,
+      "vulns": {
+        "slashing": false,
+        "piercing": false,
+        "crushing": false,
+        "missile": false,
+        "fire": false,
+        "ice": false,
+        "lightning": false,
+        "wind": false,
+        "arcane": false,
+        "decay": false,
+        "shadow": false,
+        "holy": false
+      },
+      "prots": {
+        "slashing": false,
+        "piercing": false,
+        "crushing": false,
+        "missile": false,
+        "fire": false,
+        "ice": false,
+        "lightning": false,
+        "wind": false,
+        "arcane": false,
+        "decay": false,
+        "shadow": false,
+        "holy": false
+      }
+    },
+    "mountData": {
+      "stats": {
+        "mov": 0,
+        "hp": 0,
+        "stn": 0,
+        "eva": 0,
+        "atk": 0,
+        "spd": 0,
+        "acc": 0,
+        "crit": 0
+      },
+      "unitTypes": {
+        "cavalry": false,
+        "flying": false,
+        "dragon": false,
+        "beast": false,
+        "monster": false,
+        "undead": false
+      }
+    },
+    "craftingData": {
+      "forging": {
+        "enabled": false,
+        "forgeMult": 1,
+        "skillCheck": "Handicraft",
+        "materials": []
+      },
+      "refinement": {
+        "tiers": [
+          {
+            "enabled": false,
+            "xpReq": 1,
+            "forgeMult": null,
+            "skillCheck": "",
+            "materials": [],
+            "modifiers": {
+              "atk": null,
+              "brk": null,
+              "wgt": null,
+              "acc": null,
+              "crit": null,
+              "durability": null,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": ""
+            }
+          },
+          {
+            "enabled": false,
+            "xpReq": 2,
+            "forgeMult": null,
+            "skillCheck": "",
+            "materials": [],
+            "modifiers": {
+              "atk": null,
+              "brk": null,
+              "wgt": null,
+              "acc": null,
+              "crit": null,
+              "durability": null,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": ""
+            }
+          },
+          {
+            "enabled": false,
+            "xpReq": 3,
+            "forgeMult": null,
+            "skillCheck": "",
+            "materials": [],
+            "modifiers": {
+              "atk": null,
+              "brk": null,
+              "wgt": null,
+              "acc": null,
+              "crit": null,
+              "durability": null,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": ""
+            }
+          },
+          {
+            "enabled": false,
+            "xpReq": 4,
+            "forgeMult": null,
+            "skillCheck": "",
+            "materials": [],
+            "modifiers": {
+              "atk": null,
+              "brk": null,
+              "wgt": null,
+              "acc": null,
+              "crit": null,
+              "durability": null,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": ""
+            }
+          },
+          {
+            "enabled": false,
+            "xpReq": 5,
+            "forgeMult": null,
+            "skillCheck": "",
+            "materials": [],
+            "modifiers": {
+              "atk": null,
+              "brk": null,
+              "wgt": null,
+              "acc": null,
+              "crit": null,
+              "durability": null,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": ""
+            }
+          }
+        ]
+      },
+      "creation": {
+        "materials": [],
+        "difficultyClass": 0,
+        "skillCheck": "Nature"
+      },
+      "forgingXP": 0
+    },
+    "refreshes": true,
+    "tradeDisabled": false,
+    "anim": {
+      "attack": null,
+      "critical": null,
+      "activation": {
+        "melee": {
+          "steps": [
+            {
+              "kind": "sound",
+              "file": "modules/emblem-rpg-content/sound/magic/puff-of-smoke.wav",
+              "audioChannel": "environment",
+              "delay": 500
+            },
+            {
+              "kind": "effect",
+              "file": "jb2a.smoke.puff.ring.01.white.2",
+              "atLocation": "token",
+              "layer": "aboveInterface",
+              "scaleToObject": 1,
+              "delay": 500
+            }
+          ],
+          "duration": 1500,
+          "skipCinematic": true
+        },
+        "ranged": {
+          "steps": [
+            {
+              "kind": "sound",
+              "file": "modules/emblem-rpg-content/sound/magic/puff-of-smoke.wav",
+              "audioChannel": "environment"
+            },
+            {
+              "kind": "effect",
+              "file": "jb2a.smoke.puff.ring.01.white.2",
+              "atLocation": "token",
+              "layer": "aboveInterface",
+              "scaleToObject": 1
+            }
+          ],
+          "duration": 1000,
+          "skipCinematic": false
+        },
+        "self": null
+      }
+    },
+    "effects": [
+      {
+        "trigger": "onActivation",
+        "name": "Sneak",
+        "itemNames": [],
+        "itemUuids": [],
+        "delayMs": 0,
+        "tokenAwaits": false,
+        "condition": null,
+        "action": {
+          "steps": [
+            {
+              "kind": "if",
+              "condition": {
+                "kind": "truthy",
+                "expr": "self.sneak"
+              },
+              "then": [
+                {
+                  "kind": "removeEffect",
+                  "target": "self",
+                  "which": "name",
+                  "name": "Sneak"
+                }
+              ],
+              "else": [
+                {
+                  "kind": "applyEffect",
+                  "target": "self",
+                  "preset": "custom",
+                  "linkAnimationTag": "sneak-shadow",
+                  "customData": {
+                    "name": "Sneak",
+                    "changes": [
+                      {
+                        "key": "system.statuses.sneak",
+                        "value": true,
+                        "priority": 20,
+                        "type": "override"
+                      },
+                      {
+                        "key": "system.statuses.passing",
+                        "value": true,
+                        "priority": 20,
+                        "type": "override"
+                      },
+                      {
+                        "key": "system.statuses.passable",
+                        "value": true,
+                        "priority": 20,
+                        "type": "override"
+                      }
+                    ],
+                    "statuses": [
+                      "Sneak"
+                    ],
+                    "flags": {
+                      "core": {
+                        "statusId": "Sneak"
+                      },
+                      "emblem-rpg": {
+                        "removeOnHostileAction": true,
+                        "removeOnHostileTargeted": true,
+                        "hiddenOnToken": false,
+                        "harmful": false,
+                        "beneficial": false,
+                        "duration": 0,
+                        "removeOnFactionPhase": false,
+                        "removeOnFactionPhaseEnd": false,
+                        "removeOnAnyPhaseEnd": false,
+                        "removeOnCombatSequenceEnd": false,
+                        "removeOnStanceBreak": false,
+                        "removeWhenAttacked": false,
+                        "stackable": false,
+                        "stackCount": 1,
+                        "stackLimit": null,
+                        "removeStackWhenHit": false,
+                        "triggerSheds": {}
+                      }
+                    },
+                    "img": "systems/emblem-rpg/assets/status/Sneak.png"
+                  }
+                },
+                {
+                  "kind": "animation",
+                  "persistent": true,
+                  "tag": "sneak-shadow",
+                  "attachToEffectName": "Sneak",
+                  "attachTarget": "self",
+                  "animation": {
+                    "steps": [
+                      {
+                        "kind": "effect",
+                        "file": "jb2a.drop_shadow.dark_black",
+                        "attachTo": "token",
+                        "repeats": {
+                          "count": 15,
+                          "delayMin": 1000,
+                          "delayMax": 1000
+                        },
+                        "scaleToObject": 1.75,
+                        "playbackRate": 0.5,
+                        "opacity": 0.2
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "retractable": false
+  },
+  "_id": "Lels9TPoa5RQSXQd",
+  "effects": [],
+  "folder": "nwJUtnjSV7Qmdvqn",
+  "flags": {},
+  "_stats": {
+    "exportSource": null,
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.2a",
+    "createdTime": 1781667647785,
+    "modifiedTime": 1791064329048,
+    "lastModifiedBy": "emblembuilder000"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "sort": 1200000,
+  "_key": "!items!Lels9TPoa5RQSXQd"
+}

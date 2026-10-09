@@ -1,0 +1,25 @@
+{
+  "type": "Actor",
+  "folder": "zJ2bHaaG7PBFwI3M",
+  "name": "Dragons",
+  "color": null,
+  "flags": {
+    "emblem-rpg": {
+      "icon": "modules/emblem-rpg-content/assets/actors/Dragons.png"
+    }
+  },
+  "sorting": "m",
+  "_id": "Hufx88BLWxGOzG7v",
+  "description": "",
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.3",
+    "createdTime": 1791506018443,
+    "modifiedTime": 1791506018443,
+    "lastModifiedBy": "emblembuilder000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "_key": "!folders!Hufx88BLWxGOzG7v"
+}

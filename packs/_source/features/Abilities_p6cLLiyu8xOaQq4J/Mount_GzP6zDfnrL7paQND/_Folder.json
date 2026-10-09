@@ -1,0 +1,25 @@
+{
+  "type": "Item",
+  "folder": "p6cLLiyu8xOaQq4J",
+  "name": "Mount",
+  "color": null,
+  "flags": {
+    "emblem-rpg": {
+      "icon": ""
+    }
+  },
+  "sorting": "m",
+  "_id": "GzP6zDfnrL7paQND",
+  "description": "",
+  "sort": 300000,
+  "_stats": {
+    "exportSource": null,
+    "coreVersion": "14.366",
+    "systemId": "emblem-rpg",
+    "systemVersion": "0.2.0",
+    "lastModifiedBy": null,
+    "createdTime": null,
+    "modifiedTime": null
+  },
+  "_key": "!folders!GzP6zDfnrL7paQND"
+}

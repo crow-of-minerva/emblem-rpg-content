@@ -1,0 +1,1235 @@
+{
+  "name": "Purge",
+  "type": "Spell",
+  "img": "modules/emblem-rpg-content/assets/spells/divine/Purge.png",
+  "system": {
+    "isWielded": false,
+    "isWorn": false,
+    "isEquipped": false,
+    "description": "Calls upon the heavens to smite down upon a foe with divine wrath. This is a very long range spell that becomes increasingly inaccurate the farther out it is aimed. Ignores LoS.",
+    "itemType": "Attack",
+    "refreshes": true,
+    "cost": 0,
+    "uses": {
+      "current": 3,
+      "max": 3,
+      "type": "limited",
+      "scaling": {
+        "factor": "Level",
+        "subject": "",
+        "type": "Additive",
+        "multiplier": 1,
+        "thresholds": [],
+        "formula": "",
+        "addToBase": false,
+        "roundDown": false
+      }
+    },
+    "consumableData": {
+      "effect": "",
+      "stat": "",
+      "statValue": 0,
+      "growth": "",
+      "growthValue": 0
+    },
+    "wgt": 12,
+    "modifiers": [
+      {
+        "name": "4-Rng Penalty",
+        "target": "acc",
+        "quantity": "-1",
+        "condition": "",
+        "conditionTree": {
+          "kind": "group",
+          "op": "and",
+          "children": [
+            {
+              "kind": "compare",
+              "left": "distance",
+              "op": ">",
+              "right": {
+                "literal": 3
+              }
+            }
+          ]
+        },
+        "requiresEquipped": true,
+        "requiresActivation": false,
+        "stackable": false,
+        "kind": "standard",
+        "targetType": "All"
+      },
+      {
+        "name": "5-Rng Penalty",
+        "target": "acc",
+        "quantity": "-1",
+        "condition": "",
+        "conditionTree": {
+          "kind": "group",
+          "op": "and",
+          "children": [
+            {
+              "kind": "compare",
+              "left": "distance",
+              "op": ">",
+              "right": {
+                "literal": 4
+              }
+            }
+          ]
+        },
+        "requiresEquipped": true,
+        "requiresActivation": false,
+        "stackable": false,
+        "kind": "standard",
+        "targetType": "All"
+      },
+      {
+        "name": "6-Rng Penalty",
+        "target": "acc",
+        "quantity": "-1",
+        "condition": "",
+        "conditionTree": {
+          "kind": "group",
+          "op": "and",
+          "children": [
+            {
+              "kind": "compare",
+              "left": "distance",
+              "op": ">",
+              "right": {
+                "literal": 5
+              }
+            }
+          ]
+        },
+        "requiresEquipped": true,
+        "requiresActivation": false,
+        "stackable": false,
+        "kind": "standard",
+        "targetType": "All"
+      },
+      {
+        "name": "7-Rng Penalty",
+        "target": "acc",
+        "quantity": "-1",
+        "condition": "",
+        "conditionTree": {
+          "kind": "group",
+          "op": "and",
+          "children": [
+            {
+              "kind": "compare",
+              "left": "distance",
+              "op": ">",
+              "right": {
+                "literal": 6
+              }
+            }
+          ]
+        },
+        "requiresEquipped": true,
+        "requiresActivation": false,
+        "stackable": false,
+        "kind": "standard",
+        "targetType": "All"
+      },
+      {
+        "name": "8-Rng Penalty",
+        "target": "acc",
+        "quantity": "-1",
+        "condition": "",
+        "conditionTree": {
+          "kind": "group",
+          "op": "and",
+          "children": [
+            {
+              "kind": "compare",
+              "left": "distance",
+              "op": ">",
+              "right": {
+                "literal": 7
+              }
+            }
+          ]
+        },
+        "requiresEquipped": true,
+        "requiresActivation": false,
+        "stackable": false,
+        "kind": "standard",
+        "targetType": "All"
+      },
+      {
+        "name": "9-Rng Penalty",
+        "target": "acc",
+        "quantity": "-1",
+        "condition": "",
+        "conditionTree": {
+          "kind": "group",
+          "op": "and",
+          "children": [
+            {
+              "kind": "compare",
+              "left": "distance",
+              "op": ">",
+              "right": {
+                "literal": 8
+              }
+            }
+          ]
+        },
+        "requiresEquipped": true,
+        "requiresActivation": false,
+        "stackable": false,
+        "kind": "standard",
+        "targetType": "All"
+      },
+      {
+        "name": "10-Rng Penalty",
+        "target": "acc",
+        "quantity": "-1",
+        "condition": "",
+        "conditionTree": {
+          "kind": "group",
+          "op": "and",
+          "children": [
+            {
+              "kind": "compare",
+              "left": "distance",
+              "op": ">",
+              "right": {
+                "literal": 9
+              }
+            }
+          ]
+        },
+        "requiresEquipped": true,
+        "requiresActivation": false,
+        "stackable": false,
+        "kind": "standard",
+        "targetType": "All"
+      }
+    ],
+    "effectData": {
+      "type": "",
+      "rng": "1",
+      "rngType": "Single",
+      "targets": 1,
+      "targetType": "Any",
+      "locationRng": 0,
+      "savingThrowDC": {
+        "required": false,
+        "base": 0,
+        "attribute": "None",
+        "targetAttribute": "None",
+        "ignoreForFriendly": false
+      },
+      "deliveryType": "Saving Throw",
+      "skillCheckDC": {
+        "required": false,
+        "base": 0,
+        "skill": "None",
+        "targetAttribute": "None",
+        "ignoreForFriendly": false
+      },
+      "params": [],
+      "rngShape": "Normal",
+      "losRule": "ignoreLoS",
+      "rngScaling": {
+        "factor": "None",
+        "subject": "",
+        "type": "Additive",
+        "multiplier": 1,
+        "thresholds": [],
+        "formula": "",
+        "addToBase": false,
+        "roundDown": false
+      },
+      "gridColor": "Red",
+      "groundValidSquares": "All",
+      "groundMaxElevDiff": 0,
+      "consumeOnFailure": true,
+      "groundUnoccupiedOnly": true
+    },
+    "actionType": "Standard Action",
+    "wepArtData": {
+      "cost": 0,
+      "brawling": false,
+      "blade": false,
+      "polearm": false,
+      "heavy": false,
+      "bow": false,
+      "covert": false
+    },
+    "craftingData": {
+      "refinement": {
+        "tiers": [
+          {
+            "materials": [],
+            "skillCheck": "",
+            "modifiers": {
+              "atk": null,
+              "brk": null,
+              "wgt": null,
+              "acc": null,
+              "crit": null,
+              "durability": null,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": ""
+            },
+            "enabled": false,
+            "xpReq": 3,
+            "forgeMult": null
+          },
+          {
+            "materials": [],
+            "skillCheck": "",
+            "modifiers": {
+              "atk": null,
+              "brk": null,
+              "wgt": null,
+              "acc": null,
+              "crit": null,
+              "durability": null,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": ""
+            },
+            "enabled": false,
+            "xpReq": 6,
+            "forgeMult": null
+          },
+          {
+            "materials": [],
+            "skillCheck": "",
+            "modifiers": {
+              "atk": null,
+              "brk": null,
+              "wgt": null,
+              "acc": null,
+              "crit": null,
+              "durability": null,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": ""
+            },
+            "enabled": false,
+            "xpReq": 9,
+            "forgeMult": null
+          },
+          {
+            "materials": [],
+            "skillCheck": "",
+            "modifiers": {
+              "atk": null,
+              "brk": null,
+              "wgt": null,
+              "acc": null,
+              "crit": null,
+              "durability": null,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": ""
+            },
+            "enabled": false,
+            "xpReq": 12,
+            "forgeMult": null
+          },
+          {
+            "materials": [],
+            "skillCheck": "",
+            "modifiers": {
+              "atk": null,
+              "brk": null,
+              "wgt": null,
+              "acc": null,
+              "crit": null,
+              "durability": null,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": ""
+            },
+            "enabled": false,
+            "xpReq": 15,
+            "forgeMult": null
+          }
+        ]
+      },
+      "creation": {
+        "materials": [],
+        "difficultyClass": 0,
+        "skillCheck": "Nature"
+      },
+      "forging": {
+        "enabled": false,
+        "forgeMult": 1,
+        "skillCheck": "Handicraft",
+        "materials": []
+      },
+      "forgingXP": 0
+    },
+    "weapon": {
+      "req": "Divine",
+      "rank": 5,
+      "atk": "12",
+      "rng": "3-10",
+      "acc": 2,
+      "brk": 3,
+      "crit": 0,
+      "effectiveAgainst": {
+        "infantry": false,
+        "cavalry": false,
+        "flying": false,
+        "beast": false,
+        "dragon": false,
+        "undead": false,
+        "monster": false,
+        "magic": false,
+        "armored": false
+      },
+      "dmgTypes": {
+        "fire": false,
+        "holy": true,
+        "slashing": false,
+        "piercing": false,
+        "missile": false,
+        "ice": false,
+        "lightning": false,
+        "wind": false,
+        "arcane": false,
+        "decay": false,
+        "shadow": false,
+        "randomize": false,
+        "crushing": false,
+        "slashingConditionTree": null,
+        "piercingConditionTree": null,
+        "crushingConditionTree": null,
+        "missileConditionTree": null,
+        "fireConditionTree": null,
+        "iceConditionTree": null,
+        "lightningConditionTree": null,
+        "windConditionTree": null,
+        "arcaneConditionTree": null,
+        "decayConditionTree": null,
+        "shadowConditionTree": null,
+        "holyConditionTree": null
+      },
+      "atkStat": "Wit",
+      "extraAttacks": 0,
+      "noExtraAttacks": false,
+      "breaker": {
+        "blade": false,
+        "polearm": false,
+        "brawling": false,
+        "heavy": false,
+        "bow": false,
+        "covert": false,
+        "elemental": false,
+        "divine": false,
+        "occult": false,
+        "arcane": false
+      },
+      "twoHanded": false
+    },
+    "armor": {
+      "req": "",
+      "stn": 0,
+      "def": 0,
+      "res": 0,
+      "eva": 0,
+      "vulns": {
+        "slashing": false,
+        "piercing": false,
+        "missile": false,
+        "fire": false,
+        "ice": false,
+        "lightning": false,
+        "wind": false,
+        "arcane": false,
+        "decay": false,
+        "shadow": false,
+        "holy": false,
+        "crushing": false
+      },
+      "prots": {
+        "slashing": false,
+        "piercing": false,
+        "missile": false,
+        "fire": false,
+        "ice": false,
+        "lightning": false,
+        "wind": false,
+        "arcane": false,
+        "decay": false,
+        "shadow": false,
+        "holy": false,
+        "crushing": false
+      },
+      "brkRed": 0,
+      "critRed": 0
+    },
+    "aura": {
+      "enabled": false,
+      "rng": 0
+    },
+    "stealable": {
+      "flag": "None",
+      "dc": 10
+    },
+    "requirements": [],
+    "mountData": {
+      "stats": {
+        "mov": 0,
+        "hp": 0,
+        "stn": 0,
+        "eva": 0,
+        "atk": 0,
+        "spd": 0,
+        "acc": 0,
+        "crit": 0
+      },
+      "unitTypes": {
+        "cavalry": false,
+        "flying": false,
+        "dragon": false,
+        "beast": false,
+        "monster": false,
+        "undead": false
+      }
+    },
+    "tradeDisabled": false,
+    "anim": {
+      "attack": {
+        "melee": {
+          "steps": [
+            {
+              "kind": "sound",
+              "file": "modules/emblem-rpg-content/sound/magic/casting-light.wav",
+              "audioChannel": "environment"
+            },
+            {
+              "kind": "sound",
+              "file": "modules/emblem-rpg-content/sound/magic/light-casting.wav",
+              "audioChannel": "environment"
+            },
+            {
+              "kind": "effect",
+              "file": "jb2a.markers.light.intro.yellow",
+              "atLocation": "token",
+              "layer": "aboveInterface",
+              "scaleToObject": 2,
+              "playbackRate": 1.8
+            },
+            {
+              "kind": "effect",
+              "file": "blfx.spell.cast.impact.holy_light1.color1",
+              "atLocation": "token",
+              "layer": "aboveInterface",
+              "scaleToObject": 1.5,
+              "waitUntilFinished": -500
+            },
+            {
+              "kind": "sound",
+              "file": "psfx.2nd-level-spells.moonbeam.intro.v1.001",
+              "audioChannel": "environment",
+              "startTime": 1000,
+              "fadeOutAudio": 300,
+              "duration": 3000
+            },
+            {
+              "kind": "effect",
+              "file": "blfx.spell.template.circle.emanating.aura6.loop.rays.color1",
+              "atLocation": "target",
+              "layer": "aboveInterface",
+              "scaleToObject": 1,
+              "opacity": 0.7,
+              "fadeIn": 500,
+              "fadeOut": 500,
+              "duration": 3000,
+              "waitUntilFinished": -500
+            },
+            {
+              "kind": "sound",
+              "file": "psfx.2nd-level-spells.moonbeam.outro.v1.005",
+              "audioChannel": "environment",
+              "startTime": 600,
+              "fadeInAudio": 300
+            },
+            {
+              "kind": "effect",
+              "file": "blfx.spell.template.circle.emanating.aura6.loop.rays.color1",
+              "atLocation": "target",
+              "layer": "aboveInterface",
+              "scaleToObject": 2,
+              "opacity": 0.7,
+              "fadeIn": 500,
+              "fadeOut": 500,
+              "duration": 3000,
+              "waitUntilFinished": -1000
+            },
+            {
+              "kind": "sound",
+              "file": "psfx.class-features.divine-smite.v1.001.target",
+              "audioChannel": "environment"
+            },
+            {
+              "kind": "sound",
+              "file": "blfx.sound.misc.explosion.double.1",
+              "audioChannel": "environment",
+              "delay": 400
+            },
+            {
+              "kind": "sound",
+              "file": "psfx.class-features.divine-smite.v1.001.target",
+              "audioChannel": "environment",
+              "fadeInAudio": 200,
+              "delay": 1200
+            },
+            {
+              "kind": "sound",
+              "file": "blfx.sound.spell.cast.thunderwave.1",
+              "audioChannel": "environment",
+              "delay": 1200
+            },
+            {
+              "kind": "effect",
+              "file": "blfx.spell.impact.holy.sacred_flame1.color1",
+              "atLocation": "target",
+              "layer": "aboveInterface",
+              "scaleToObject": 5,
+              "repeats": {
+                "count": 3,
+                "delayMin": 500,
+                "delayMax": 1000
+              }
+            },
+            {
+              "kind": "effect",
+              "file": "blfx.spell.impact.damage.radiant.1.color1",
+              "atLocation": "target",
+              "layer": "aboveInterface",
+              "scaleToObject": 2,
+              "delay": 200,
+              "repeats": {
+                "count": 3,
+                "delayMin": 500,
+                "delayMax": 1000
+              }
+            }
+          ],
+          "duration": 8300
+        },
+        "ranged": {
+          "steps": [
+            {
+              "kind": "sound",
+              "file": "modules/emblem-rpg-content/sound/magic/casting-light.wav",
+              "audioChannel": "environment"
+            },
+            {
+              "kind": "sound",
+              "file": "modules/emblem-rpg-content/sound/magic/light-casting.wav",
+              "audioChannel": "environment"
+            },
+            {
+              "kind": "effect",
+              "file": "jb2a.markers.light.intro.yellow",
+              "atLocation": "token",
+              "layer": "aboveInterface",
+              "scaleToObject": 2,
+              "playbackRate": 1.8
+            },
+            {
+              "kind": "effect",
+              "file": "blfx.spell.cast.impact.holy_light1.color1",
+              "atLocation": "token",
+              "layer": "aboveInterface",
+              "scaleToObject": 1.5,
+              "waitUntilFinished": -500
+            },
+            {
+              "kind": "sound",
+              "file": "psfx.2nd-level-spells.moonbeam.intro.v1.001",
+              "audioChannel": "environment",
+              "startTime": 1000,
+              "fadeOutAudio": 300,
+              "duration": 3000
+            },
+            {
+              "kind": "effect",
+              "file": "blfx.spell.template.circle.emanating.aura6.loop.rays.color1",
+              "atLocation": "target",
+              "layer": "aboveInterface",
+              "scaleToObject": 1,
+              "opacity": 0.7,
+              "fadeIn": 500,
+              "fadeOut": 500,
+              "duration": 3000,
+              "waitUntilFinished": -500
+            },
+            {
+              "kind": "sound",
+              "file": "psfx.2nd-level-spells.moonbeam.outro.v1.005",
+              "audioChannel": "environment",
+              "startTime": 600,
+              "fadeInAudio": 300
+            },
+            {
+              "kind": "effect",
+              "file": "blfx.spell.template.circle.emanating.aura6.loop.rays.color1",
+              "atLocation": "target",
+              "layer": "aboveInterface",
+              "scaleToObject": 2,
+              "opacity": 0.7,
+              "fadeIn": 500,
+              "fadeOut": 500,
+              "duration": 3000,
+              "waitUntilFinished": -1000
+            },
+            {
+              "kind": "sound",
+              "file": "psfx.class-features.divine-smite.v1.001.target",
+              "audioChannel": "environment"
+            },
+            {
+              "kind": "sound",
+              "file": "blfx.sound.misc.explosion.double.1",
+              "audioChannel": "environment",
+              "delay": 400
+            },
+            {
+              "kind": "sound",
+              "file": "psfx.class-features.divine-smite.v1.001.target",
+              "audioChannel": "environment",
+              "fadeInAudio": 200,
+              "delay": 1200
+            },
+            {
+              "kind": "sound",
+              "file": "blfx.sound.spell.cast.thunderwave.1",
+              "audioChannel": "environment",
+              "delay": 1200
+            },
+            {
+              "kind": "effect",
+              "file": "blfx.spell.impact.holy.sacred_flame1.color1",
+              "atLocation": "target",
+              "layer": "aboveInterface",
+              "scaleToObject": 5,
+              "repeats": {
+                "count": 3,
+                "delayMin": 500,
+                "delayMax": 1000
+              }
+            },
+            {
+              "kind": "effect",
+              "file": "blfx.spell.impact.damage.radiant.1.color1",
+              "atLocation": "target",
+              "layer": "aboveInterface",
+              "scaleToObject": 2,
+              "delay": 200,
+              "repeats": {
+                "count": 3,
+                "delayMin": 500,
+                "delayMax": 1000
+              }
+            }
+          ],
+          "duration": 8300
+        }
+      },
+      "critical": {
+        "melee": {
+          "steps": [
+            {
+              "kind": "sound",
+              "file": "psfx.casting.generic.002.001.0",
+              "audioChannel": "interface",
+              "volume": 0.2,
+              "fadeInAudio": 200,
+              "fadeOutAudio": 600,
+              "delay": 200,
+              "duration": 1600
+            },
+            {
+              "kind": "effect",
+              "file": "jb2a.particle_burst.01.circle.bluepurple",
+              "atLocation": "token",
+              "layer": "aboveInterface",
+              "scale": 0.3,
+              "startTime": 600,
+              "waitUntilFinished": -800,
+              "filter": {
+                "type": "ColorMatrix",
+                "params": {
+                  "hue": -195
+                }
+              }
+            },
+            {
+              "kind": "sound",
+              "file": "modules/emblem-rpg-content/sound/magic/casting-light.wav",
+              "audioChannel": "environment"
+            },
+            {
+              "kind": "sound",
+              "file": "modules/emblem-rpg-content/sound/magic/light-casting.wav",
+              "audioChannel": "environment"
+            },
+            {
+              "kind": "effect",
+              "file": "jb2a.markers.light.intro.yellow",
+              "atLocation": "token",
+              "layer": "aboveInterface",
+              "scaleToObject": 2,
+              "playbackRate": 1.8
+            },
+            {
+              "kind": "effect",
+              "file": "blfx.spell.cast.impact.holy_light1.color1",
+              "atLocation": "token",
+              "layer": "aboveInterface",
+              "scaleToObject": 1.5,
+              "waitUntilFinished": -500
+            },
+            {
+              "kind": "sound",
+              "file": "psfx.2nd-level-spells.moonbeam.intro.v1.001",
+              "audioChannel": "environment",
+              "startTime": 1000,
+              "fadeOutAudio": 300,
+              "duration": 3000
+            },
+            {
+              "kind": "effect",
+              "file": "blfx.spell.template.circle.emanating.aura6.loop.rays.color1",
+              "atLocation": "target",
+              "layer": "aboveInterface",
+              "scaleToObject": 1.2,
+              "opacity": 1,
+              "fadeIn": 500,
+              "fadeOut": 500,
+              "duration": 3000,
+              "waitUntilFinished": -500
+            },
+            {
+              "kind": "sound",
+              "file": "psfx.2nd-level-spells.moonbeam.outro.v1.005",
+              "audioChannel": "environment",
+              "startTime": 600,
+              "fadeInAudio": 300
+            },
+            {
+              "kind": "effect",
+              "file": "blfx.spell.template.circle.emanating.aura6.loop.rays.color1",
+              "atLocation": "target",
+              "layer": "aboveInterface",
+              "scaleToObject": 2.4,
+              "opacity": 1,
+              "fadeIn": 500,
+              "fadeOut": 500,
+              "duration": 3000,
+              "waitUntilFinished": -1000
+            },
+            {
+              "kind": "sound",
+              "file": "psfx.class-features.divine-smite.v1.001.target",
+              "audioChannel": "environment"
+            },
+            {
+              "kind": "sound",
+              "file": "blfx.sound.misc.explosion.double.1",
+              "audioChannel": "environment",
+              "delay": 400
+            },
+            {
+              "kind": "sound",
+              "file": "psfx.class-features.divine-smite.v1.001.target",
+              "audioChannel": "environment",
+              "fadeInAudio": 200,
+              "delay": 1200
+            },
+            {
+              "kind": "sound",
+              "file": "blfx.sound.spell.cast.thunderwave.1",
+              "audioChannel": "environment",
+              "delay": 1200
+            },
+            {
+              "kind": "effect",
+              "file": "blfx.spell.impact.holy.sacred_flame1.color1",
+              "atLocation": "target",
+              "layer": "aboveInterface",
+              "scaleToObject": 10,
+              "hue": 20,
+              "repeats": {
+                "count": 3,
+                "delayMin": 500,
+                "delayMax": 1000
+              }
+            },
+            {
+              "kind": "effect",
+              "file": "blfx.spell.impact.damage.radiant.1.color1",
+              "atLocation": "target",
+              "layer": "aboveInterface",
+              "scaleToObject": 3,
+              "delay": 200,
+              "repeats": {
+                "count": 3,
+                "delayMin": 500,
+                "delayMax": 1000
+              }
+            },
+            {
+              "kind": "effect",
+              "file": "blfx.spell.template.circle.crack1.ground1.orange",
+              "atLocation": "target",
+              "layer": "belowTokens",
+              "scaleToObject": 3,
+              "hue": 15,
+              "delay": 1200,
+              "repeats": {
+                "count": 3,
+                "delayMin": 500,
+                "delayMax": 1000
+              }
+            }
+          ],
+          "duration": 10000
+        },
+        "ranged": {
+          "steps": [
+            {
+              "kind": "sound",
+              "file": "psfx.casting.generic.002.001.0",
+              "audioChannel": "interface",
+              "volume": 0.2,
+              "fadeInAudio": 200,
+              "fadeOutAudio": 600,
+              "delay": 200,
+              "duration": 1600
+            },
+            {
+              "kind": "effect",
+              "file": "jb2a.particle_burst.01.circle.bluepurple",
+              "atLocation": "token",
+              "layer": "aboveInterface",
+              "scale": 0.3,
+              "startTime": 600,
+              "waitUntilFinished": -800,
+              "filter": {
+                "type": "ColorMatrix",
+                "params": {
+                  "hue": -195
+                }
+              }
+            },
+            {
+              "kind": "sound",
+              "file": "modules/emblem-rpg-content/sound/magic/casting-light.wav",
+              "audioChannel": "environment"
+            },
+            {
+              "kind": "sound",
+              "file": "modules/emblem-rpg-content/sound/magic/light-casting.wav",
+              "audioChannel": "environment"
+            },
+            {
+              "kind": "effect",
+              "file": "jb2a.markers.light.intro.yellow",
+              "atLocation": "token",
+              "layer": "aboveInterface",
+              "scaleToObject": 2,
+              "playbackRate": 1.8
+            },
+            {
+              "kind": "effect",
+              "file": "blfx.spell.cast.impact.holy_light1.color1",
+              "atLocation": "token",
+              "layer": "aboveInterface",
+              "scaleToObject": 1.5,
+              "waitUntilFinished": -500
+            },
+            {
+              "kind": "sound",
+              "file": "psfx.2nd-level-spells.moonbeam.intro.v1.001",
+              "audioChannel": "environment",
+              "startTime": 1000,
+              "fadeOutAudio": 300,
+              "duration": 3000
+            },
+            {
+              "kind": "effect",
+              "file": "blfx.spell.template.circle.emanating.aura6.loop.rays.color1",
+              "atLocation": "target",
+              "layer": "aboveInterface",
+              "scaleToObject": 1.2,
+              "opacity": 1,
+              "fadeIn": 500,
+              "fadeOut": 500,
+              "duration": 3000,
+              "waitUntilFinished": -500
+            },
+            {
+              "kind": "sound",
+              "file": "psfx.2nd-level-spells.moonbeam.outro.v1.005",
+              "audioChannel": "environment",
+              "startTime": 600,
+              "fadeInAudio": 300
+            },
+            {
+              "kind": "effect",
+              "file": "blfx.spell.template.circle.emanating.aura6.loop.rays.color1",
+              "atLocation": "target",
+              "layer": "aboveInterface",
+              "scaleToObject": 2.4,
+              "opacity": 1,
+              "fadeIn": 500,
+              "fadeOut": 500,
+              "duration": 3000,
+              "waitUntilFinished": -1000
+            },
+            {
+              "kind": "sound",
+              "file": "psfx.class-features.divine-smite.v1.001.target",
+              "audioChannel": "environment"
+            },
+            {
+              "kind": "sound",
+              "file": "blfx.sound.misc.explosion.double.1",
+              "audioChannel": "environment",
+              "delay": 400
+            },
+            {
+              "kind": "sound",
+              "file": "psfx.class-features.divine-smite.v1.001.target",
+              "audioChannel": "environment",
+              "fadeInAudio": 200,
+              "delay": 1200
+            },
+            {
+              "kind": "sound",
+              "file": "blfx.sound.spell.cast.thunderwave.1",
+              "audioChannel": "environment",
+              "delay": 1200
+            },
+            {
+              "kind": "effect",
+              "file": "blfx.spell.impact.holy.sacred_flame1.color1",
+              "atLocation": "target",
+              "layer": "aboveInterface",
+              "scaleToObject": 10,
+              "hue": 20,
+              "repeats": {
+                "count": 3,
+                "delayMin": 500,
+                "delayMax": 1000
+              }
+            },
+            {
+              "kind": "effect",
+              "file": "blfx.spell.impact.damage.radiant.1.color1",
+              "atLocation": "target",
+              "layer": "aboveInterface",
+              "scaleToObject": 3,
+              "delay": 200,
+              "repeats": {
+                "count": 3,
+                "delayMin": 500,
+                "delayMax": 1000
+              }
+            },
+            {
+              "kind": "effect",
+              "file": "blfx.spell.template.circle.crack1.ground1.orange",
+              "atLocation": "target",
+              "layer": "belowTokens",
+              "scaleToObject": 3,
+              "hue": 15,
+              "delay": 1200,
+              "repeats": {
+                "count": 3,
+                "delayMin": 500,
+                "delayMax": 1000
+              }
+            }
+          ],
+          "duration": 10000
+        }
+      },
+      "activation": null
+    },
+    "effects": []
+  },
+  "folder": "mW0T2v8RpaOaFfGe",
+  "_id": "aEhNN5PNcI3H943I",
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1789698776696,
+    "modifiedTime": 1790612898336,
+    "lastModifiedBy": "emblembuilder000",
+    "exportSource": null
+  },
+  "_key": "!items!aEhNN5PNcI3H943I"
+}

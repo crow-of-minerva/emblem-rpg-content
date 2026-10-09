@@ -1,0 +1,36 @@
+{
+  "name": "Lentils",
+  "type": "Resource",
+  "img": "modules/emblem-rpg-content/assets/items/resources/Lentils.png",
+  "folder": "UMzhOzhivY3Pp1Kn",
+  "ownership": {
+    "default": 0
+  },
+  "sort": 0,
+  "effects": [],
+  "flags": {},
+  "system": {
+    "description": "Cheap, plain and endlessly stretchable. Half the armies in the world march on them.",
+    "resourceType": "Ingredient",
+    "foodType": "Legume",
+    "amount": 1,
+    "cost": {
+      "perUnit": 1
+    },
+    "stealable": {
+      "flag": "None",
+      "dc": 10
+    }
+  },
+  "_id": "NbIWurthmcCPlzMY",
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1789663508316,
+    "modifiedTime": 1790612899337,
+    "lastModifiedBy": "emblembuilder000",
+    "exportSource": null
+  },
+  "_key": "!items!NbIWurthmcCPlzMY"
+}

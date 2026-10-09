@@ -1,0 +1,40 @@
+{
+  "name": "Magic Dust",
+  "type": "Resource",
+  "img": "modules/emblem-rpg-content/assets/items/resources/Magic%20Dust.png",
+  "system": {
+    "description": "Fine particles infused with residual magical energy. Used in enchanting, rituals, and spell components. Unstable in large quantities.",
+    "resourceType": "Reagent",
+    "foodType": "",
+    "amount": 1,
+    "cost": {
+      "perUnit": 100
+    },
+    "stealable": {
+      "flag": "None",
+      "dc": 10
+    }
+  },
+  "folder": "wmexYjZhUF91f0Ux",
+  "_id": "RaJAJP5XJuEDTNwb",
+  "effects": [],
+  "flags": {
+    "emblem-rpg": {
+      "pixelArt": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1787465482467,
+    "modifiedTime": 1790612899338,
+    "lastModifiedBy": "emblembuilder000",
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "sort": 100000,
+  "_key": "!items!RaJAJP5XJuEDTNwb"
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Mithril",
+  "type": "Resource",
+  "img": "modules/emblem-rpg-content/assets/items/resources/Mithril.png",
+  "system": {
+    "description": "A rare, lightweight metal stronger than steel. Highly sought after for masterwork weapons and armor. Durable, easy to enchant, and extremely valuable.",
+    "resourceType": "Material",
+    "foodType": "",
+    "amount": 1,
+    "cost": {
+      "perUnit": 1500
+    },
+    "stealable": {
+      "flag": "None",
+      "dc": 10
+    }
+  },
+  "folder": "UFGtWXU9zX41I7Dl",
+  "_id": "uR0NkGF6xYp9HEVg",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "exportSource": null,
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1786773642209,
+    "modifiedTime": 1790612899860,
+    "lastModifiedBy": "emblembuilder000"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "sort": 400000,
+  "_key": "!items!uR0NkGF6xYp9HEVg"
+}

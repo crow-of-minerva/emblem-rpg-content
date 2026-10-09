@@ -1,0 +1,36 @@
+{
+  "name": "Hide",
+  "type": "Resource",
+  "img": "modules/emblem-rpg-content/assets/items/resources/Hide.png",
+  "system": {
+    "description": "The skin of a slain beast. Can be made into leather.",
+    "resourceType": "Textile",
+    "foodType": "",
+    "amount": 1,
+    "cost": {
+      "perUnit": 15
+    },
+    "stealable": {
+      "flag": "None",
+      "dc": 10
+    }
+  },
+  "folder": "20z2JS2zSPhXjk8X",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "exportSource": null,
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1786773642206,
+    "modifiedTime": 1790612899329,
+    "lastModifiedBy": "emblembuilder000"
+  },
+  "_id": "G5hnrqSK7vvC46he",
+  "ownership": {
+    "default": 0
+  },
+  "sort": 100000,
+  "_key": "!items!G5hnrqSK7vvC46he"
+}

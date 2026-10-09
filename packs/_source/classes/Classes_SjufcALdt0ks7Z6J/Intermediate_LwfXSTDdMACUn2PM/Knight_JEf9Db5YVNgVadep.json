@@ -1,0 +1,220 @@
+{
+  "name": "Knight",
+  "type": "Class",
+  "img": "modules/emblem-rpg-content/assets/classes/Knight.png",
+  "folder": "LwfXSTDdMACUn2PM",
+  "system": {
+    "description": "A fearsome mounted warrior. Boasts great melee potential combined with high mobility. While mounted, can utilize the Lance weapon to be highly effective against standard Infantry units.",
+    "tier": "Intermediate",
+    "baseStats": {
+      "hp": 26,
+      "stn": 3,
+      "mov": 5,
+      "bld": 9,
+      "mgt": 6,
+      "agi": 4,
+      "tqn": 5,
+      "wit": 2,
+      "cha": 4,
+      "def": 1,
+      "res": 1,
+      "spd": 2,
+      "eva": 10,
+      "acc": 0,
+      "crit": 2
+    },
+    "baseGrowths": {
+      "hp": 40,
+      "mgt": 30,
+      "agi": 20,
+      "tqn": 30,
+      "wit": 10,
+      "cha": 20,
+      "def": 15,
+      "res": 10
+    },
+    "baseCaps": {
+      "hp": 40,
+      "mgt": 17,
+      "agi": 12,
+      "tqn": 19,
+      "wit": 11,
+      "cha": 15,
+      "def": 8,
+      "res": 5
+    },
+    "proficiencies": {
+      "brawling": 0,
+      "blade": 1,
+      "polearm": 2,
+      "heavy": 0,
+      "bow": 0,
+      "covert": 0,
+      "arcane": 0,
+      "elemental": 0,
+      "divine": 0,
+      "occult": 0,
+      "armor": 2,
+      "riding": true,
+      "flying": false
+    },
+    "skills": {
+      "athletics": 1,
+      "finesse": 0,
+      "trading": 0,
+      "civics": 1,
+      "handicraft": 1,
+      "sociability": 0,
+      "command": 1,
+      "nature": 0,
+      "perception": 0,
+      "performance": 0,
+      "reason": 0,
+      "esoteric": 0
+    },
+    "unitType": {
+      "infantry": true,
+      "dragon": false,
+      "monster": false,
+      "beast": false,
+      "undead": false
+    },
+    "features": [
+      {
+        "_id": "KsGmNPtNcE1bFuRt",
+        "lvl": 5,
+        "acquisitionType": "all",
+        "choiceCount": 1,
+        "unique": true,
+        "exceptions": "",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.vP4YByLwRiAkMSGt",
+            "name": "Warhorse",
+            "img": "modules/emblem-rpg-content/assets/abilities/Warhorse.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      },
+      {
+        "_id": "MNeQpAeMPAejdDby",
+        "lvl": 13,
+        "acquisitionType": "all",
+        "choiceCount": 1,
+        "unique": true,
+        "exceptions": "",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.v4MchS8Dp1bs4uGO",
+            "name": "Canter",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/Canter.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      },
+      {
+        "_id": "WyZ0adhl97b78qle",
+        "lvl": 17,
+        "acquisitionType": "choice",
+        "choiceCount": 1,
+        "unique": false,
+        "exceptions": "",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.obIljSzNFX4ptXHI",
+            "name": "Cavalry Charge",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/Cavalry Charge.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.jjD3epK31xegnUzY",
+            "name": "Knightly Valor",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/Knightly Valor.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      },
+      {
+        "_id": "VPrdfFGpJC00fYM8",
+        "lvl": 9,
+        "acquisitionType": "choice",
+        "choiceCount": 1,
+        "unique": false,
+        "exceptions": "",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.aABuAu2iBUbZdVkP",
+            "name": "Prowess: Polearm",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/Prowess_ Polearm.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.XXCdsRFvykAiGpmh",
+            "name": "Heavy Weapons Proficiency",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/Heavy%20Weapons%20Proficiency.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.SRtFYQIDtcNESFSs",
+            "name": "Charm +2",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/Charm +2.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      }
+    ],
+    "promotions": []
+  },
+  "_id": "JEf9Db5YVNgVadep",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1789179944368,
+    "modifiedTime": 1790612897676,
+    "lastModifiedBy": "emblembuilder000",
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "sort": 600000,
+  "_key": "!items!JEf9Db5YVNgVadep"
+}

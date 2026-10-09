@@ -1,0 +1,4438 @@
+{
+  "folder": "ALU8hvYLWcMYqGyp",
+  "name": "Reaver",
+  "type": "Character",
+  "img": "modules/emblem-rpg-content/assets/actors/reaver-9LY/reaver-avatar.png",
+  "system": {
+    "notes": {
+      "biography": "",
+      "gm": ""
+    },
+    "faction": {
+      "role": "Enemy",
+      "name": "",
+      "color": "#504f49",
+      "icon": ""
+    },
+    "art": {
+      "voicePath": "",
+      "footsteps": {
+        "onFoot": {
+          "preset": "ghoul",
+          "customPath": ""
+        },
+        "armored": {
+          "preset": "default",
+          "customPath": ""
+        },
+        "mounted": {
+          "preset": "default",
+          "customPath": ""
+        },
+        "flying": {
+          "preset": "default",
+          "customPath": ""
+        }
+      },
+      "tokens": {
+        "default": "modules/emblem-rpg-content/assets/actors/reaver-9LY/reaver-default.png"
+      },
+      "tokenScales": {
+        "default": 0.6,
+        "avatar": 3
+      },
+      "tokenOffsetsY": {
+        "default": -0.05
+      },
+      "promotions": [],
+      "tabs": [
+        {
+          "id": "bOk344d3tMb2Ly87",
+          "name": "Reaver",
+          "avatar": "",
+          "tokens": {
+            "default": "modules/emblem-rpg-content/assets/actors/reaver-9LY/reaver-reaver-default.png",
+            "armored": "",
+            "cavalry": "",
+            "armoredCavalry": "",
+            "flying": ""
+          },
+          "tokenScales": {
+            "default": 0.6,
+            "armored": 1,
+            "cavalry": 1,
+            "armoredCavalry": 1,
+            "flying": 1
+          },
+          "tokenOffsetsY": {
+            "default": -0.05,
+            "armored": 0,
+            "cavalry": 0,
+            "armoredCavalry": 0,
+            "flying": 0
+          },
+          "entries": [
+            {
+              "name": "On Evade",
+              "triggers": [
+                "On Evade"
+              ],
+              "guards": [],
+              "specificItemUuid": "",
+              "specificAbilityIds": "",
+              "tokens": {
+                "default": "modules/emblem-rpg-content/assets/actors/reaver-9LY/reaver-reaver-ddg.png",
+                "armored": "",
+                "cavalry": "",
+                "armoredCavalry": "",
+                "flying": ""
+              },
+              "id": "legacy-entry-0"
+            },
+            {
+              "name": "On Attack",
+              "triggers": [
+                "On Attack"
+              ],
+              "guards": [],
+              "specificItemUuid": "",
+              "specificAbilityIds": "",
+              "tokens": {
+                "default": "modules/emblem-rpg-content/assets/actors/reaver-9LY/reaver-reaver-atk.png",
+                "armored": "",
+                "cavalry": "",
+                "armoredCavalry": "",
+                "flying": ""
+              },
+              "id": "legacy-entry-1"
+            },
+            {
+              "name": "On Crit",
+              "triggers": [
+                "On Crit"
+              ],
+              "guards": [],
+              "specificItemUuid": "",
+              "specificAbilityIds": "",
+              "tokens": {
+                "default": "modules/emblem-rpg-content/assets/actors/reaver-9LY/reaver-reaver-crit.png",
+                "armored": "",
+                "cavalry": "",
+                "armoredCavalry": "",
+                "flying": ""
+              },
+              "id": "legacy-entry-2"
+            }
+          ]
+        }
+      ],
+      "avatarScale": 3
+    },
+    "support": {
+      "affinity": "",
+      "partners": []
+    },
+    "stats": {
+      "hpMax": {
+        "base": 0,
+        "mod": 0,
+        "penalty": 0,
+        "aura": 0
+      },
+      "stnMax": {
+        "base": 0,
+        "mod": 0,
+        "penalty": 0,
+        "aura": 0
+      },
+      "mov": {
+        "base": 0,
+        "mod": 0,
+        "penalty": 0,
+        "aura": 0
+      },
+      "bld": {
+        "base": 0,
+        "mod": 0,
+        "penalty": 0,
+        "aura": 0
+      },
+      "mgt": {
+        "base": 0,
+        "mod": 0,
+        "penalty": 0,
+        "aura": 0
+      },
+      "agi": {
+        "base": 0,
+        "mod": 0,
+        "penalty": 0,
+        "aura": 0
+      },
+      "tqn": {
+        "base": 0,
+        "mod": 0,
+        "penalty": 0,
+        "aura": 0
+      },
+      "wit": {
+        "base": 0,
+        "mod": 0,
+        "penalty": 0,
+        "aura": 0
+      },
+      "cha": {
+        "base": 0,
+        "mod": 0,
+        "penalty": 0,
+        "aura": 0
+      },
+      "def": {
+        "base": 0,
+        "mod": 0,
+        "penalty": 0,
+        "aura": 0
+      },
+      "res": {
+        "base": 0,
+        "mod": 0,
+        "penalty": 0,
+        "aura": 0
+      },
+      "stnRegen": {
+        "base": 3,
+        "mod": 0,
+        "penalty": 0,
+        "aura": 0
+      }
+    },
+    "special": {
+      "extraLives": {
+        "value": 0,
+        "max": 0
+      },
+      "willpower": {
+        "value": 0,
+        "max": 0
+      }
+    },
+    "statuses": {
+      "grounded": false
+    },
+    "innateUnitType": {
+      "infantry": false,
+      "armored": false,
+      "cavalry": false,
+      "flying": false,
+      "dragon": false,
+      "beast": false,
+      "monster": false,
+      "undead": false
+    },
+    "growth": {
+      "hp": {
+        "base": 0,
+        "mod": 0
+      },
+      "mgt": {
+        "base": 0,
+        "mod": 0
+      },
+      "agi": {
+        "base": 0,
+        "mod": 0
+      },
+      "tqn": {
+        "base": 0,
+        "mod": 0
+      },
+      "wit": {
+        "base": 0,
+        "mod": 0
+      },
+      "cha": {
+        "base": 0,
+        "mod": 0
+      },
+      "def": {
+        "base": 0,
+        "mod": 0
+      },
+      "res": {
+        "base": 0,
+        "mod": 0
+      }
+    },
+    "caps": {
+      "hp": {
+        "base": 0,
+        "mod": 0
+      },
+      "mgt": {
+        "base": 0,
+        "mod": 0
+      },
+      "agi": {
+        "base": 0,
+        "mod": 0
+      },
+      "tqn": {
+        "base": 0,
+        "mod": 0
+      },
+      "wit": {
+        "base": 0,
+        "mod": 0
+      },
+      "cha": {
+        "base": 0,
+        "mod": 0
+      },
+      "def": {
+        "base": 0,
+        "mod": 0
+      },
+      "res": {
+        "base": 0,
+        "mod": 0
+      }
+    },
+    "skills": {
+      "athletics": {
+        "base": 0,
+        "xp": 0
+      },
+      "finesse": {
+        "base": 0,
+        "xp": 0
+      },
+      "trading": {
+        "base": 0,
+        "xp": 0
+      },
+      "civics": {
+        "base": 0,
+        "xp": 0
+      },
+      "handicraft": {
+        "base": 0,
+        "xp": 0
+      },
+      "sociability": {
+        "base": 0,
+        "xp": 0
+      },
+      "command": {
+        "base": 0,
+        "xp": 0
+      },
+      "nature": {
+        "base": 0,
+        "xp": 0
+      },
+      "perception": {
+        "base": 0,
+        "xp": 0
+      },
+      "performance": {
+        "base": 0,
+        "xp": 0
+      },
+      "reason": {
+        "base": 0,
+        "xp": 0
+      },
+      "esoteric": {
+        "base": 0,
+        "xp": 0
+      }
+    },
+    "prof": {
+      "brawling": {
+        "base": 0,
+        "xp": 0,
+        "maxE": 50,
+        "maxD": 50,
+        "maxC": 75,
+        "maxB": 100,
+        "maxA": 125,
+        "maxS": 150
+      },
+      "blade": {
+        "base": 0,
+        "xp": 0,
+        "maxE": 50,
+        "maxD": 50,
+        "maxC": 75,
+        "maxB": 100,
+        "maxA": 125,
+        "maxS": 150
+      },
+      "polearm": {
+        "base": 0,
+        "xp": 0,
+        "maxE": 50,
+        "maxD": 50,
+        "maxC": 75,
+        "maxB": 100,
+        "maxA": 125,
+        "maxS": 150
+      },
+      "heavy": {
+        "base": 0,
+        "xp": 0,
+        "maxE": 50,
+        "maxD": 50,
+        "maxC": 75,
+        "maxB": 100,
+        "maxA": 125,
+        "maxS": 150
+      },
+      "bow": {
+        "base": 0,
+        "xp": 0,
+        "maxE": 50,
+        "maxD": 50,
+        "maxC": 75,
+        "maxB": 100,
+        "maxA": 125,
+        "maxS": 150
+      },
+      "covert": {
+        "base": 0,
+        "xp": 0,
+        "maxE": 50,
+        "maxD": 50,
+        "maxC": 75,
+        "maxB": 100,
+        "maxA": 125,
+        "maxS": 150
+      },
+      "arcane": {
+        "base": 0,
+        "xp": 0,
+        "maxE": 50,
+        "maxD": 50,
+        "maxC": 75,
+        "maxB": 100,
+        "maxA": 125,
+        "maxS": 150
+      },
+      "elemental": {
+        "base": 0,
+        "xp": 0,
+        "maxE": 50,
+        "maxD": 50,
+        "maxC": 75,
+        "maxB": 100,
+        "maxA": 125,
+        "maxS": 150
+      },
+      "divine": {
+        "base": 0,
+        "xp": 0,
+        "maxE": 50,
+        "maxD": 50,
+        "maxC": 75,
+        "maxB": 100,
+        "maxA": 125,
+        "maxS": 150
+      },
+      "occult": {
+        "base": 0,
+        "xp": 0,
+        "maxE": 50,
+        "maxD": 50,
+        "maxC": 75,
+        "maxB": 100,
+        "maxA": 125,
+        "maxS": 150
+      },
+      "armor": 0,
+      "riding": 0
+    },
+    "turn": {
+      "attackIndex": 0
+    },
+    "progression": {
+      "level": 5,
+      "experience": 0,
+      "maxLevel": 30,
+      "experienceThreshold": 100
+    },
+    "resources": {
+      "hp": {
+        "value": 22
+      },
+      "stn": {
+        "value": 3
+      }
+    }
+  },
+  "prototypeToken": {
+    "name": "Reaver",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/emblem-rpg-content/assets/actors/reaver-9LY/reaver-reaver-default.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1.2,
+      "scaleY": 1.2,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 50,
+    "bar1": {
+      "attribute": "resources.hp"
+    },
+    "bar2": {
+      "attribute": "resources.stn"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 5,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": {},
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {
+      "barbrawl": {
+        "resourceBars": {
+          "bar1": {
+            "id": "bar1",
+            "attribute": "resources.hp",
+            "label": "HP",
+            "position": "bottom-inner",
+            "ownerVisibility": 50,
+            "otherVisibility": 50,
+            "indentLeft": 10,
+            "indentRight": 10,
+            "style": "fraction",
+            "mincolor": "#651818",
+            "maxcolor": "#C32929",
+            "order": 1
+          },
+          "bar2": {
+            "id": "bar2",
+            "attribute": "resources.stn",
+            "label": "",
+            "position": "bottom-inner",
+            "ownerVisibility": 50,
+            "otherVisibility": 50,
+            "indentLeft": 10,
+            "indentRight": 10,
+            "style": "none",
+            "mincolor": "#815532",
+            "maxcolor": "#FFB638",
+            "order": 0
+          }
+        }
+      }
+    },
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "depth": 1
+  },
+  "items": [
+    {
+      "name": "Bloody Claws",
+      "type": "Equipment",
+      "img": "modules/emblem-rpg-content/assets/items/weapons/Bloody%20Claws.png",
+      "system": {
+        "isWielded": true,
+        "isWorn": false,
+        "isEquipped": false,
+        "description": "Inflicts 1 Bleeding stack on hit. Each Bleeding stack inflicts 1d4 unpreventable damage at the start of the unit's turn.",
+        "itemType": "Weapon",
+        "cost": 0,
+        "wgt": 0,
+        "stealable": {
+          "flag": "None",
+          "dc": 10
+        },
+        "actionType": "Standard Action",
+        "uses": {
+          "current": 20,
+          "max": 20,
+          "type": "infinite",
+          "scaling": {
+            "factor": "Level",
+            "subject": "",
+            "type": "Additive",
+            "multiplier": 1,
+            "thresholds": [],
+            "formula": "",
+            "addToBase": false,
+            "roundDown": false
+          }
+        },
+        "aura": {
+          "enabled": false,
+          "rng": 0
+        },
+        "wepArtData": {
+          "cost": 0,
+          "brawling": false,
+          "blade": false,
+          "polearm": false,
+          "heavy": false,
+          "bow": false,
+          "covert": false
+        },
+        "requirements": [],
+        "modifiers": [],
+        "effectData": {
+          "params": [],
+          "type": "",
+          "rng": "1",
+          "rngType": "Single",
+          "rngShape": "Normal",
+          "losRule": "normal",
+          "rngScaling": {
+            "factor": "None",
+            "subject": "",
+            "type": "Additive",
+            "multiplier": 1,
+            "thresholds": [],
+            "formula": "",
+            "addToBase": false,
+            "roundDown": false
+          },
+          "targets": 1,
+          "targetType": "Any",
+          "locationRng": 0,
+          "gridColor": "Red",
+          "groundValidSquares": "All",
+          "groundMaxElevDiff": 0,
+          "deliveryType": "Saving Throw",
+          "savingThrowDC": {
+            "required": false,
+            "base": 0,
+            "attribute": "None",
+            "targetAttribute": "None",
+            "ignoreForFriendly": false
+          },
+          "skillCheckDC": {
+            "required": false,
+            "base": 0,
+            "skill": "None",
+            "targetAttribute": "None",
+            "ignoreForFriendly": false
+          },
+          "consumeOnFailure": true,
+          "groundUnoccupiedOnly": true
+        },
+        "consumableData": {
+          "effect": "",
+          "stat": "",
+          "statValue": 0,
+          "growth": "",
+          "growthValue": 0
+        },
+        "weapon": {
+          "req": "Blade",
+          "rank": 0,
+          "twoHanded": false,
+          "dmgTypes": {
+            "slashing": true,
+            "slashingConditionTree": null,
+            "piercing": false,
+            "piercingConditionTree": null,
+            "crushing": false,
+            "crushingConditionTree": null,
+            "missile": false,
+            "missileConditionTree": null,
+            "fire": false,
+            "fireConditionTree": null,
+            "ice": false,
+            "iceConditionTree": null,
+            "lightning": false,
+            "lightningConditionTree": null,
+            "wind": false,
+            "windConditionTree": null,
+            "arcane": false,
+            "arcaneConditionTree": null,
+            "decay": false,
+            "decayConditionTree": null,
+            "shadow": false,
+            "shadowConditionTree": null,
+            "holy": false,
+            "holyConditionTree": null,
+            "randomize": false
+          },
+          "atkStat": "Might",
+          "atk": "5",
+          "rng": "1",
+          "acc": 3,
+          "brk": 1,
+          "crit": 0,
+          "extraAttacks": 0,
+          "noExtraAttacks": false,
+          "effectiveAgainst": {
+            "infantry": false,
+            "armored": false,
+            "cavalry": false,
+            "flying": false,
+            "dragon": false,
+            "beast": false,
+            "monster": false,
+            "undead": false,
+            "magic": false
+          },
+          "breaker": {
+            "brawling": false,
+            "blade": false,
+            "polearm": false,
+            "heavy": false,
+            "bow": false,
+            "covert": false,
+            "elemental": false,
+            "divine": false,
+            "occult": false,
+            "arcane": false
+          }
+        },
+        "armor": {
+          "req": "Light",
+          "def": 0,
+          "res": 0,
+          "stn": 0,
+          "eva": 0,
+          "brkRed": 0,
+          "critRed": 0,
+          "vulns": {
+            "slashing": false,
+            "piercing": false,
+            "crushing": false,
+            "missile": false,
+            "fire": false,
+            "ice": false,
+            "lightning": false,
+            "wind": false,
+            "arcane": false,
+            "decay": false,
+            "shadow": false,
+            "holy": false
+          },
+          "prots": {
+            "slashing": false,
+            "piercing": false,
+            "crushing": false,
+            "missile": false,
+            "fire": false,
+            "ice": false,
+            "lightning": false,
+            "wind": false,
+            "arcane": false,
+            "decay": false,
+            "shadow": false,
+            "holy": false
+          }
+        },
+        "mountData": {
+          "stats": {
+            "mov": 0,
+            "hp": 0,
+            "stn": 0,
+            "eva": 0,
+            "atk": 0,
+            "spd": 0,
+            "acc": 0,
+            "crit": 0
+          },
+          "unitTypes": {
+            "cavalry": false,
+            "flying": false,
+            "dragon": false,
+            "beast": false,
+            "monster": false,
+            "undead": false
+          }
+        },
+        "craftingData": {
+          "forging": {
+            "enabled": false,
+            "forgeMult": 1,
+            "skillCheck": "Handicraft",
+            "materials": []
+          },
+          "refinement": {
+            "tiers": [
+              {
+                "enabled": false,
+                "xpReq": 20,
+                "forgeMult": null,
+                "skillCheck": "",
+                "materials": [],
+                "modifiers": {
+                  "atk": null,
+                  "brk": null,
+                  "wgt": null,
+                  "acc": null,
+                  "crit": null,
+                  "durability": null,
+                  "stn": null,
+                  "def": null,
+                  "res": null,
+                  "wgtRed": null,
+                  "prots": {
+                    "slashing": false,
+                    "piercing": false,
+                    "crushing": false,
+                    "missile": false,
+                    "fire": false,
+                    "ice": false,
+                    "lightning": false,
+                    "wind": false,
+                    "arcane": false,
+                    "decay": false,
+                    "shadow": false,
+                    "holy": false
+                  },
+                  "dmgTypes": {
+                    "slashing": false,
+                    "piercing": false,
+                    "crushing": false,
+                    "missile": false,
+                    "fire": false,
+                    "ice": false,
+                    "lightning": false,
+                    "wind": false,
+                    "arcane": false,
+                    "decay": false,
+                    "shadow": false,
+                    "holy": false
+                  },
+                  "prot": ""
+                }
+              },
+              {
+                "enabled": false,
+                "xpReq": 40,
+                "forgeMult": null,
+                "skillCheck": "",
+                "materials": [],
+                "modifiers": {
+                  "atk": null,
+                  "brk": null,
+                  "wgt": null,
+                  "acc": null,
+                  "crit": null,
+                  "durability": null,
+                  "stn": null,
+                  "def": null,
+                  "res": null,
+                  "wgtRed": null,
+                  "prots": {
+                    "slashing": false,
+                    "piercing": false,
+                    "crushing": false,
+                    "missile": false,
+                    "fire": false,
+                    "ice": false,
+                    "lightning": false,
+                    "wind": false,
+                    "arcane": false,
+                    "decay": false,
+                    "shadow": false,
+                    "holy": false
+                  },
+                  "dmgTypes": {
+                    "slashing": false,
+                    "piercing": false,
+                    "crushing": false,
+                    "missile": false,
+                    "fire": false,
+                    "ice": false,
+                    "lightning": false,
+                    "wind": false,
+                    "arcane": false,
+                    "decay": false,
+                    "shadow": false,
+                    "holy": false
+                  },
+                  "prot": ""
+                }
+              },
+              {
+                "enabled": false,
+                "xpReq": 60,
+                "forgeMult": null,
+                "skillCheck": "",
+                "materials": [],
+                "modifiers": {
+                  "atk": null,
+                  "brk": null,
+                  "wgt": null,
+                  "acc": null,
+                  "crit": null,
+                  "durability": null,
+                  "stn": null,
+                  "def": null,
+                  "res": null,
+                  "wgtRed": null,
+                  "prots": {
+                    "slashing": false,
+                    "piercing": false,
+                    "crushing": false,
+                    "missile": false,
+                    "fire": false,
+                    "ice": false,
+                    "lightning": false,
+                    "wind": false,
+                    "arcane": false,
+                    "decay": false,
+                    "shadow": false,
+                    "holy": false
+                  },
+                  "dmgTypes": {
+                    "slashing": false,
+                    "piercing": false,
+                    "crushing": false,
+                    "missile": false,
+                    "fire": false,
+                    "ice": false,
+                    "lightning": false,
+                    "wind": false,
+                    "arcane": false,
+                    "decay": false,
+                    "shadow": false,
+                    "holy": false
+                  },
+                  "prot": ""
+                }
+              },
+              {
+                "enabled": false,
+                "xpReq": 80,
+                "forgeMult": null,
+                "skillCheck": "",
+                "materials": [],
+                "modifiers": {
+                  "atk": null,
+                  "brk": null,
+                  "wgt": null,
+                  "acc": null,
+                  "crit": null,
+                  "durability": null,
+                  "stn": null,
+                  "def": null,
+                  "res": null,
+                  "wgtRed": null,
+                  "prots": {
+                    "slashing": false,
+                    "piercing": false,
+                    "crushing": false,
+                    "missile": false,
+                    "fire": false,
+                    "ice": false,
+                    "lightning": false,
+                    "wind": false,
+                    "arcane": false,
+                    "decay": false,
+                    "shadow": false,
+                    "holy": false
+                  },
+                  "dmgTypes": {
+                    "slashing": false,
+                    "piercing": false,
+                    "crushing": false,
+                    "missile": false,
+                    "fire": false,
+                    "ice": false,
+                    "lightning": false,
+                    "wind": false,
+                    "arcane": false,
+                    "decay": false,
+                    "shadow": false,
+                    "holy": false
+                  },
+                  "prot": ""
+                }
+              },
+              {
+                "enabled": false,
+                "xpReq": 100,
+                "forgeMult": null,
+                "skillCheck": "",
+                "materials": [],
+                "modifiers": {
+                  "atk": null,
+                  "brk": null,
+                  "wgt": null,
+                  "acc": null,
+                  "crit": null,
+                  "durability": null,
+                  "stn": null,
+                  "def": null,
+                  "res": null,
+                  "wgtRed": null,
+                  "prots": {
+                    "slashing": false,
+                    "piercing": false,
+                    "crushing": false,
+                    "missile": false,
+                    "fire": false,
+                    "ice": false,
+                    "lightning": false,
+                    "wind": false,
+                    "arcane": false,
+                    "decay": false,
+                    "shadow": false,
+                    "holy": false
+                  },
+                  "dmgTypes": {
+                    "slashing": false,
+                    "piercing": false,
+                    "crushing": false,
+                    "missile": false,
+                    "fire": false,
+                    "ice": false,
+                    "lightning": false,
+                    "wind": false,
+                    "arcane": false,
+                    "decay": false,
+                    "shadow": false,
+                    "holy": false
+                  },
+                  "prot": ""
+                }
+              }
+            ]
+          },
+          "creation": {
+            "materials": [],
+            "difficultyClass": 0,
+            "skillCheck": "Nature"
+          },
+          "forgingXP": 0
+        },
+        "refreshes": false,
+        "tradeDisabled": false,
+        "anim": {
+          "attack": {
+            "melee": {
+              "steps": [
+                {
+                  "kind": "sound",
+                  "file": "modules/emblem-rpg-content/sound/creature/zombie-roar.wav",
+                  "audioChannel": "environment"
+                },
+                {
+                  "kind": "sound",
+                  "file": "blfx.sound.spell.cast.inflict_wounds",
+                  "audioChannel": "environment",
+                  "volume": 0.5
+                },
+                {
+                  "kind": "effect",
+                  "file": "jb2a.melee_generic.creature_attack.claw.001.red",
+                  "atLocation": "token",
+                  "rotateTowards": "target",
+                  "layer": "aboveInterface",
+                  "scaleToObject": 1.3,
+                  "waitUntilFinished": -800
+                },
+                {
+                  "kind": "sound",
+                  "file": "blfx.sound.spell.cast.inflict_wounds",
+                  "audioChannel": "environment",
+                  "volume": 0.5
+                },
+                {
+                  "kind": "effect",
+                  "file": "jb2a.melee_generic.creature_attack.claw.001.red",
+                  "atLocation": "token",
+                  "rotateTowards": "target",
+                  "layer": "aboveInterface",
+                  "scaleToObject": 1.4,
+                  "mirrorY": true
+                }
+              ],
+              "duration": 1050
+            },
+            "ranged": {
+              "steps": [
+                {
+                  "kind": "sound",
+                  "audioChannel": "environment",
+                  "file": "modules/emblem-rpg-content/sound/creature/wolf-bark.wav"
+                },
+                {
+                  "kind": "effect",
+                  "atLocation": "token",
+                  "scaleToObject": 1.45,
+                  "rotateTowards": "target",
+                  "layer": "aboveInterface",
+                  "file": "jb2a.melee_generic.creature_attack.claw",
+                  "waitUntilFinished": -800
+                },
+                {
+                  "kind": "effect",
+                  "atLocation": "token",
+                  "scaleToObject": 1.45,
+                  "rotateTowards": "target",
+                  "layer": "aboveInterface",
+                  "mirrorY": true,
+                  "file": "jb2a.melee_generic.creature_attack.claw"
+                }
+              ],
+              "duration": 1050
+            }
+          },
+          "critical": {
+            "melee": {
+              "steps": [
+                {
+                  "kind": "sound",
+                  "audioChannel": "environment",
+                  "file": "modules/emblem-rpg-content/sound/creature/wolf-bark.wav"
+                },
+                {
+                  "kind": "effect",
+                  "atLocation": "token",
+                  "scaleToObject": 1.45,
+                  "rotateTowards": "target",
+                  "layer": "aboveInterface",
+                  "file": "jb2a.melee_generic.creature_attack.claw",
+                  "waitUntilFinished": -800
+                },
+                {
+                  "kind": "effect",
+                  "atLocation": "token",
+                  "scaleToObject": 1.45,
+                  "rotateTowards": "target",
+                  "layer": "aboveInterface",
+                  "mirrorY": true,
+                  "file": "jb2a.melee_generic.creature_attack.claw"
+                }
+              ],
+              "duration": 1050
+            },
+            "ranged": {
+              "steps": [
+                {
+                  "kind": "sound",
+                  "audioChannel": "environment",
+                  "file": "modules/emblem-rpg-content/sound/creature/wolf-bark.wav"
+                },
+                {
+                  "kind": "effect",
+                  "atLocation": "token",
+                  "scaleToObject": 1.45,
+                  "rotateTowards": "target",
+                  "layer": "aboveInterface",
+                  "file": "jb2a.melee_generic.creature_attack.claw",
+                  "waitUntilFinished": -800
+                },
+                {
+                  "kind": "effect",
+                  "atLocation": "token",
+                  "scaleToObject": 1.45,
+                  "rotateTowards": "target",
+                  "layer": "aboveInterface",
+                  "mirrorY": true,
+                  "file": "jb2a.melee_generic.creature_attack.claw"
+                }
+              ],
+              "duration": 1050
+            }
+          },
+          "activation": null
+        },
+        "effects": [
+          {
+            "trigger": "onHitOrCrit",
+            "name": "Bloody Claws Hit Effect",
+            "itemNames": [],
+            "itemUuids": [],
+            "delayMs": 0,
+            "tokenAwaits": false,
+            "condition": null,
+            "action": {
+              "steps": [
+                {
+                  "kind": "applyEffect",
+                  "target": "target",
+                  "preset": "bleeding",
+                  "durationPhases": 1
+                },
+                {
+                  "kind": "floatingText",
+                  "target": "target",
+                  "text": "Bleeding!",
+                  "durationMs": 2000
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "folder": "pIewFEwtwuwXSabX",
+      "_id": "CjprhszUGMvSx0A1",
+      "effects": [],
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.368",
+        "systemId": "emblem-rpg",
+        "systemVersion": "1.0.0",
+        "lastModifiedBy": "emblembuilder000",
+        "createdTime": 1786638583479,
+        "modifiedTime": 1790612910025
+      },
+      "_key": "!actors.items!h7TGo5rWepOFY9LY.CjprhszUGMvSx0A1"
+    },
+    {
+      "name": "Necrotic Hide",
+      "type": "Equipment",
+      "img": "modules/emblem-rpg-content/assets/items/armor/Necrotic%20Hide.png",
+      "system": {
+        "isWielded": false,
+        "isWorn": true,
+        "isEquipped": false,
+        "description": "Protected from Decay and Shadow damage. Vulnerable to Slashing, Fire and Holy damage.",
+        "itemType": "Armor",
+        "cost": null,
+        "tradeDisabled": true,
+        "wgt": 0,
+        "stealable": {
+          "flag": "None",
+          "dc": 10
+        },
+        "actionType": "Standard Action",
+        "uses": {
+          "current": 10,
+          "max": 10,
+          "type": "infinite",
+          "scaling": {
+            "factor": "Level",
+            "subject": "",
+            "type": "Additive",
+            "multiplier": 1,
+            "thresholds": [],
+            "formula": "",
+            "addToBase": false,
+            "roundDown": false
+          }
+        },
+        "aura": {
+          "enabled": false,
+          "rng": 0
+        },
+        "wepArtData": {
+          "cost": 0,
+          "brawling": false,
+          "blade": false,
+          "polearm": false,
+          "heavy": false,
+          "bow": false,
+          "covert": false
+        },
+        "requirements": [],
+        "modifiers": [],
+        "effectData": {
+          "params": [],
+          "type": "",
+          "rng": "1",
+          "rngType": "Single",
+          "rngShape": "Normal",
+          "losRule": "normal",
+          "rngScaling": {
+            "factor": "None",
+            "subject": "",
+            "type": "Additive",
+            "multiplier": 1,
+            "thresholds": [],
+            "formula": "",
+            "addToBase": false,
+            "roundDown": false
+          },
+          "targets": 1,
+          "targetType": "Any",
+          "locationRng": 0,
+          "gridColor": "Red",
+          "groundValidSquares": "All",
+          "groundMaxElevDiff": 0,
+          "deliveryType": "Saving Throw",
+          "savingThrowDC": {
+            "required": false,
+            "base": 0,
+            "attribute": "None",
+            "targetAttribute": "None",
+            "ignoreForFriendly": false
+          },
+          "skillCheckDC": {
+            "required": false,
+            "base": 0,
+            "skill": "None",
+            "targetAttribute": "None",
+            "ignoreForFriendly": false
+          },
+          "consumeOnFailure": true,
+          "groundUnoccupiedOnly": true
+        },
+        "consumableData": {
+          "effect": "",
+          "stat": "",
+          "statValue": 0,
+          "growth": "",
+          "growthValue": 0
+        },
+        "weapon": {
+          "req": "Brawling",
+          "rank": 0,
+          "twoHanded": false,
+          "dmgTypes": {
+            "slashing": false,
+            "slashingConditionTree": null,
+            "piercing": false,
+            "piercingConditionTree": null,
+            "crushing": false,
+            "crushingConditionTree": null,
+            "missile": false,
+            "missileConditionTree": null,
+            "fire": false,
+            "fireConditionTree": null,
+            "ice": false,
+            "iceConditionTree": null,
+            "lightning": false,
+            "lightningConditionTree": null,
+            "wind": false,
+            "windConditionTree": null,
+            "arcane": false,
+            "arcaneConditionTree": null,
+            "decay": false,
+            "decayConditionTree": null,
+            "shadow": false,
+            "shadowConditionTree": null,
+            "holy": false,
+            "holyConditionTree": null,
+            "randomize": false
+          },
+          "atkStat": "Might",
+          "atk": "0",
+          "rng": "1",
+          "acc": 0,
+          "brk": 0,
+          "crit": 0,
+          "extraAttacks": 0,
+          "noExtraAttacks": false,
+          "effectiveAgainst": {
+            "infantry": false,
+            "armored": false,
+            "cavalry": false,
+            "flying": false,
+            "dragon": false,
+            "beast": false,
+            "monster": false,
+            "undead": false,
+            "magic": false
+          },
+          "breaker": {
+            "brawling": false,
+            "blade": false,
+            "polearm": false,
+            "heavy": false,
+            "bow": false,
+            "covert": false,
+            "elemental": false,
+            "divine": false,
+            "occult": false,
+            "arcane": false
+          }
+        },
+        "armor": {
+          "req": "None",
+          "def": 5,
+          "res": 4,
+          "stn": 0,
+          "eva": 0,
+          "brkRed": 0,
+          "critRed": 0,
+          "vulns": {
+            "slashing": true,
+            "piercing": false,
+            "crushing": false,
+            "missile": false,
+            "fire": true,
+            "ice": false,
+            "lightning": false,
+            "wind": false,
+            "arcane": false,
+            "decay": false,
+            "shadow": false,
+            "holy": true
+          },
+          "prots": {
+            "slashing": false,
+            "piercing": false,
+            "crushing": false,
+            "missile": false,
+            "fire": false,
+            "ice": false,
+            "lightning": false,
+            "wind": false,
+            "arcane": false,
+            "decay": true,
+            "shadow": true,
+            "holy": false
+          }
+        },
+        "mountData": {
+          "stats": {
+            "mov": 0,
+            "hp": 0,
+            "stn": 0,
+            "eva": 0,
+            "atk": 0,
+            "spd": 0,
+            "acc": 0,
+            "crit": 0
+          },
+          "unitTypes": {
+            "cavalry": false,
+            "flying": false,
+            "dragon": false,
+            "beast": false,
+            "monster": false,
+            "undead": false
+          }
+        },
+        "craftingData": {
+          "forging": {
+            "enabled": false,
+            "forgeMult": 1,
+            "skillCheck": "Handicraft",
+            "materials": []
+          },
+          "refinement": {
+            "tiers": [
+              {
+                "enabled": false,
+                "xpReq": 10,
+                "forgeMult": null,
+                "skillCheck": "",
+                "materials": [],
+                "modifiers": {
+                  "atk": null,
+                  "brk": null,
+                  "wgt": null,
+                  "acc": null,
+                  "crit": null,
+                  "durability": null,
+                  "stn": null,
+                  "def": null,
+                  "res": null,
+                  "wgtRed": null,
+                  "prots": {
+                    "slashing": false,
+                    "piercing": false,
+                    "crushing": false,
+                    "missile": false,
+                    "fire": false,
+                    "ice": false,
+                    "lightning": false,
+                    "wind": false,
+                    "arcane": false,
+                    "decay": false,
+                    "shadow": false,
+                    "holy": false
+                  },
+                  "dmgTypes": {
+                    "slashing": false,
+                    "piercing": false,
+                    "crushing": false,
+                    "missile": false,
+                    "fire": false,
+                    "ice": false,
+                    "lightning": false,
+                    "wind": false,
+                    "arcane": false,
+                    "decay": false,
+                    "shadow": false,
+                    "holy": false
+                  },
+                  "prot": ""
+                }
+              },
+              {
+                "enabled": false,
+                "xpReq": 20,
+                "forgeMult": null,
+                "skillCheck": "",
+                "materials": [],
+                "modifiers": {
+                  "atk": null,
+                  "brk": null,
+                  "wgt": null,
+                  "acc": null,
+                  "crit": null,
+                  "durability": null,
+                  "stn": null,
+                  "def": null,
+                  "res": null,
+                  "wgtRed": null,
+                  "prots": {
+                    "slashing": false,
+                    "piercing": false,
+                    "crushing": false,
+                    "missile": false,
+                    "fire": false,
+                    "ice": false,
+                    "lightning": false,
+                    "wind": false,
+                    "arcane": false,
+                    "decay": false,
+                    "shadow": false,
+                    "holy": false
+                  },
+                  "dmgTypes": {
+                    "slashing": false,
+                    "piercing": false,
+                    "crushing": false,
+                    "missile": false,
+                    "fire": false,
+                    "ice": false,
+                    "lightning": false,
+                    "wind": false,
+                    "arcane": false,
+                    "decay": false,
+                    "shadow": false,
+                    "holy": false
+                  },
+                  "prot": ""
+                }
+              },
+              {
+                "enabled": false,
+                "xpReq": 30,
+                "forgeMult": null,
+                "skillCheck": "",
+                "materials": [],
+                "modifiers": {
+                  "atk": null,
+                  "brk": null,
+                  "wgt": null,
+                  "acc": null,
+                  "crit": null,
+                  "durability": null,
+                  "stn": null,
+                  "def": null,
+                  "res": null,
+                  "wgtRed": null,
+                  "prots": {
+                    "slashing": false,
+                    "piercing": false,
+                    "crushing": false,
+                    "missile": false,
+                    "fire": false,
+                    "ice": false,
+                    "lightning": false,
+                    "wind": false,
+                    "arcane": false,
+                    "decay": false,
+                    "shadow": false,
+                    "holy": false
+                  },
+                  "dmgTypes": {
+                    "slashing": false,
+                    "piercing": false,
+                    "crushing": false,
+                    "missile": false,
+                    "fire": false,
+                    "ice": false,
+                    "lightning": false,
+                    "wind": false,
+                    "arcane": false,
+                    "decay": false,
+                    "shadow": false,
+                    "holy": false
+                  },
+                  "prot": ""
+                }
+              },
+              {
+                "enabled": false,
+                "xpReq": 40,
+                "forgeMult": null,
+                "skillCheck": "",
+                "materials": [],
+                "modifiers": {
+                  "atk": null,
+                  "brk": null,
+                  "wgt": null,
+                  "acc": null,
+                  "crit": null,
+                  "durability": null,
+                  "stn": null,
+                  "def": null,
+                  "res": null,
+                  "wgtRed": null,
+                  "prots": {
+                    "slashing": false,
+                    "piercing": false,
+                    "crushing": false,
+                    "missile": false,
+                    "fire": false,
+                    "ice": false,
+                    "lightning": false,
+                    "wind": false,
+                    "arcane": false,
+                    "decay": false,
+                    "shadow": false,
+                    "holy": false
+                  },
+                  "dmgTypes": {
+                    "slashing": false,
+                    "piercing": false,
+                    "crushing": false,
+                    "missile": false,
+                    "fire": false,
+                    "ice": false,
+                    "lightning": false,
+                    "wind": false,
+                    "arcane": false,
+                    "decay": false,
+                    "shadow": false,
+                    "holy": false
+                  },
+                  "prot": ""
+                }
+              },
+              {
+                "enabled": false,
+                "xpReq": 50,
+                "forgeMult": null,
+                "skillCheck": "",
+                "materials": [],
+                "modifiers": {
+                  "atk": null,
+                  "brk": null,
+                  "wgt": null,
+                  "acc": null,
+                  "crit": null,
+                  "durability": null,
+                  "stn": null,
+                  "def": null,
+                  "res": null,
+                  "wgtRed": null,
+                  "prots": {
+                    "slashing": false,
+                    "piercing": false,
+                    "crushing": false,
+                    "missile": false,
+                    "fire": false,
+                    "ice": false,
+                    "lightning": false,
+                    "wind": false,
+                    "arcane": false,
+                    "decay": false,
+                    "shadow": false,
+                    "holy": false
+                  },
+                  "dmgTypes": {
+                    "slashing": false,
+                    "piercing": false,
+                    "crushing": false,
+                    "missile": false,
+                    "fire": false,
+                    "ice": false,
+                    "lightning": false,
+                    "wind": false,
+                    "arcane": false,
+                    "decay": false,
+                    "shadow": false,
+                    "holy": false
+                  },
+                  "prot": ""
+                }
+              }
+            ]
+          },
+          "creation": {
+            "materials": [],
+            "difficultyClass": 0,
+            "skillCheck": "Nature"
+          },
+          "forgingXP": 0
+        },
+        "refreshes": false,
+        "anim": {
+          "attack": null,
+          "critical": null,
+          "activation": null
+        },
+        "effects": []
+      },
+      "folder": "rqoWhUWNAVpAw3mJ",
+      "effects": [],
+      "sort": 150000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.368",
+        "systemId": "emblem-rpg",
+        "systemVersion": "1.0.0",
+        "lastModifiedBy": "emblembuilder000",
+        "createdTime": 1786638583479,
+        "modifiedTime": 1790612910025
+      },
+      "_id": "leZhF4j7KSYeTeOn",
+      "_key": "!actors.items!h7TGo5rWepOFY9LY.leZhF4j7KSYeTeOn"
+    },
+    {
+      "name": "Reaver",
+      "type": "Class",
+      "img": "modules/emblem-rpg-content/assets/classes/Convoy.png",
+      "system": {
+        "description": "",
+        "tier": "Unplayable",
+        "baseStats": {
+          "hp": 15,
+          "stn": 3,
+          "mov": 6,
+          "bld": 5,
+          "mgt": 7,
+          "agi": 12,
+          "tqn": 4,
+          "wit": 7,
+          "cha": 3,
+          "def": 0,
+          "res": 0,
+          "spd": 0,
+          "eva": 9,
+          "acc": 0,
+          "crit": 0
+        },
+        "baseGrowths": {
+          "hp": 30,
+          "mgt": 30,
+          "agi": 30,
+          "tqn": 30,
+          "wit": 30,
+          "cha": 30,
+          "def": 30,
+          "res": 30
+        },
+        "baseCaps": {
+          "hp": 50,
+          "mgt": 15,
+          "agi": 15,
+          "tqn": 15,
+          "wit": 15,
+          "cha": 15,
+          "def": 15,
+          "res": 15
+        },
+        "proficiencies": {
+          "brawling": 0,
+          "blade": 0,
+          "polearm": 0,
+          "heavy": 0,
+          "bow": 0,
+          "covert": 0,
+          "arcane": 0,
+          "elemental": 0,
+          "divine": 0,
+          "occult": 0,
+          "armor": 0,
+          "riding": false,
+          "flying": false
+        },
+        "skills": {
+          "athletics": 0,
+          "finesse": 0,
+          "trading": 0,
+          "civics": 0,
+          "handicraft": 0,
+          "sociability": 0,
+          "command": 0,
+          "nature": 0,
+          "perception": 0,
+          "performance": 0,
+          "reason": 0,
+          "esoteric": 0
+        },
+        "unitType": {
+          "infantry": true,
+          "dragon": false,
+          "monster": false,
+          "beast": false,
+          "undead": true
+        },
+        "features": [],
+        "promotions": []
+      },
+      "_id": "sZnZwswxXm4KngLL",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.368",
+        "systemId": "emblem-rpg",
+        "systemVersion": "1.0.0",
+        "lastModifiedBy": "emblembuilder000",
+        "createdTime": 1786638583479,
+        "modifiedTime": 1790612910026
+      },
+      "_key": "!actors.items!h7TGo5rWepOFY9LY.sZnZwswxXm4KngLL"
+    },
+    {
+      "name": "Pass",
+      "type": "Ability",
+      "_id": "d5VVKwjnToQ3muVk",
+      "img": "modules/emblem-rpg-content/assets/abilities/passive/Pass.png",
+      "system": {
+        "isWielded": false,
+        "isWorn": false,
+        "isEquipped": false,
+        "description": "This unit can move through hostile units.",
+        "itemType": "Passive",
+        "cost": 0,
+        "tradeDisabled": false,
+        "wgt": 0,
+        "stealable": {
+          "flag": "None",
+          "dc": 10
+        },
+        "actionType": "Standard Action",
+        "uses": {
+          "current": 0,
+          "max": 0,
+          "type": "limited",
+          "scaling": {
+            "factor": "Level",
+            "subject": "",
+            "type": "Additive",
+            "multiplier": 1,
+            "thresholds": [],
+            "formula": "",
+            "addToBase": false,
+            "roundDown": false
+          }
+        },
+        "aura": {
+          "enabled": false,
+          "rng": 0
+        },
+        "wepArtData": {
+          "cost": 0,
+          "brawling": false,
+          "blade": false,
+          "polearm": false,
+          "heavy": false,
+          "bow": false,
+          "covert": false
+        },
+        "requirements": [],
+        "modifiers": [
+          {
+            "name": "Pass",
+            "target": "passing",
+            "quantity": "1",
+            "conditionTree": null,
+            "requiresEquipped": false,
+            "requiresActivation": false,
+            "stackable": false,
+            "kind": "standard",
+            "targetType": "All",
+            "condition": ""
+          }
+        ],
+        "effectData": {
+          "params": [],
+          "type": "",
+          "rng": "1",
+          "rngType": "Single",
+          "rngShape": "Normal",
+          "losRule": "normal",
+          "rngScaling": {
+            "factor": "None",
+            "subject": "",
+            "type": "Additive",
+            "multiplier": 1,
+            "thresholds": [],
+            "formula": "",
+            "addToBase": false,
+            "roundDown": false
+          },
+          "targets": 1,
+          "targetType": "Any",
+          "locationRng": 0,
+          "gridColor": "Red",
+          "groundValidSquares": "All",
+          "groundMaxElevDiff": 0,
+          "deliveryType": "Saving Throw",
+          "savingThrowDC": {
+            "required": false,
+            "base": 0,
+            "attribute": "None",
+            "targetAttribute": "None",
+            "ignoreForFriendly": false
+          },
+          "skillCheckDC": {
+            "required": false,
+            "base": 0,
+            "skill": "None",
+            "targetAttribute": "None",
+            "ignoreForFriendly": false
+          },
+          "consumeOnFailure": true,
+          "groundUnoccupiedOnly": true
+        },
+        "consumableData": {
+          "effect": "",
+          "stat": "",
+          "statValue": 0,
+          "growth": "",
+          "growthValue": 0
+        },
+        "weapon": {
+          "req": "",
+          "rank": 0,
+          "twoHanded": false,
+          "dmgTypes": {
+            "slashing": false,
+            "slashingConditionTree": null,
+            "piercing": false,
+            "piercingConditionTree": null,
+            "crushing": false,
+            "crushingConditionTree": null,
+            "missile": false,
+            "missileConditionTree": null,
+            "fire": false,
+            "fireConditionTree": null,
+            "ice": false,
+            "iceConditionTree": null,
+            "lightning": false,
+            "lightningConditionTree": null,
+            "wind": false,
+            "windConditionTree": null,
+            "arcane": false,
+            "arcaneConditionTree": null,
+            "decay": false,
+            "decayConditionTree": null,
+            "shadow": false,
+            "shadowConditionTree": null,
+            "holy": false,
+            "holyConditionTree": null,
+            "randomize": false
+          },
+          "atkStat": "",
+          "atk": "0",
+          "rng": "1",
+          "acc": 0,
+          "brk": 0,
+          "crit": 0,
+          "extraAttacks": 0,
+          "noExtraAttacks": false,
+          "effectiveAgainst": {
+            "infantry": false,
+            "armored": false,
+            "cavalry": false,
+            "flying": false,
+            "dragon": false,
+            "beast": false,
+            "monster": false,
+            "undead": false,
+            "magic": false
+          },
+          "breaker": {
+            "brawling": false,
+            "blade": false,
+            "polearm": false,
+            "heavy": false,
+            "bow": false,
+            "covert": false,
+            "elemental": false,
+            "divine": false,
+            "occult": false,
+            "arcane": false
+          }
+        },
+        "armor": {
+          "req": "",
+          "def": 0,
+          "res": 0,
+          "stn": 0,
+          "eva": 0,
+          "brkRed": 0,
+          "critRed": 0,
+          "vulns": {
+            "slashing": false,
+            "piercing": false,
+            "crushing": false,
+            "missile": false,
+            "fire": false,
+            "ice": false,
+            "lightning": false,
+            "wind": false,
+            "arcane": false,
+            "decay": false,
+            "shadow": false,
+            "holy": false
+          },
+          "prots": {
+            "slashing": false,
+            "piercing": false,
+            "crushing": false,
+            "missile": false,
+            "fire": false,
+            "ice": false,
+            "lightning": false,
+            "wind": false,
+            "arcane": false,
+            "decay": false,
+            "shadow": false,
+            "holy": false
+          }
+        },
+        "mountData": {
+          "stats": {
+            "mov": 0,
+            "hp": 0,
+            "stn": 0,
+            "eva": 0,
+            "atk": 0,
+            "spd": 0,
+            "acc": 0,
+            "crit": 0
+          },
+          "unitTypes": {
+            "cavalry": false,
+            "flying": false,
+            "dragon": false,
+            "beast": false,
+            "monster": false,
+            "undead": false
+          }
+        },
+        "craftingData": {
+          "forging": {
+            "enabled": false,
+            "forgeMult": 1,
+            "skillCheck": "Handicraft",
+            "materials": []
+          },
+          "refinement": {
+            "tiers": [
+              {
+                "enabled": false,
+                "xpReq": 10,
+                "forgeMult": null,
+                "skillCheck": "",
+                "materials": [],
+                "modifiers": {
+                  "atk": null,
+                  "brk": null,
+                  "wgt": null,
+                  "acc": null,
+                  "crit": null,
+                  "durability": null,
+                  "stn": null,
+                  "def": null,
+                  "res": null,
+                  "wgtRed": null,
+                  "prots": {
+                    "slashing": false,
+                    "piercing": false,
+                    "crushing": false,
+                    "missile": false,
+                    "fire": false,
+                    "ice": false,
+                    "lightning": false,
+                    "wind": false,
+                    "arcane": false,
+                    "decay": false,
+                    "shadow": false,
+                    "holy": false
+                  },
+                  "prot": "",
+                  "dmgTypes": {
+                    "slashing": false,
+                    "piercing": false,
+                    "crushing": false,
+                    "missile": false,
+                    "fire": false,
+                    "ice": false,
+                    "lightning": false,
+                    "wind": false,
+                    "arcane": false,
+                    "decay": false,
+                    "shadow": false,
+                    "holy": false
+                  }
+                }
+              },
+              {
+                "enabled": false,
+                "xpReq": 20,
+                "forgeMult": null,
+                "skillCheck": "",
+                "materials": [],
+                "modifiers": {
+                  "atk": null,
+                  "brk": null,
+                  "wgt": null,
+                  "acc": null,
+                  "crit": null,
+                  "durability": null,
+                  "stn": null,
+                  "def": null,
+                  "res": null,
+                  "wgtRed": null,
+                  "prots": {
+                    "slashing": false,
+                    "piercing": false,
+                    "crushing": false,
+                    "missile": false,
+                    "fire": false,
+                    "ice": false,
+                    "lightning": false,
+                    "wind": false,
+                    "arcane": false,
+                    "decay": false,
+                    "shadow": false,
+                    "holy": false
+                  },
+                  "prot": "",
+                  "dmgTypes": {
+                    "slashing": false,
+                    "piercing": false,
+                    "crushing": false,
+                    "missile": false,
+                    "fire": false,
+                    "ice": false,
+                    "lightning": false,
+                    "wind": false,
+                    "arcane": false,
+                    "decay": false,
+                    "shadow": false,
+                    "holy": false
+                  }
+                }
+              },
+              {
+                "enabled": false,
+                "xpReq": 30,
+                "forgeMult": null,
+                "skillCheck": "",
+                "materials": [],
+                "modifiers": {
+                  "atk": null,
+                  "brk": null,
+                  "wgt": null,
+                  "acc": null,
+                  "crit": null,
+                  "durability": null,
+                  "stn": null,
+                  "def": null,
+                  "res": null,
+                  "wgtRed": null,
+                  "prots": {
+                    "slashing": false,
+                    "piercing": false,
+                    "crushing": false,
+                    "missile": false,
+                    "fire": false,
+                    "ice": false,
+                    "lightning": false,
+                    "wind": false,
+                    "arcane": false,
+                    "decay": false,
+                    "shadow": false,
+                    "holy": false
+                  },
+                  "prot": "",
+                  "dmgTypes": {
+                    "slashing": false,
+                    "piercing": false,
+                    "crushing": false,
+                    "missile": false,
+                    "fire": false,
+                    "ice": false,
+                    "lightning": false,
+                    "wind": false,
+                    "arcane": false,
+                    "decay": false,
+                    "shadow": false,
+                    "holy": false
+                  }
+                }
+              },
+              {
+                "enabled": false,
+                "xpReq": 40,
+                "forgeMult": null,
+                "skillCheck": "",
+                "materials": [],
+                "modifiers": {
+                  "atk": null,
+                  "brk": null,
+                  "wgt": null,
+                  "acc": null,
+                  "crit": null,
+                  "durability": null,
+                  "stn": null,
+                  "def": null,
+                  "res": null,
+                  "wgtRed": null,
+                  "prots": {
+                    "slashing": false,
+                    "piercing": false,
+                    "crushing": false,
+                    "missile": false,
+                    "fire": false,
+                    "ice": false,
+                    "lightning": false,
+                    "wind": false,
+                    "arcane": false,
+                    "decay": false,
+                    "shadow": false,
+                    "holy": false
+                  },
+                  "prot": "",
+                  "dmgTypes": {
+                    "slashing": false,
+                    "piercing": false,
+                    "crushing": false,
+                    "missile": false,
+                    "fire": false,
+                    "ice": false,
+                    "lightning": false,
+                    "wind": false,
+                    "arcane": false,
+                    "decay": false,
+                    "shadow": false,
+                    "holy": false
+                  }
+                }
+              },
+              {
+                "enabled": false,
+                "xpReq": 50,
+                "forgeMult": null,
+                "skillCheck": "",
+                "materials": [],
+                "modifiers": {
+                  "atk": null,
+                  "brk": null,
+                  "wgt": null,
+                  "acc": null,
+                  "crit": null,
+                  "durability": null,
+                  "stn": null,
+                  "def": null,
+                  "res": null,
+                  "wgtRed": null,
+                  "prots": {
+                    "slashing": false,
+                    "piercing": false,
+                    "crushing": false,
+                    "missile": false,
+                    "fire": false,
+                    "ice": false,
+                    "lightning": false,
+                    "wind": false,
+                    "arcane": false,
+                    "decay": false,
+                    "shadow": false,
+                    "holy": false
+                  },
+                  "prot": "",
+                  "dmgTypes": {
+                    "slashing": false,
+                    "piercing": false,
+                    "crushing": false,
+                    "missile": false,
+                    "fire": false,
+                    "ice": false,
+                    "lightning": false,
+                    "wind": false,
+                    "arcane": false,
+                    "decay": false,
+                    "shadow": false,
+                    "holy": false
+                  }
+                }
+              }
+            ]
+          },
+          "creation": {
+            "materials": [],
+            "difficultyClass": 0,
+            "skillCheck": "Nature"
+          },
+          "forgingXP": 0
+        },
+        "refreshes": false,
+        "anim": {
+          "attack": null,
+          "critical": null,
+          "activation": null
+        },
+        "effects": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {
+        "emblem-rpg": {
+          "pixelArt": true
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.368",
+        "systemId": "emblem-rpg",
+        "systemVersion": "1.0.0",
+        "createdTime": 1787637854322,
+        "modifiedTime": 1790612910026,
+        "lastModifiedBy": "emblembuilder000",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!h7TGo5rWepOFY9LY.d5VVKwjnToQ3muVk"
+    }
+  ],
+  "effects": [
+    {
+      "name": "Wielding: Bloody Claws",
+      "origin": "Compendium.emblem-rpg-content.actors.Actor.h7TGo5rWepOFY9LY.Item.CjprhszUGMvSx0A1",
+      "disabled": false,
+      "flags": {
+        "emblem-rpg": {
+          "isWieldEffect": true
+        }
+      },
+      "statuses": [
+        "Wielding"
+      ],
+      "img": "modules/emblem-rpg-content/assets/items/weapons/blades/Claws.png",
+      "_id": "0oXakbsXzfMjspAV",
+      "type": "base",
+      "system": {
+        "changes": []
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": false,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.368",
+        "systemId": "emblem-rpg",
+        "systemVersion": "0.2.0",
+        "lastModifiedBy": "emblembuilder000",
+        "createdTime": 1786638583480,
+        "modifiedTime": 1790386731174
+      },
+      "showIcon": 2,
+      "start": {
+        "combat": null,
+        "round": 27,
+        "time": 0,
+        "turn": 0,
+        "combatant": null,
+        "initiative": null
+      },
+      "folder": null,
+      "_key": "!actors.effects!h7TGo5rWepOFY9LY.0oXakbsXzfMjspAV"
+    },
+    {
+      "name": "Wearing: Necrotic Hide",
+      "origin": "Compendium.emblem-rpg-content.actors.Actor.h7TGo5rWepOFY9LY.Item.leZhF4j7KSYeTeOn",
+      "disabled": false,
+      "flags": {
+        "emblem-rpg": {
+          "isArmorEffect": true
+        }
+      },
+      "statuses": [
+        "Wearing"
+      ],
+      "img": "modules/emblem-rpg-content/assets/items/armor/Necrotic%20Hide.png",
+      "_id": "TKcifTEjUwnBoDjf",
+      "type": "base",
+      "system": {
+        "changes": []
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": false,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.366",
+        "systemId": "emblem-rpg",
+        "systemVersion": "0.2.0",
+        "lastModifiedBy": null,
+        "createdTime": 1786638583480,
+        "modifiedTime": 1786638583480
+      },
+      "showIcon": 2,
+      "start": {
+        "combat": null,
+        "round": 27,
+        "time": 0,
+        "turn": 0,
+        "combatant": null,
+        "initiative": null
+      },
+      "folder": null,
+      "_key": "!actors.effects!h7TGo5rWepOFY9LY.TKcifTEjUwnBoDjf"
+    }
+  ],
+  "sort": 600000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "bg3-hud-core": {
+      "hudState": {
+        "version": 2,
+        "autoPopulateComplete": true,
+        "views": {
+          "list": [
+            {
+              "id": "view-reF3AwobN99YMOEP",
+              "name": "Default",
+              "icon": "fa-bookmark",
+              "hotbarState": {
+                "hotbar": {
+                  "grids": [
+                    {
+                      "rows": 2,
+                      "cols": 5,
+                      "items": {
+                        "0-0": {
+                          "uuid": "Compendium.emblem-rpg-content.actors.Actor.h7TGo5rWepOFY9LY.Item.CjprhszUGMvSx0A1",
+                          "name": "Bloody Claws",
+                          "img": "modules/emblem-rpg-content/assets/items/weapons/Bloody%20Claws.png",
+                          "type": "Item",
+                          "uses": {
+                            "value": 20,
+                            "max": 20
+                          },
+                          "depleted": false,
+                          "_emblemDocType": "Equipment",
+                          "_emblemItemType": "Weapon",
+                          "_emblemActionType": "Standard Action",
+                          "_emblemWeaponReq": "Blade",
+                          "_emblemIsWielded": true,
+                          "_emblemIsWorn": false,
+                          "_emblemIsEquipped": false,
+                          "_emblemIsActiveItem": false,
+                          "_emblemActiveColorName": "Red",
+                          "_emblemIsActiveWepArt": false
+                        }
+                      }
+                    },
+                    {
+                      "rows": 2,
+                      "cols": 5,
+                      "items": {}
+                    },
+                    {
+                      "rows": 2,
+                      "cols": 5,
+                      "items": {}
+                    }
+                  ]
+                },
+                "autoPopulateComplete": true
+              }
+            }
+          ],
+          "activeViewId": "view-reF3AwobN99YMOEP"
+        },
+        "hotbar": {
+          "grids": [
+            {
+              "rows": 2,
+              "cols": 5,
+              "items": {
+                "0-0": {
+                  "uuid": "Compendium.emblem-rpg-content.actors.Actor.h7TGo5rWepOFY9LY.Item.CjprhszUGMvSx0A1",
+                  "name": "Bloody Claws",
+                  "img": "modules/emblem-rpg-content/assets/items/weapons/Bloody%20Claws.png",
+                  "type": "Item",
+                  "uses": {
+                    "value": 20,
+                    "max": 20
+                  },
+                  "depleted": false,
+                  "_emblemDocType": "Equipment",
+                  "_emblemItemType": "Weapon",
+                  "_emblemActionType": "Standard Action",
+                  "_emblemWeaponReq": "Blade",
+                  "_emblemIsWielded": true,
+                  "_emblemIsWorn": false,
+                  "_emblemIsEquipped": false,
+                  "_emblemIsActiveItem": false,
+                  "_emblemActiveColorName": "Red",
+                  "_emblemIsActiveWepArt": false
+                }
+              }
+            },
+            {
+              "rows": 2,
+              "cols": 5,
+              "items": {}
+            },
+            {
+              "rows": 2,
+              "cols": 5,
+              "items": {}
+            }
+          ]
+        },
+        "weaponSets": {
+          "sets": [
+            {
+              "rows": 1,
+              "cols": 2,
+              "items": {}
+            },
+            {
+              "rows": 1,
+              "cols": 2,
+              "items": {}
+            },
+            {
+              "rows": 1,
+              "cols": 2,
+              "items": {}
+            }
+          ],
+          "activeSet": 0
+        },
+        "quickAccess": {
+          "grids": [
+            {
+              "rows": 2,
+              "cols": 3,
+              "items": {}
+            }
+          ]
+        }
+      }
+    },
+    "emblem-rpg-studio": {
+      "tokenComp": {
+        "Default__none__default": {
+          "layers": [
+            {
+              "x": 2,
+              "y": 3,
+              "scale": 1,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "opacity": 1,
+              "visible": true,
+              "isFecc": true,
+              "feccType": "token",
+              "feccName": "reaver-default",
+              "customName": "reaver-default",
+              "palette": {
+                "outline": "#382040",
+                "hair": {
+                  "base": {
+                    "r": 224,
+                    "g": 216,
+                    "b": 64
+                  },
+                  "lighter": {
+                    "r": 230,
+                    "g": 223,
+                    "b": 98
+                  },
+                  "light_mid": {
+                    "r": 227,
+                    "g": 220,
+                    "b": 81
+                  },
+                  "neutral": {
+                    "r": 224,
+                    "g": 216,
+                    "b": 64
+                  },
+                  "dark_mid": {
+                    "r": 204,
+                    "g": 197,
+                    "b": 58
+                  },
+                  "darker": {
+                    "r": 184,
+                    "g": 177,
+                    "b": 52
+                  },
+                  "darker_darker": {
+                    "r": 148,
+                    "g": 143,
+                    "b": 42
+                  },
+                  "darker_darker_darker": {
+                    "r": 116,
+                    "g": 112,
+                    "b": 33
+                  }
+                },
+                "eye": {
+                  "base": {
+                    "r": 64,
+                    "g": 50,
+                    "b": 25
+                  },
+                  "lighter": {
+                    "r": 98,
+                    "g": 87,
+                    "b": 66
+                  },
+                  "light_mid": {
+                    "r": 81,
+                    "g": 68,
+                    "b": 46
+                  },
+                  "neutral": {
+                    "r": 64,
+                    "g": 50,
+                    "b": 25
+                  },
+                  "dark_mid": {
+                    "r": 58,
+                    "g": 46,
+                    "b": 23
+                  },
+                  "darker": {
+                    "r": 52,
+                    "g": 41,
+                    "b": 21
+                  },
+                  "darker_darker": {
+                    "r": 42,
+                    "g": 33,
+                    "b": 16
+                  },
+                  "darker_darker_darker": {
+                    "r": 33,
+                    "g": 26,
+                    "b": 13
+                  }
+                },
+                "skin": {
+                  "base": {
+                    "r": 248,
+                    "g": 248,
+                    "b": 192
+                  },
+                  "lighter": {
+                    "r": 203,
+                    "g": 114,
+                    "b": 116
+                  },
+                  "light_mid": {
+                    "r": 249,
+                    "g": 249,
+                    "b": 198
+                  },
+                  "neutral": {
+                    "r": 176,
+                    "g": 87,
+                    "b": 90
+                  },
+                  "dark_mid": {
+                    "r": 226,
+                    "g": 226,
+                    "b": 175
+                  },
+                  "darker": {
+                    "r": 144,
+                    "g": 82,
+                    "b": 94
+                  },
+                  "darker_darker": {
+                    "r": 125,
+                    "g": 70,
+                    "b": 89
+                  },
+                  "darker_darker_darker": {
+                    "r": 65,
+                    "g": 44,
+                    "b": 64
+                  }
+                },
+                "metal": {
+                  "base": {
+                    "r": 100,
+                    "g": 100,
+                    "b": 100
+                  },
+                  "lighter": {
+                    "r": 140,
+                    "g": 36,
+                    "b": 38
+                  },
+                  "light_mid": {
+                    "r": 129,
+                    "g": 32,
+                    "b": 30
+                  },
+                  "neutral": {
+                    "r": 100,
+                    "g": 100,
+                    "b": 100
+                  },
+                  "dark_mid": {
+                    "r": 79,
+                    "g": 21,
+                    "b": 18
+                  },
+                  "darker": {
+                    "r": 82,
+                    "g": 82,
+                    "b": 82
+                  },
+                  "darker_darker": {
+                    "r": 66,
+                    "g": 66,
+                    "b": 66
+                  },
+                  "darker_darker_darker": {
+                    "r": 52,
+                    "g": 52,
+                    "b": 52
+                  }
+                },
+                "trim": {
+                  "base": {
+                    "r": 247,
+                    "g": 173,
+                    "b": 82
+                  },
+                  "lighter": {
+                    "r": 128,
+                    "g": 88,
+                    "b": 104
+                  },
+                  "light_mid": {
+                    "r": 248,
+                    "g": 180,
+                    "b": 98
+                  },
+                  "neutral": {
+                    "r": 247,
+                    "g": 173,
+                    "b": 82
+                  },
+                  "dark_mid": {
+                    "r": 225,
+                    "g": 157,
+                    "b": 75
+                  },
+                  "darker": {
+                    "r": 203,
+                    "g": 142,
+                    "b": 67
+                  },
+                  "darker_darker": {
+                    "r": 163,
+                    "g": 114,
+                    "b": 54
+                  },
+                  "darker_darker_darker": {
+                    "r": 128,
+                    "g": 90,
+                    "b": 43
+                  }
+                },
+                "cloth": {
+                  "base": {
+                    "r": 82,
+                    "g": 82,
+                    "b": 115
+                  },
+                  "lighter": {
+                    "r": 113,
+                    "g": 113,
+                    "b": 140
+                  },
+                  "light_mid": {
+                    "r": 108,
+                    "g": 120,
+                    "b": 52
+                  },
+                  "neutral": {
+                    "r": 82,
+                    "g": 82,
+                    "b": 115
+                  },
+                  "dark_mid": {
+                    "r": 56,
+                    "g": 88,
+                    "b": 48
+                  },
+                  "darker": {
+                    "r": 40,
+                    "g": 60,
+                    "b": 64
+                  },
+                  "darker_darker": {
+                    "r": 54,
+                    "g": 54,
+                    "b": 76
+                  },
+                  "darker_darker_darker": {
+                    "r": 43,
+                    "g": 43,
+                    "b": 60
+                  }
+                },
+                "leather": {
+                  "base": {
+                    "r": 148,
+                    "g": 100,
+                    "b": 66
+                  },
+                  "lighter": {
+                    "r": 187,
+                    "g": 113,
+                    "b": 114
+                  },
+                  "light_mid": {
+                    "r": 153,
+                    "g": 74,
+                    "b": 85
+                  },
+                  "neutral": {
+                    "r": 126,
+                    "g": 68,
+                    "b": 67
+                  },
+                  "dark_mid": {
+                    "r": 112,
+                    "g": 62,
+                    "b": 84
+                  },
+                  "darker": {
+                    "r": 80,
+                    "g": 55,
+                    "b": 64
+                  },
+                  "darker_darker": {
+                    "r": 98,
+                    "g": 66,
+                    "b": 44
+                  },
+                  "darker_darker_darker": {
+                    "r": 77,
+                    "g": 52,
+                    "b": 34
+                  }
+                },
+                "accessory": {
+                  "base": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0
+                  },
+                  "lighter": {
+                    "r": 227,
+                    "g": 223,
+                    "b": 217
+                  },
+                  "light_mid": {
+                    "r": 176,
+                    "g": 145,
+                    "b": 140
+                  },
+                  "neutral": {
+                    "r": 170,
+                    "g": 165,
+                    "b": 157
+                  },
+                  "dark_mid": {
+                    "r": 148,
+                    "g": 140,
+                    "b": 139
+                  },
+                  "darker": {
+                    "r": 100,
+                    "g": 96,
+                    "b": 92
+                  },
+                  "darker_darker": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0
+                  },
+                  "darker_darker_darker": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0
+                  }
+                }
+              },
+              "sourceUrl": "modules/emblem-rpg-content/assets/fecc/token/idle/reaver-default.png",
+              "imageData": "data:image/png;base64,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"
+            }
+          ]
+        },
+        "class-52-65-61-76-65-72__none__default": {
+          "layers": [
+            {
+              "x": 2,
+              "y": 3,
+              "scale": 1,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "opacity": 1,
+              "visible": true,
+              "isFecc": true,
+              "feccType": "token",
+              "feccName": "reaver-default",
+              "customName": null,
+              "palette": {
+                "outline": "#382040",
+                "hair": {
+                  "base": {
+                    "r": 224,
+                    "g": 216,
+                    "b": 64
+                  },
+                  "lighter": {
+                    "r": 230,
+                    "g": 223,
+                    "b": 98
+                  },
+                  "light_mid": {
+                    "r": 227,
+                    "g": 220,
+                    "b": 81
+                  },
+                  "neutral": {
+                    "r": 224,
+                    "g": 216,
+                    "b": 64
+                  },
+                  "dark_mid": {
+                    "r": 204,
+                    "g": 197,
+                    "b": 58
+                  },
+                  "darker": {
+                    "r": 184,
+                    "g": 177,
+                    "b": 52
+                  },
+                  "darker_darker": {
+                    "r": 148,
+                    "g": 143,
+                    "b": 42
+                  },
+                  "darker_darker_darker": {
+                    "r": 116,
+                    "g": 112,
+                    "b": 33
+                  }
+                },
+                "eye": {
+                  "base": {
+                    "r": 64,
+                    "g": 50,
+                    "b": 25
+                  },
+                  "lighter": {
+                    "r": 98,
+                    "g": 87,
+                    "b": 66
+                  },
+                  "light_mid": {
+                    "r": 81,
+                    "g": 68,
+                    "b": 46
+                  },
+                  "neutral": {
+                    "r": 64,
+                    "g": 50,
+                    "b": 25
+                  },
+                  "dark_mid": {
+                    "r": 58,
+                    "g": 46,
+                    "b": 23
+                  },
+                  "darker": {
+                    "r": 52,
+                    "g": 41,
+                    "b": 21
+                  },
+                  "darker_darker": {
+                    "r": 42,
+                    "g": 33,
+                    "b": 16
+                  },
+                  "darker_darker_darker": {
+                    "r": 33,
+                    "g": 26,
+                    "b": 13
+                  }
+                },
+                "skin": {
+                  "base": {
+                    "r": 248,
+                    "g": 248,
+                    "b": 192
+                  },
+                  "lighter": {
+                    "r": 203,
+                    "g": 114,
+                    "b": 116
+                  },
+                  "light_mid": {
+                    "r": 249,
+                    "g": 249,
+                    "b": 198
+                  },
+                  "neutral": {
+                    "r": 176,
+                    "g": 87,
+                    "b": 90
+                  },
+                  "dark_mid": {
+                    "r": 226,
+                    "g": 226,
+                    "b": 175
+                  },
+                  "darker": {
+                    "r": 144,
+                    "g": 82,
+                    "b": 94
+                  },
+                  "darker_darker": {
+                    "r": 125,
+                    "g": 70,
+                    "b": 89
+                  },
+                  "darker_darker_darker": {
+                    "r": 65,
+                    "g": 44,
+                    "b": 64
+                  }
+                },
+                "metal": {
+                  "base": {
+                    "r": 100,
+                    "g": 100,
+                    "b": 100
+                  },
+                  "lighter": {
+                    "r": 140,
+                    "g": 36,
+                    "b": 38
+                  },
+                  "light_mid": {
+                    "r": 129,
+                    "g": 32,
+                    "b": 30
+                  },
+                  "neutral": {
+                    "r": 100,
+                    "g": 100,
+                    "b": 100
+                  },
+                  "dark_mid": {
+                    "r": 79,
+                    "g": 21,
+                    "b": 18
+                  },
+                  "darker": {
+                    "r": 82,
+                    "g": 82,
+                    "b": 82
+                  },
+                  "darker_darker": {
+                    "r": 66,
+                    "g": 66,
+                    "b": 66
+                  },
+                  "darker_darker_darker": {
+                    "r": 52,
+                    "g": 52,
+                    "b": 52
+                  }
+                },
+                "trim": {
+                  "base": {
+                    "r": 247,
+                    "g": 173,
+                    "b": 82
+                  },
+                  "lighter": {
+                    "r": 128,
+                    "g": 88,
+                    "b": 104
+                  },
+                  "light_mid": {
+                    "r": 248,
+                    "g": 180,
+                    "b": 98
+                  },
+                  "neutral": {
+                    "r": 247,
+                    "g": 173,
+                    "b": 82
+                  },
+                  "dark_mid": {
+                    "r": 225,
+                    "g": 157,
+                    "b": 75
+                  },
+                  "darker": {
+                    "r": 203,
+                    "g": 142,
+                    "b": 67
+                  },
+                  "darker_darker": {
+                    "r": 163,
+                    "g": 114,
+                    "b": 54
+                  },
+                  "darker_darker_darker": {
+                    "r": 128,
+                    "g": 90,
+                    "b": 43
+                  }
+                },
+                "cloth": {
+                  "base": {
+                    "r": 82,
+                    "g": 82,
+                    "b": 115
+                  },
+                  "lighter": {
+                    "r": 113,
+                    "g": 113,
+                    "b": 140
+                  },
+                  "light_mid": {
+                    "r": 108,
+                    "g": 120,
+                    "b": 52
+                  },
+                  "neutral": {
+                    "r": 82,
+                    "g": 82,
+                    "b": 115
+                  },
+                  "dark_mid": {
+                    "r": 56,
+                    "g": 88,
+                    "b": 48
+                  },
+                  "darker": {
+                    "r": 40,
+                    "g": 60,
+                    "b": 64
+                  },
+                  "darker_darker": {
+                    "r": 54,
+                    "g": 54,
+                    "b": 76
+                  },
+                  "darker_darker_darker": {
+                    "r": 43,
+                    "g": 43,
+                    "b": 60
+                  }
+                },
+                "leather": {
+                  "base": {
+                    "r": 148,
+                    "g": 100,
+                    "b": 66
+                  },
+                  "lighter": {
+                    "r": 187,
+                    "g": 113,
+                    "b": 114
+                  },
+                  "light_mid": {
+                    "r": 153,
+                    "g": 74,
+                    "b": 85
+                  },
+                  "neutral": {
+                    "r": 126,
+                    "g": 68,
+                    "b": 67
+                  },
+                  "dark_mid": {
+                    "r": 112,
+                    "g": 62,
+                    "b": 84
+                  },
+                  "darker": {
+                    "r": 80,
+                    "g": 55,
+                    "b": 64
+                  },
+                  "darker_darker": {
+                    "r": 98,
+                    "g": 66,
+                    "b": 44
+                  },
+                  "darker_darker_darker": {
+                    "r": 77,
+                    "g": 52,
+                    "b": 34
+                  }
+                },
+                "accessory": {
+                  "base": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0
+                  },
+                  "lighter": {
+                    "r": 227,
+                    "g": 223,
+                    "b": 217
+                  },
+                  "light_mid": {
+                    "r": 176,
+                    "g": 145,
+                    "b": 140
+                  },
+                  "neutral": {
+                    "r": 170,
+                    "g": 165,
+                    "b": 157
+                  },
+                  "dark_mid": {
+                    "r": 148,
+                    "g": 140,
+                    "b": 139
+                  },
+                  "darker": {
+                    "r": 100,
+                    "g": 96,
+                    "b": 92
+                  },
+                  "darker_darker": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0
+                  },
+                  "darker_darker_darker": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0
+                  }
+                }
+              },
+              "sourceUrl": null,
+              "imageData": "data:image/png;base64,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"
+            }
+          ]
+        },
+        "class-52-65-61-76-65-72__id-6c-65-67-61-63-79-2d-65-6e-74-72-79-2d-30__default": {
+          "layers": [
+            {
+              "x": 3,
+              "y": 5,
+              "scale": 1,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "opacity": 1,
+              "visible": true,
+              "isFecc": true,
+              "feccType": "token",
+              "feccName": "reaver-default-ddg",
+              "customName": "reaver-default-ddg",
+              "palette": {
+                "outline": "#382040",
+                "hair": {
+                  "base": {
+                    "r": 224,
+                    "g": 216,
+                    "b": 64
+                  },
+                  "lighter": {
+                    "r": 230,
+                    "g": 223,
+                    "b": 98
+                  },
+                  "light_mid": {
+                    "r": 227,
+                    "g": 220,
+                    "b": 81
+                  },
+                  "neutral": {
+                    "r": 224,
+                    "g": 216,
+                    "b": 64
+                  },
+                  "dark_mid": {
+                    "r": 204,
+                    "g": 197,
+                    "b": 58
+                  },
+                  "darker": {
+                    "r": 184,
+                    "g": 177,
+                    "b": 52
+                  },
+                  "darker_darker": {
+                    "r": 148,
+                    "g": 143,
+                    "b": 42
+                  },
+                  "darker_darker_darker": {
+                    "r": 116,
+                    "g": 112,
+                    "b": 33
+                  }
+                },
+                "eye": {
+                  "base": {
+                    "r": 64,
+                    "g": 50,
+                    "b": 25
+                  },
+                  "lighter": {
+                    "r": 98,
+                    "g": 87,
+                    "b": 66
+                  },
+                  "light_mid": {
+                    "r": 81,
+                    "g": 68,
+                    "b": 46
+                  },
+                  "neutral": {
+                    "r": 64,
+                    "g": 50,
+                    "b": 25
+                  },
+                  "dark_mid": {
+                    "r": 58,
+                    "g": 46,
+                    "b": 23
+                  },
+                  "darker": {
+                    "r": 52,
+                    "g": 41,
+                    "b": 21
+                  },
+                  "darker_darker": {
+                    "r": 42,
+                    "g": 33,
+                    "b": 16
+                  },
+                  "darker_darker_darker": {
+                    "r": 33,
+                    "g": 26,
+                    "b": 13
+                  }
+                },
+                "skin": {
+                  "base": {
+                    "r": 248,
+                    "g": 248,
+                    "b": 192
+                  },
+                  "lighter": {
+                    "r": 203,
+                    "g": 114,
+                    "b": 116
+                  },
+                  "light_mid": {
+                    "r": 249,
+                    "g": 249,
+                    "b": 198
+                  },
+                  "neutral": {
+                    "r": 176,
+                    "g": 87,
+                    "b": 90
+                  },
+                  "dark_mid": {
+                    "r": 226,
+                    "g": 226,
+                    "b": 175
+                  },
+                  "darker": {
+                    "r": 144,
+                    "g": 82,
+                    "b": 94
+                  },
+                  "darker_darker": {
+                    "r": 125,
+                    "g": 70,
+                    "b": 89
+                  },
+                  "darker_darker_darker": {
+                    "r": 65,
+                    "g": 44,
+                    "b": 64
+                  }
+                },
+                "metal": {
+                  "base": {
+                    "r": 100,
+                    "g": 100,
+                    "b": 100
+                  },
+                  "lighter": {
+                    "r": 140,
+                    "g": 36,
+                    "b": 38
+                  },
+                  "light_mid": {
+                    "r": 129,
+                    "g": 32,
+                    "b": 30
+                  },
+                  "neutral": {
+                    "r": 100,
+                    "g": 100,
+                    "b": 100
+                  },
+                  "dark_mid": {
+                    "r": 79,
+                    "g": 21,
+                    "b": 18
+                  },
+                  "darker": {
+                    "r": 82,
+                    "g": 82,
+                    "b": 82
+                  },
+                  "darker_darker": {
+                    "r": 66,
+                    "g": 66,
+                    "b": 66
+                  },
+                  "darker_darker_darker": {
+                    "r": 52,
+                    "g": 52,
+                    "b": 52
+                  }
+                },
+                "trim": {
+                  "base": {
+                    "r": 247,
+                    "g": 173,
+                    "b": 82
+                  },
+                  "lighter": {
+                    "r": 128,
+                    "g": 88,
+                    "b": 104
+                  },
+                  "light_mid": {
+                    "r": 248,
+                    "g": 180,
+                    "b": 98
+                  },
+                  "neutral": {
+                    "r": 247,
+                    "g": 173,
+                    "b": 82
+                  },
+                  "dark_mid": {
+                    "r": 225,
+                    "g": 157,
+                    "b": 75
+                  },
+                  "darker": {
+                    "r": 203,
+                    "g": 142,
+                    "b": 67
+                  },
+                  "darker_darker": {
+                    "r": 163,
+                    "g": 114,
+                    "b": 54
+                  },
+                  "darker_darker_darker": {
+                    "r": 128,
+                    "g": 90,
+                    "b": 43
+                  }
+                },
+                "cloth": {
+                  "base": {
+                    "r": 82,
+                    "g": 82,
+                    "b": 115
+                  },
+                  "lighter": {
+                    "r": 113,
+                    "g": 113,
+                    "b": 140
+                  },
+                  "light_mid": {
+                    "r": 108,
+                    "g": 120,
+                    "b": 52
+                  },
+                  "neutral": {
+                    "r": 82,
+                    "g": 82,
+                    "b": 115
+                  },
+                  "dark_mid": {
+                    "r": 56,
+                    "g": 88,
+                    "b": 48
+                  },
+                  "darker": {
+                    "r": 40,
+                    "g": 60,
+                    "b": 64
+                  },
+                  "darker_darker": {
+                    "r": 54,
+                    "g": 54,
+                    "b": 76
+                  },
+                  "darker_darker_darker": {
+                    "r": 43,
+                    "g": 43,
+                    "b": 60
+                  }
+                },
+                "leather": {
+                  "base": {
+                    "r": 148,
+                    "g": 100,
+                    "b": 66
+                  },
+                  "lighter": {
+                    "r": 187,
+                    "g": 113,
+                    "b": 114
+                  },
+                  "light_mid": {
+                    "r": 153,
+                    "g": 74,
+                    "b": 85
+                  },
+                  "neutral": {
+                    "r": 126,
+                    "g": 68,
+                    "b": 67
+                  },
+                  "dark_mid": {
+                    "r": 112,
+                    "g": 62,
+                    "b": 84
+                  },
+                  "darker": {
+                    "r": 80,
+                    "g": 55,
+                    "b": 64
+                  },
+                  "darker_darker": {
+                    "r": 98,
+                    "g": 66,
+                    "b": 44
+                  },
+                  "darker_darker_darker": {
+                    "r": 77,
+                    "g": 52,
+                    "b": 34
+                  }
+                },
+                "accessory": {
+                  "base": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0
+                  },
+                  "lighter": {
+                    "r": 227,
+                    "g": 223,
+                    "b": 217
+                  },
+                  "light_mid": {
+                    "r": 176,
+                    "g": 145,
+                    "b": 140
+                  },
+                  "neutral": {
+                    "r": 170,
+                    "g": 165,
+                    "b": 157
+                  },
+                  "dark_mid": {
+                    "r": 148,
+                    "g": 140,
+                    "b": 139
+                  },
+                  "darker": {
+                    "r": 100,
+                    "g": 96,
+                    "b": 92
+                  },
+                  "darker_darker": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0
+                  },
+                  "darker_darker_darker": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0
+                  }
+                }
+              },
+              "sourceUrl": "modules/emblem-rpg-content/assets/fecc/token/dodge/reaver-default-ddg.png",
+              "imageData": "data:image/png;base64,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"
+            }
+          ]
+        },
+        "class-52-65-61-76-65-72__id-6c-65-67-61-63-79-2d-65-6e-74-72-79-2d-31__default": {
+          "layers": [
+            {
+              "x": -8,
+              "y": -2,
+              "scale": 1,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "opacity": 1,
+              "visible": true,
+              "isFecc": true,
+              "feccType": "token",
+              "feccName": "reaver-default-atk",
+              "customName": "reaver-default-atk",
+              "palette": {
+                "outline": "#382040",
+                "hair": {
+                  "base": {
+                    "r": 224,
+                    "g": 216,
+                    "b": 64
+                  },
+                  "lighter": {
+                    "r": 230,
+                    "g": 223,
+                    "b": 98
+                  },
+                  "light_mid": {
+                    "r": 227,
+                    "g": 220,
+                    "b": 81
+                  },
+                  "neutral": {
+                    "r": 224,
+                    "g": 216,
+                    "b": 64
+                  },
+                  "dark_mid": {
+                    "r": 204,
+                    "g": 197,
+                    "b": 58
+                  },
+                  "darker": {
+                    "r": 184,
+                    "g": 177,
+                    "b": 52
+                  },
+                  "darker_darker": {
+                    "r": 148,
+                    "g": 143,
+                    "b": 42
+                  },
+                  "darker_darker_darker": {
+                    "r": 116,
+                    "g": 112,
+                    "b": 33
+                  }
+                },
+                "eye": {
+                  "base": {
+                    "r": 64,
+                    "g": 50,
+                    "b": 25
+                  },
+                  "lighter": {
+                    "r": 98,
+                    "g": 87,
+                    "b": 66
+                  },
+                  "light_mid": {
+                    "r": 81,
+                    "g": 68,
+                    "b": 46
+                  },
+                  "neutral": {
+                    "r": 64,
+                    "g": 50,
+                    "b": 25
+                  },
+                  "dark_mid": {
+                    "r": 58,
+                    "g": 46,
+                    "b": 23
+                  },
+                  "darker": {
+                    "r": 52,
+                    "g": 41,
+                    "b": 21
+                  },
+                  "darker_darker": {
+                    "r": 42,
+                    "g": 33,
+                    "b": 16
+                  },
+                  "darker_darker_darker": {
+                    "r": 33,
+                    "g": 26,
+                    "b": 13
+                  }
+                },
+                "skin": {
+                  "base": {
+                    "r": 248,
+                    "g": 248,
+                    "b": 192
+                  },
+                  "lighter": {
+                    "r": 203,
+                    "g": 114,
+                    "b": 116
+                  },
+                  "light_mid": {
+                    "r": 249,
+                    "g": 249,
+                    "b": 198
+                  },
+                  "neutral": {
+                    "r": 176,
+                    "g": 87,
+                    "b": 90
+                  },
+                  "dark_mid": {
+                    "r": 226,
+                    "g": 226,
+                    "b": 175
+                  },
+                  "darker": {
+                    "r": 144,
+                    "g": 82,
+                    "b": 94
+                  },
+                  "darker_darker": {
+                    "r": 125,
+                    "g": 70,
+                    "b": 89
+                  },
+                  "darker_darker_darker": {
+                    "r": 65,
+                    "g": 44,
+                    "b": 64
+                  }
+                },
+                "metal": {
+                  "base": {
+                    "r": 100,
+                    "g": 100,
+                    "b": 100
+                  },
+                  "lighter": {
+                    "r": 140,
+                    "g": 36,
+                    "b": 38
+                  },
+                  "light_mid": {
+                    "r": 129,
+                    "g": 32,
+                    "b": 30
+                  },
+                  "neutral": {
+                    "r": 100,
+                    "g": 100,
+                    "b": 100
+                  },
+                  "dark_mid": {
+                    "r": 79,
+                    "g": 21,
+                    "b": 18
+                  },
+                  "darker": {
+                    "r": 82,
+                    "g": 82,
+                    "b": 82
+                  },
+                  "darker_darker": {
+                    "r": 66,
+                    "g": 66,
+                    "b": 66
+                  },
+                  "darker_darker_darker": {
+                    "r": 52,
+                    "g": 52,
+                    "b": 52
+                  }
+                },
+                "trim": {
+                  "base": {
+                    "r": 247,
+                    "g": 173,
+                    "b": 82
+                  },
+                  "lighter": {
+                    "r": 128,
+                    "g": 88,
+                    "b": 104
+                  },
+                  "light_mid": {
+                    "r": 248,
+                    "g": 180,
+                    "b": 98
+                  },
+                  "neutral": {
+                    "r": 247,
+                    "g": 173,
+                    "b": 82
+                  },
+                  "dark_mid": {
+                    "r": 225,
+                    "g": 157,
+                    "b": 75
+                  },
+                  "darker": {
+                    "r": 203,
+                    "g": 142,
+                    "b": 67
+                  },
+                  "darker_darker": {
+                    "r": 163,
+                    "g": 114,
+                    "b": 54
+                  },
+                  "darker_darker_darker": {
+                    "r": 128,
+                    "g": 90,
+                    "b": 43
+                  }
+                },
+                "cloth": {
+                  "base": {
+                    "r": 82,
+                    "g": 82,
+                    "b": 115
+                  },
+                  "lighter": {
+                    "r": 113,
+                    "g": 113,
+                    "b": 140
+                  },
+                  "light_mid": {
+                    "r": 108,
+                    "g": 120,
+                    "b": 52
+                  },
+                  "neutral": {
+                    "r": 82,
+                    "g": 82,
+                    "b": 115
+                  },
+                  "dark_mid": {
+                    "r": 56,
+                    "g": 88,
+                    "b": 48
+                  },
+                  "darker": {
+                    "r": 40,
+                    "g": 60,
+                    "b": 64
+                  },
+                  "darker_darker": {
+                    "r": 54,
+                    "g": 54,
+                    "b": 76
+                  },
+                  "darker_darker_darker": {
+                    "r": 43,
+                    "g": 43,
+                    "b": 60
+                  }
+                },
+                "leather": {
+                  "base": {
+                    "r": 148,
+                    "g": 100,
+                    "b": 66
+                  },
+                  "lighter": {
+                    "r": 187,
+                    "g": 113,
+                    "b": 114
+                  },
+                  "light_mid": {
+                    "r": 153,
+                    "g": 74,
+                    "b": 85
+                  },
+                  "neutral": {
+                    "r": 126,
+                    "g": 68,
+                    "b": 67
+                  },
+                  "dark_mid": {
+                    "r": 112,
+                    "g": 62,
+                    "b": 84
+                  },
+                  "darker": {
+                    "r": 80,
+                    "g": 55,
+                    "b": 64
+                  },
+                  "darker_darker": {
+                    "r": 98,
+                    "g": 66,
+                    "b": 44
+                  },
+                  "darker_darker_darker": {
+                    "r": 77,
+                    "g": 52,
+                    "b": 34
+                  }
+                },
+                "accessory": {
+                  "base": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0
+                  },
+                  "lighter": {
+                    "r": 227,
+                    "g": 223,
+                    "b": 217
+                  },
+                  "light_mid": {
+                    "r": 176,
+                    "g": 145,
+                    "b": 140
+                  },
+                  "neutral": {
+                    "r": 170,
+                    "g": 165,
+                    "b": 157
+                  },
+                  "dark_mid": {
+                    "r": 148,
+                    "g": 140,
+                    "b": 139
+                  },
+                  "darker": {
+                    "r": 100,
+                    "g": 96,
+                    "b": 92
+                  },
+                  "darker_darker": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0
+                  },
+                  "darker_darker_darker": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0
+                  }
+                }
+              },
+              "sourceUrl": "modules/emblem-rpg-content/assets/fecc/token/attack/reaver-default-atk.png",
+              "imageData": "data:image/png;base64,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"
+            }
+          ]
+        },
+        "class-52-65-61-76-65-72__id-6c-65-67-61-63-79-2d-65-6e-74-72-79-2d-32__default": {
+          "layers": [
+            {
+              "x": 3,
+              "y": 7,
+              "scale": 1,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "opacity": 1,
+              "visible": true,
+              "isFecc": true,
+              "feccType": "token",
+              "feccName": "reaver-default-crit",
+              "customName": "reaver-default-crit",
+              "palette": {
+                "outline": "#382040",
+                "hair": {
+                  "base": {
+                    "r": 224,
+                    "g": 216,
+                    "b": 64
+                  },
+                  "lighter": {
+                    "r": 230,
+                    "g": 223,
+                    "b": 98
+                  },
+                  "light_mid": {
+                    "r": 227,
+                    "g": 220,
+                    "b": 81
+                  },
+                  "neutral": {
+                    "r": 224,
+                    "g": 216,
+                    "b": 64
+                  },
+                  "dark_mid": {
+                    "r": 204,
+                    "g": 197,
+                    "b": 58
+                  },
+                  "darker": {
+                    "r": 184,
+                    "g": 177,
+                    "b": 52
+                  },
+                  "darker_darker": {
+                    "r": 148,
+                    "g": 143,
+                    "b": 42
+                  },
+                  "darker_darker_darker": {
+                    "r": 116,
+                    "g": 112,
+                    "b": 33
+                  }
+                },
+                "eye": {
+                  "base": {
+                    "r": 64,
+                    "g": 50,
+                    "b": 25
+                  },
+                  "lighter": {
+                    "r": 98,
+                    "g": 87,
+                    "b": 66
+                  },
+                  "light_mid": {
+                    "r": 81,
+                    "g": 68,
+                    "b": 46
+                  },
+                  "neutral": {
+                    "r": 64,
+                    "g": 50,
+                    "b": 25
+                  },
+                  "dark_mid": {
+                    "r": 58,
+                    "g": 46,
+                    "b": 23
+                  },
+                  "darker": {
+                    "r": 52,
+                    "g": 41,
+                    "b": 21
+                  },
+                  "darker_darker": {
+                    "r": 42,
+                    "g": 33,
+                    "b": 16
+                  },
+                  "darker_darker_darker": {
+                    "r": 33,
+                    "g": 26,
+                    "b": 13
+                  }
+                },
+                "skin": {
+                  "base": {
+                    "r": 248,
+                    "g": 248,
+                    "b": 192
+                  },
+                  "lighter": {
+                    "r": 203,
+                    "g": 114,
+                    "b": 116
+                  },
+                  "light_mid": {
+                    "r": 249,
+                    "g": 249,
+                    "b": 198
+                  },
+                  "neutral": {
+                    "r": 176,
+                    "g": 87,
+                    "b": 90
+                  },
+                  "dark_mid": {
+                    "r": 226,
+                    "g": 226,
+                    "b": 175
+                  },
+                  "darker": {
+                    "r": 144,
+                    "g": 82,
+                    "b": 94
+                  },
+                  "darker_darker": {
+                    "r": 125,
+                    "g": 70,
+                    "b": 89
+                  },
+                  "darker_darker_darker": {
+                    "r": 65,
+                    "g": 44,
+                    "b": 64
+                  }
+                },
+                "metal": {
+                  "base": {
+                    "r": 100,
+                    "g": 100,
+                    "b": 100
+                  },
+                  "lighter": {
+                    "r": 140,
+                    "g": 36,
+                    "b": 38
+                  },
+                  "light_mid": {
+                    "r": 129,
+                    "g": 32,
+                    "b": 30
+                  },
+                  "neutral": {
+                    "r": 100,
+                    "g": 100,
+                    "b": 100
+                  },
+                  "dark_mid": {
+                    "r": 79,
+                    "g": 21,
+                    "b": 18
+                  },
+                  "darker": {
+                    "r": 82,
+                    "g": 82,
+                    "b": 82
+                  },
+                  "darker_darker": {
+                    "r": 66,
+                    "g": 66,
+                    "b": 66
+                  },
+                  "darker_darker_darker": {
+                    "r": 52,
+                    "g": 52,
+                    "b": 52
+                  }
+                },
+                "trim": {
+                  "base": {
+                    "r": 247,
+                    "g": 173,
+                    "b": 82
+                  },
+                  "lighter": {
+                    "r": 128,
+                    "g": 88,
+                    "b": 104
+                  },
+                  "light_mid": {
+                    "r": 248,
+                    "g": 180,
+                    "b": 98
+                  },
+                  "neutral": {
+                    "r": 247,
+                    "g": 173,
+                    "b": 82
+                  },
+                  "dark_mid": {
+                    "r": 225,
+                    "g": 157,
+                    "b": 75
+                  },
+                  "darker": {
+                    "r": 203,
+                    "g": 142,
+                    "b": 67
+                  },
+                  "darker_darker": {
+                    "r": 163,
+                    "g": 114,
+                    "b": 54
+                  },
+                  "darker_darker_darker": {
+                    "r": 128,
+                    "g": 90,
+                    "b": 43
+                  }
+                },
+                "cloth": {
+                  "base": {
+                    "r": 82,
+                    "g": 82,
+                    "b": 115
+                  },
+                  "lighter": {
+                    "r": 113,
+                    "g": 113,
+                    "b": 140
+                  },
+                  "light_mid": {
+                    "r": 108,
+                    "g": 120,
+                    "b": 52
+                  },
+                  "neutral": {
+                    "r": 82,
+                    "g": 82,
+                    "b": 115
+                  },
+                  "dark_mid": {
+                    "r": 56,
+                    "g": 88,
+                    "b": 48
+                  },
+                  "darker": {
+                    "r": 40,
+                    "g": 60,
+                    "b": 64
+                  },
+                  "darker_darker": {
+                    "r": 54,
+                    "g": 54,
+                    "b": 76
+                  },
+                  "darker_darker_darker": {
+                    "r": 43,
+                    "g": 43,
+                    "b": 60
+                  }
+                },
+                "leather": {
+                  "base": {
+                    "r": 148,
+                    "g": 100,
+                    "b": 66
+                  },
+                  "lighter": {
+                    "r": 187,
+                    "g": 113,
+                    "b": 114
+                  },
+                  "light_mid": {
+                    "r": 153,
+                    "g": 74,
+                    "b": 85
+                  },
+                  "neutral": {
+                    "r": 126,
+                    "g": 68,
+                    "b": 67
+                  },
+                  "dark_mid": {
+                    "r": 112,
+                    "g": 62,
+                    "b": 84
+                  },
+                  "darker": {
+                    "r": 80,
+                    "g": 55,
+                    "b": 64
+                  },
+                  "darker_darker": {
+                    "r": 98,
+                    "g": 66,
+                    "b": 44
+                  },
+                  "darker_darker_darker": {
+                    "r": 77,
+                    "g": 52,
+                    "b": 34
+                  }
+                },
+                "accessory": {
+                  "base": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0
+                  },
+                  "lighter": {
+                    "r": 227,
+                    "g": 223,
+                    "b": 217
+                  },
+                  "light_mid": {
+                    "r": 176,
+                    "g": 145,
+                    "b": 140
+                  },
+                  "neutral": {
+                    "r": 170,
+                    "g": 165,
+                    "b": 157
+                  },
+                  "dark_mid": {
+                    "r": 148,
+                    "g": 140,
+                    "b": 139
+                  },
+                  "darker": {
+                    "r": 100,
+                    "g": 96,
+                    "b": 92
+                  },
+                  "darker_darker": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0
+                  },
+                  "darker_darker_darker": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0
+                  }
+                }
+              },
+              "sourceUrl": "modules/emblem-rpg-content/assets/fecc/token/attack/reaver-default-crit.png",
+              "imageData": "data:image/png;base64,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"
+            }
+          ]
+        }
+      }
+    },
+    "emblem-rpg": {
+      "notesMigrated": true,
+      "hotbarLayoutRevision": 2
+    },
+    "emblem-rpg-enemy-ai": {
+      "profile": "aggressive"
+    }
+  },
+  "_stats": {
+    "exportSource": null,
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1786638583478,
+    "modifiedTime": 1791513741762,
+    "lastModifiedBy": "emblembuilder000"
+  },
+  "_id": "h7TGo5rWepOFY9LY",
+  "_key": "!actors!h7TGo5rWepOFY9LY"
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Peridot",
+  "type": "Resource",
+  "img": "modules/emblem-rpg-content/assets/items/resources/Peridot.png",
+  "system": {
+    "description": "A precious, aquamarine gem.",
+    "resourceType": "Reagent",
+    "foodType": "",
+    "amount": 1,
+    "cost": {
+      "perUnit": 200
+    },
+    "stealable": {
+      "flag": "None",
+      "dc": 10
+    }
+  },
+  "folder": "wmexYjZhUF91f0Ux",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1789833320616,
+    "modifiedTime": 1790612899637,
+    "lastModifiedBy": "emblembuilder000",
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_id": "k09xM87eG7opDZTk",
+  "sort": 0,
+  "_key": "!items!k09xM87eG7opDZTk"
+}

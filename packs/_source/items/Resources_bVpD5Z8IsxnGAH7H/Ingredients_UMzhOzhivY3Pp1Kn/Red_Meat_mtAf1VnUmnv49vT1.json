@@ -1,0 +1,36 @@
+{
+  "folder": "UMzhOzhivY3Pp1Kn",
+  "name": "Red Meat",
+  "type": "Resource",
+  "img": "modules/emblem-rpg-content/assets/items/resources/Red%20Meat.png",
+  "system": {
+    "description": "A heavy cut of beef or mutton. What a soldier means when they say they want a real meal.",
+    "resourceType": "Ingredient",
+    "foodType": "Meat",
+    "amount": 1,
+    "cost": {
+      "perUnit": 10
+    },
+    "stealable": {
+      "flag": "None",
+      "dc": 10
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "exportSource": null,
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1790551543274,
+    "modifiedTime": 1790612899639,
+    "lastModifiedBy": "emblembuilder000"
+  },
+  "_id": "mtAf1VnUmnv49vT1",
+  "ownership": {
+    "default": 0
+  },
+  "sort": 0,
+  "_key": "!items!mtAf1VnUmnv49vT1"
+}

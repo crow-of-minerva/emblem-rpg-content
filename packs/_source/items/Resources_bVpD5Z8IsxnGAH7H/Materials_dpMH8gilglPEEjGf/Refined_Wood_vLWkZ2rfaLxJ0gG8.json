@@ -1,0 +1,40 @@
+{
+  "name": "Refined Wood",
+  "type": "Resource",
+  "img": "modules/emblem-rpg-content/assets/items/resources/Refined%20Wood.png",
+  "system": {
+    "description": "",
+    "resourceType": "Material",
+    "foodType": "",
+    "amount": 1,
+    "cost": {
+      "perUnit": 150
+    },
+    "stealable": {
+      "flag": "None",
+      "dc": 10
+    }
+  },
+  "folder": "dpMH8gilglPEEjGf",
+  "_id": "vLWkZ2rfaLxJ0gG8",
+  "effects": [],
+  "flags": {
+    "emblem-rpg": {
+      "pixelArt": true
+    }
+  },
+  "_stats": {
+    "exportSource": null,
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1786773642206,
+    "modifiedTime": 1790612899860,
+    "lastModifiedBy": "emblembuilder000"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "sort": 600000,
+  "_key": "!items!vLWkZ2rfaLxJ0gG8"
+}

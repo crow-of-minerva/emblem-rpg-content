@@ -1,0 +1,40 @@
+{
+  "folder": "20z2JS2zSPhXjk8X",
+  "name": "Linen",
+  "type": "Resource",
+  "_id": "Kmonjgzs9YZ7p5y4",
+  "img": "modules/emblem-rpg-content/assets/items/resources/Linen.png",
+  "system": {
+    "description": "",
+    "resourceType": "Textile",
+    "foodType": "",
+    "amount": 1,
+    "cost": {
+      "perUnit": 25
+    },
+    "stealable": {
+      "flag": "None",
+      "dc": 10
+    }
+  },
+  "effects": [],
+  "sort": 300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "emblem-rpg": {
+      "pixelArt": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1787102724595,
+    "modifiedTime": 1790612899335,
+    "lastModifiedBy": "emblembuilder000",
+    "exportSource": null
+  },
+  "_key": "!items!Kmonjgzs9YZ7p5y4"
+}

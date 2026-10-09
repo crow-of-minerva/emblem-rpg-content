@@ -1,0 +1,25 @@
+{
+  "type": "Actor",
+  "folder": "zJ2bHaaG7PBFwI3M",
+  "name": "Infantry Melee",
+  "color": null,
+  "flags": {
+    "emblem-rpg": {
+      "icon": "modules/emblem-rpg-content/assets/classes/Gladiator.png"
+    }
+  },
+  "sorting": "m",
+  "_id": "IE8JjLnOJkwXHbDL",
+  "description": "",
+  "sort": 137500,
+  "_stats": {
+    "exportSource": null,
+    "coreVersion": "14.366",
+    "systemId": "emblem-rpg",
+    "systemVersion": "0.2.0",
+    "createdTime": 1786327220203,
+    "modifiedTime": 1786626373916,
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!IE8JjLnOJkwXHbDL"
+}

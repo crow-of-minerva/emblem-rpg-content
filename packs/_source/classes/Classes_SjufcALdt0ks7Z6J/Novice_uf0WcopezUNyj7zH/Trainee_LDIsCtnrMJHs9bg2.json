@@ -1,0 +1,248 @@
+{
+  "name": "Trainee",
+  "type": "Class",
+  "img": "modules/emblem-rpg-content/assets/classes/Trainee.png",
+  "folder": "uf0WcopezUNyj7zH",
+  "system": {
+    "description": "Trainees are those who devote themselves to the fine art of swordplay. Quick on their feet and sure of skill, they make for excellent front-line skirmishers.",
+    "tier": "Novice",
+    "baseStats": {
+      "hp": 25,
+      "stn": 3,
+      "mov": 5,
+      "bld": 6,
+      "mgt": 5,
+      "agi": 6,
+      "tqn": 4,
+      "wit": 3,
+      "cha": 3,
+      "def": 0,
+      "res": 1,
+      "spd": 3,
+      "eva": 9,
+      "acc": 0,
+      "crit": 0
+    },
+    "baseGrowths": {
+      "hp": 30,
+      "mgt": 25,
+      "agi": 30,
+      "tqn": 25,
+      "wit": 15,
+      "cha": 10,
+      "def": 5,
+      "res": 10
+    },
+    "baseCaps": {
+      "hp": 31,
+      "mgt": 11,
+      "agi": 11,
+      "tqn": 10,
+      "wit": 7,
+      "cha": 6,
+      "def": 4,
+      "res": 3
+    },
+    "proficiencies": {
+      "brawling": 0,
+      "blade": 2,
+      "polearm": 0,
+      "heavy": 0,
+      "bow": 0,
+      "covert": 0,
+      "arcane": 0,
+      "elemental": 0,
+      "divine": 0,
+      "occult": 0,
+      "armor": 1,
+      "riding": false,
+      "flying": false
+    },
+    "skills": {
+      "athletics": 0,
+      "finesse": 2,
+      "trading": 0,
+      "civics": 0,
+      "handicraft": 1,
+      "sociability": 0,
+      "command": 0,
+      "nature": 0,
+      "perception": 1,
+      "performance": 0,
+      "reason": 0,
+      "esoteric": 0
+    },
+    "unitType": {
+      "infantry": true,
+      "dragon": false,
+      "monster": false,
+      "beast": false,
+      "undead": false
+    },
+    "features": [
+      {
+        "_id": "SNMCMa6kGkwv9fSA",
+        "lvl": 1,
+        "acquisitionType": "choice",
+        "choiceCount": 1,
+        "unique": false,
+        "exceptions": "",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.8MkKuzk3W3gUzv1G",
+            "name": "Precaution",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/Precaution.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.yIKvNOmbF25YqF3X",
+            "name": "Swap",
+            "img": "modules/emblem-rpg-content/assets/abilities/active/Swap.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      },
+      {
+        "_id": "BgeuSkBdqlqBOiUx",
+        "lvl": 5,
+        "acquisitionType": "choice",
+        "choiceCount": 1,
+        "unique": false,
+        "exceptions": "",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.OimsVfhRazYjLOwt",
+            "name": "Blade Flurry",
+            "img": "modules/emblem-rpg-content/assets/abilities/weapon-arts/Blade Flurry.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.uONrCyGk3BtXLvKW",
+            "name": "Counter-Riposte",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/Counter-Riposte.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      },
+      {
+        "_id": "FI5AmQRgGtjwQXyE",
+        "lvl": 3,
+        "acquisitionType": "all",
+        "choiceCount": 1,
+        "unique": false,
+        "exceptions": "",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.LtJS8QnVGj1acmGd",
+            "name": "Dash",
+            "img": "modules/emblem-rpg-content/assets/abilities/active/Dash.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      },
+      {
+        "_id": "R4bcpqKdYoPj3ngI",
+        "lvl": 1,
+        "acquisitionType": "all",
+        "choiceCount": 1,
+        "unique": true,
+        "exceptions": "Swordsman",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.Gq2libkghQOSanol",
+            "name": "Deflection",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/Deflection.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      }
+    ],
+    "promotions": [
+      {
+        "_id": "01fPvn1xqKLo14dI",
+        "lvl": 5,
+        "classUuid": "Compendium.emblem-rpg-content.classes.Item.1Dqz92p8FF4PAHnH",
+        "className": "Swordsman",
+        "classImg": "modules/emblem-rpg-content/assets/classes/Swordsman.png",
+        "promotionItem": {
+          "uuid": "Compendium.emblem-rpg-content.items.Item.SBHdItfA6EtjAuBb",
+          "name": "Ceremonial Sword",
+          "img": "modules/emblem-rpg-content/assets/items/consumables/promotions/Ceremonial%20Sword.png"
+        },
+        "proficiencies": {
+          "brawling": 0,
+          "blade": 0,
+          "polearm": 0,
+          "heavy": 0,
+          "bow": 0,
+          "covert": 0,
+          "arcane": 0,
+          "elemental": 0,
+          "divine": 0,
+          "occult": 0
+        },
+        "skills": {
+          "athletics": 0,
+          "finesse": 0,
+          "trading": 0,
+          "civics": 0,
+          "handicraft": 0,
+          "sociability": 0,
+          "command": 0,
+          "nature": 0,
+          "perception": 0,
+          "performance": 0,
+          "reason": 0,
+          "esoteric": 0
+        }
+      }
+    ]
+  },
+  "_id": "LDIsCtnrMJHs9bg2",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "exportSource": null,
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1786236611001,
+    "modifiedTime": 1790612897676,
+    "lastModifiedBy": "emblembuilder000"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "sort": 0,
+  "_key": "!items!LDIsCtnrMJHs9bg2"
+}

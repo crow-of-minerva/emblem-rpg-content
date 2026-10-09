@@ -1,0 +1,25 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Abilities",
+  "color": null,
+  "sorting": "m",
+  "_id": "p6cLLiyu8xOaQq4J",
+  "description": "",
+  "sort": 200000,
+  "flags": {
+    "emblem-rpg": {
+      "icon": "modules/emblem-rpg-content/assets/abilities/Abilities.png"
+    }
+  },
+  "_stats": {
+    "exportSource": null,
+    "coreVersion": "14.366",
+    "systemId": "emblem-rpg",
+    "systemVersion": "0.2.0",
+    "createdTime": 1781667647448,
+    "modifiedTime": 1786239093198,
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!p6cLLiyu8xOaQq4J"
+}

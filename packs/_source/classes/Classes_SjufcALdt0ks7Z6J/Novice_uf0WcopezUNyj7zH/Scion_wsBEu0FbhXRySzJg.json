@@ -1,0 +1,227 @@
+{
+  "name": "Scion",
+  "type": "Class",
+  "img": "modules/emblem-rpg-content/assets/classes/Scion.png",
+  "folder": "uf0WcopezUNyj7zH",
+  "system": {
+    "description": "Delvers into the dark arts, Scions are accustomed to both giving and taking pain. They have the highest survivability out of the three novice spellcasting classes.",
+    "tier": "Novice",
+    "baseStats": {
+      "hp": 25,
+      "stn": 3,
+      "mov": 5,
+      "bld": 6,
+      "mgt": 3,
+      "agi": 2,
+      "tqn": 3,
+      "wit": 8,
+      "cha": 5,
+      "def": 2,
+      "res": 1,
+      "spd": 2,
+      "eva": 8,
+      "acc": 0,
+      "crit": 0
+    },
+    "baseGrowths": {
+      "hp": 30,
+      "mgt": 15,
+      "agi": 15,
+      "tqn": 15,
+      "wit": 25,
+      "cha": 25,
+      "def": 5,
+      "res": 10
+    },
+    "baseCaps": {
+      "hp": 31,
+      "mgt": 8,
+      "agi": 8,
+      "tqn": 8,
+      "wit": 13,
+      "cha": 9,
+      "def": 5,
+      "res": 5
+    },
+    "proficiencies": {
+      "brawling": 0,
+      "blade": 0,
+      "polearm": 0,
+      "heavy": 0,
+      "bow": 0,
+      "covert": 0,
+      "arcane": 0,
+      "elemental": 0,
+      "divine": 0,
+      "occult": 2,
+      "armor": 0,
+      "riding": false,
+      "flying": false
+    },
+    "skills": {
+      "athletics": 0,
+      "finesse": 0,
+      "trading": 0,
+      "civics": 0,
+      "handicraft": 0,
+      "sociability": 0,
+      "command": 1,
+      "nature": 0,
+      "perception": 0,
+      "performance": 0,
+      "reason": 1,
+      "esoteric": 2
+    },
+    "unitType": {
+      "infantry": true,
+      "dragon": false,
+      "monster": false,
+      "beast": false,
+      "undead": false
+    },
+    "features": [
+      {
+        "_id": "wQingLUWPk0W0lfb",
+        "lvl": 1,
+        "acquisitionType": "all",
+        "choiceCount": 1,
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.CsUdYeQvKz7Ssz24",
+            "name": "Umbra",
+            "img": "modules/emblem-rpg-content/assets/spells/occult/Umbra.png",
+            "type": "Spell",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ],
+        "unique": false,
+        "exceptions": ""
+      },
+      {
+        "_id": "DVOkEytHrgfzDQV5",
+        "lvl": 3,
+        "acquisitionType": "choice",
+        "choiceCount": 1,
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.BdOFzo1yEjJCE0w9",
+            "name": "Chaos Orb",
+            "img": "modules/emblem-rpg-content/assets/spells/occult/Chaos Orb.png",
+            "type": "Spell",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.lj0BrsMEb95ubGj1",
+            "name": "Necrosis",
+            "img": "modules/emblem-rpg-content/assets/spells/occult/Necrosis.png",
+            "type": "Spell",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ],
+        "unique": false,
+        "exceptions": ""
+      },
+      {
+        "_id": "lQ9f0Y5BIU0yx4Sx",
+        "lvl": 5,
+        "acquisitionType": "choice",
+        "choiceCount": 1,
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.p5DbXRVBWiLvTRVR",
+            "name": "Devour the Living",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/Devour the Living.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.k286fiGtemDigwkr",
+            "name": "Fear",
+            "img": "modules/emblem-rpg-content/assets/spells/occult/Fear.png",
+            "type": "Spell",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ],
+        "unique": false,
+        "exceptions": ""
+      }
+    ],
+    "promotions": [
+      {
+        "_id": "gADU53r4h6xTqtYQ",
+        "lvl": 5,
+        "classUuid": "Compendium.emblem-rpg-content.classes.Item.w7Qug7jeD82o69sE",
+        "className": "Warlock",
+        "classImg": "modules/emblem-rpg-content/assets/classes/Warlock.png",
+        "promotionItem": {
+          "uuid": "Compendium.emblem-rpg-content.items.Item.OUhfwTmwn8JfyWwM",
+          "name": "Ritual Goblet",
+          "img": "modules/emblem-rpg-content/assets/items/consumables/promotions/Ritual%20Goblet.png"
+        },
+        "proficiencies": {
+          "brawling": 0,
+          "blade": 0,
+          "polearm": 0,
+          "heavy": 0,
+          "bow": 0,
+          "covert": 0,
+          "arcane": 0,
+          "elemental": 0,
+          "divine": 0,
+          "occult": 0
+        },
+        "skills": {
+          "athletics": 0,
+          "finesse": 0,
+          "trading": 0,
+          "civics": 0,
+          "handicraft": 0,
+          "sociability": 0,
+          "command": 0,
+          "nature": 0,
+          "perception": 0,
+          "performance": 0,
+          "reason": 0,
+          "esoteric": 0
+        }
+      }
+    ]
+  },
+  "_id": "wsBEu0FbhXRySzJg",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "exportSource": null,
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1786236611000,
+    "modifiedTime": 1790612897678,
+    "lastModifiedBy": "emblembuilder000"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "sort": 0,
+  "_key": "!items!wsBEu0FbhXRySzJg"
+}

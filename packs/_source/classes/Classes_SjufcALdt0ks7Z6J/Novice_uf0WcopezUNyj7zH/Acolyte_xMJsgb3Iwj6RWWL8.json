@@ -1,0 +1,276 @@
+{
+  "name": "Acolyte",
+  "type": "Class",
+  "img": "modules/emblem-rpg-content/assets/classes/Acolyte.png",
+  "folder": "uf0WcopezUNyj7zH",
+  "system": {
+    "description": "Wielding divine magic, Acolytes serve to grant healing and bestow powerful advantages to their allies.",
+    "tier": "Novice",
+    "baseStats": {
+      "hp": 23,
+      "stn": 2,
+      "mov": 5,
+      "bld": 3,
+      "mgt": 3,
+      "agi": 3,
+      "tqn": 4,
+      "wit": 5,
+      "cha": 7,
+      "def": 0,
+      "res": 2,
+      "spd": 2,
+      "eva": 8,
+      "acc": 0,
+      "crit": 0
+    },
+    "baseGrowths": {
+      "hp": 25,
+      "mgt": 10,
+      "agi": 20,
+      "tqn": 10,
+      "wit": 25,
+      "cha": 35,
+      "def": 0,
+      "res": 15
+    },
+    "baseCaps": {
+      "hp": 26,
+      "mgt": 6,
+      "agi": 9,
+      "tqn": 7,
+      "wit": 9,
+      "cha": 12,
+      "def": 3,
+      "res": 7
+    },
+    "proficiencies": {
+      "brawling": 0,
+      "blade": 0,
+      "polearm": 0,
+      "heavy": 0,
+      "bow": 0,
+      "covert": 0,
+      "arcane": 0,
+      "elemental": 0,
+      "divine": 2,
+      "occult": 0,
+      "armor": 0,
+      "riding": false,
+      "flying": false
+    },
+    "skills": {
+      "athletics": 0,
+      "finesse": 0,
+      "trading": 0,
+      "civics": 0,
+      "handicraft": 0,
+      "sociability": 2,
+      "command": 0,
+      "nature": 0,
+      "perception": 0,
+      "performance": 0,
+      "reason": 0,
+      "esoteric": 2
+    },
+    "unitType": {
+      "infantry": true,
+      "dragon": false,
+      "monster": false,
+      "beast": false,
+      "undead": false
+    },
+    "features": [
+      {
+        "_id": "025dHGP3qFhojEQ0",
+        "lvl": 1,
+        "acquisitionType": "choice",
+        "choiceCount": 1,
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.TUeTUWoS7TUjQp0q",
+            "name": "Salve",
+            "img": "modules/emblem-rpg-content/assets/spells/divine/Salve.png",
+            "type": "Spell",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.S2ma3deONFVQbRlZ",
+            "name": "Light",
+            "img": "modules/emblem-rpg-content/assets/spells/divine/Light.png",
+            "type": "Spell",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ],
+        "unique": false,
+        "exceptions": ""
+      },
+      {
+        "_id": "3Q5dAAlWqHWaLGAt",
+        "lvl": 5,
+        "acquisitionType": "choice",
+        "choiceCount": 1,
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.NtmHGsE02ITynGoC",
+            "name": "Bless",
+            "img": "modules/emblem-rpg-content/assets/spells/divine/Bless.png",
+            "type": "Spell",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.mi7rRi3TVhBxvRTF",
+            "name": "Sanctuary",
+            "img": "modules/emblem-rpg-content/assets/spells/divine/Sanctuary.png",
+            "type": "Spell",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ],
+        "unique": false,
+        "exceptions": ""
+      },
+      {
+        "_id": "CFu0fCEFS1JLeJ5A",
+        "lvl": 3,
+        "acquisitionType": "choice",
+        "choiceCount": 1,
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.erL2iiiCy9809nDv",
+            "name": "Shine",
+            "img": "modules/emblem-rpg-content/assets/spells/divine/Shine.png",
+            "type": "Spell",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.LQ2VRfqQ9DHL86HF",
+            "name": "Restore",
+            "img": "modules/emblem-rpg-content/assets/spells/divine/Restore.png",
+            "type": "Spell",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ],
+        "unique": false,
+        "exceptions": ""
+      }
+    ],
+    "promotions": [
+      {
+        "_id": "XM4bWiDMMBHK2tA1",
+        "lvl": 5,
+        "classUuid": "Compendium.emblem-rpg-content.classes.Item.tZn6zXHKQQsERNNo",
+        "className": "Herald",
+        "classImg": "modules/emblem-rpg-content/assets/classes/Herald.png",
+        "promotionItem": {
+          "uuid": "Compendium.emblem-rpg-content.items.Item.JR8P8r1uUEJqWNyl",
+          "name": "Holy Signet",
+          "img": "modules/emblem-rpg-content/assets/items/consumables/promotions/Holy%20Signet.png"
+        },
+        "proficiencies": {
+          "brawling": 0,
+          "blade": 0,
+          "polearm": 0,
+          "heavy": 0,
+          "bow": 0,
+          "covert": 0,
+          "arcane": 0,
+          "elemental": 0,
+          "divine": 0,
+          "occult": 0
+        },
+        "skills": {
+          "athletics": 0,
+          "finesse": 0,
+          "trading": 0,
+          "civics": 0,
+          "handicraft": 0,
+          "sociability": 0,
+          "command": 0,
+          "nature": 0,
+          "perception": 0,
+          "performance": 0,
+          "reason": 0,
+          "esoteric": 0
+        }
+      },
+      {
+        "_id": "v1D6kh95JOrrtcge",
+        "lvl": 5,
+        "classUuid": "Compendium.emblem-rpg-content.classes.Item.UEu50OkGC7B8z23V",
+        "className": "Dawnrider",
+        "classImg": "modules/emblem-rpg-content/assets/classes/Dawnrider.png",
+        "promotionItem": {
+          "uuid": "Compendium.emblem-rpg-content.items.Item.JR8P8r1uUEJqWNyl",
+          "name": "Holy Signet",
+          "img": "modules/emblem-rpg-content/assets/items/consumables/promotions/Holy%20Signet.png"
+        },
+        "proficiencies": {
+          "brawling": 0,
+          "blade": 0,
+          "polearm": 0,
+          "heavy": 0,
+          "bow": 0,
+          "covert": 0,
+          "arcane": 0,
+          "elemental": 0,
+          "divine": 0,
+          "occult": 0
+        },
+        "skills": {
+          "athletics": 0,
+          "finesse": 0,
+          "trading": 0,
+          "civics": 0,
+          "handicraft": 0,
+          "sociability": 0,
+          "command": 0,
+          "nature": 0,
+          "perception": 0,
+          "performance": 0,
+          "reason": 0,
+          "esoteric": 0
+        }
+      }
+    ]
+  },
+  "_id": "xMJsgb3Iwj6RWWL8",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "exportSource": null,
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1786236610999,
+    "modifiedTime": 1790612897678,
+    "lastModifiedBy": "emblembuilder000"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "sort": 0,
+  "_key": "!items!xMJsgb3Iwj6RWWL8"
+}

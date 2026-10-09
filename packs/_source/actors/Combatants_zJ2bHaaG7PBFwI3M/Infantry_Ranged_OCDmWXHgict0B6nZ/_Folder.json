@@ -1,0 +1,25 @@
+{
+  "name": "Infantry Ranged",
+  "type": "Actor",
+  "sort": 143750,
+  "flags": {
+    "emblem-rpg": {
+      "icon": "modules/emblem-rpg-content/assets/classes/Hunter.png"
+    }
+  },
+  "_id": "OCDmWXHgict0B6nZ",
+  "description": "",
+  "folder": "zJ2bHaaG7PBFwI3M",
+  "sorting": "m",
+  "color": null,
+  "_stats": {
+    "coreVersion": "14.366",
+    "systemId": "emblem-rpg",
+    "systemVersion": "0.2.0",
+    "createdTime": 1786390692631,
+    "modifiedTime": 1786626374609,
+    "lastModifiedBy": null,
+    "exportSource": null
+  },
+  "_key": "!folders!OCDmWXHgict0B6nZ"
+}

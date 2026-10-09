@@ -1,0 +1,25 @@
+{
+  "type": "Actor",
+  "folder": "bj2omh1Fd1lGdvuS",
+  "name": "Champions (Lv 20-24)",
+  "color": null,
+  "sorting": "m",
+  "_id": "euw6S7yhr82L7v5b",
+  "description": "",
+  "sort": 0,
+  "flags": {
+    "emblem-rpg": {
+      "icon": ""
+    }
+  },
+  "_stats": {
+    "exportSource": null,
+    "coreVersion": "14.366",
+    "systemId": "emblem-rpg",
+    "systemVersion": "0.2.0",
+    "createdTime": 1786800000000,
+    "modifiedTime": 1786800000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!euw6S7yhr82L7v5b"
+}

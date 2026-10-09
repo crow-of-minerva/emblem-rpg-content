@@ -1,0 +1,40 @@
+{
+  "name": "Brass",
+  "type": "Resource",
+  "img": "modules/emblem-rpg-content/assets/items/resources/Brass.png",
+  "system": {
+    "description": "",
+    "resourceType": "Material",
+    "foodType": "",
+    "amount": 1,
+    "cost": {
+      "perUnit": 25
+    },
+    "stealable": {
+      "flag": "None",
+      "dc": 10
+    }
+  },
+  "folder": "UFGtWXU9zX41I7Dl",
+  "effects": [],
+  "flags": {
+    "emblem-rpg": {
+      "pixelArt": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1789309374192,
+    "modifiedTime": 1790612899322,
+    "lastModifiedBy": "emblembuilder000",
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_id": "7lEK0uKOmFGuAgi6",
+  "sort": 0,
+  "_key": "!items!7lEK0uKOmFGuAgi6"
+}

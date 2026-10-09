@@ -1,0 +1,40 @@
+{
+  "name": "Oats",
+  "type": "Resource",
+  "img": "modules/emblem-rpg-content/assets/items/resources/Oats.png",
+  "folder": "UMzhOzhivY3Pp1Kn",
+  "ownership": {
+    "default": 0
+  },
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "emblem-rpg": {
+      "pixelArt": true
+    }
+  },
+  "system": {
+    "description": "Coarse grain, boiled into porridge by soldiers and horses alike. Filling, if joyless.",
+    "resourceType": "Ingredient",
+    "foodType": "Grain",
+    "amount": 1,
+    "cost": {
+      "perUnit": 1
+    },
+    "stealable": {
+      "flag": "None",
+      "dc": 10
+    }
+  },
+  "_id": "kLb1a0UzXVmJHcgp",
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1789663508319,
+    "modifiedTime": 1790612899637,
+    "lastModifiedBy": "emblembuilder000",
+    "exportSource": null
+  },
+  "_key": "!items!kLb1a0UzXVmJHcgp"
+}

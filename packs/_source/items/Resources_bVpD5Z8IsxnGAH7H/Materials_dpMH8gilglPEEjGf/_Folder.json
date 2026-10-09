@@ -1,0 +1,25 @@
+{
+  "type": "Item",
+  "folder": "bVpD5Z8IsxnGAH7H",
+  "name": "Materials",
+  "color": null,
+  "sorting": "m",
+  "_id": "dpMH8gilglPEEjGf",
+  "description": "",
+  "sort": 400000,
+  "flags": {
+    "emblem-rpg": {
+      "icon": ""
+    }
+  },
+  "_stats": {
+    "exportSource": null,
+    "coreVersion": "14.366",
+    "systemId": "emblem-rpg",
+    "systemVersion": "0.2.0",
+    "lastModifiedBy": null,
+    "createdTime": 1786773642188,
+    "modifiedTime": 1787108340480
+  },
+  "_key": "!folders!dpMH8gilglPEEjGf"
+}

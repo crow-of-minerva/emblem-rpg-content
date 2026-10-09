@@ -1,0 +1,25 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Weapons",
+  "color": null,
+  "sorting": "m",
+  "_id": "JHIaxmnb7TZWdkry",
+  "description": "",
+  "sort": 100000,
+  "flags": {
+    "emblem-rpg": {
+      "icon": "modules/emblem-rpg-content/assets/items/weapons/blades/Longsword.png"
+    }
+  },
+  "_stats": {
+    "exportSource": null,
+    "coreVersion": "14.366",
+    "systemId": "emblem-rpg",
+    "systemVersion": "0.2.0",
+    "createdTime": 1786800000000,
+    "modifiedTime": 1786800000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!JHIaxmnb7TZWdkry"
+}

@@ -1,0 +1,220 @@
+{
+  "name": "Wingrider",
+  "type": "Class",
+  "img": "modules/emblem-rpg-content/assets/classes/Wingrider.png",
+  "folder": "LwfXSTDdMACUn2PM",
+  "system": {
+    "description": "Wingriders specialize in aerial combat, mounted on griffons or pegasi. Taking advantage of their mount's special resistance to magic, Wingriders make for quick and mobile mageslayers. They must take caution, however, as most arrowfire will punish them out of the skies.",
+    "tier": "Intermediate",
+    "baseStats": {
+      "hp": 20,
+      "stn": 2,
+      "mov": 7,
+      "bld": 6,
+      "mgt": 4,
+      "agi": 6,
+      "tqn": 5,
+      "wit": 2,
+      "cha": 4,
+      "def": 0,
+      "res": 4,
+      "spd": 2,
+      "eva": 12,
+      "acc": 0,
+      "crit": 2
+    },
+    "baseGrowths": {
+      "hp": 30,
+      "mgt": 20,
+      "agi": 35,
+      "tqn": 25,
+      "wit": 15,
+      "cha": 20,
+      "def": 5,
+      "res": 15
+    },
+    "baseCaps": {
+      "hp": 34,
+      "mgt": 15,
+      "agi": 17,
+      "tqn": 14,
+      "wit": 8,
+      "cha": 10,
+      "def": 3,
+      "res": 7
+    },
+    "proficiencies": {
+      "brawling": 0,
+      "blade": 1,
+      "polearm": 2,
+      "heavy": 0,
+      "bow": 0,
+      "covert": 0,
+      "arcane": 0,
+      "elemental": 0,
+      "divine": 0,
+      "occult": 0,
+      "armor": 1,
+      "riding": false,
+      "flying": true
+    },
+    "skills": {
+      "athletics": 0,
+      "finesse": 2,
+      "trading": 0,
+      "civics": 0,
+      "handicraft": 0,
+      "sociability": 0,
+      "command": 0,
+      "nature": 1,
+      "perception": 2,
+      "performance": 0,
+      "reason": 0,
+      "esoteric": 0
+    },
+    "unitType": {
+      "infantry": true,
+      "dragon": false,
+      "monster": false,
+      "beast": false,
+      "undead": false
+    },
+    "features": [
+      {
+        "_id": "KPrl9UyJS4ftjWFO",
+        "lvl": 5,
+        "acquisitionType": "all",
+        "choiceCount": 1,
+        "unique": true,
+        "exceptions": "",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.VwAwrXdlrl1g0VF6",
+            "name": "Pegasus",
+            "img": "modules/emblem-rpg-content/assets/abilities/active/Mount Pegasus.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      },
+      {
+        "_id": "P18WoOz3wJhfU6oi",
+        "lvl": 7,
+        "acquisitionType": "all",
+        "choiceCount": 1,
+        "unique": true,
+        "exceptions": "",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.ao9cGabe2iKnXZcV",
+            "name": "Warding Blow",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/Warding Blow.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      },
+      {
+        "_id": "o56p3PgYFJgyyTxL",
+        "lvl": 17,
+        "acquisitionType": "choice",
+        "choiceCount": 1,
+        "unique": true,
+        "exceptions": "",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.57mcKFfa9k6iWgrL",
+            "name": "Darting Blow",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/Darting Blow.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.i6GoNgITLWmLrMoF",
+            "name": "Mageslayer",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/Mageslayer.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      },
+      {
+        "_id": "FQZouO4155jUhoGM",
+        "lvl": 9,
+        "acquisitionType": "all",
+        "choiceCount": 1,
+        "unique": false,
+        "exceptions": "",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.aABuAu2iBUbZdVkP",
+            "name": "Prowess: Polearm",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/Prowess_ Polearm.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.gnp3y53xQJ4TCFC1",
+            "name": "Prowess: Blade",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/Prowess_ Blade.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.5PDVBMqIW2B7rCLw",
+            "name": "Resistance +2",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/Resistance +2.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      }
+    ],
+    "promotions": []
+  },
+  "_id": "vyRaW6KaeL3qZlPY",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1789180553914,
+    "modifiedTime": 1790612897678,
+    "lastModifiedBy": "emblembuilder000",
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "sort": 1000000,
+  "_key": "!items!vyRaW6KaeL3qZlPY"
+}

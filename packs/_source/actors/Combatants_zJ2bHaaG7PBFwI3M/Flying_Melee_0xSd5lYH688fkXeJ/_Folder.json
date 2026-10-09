@@ -1,0 +1,25 @@
+{
+  "name": "Flying Melee",
+  "type": "Actor",
+  "sort": 145704,
+  "color": null,
+  "flags": {
+    "emblem-rpg": {
+      "icon": "modules/emblem-rpg-content/assets/classes/Wingrider.png"
+    }
+  },
+  "_id": "0xSd5lYH688fkXeJ",
+  "description": "",
+  "folder": "zJ2bHaaG7PBFwI3M",
+  "sorting": "m",
+  "_stats": {
+    "coreVersion": "14.366",
+    "systemId": "emblem-rpg",
+    "systemVersion": "0.2.0",
+    "createdTime": 1786570428139,
+    "modifiedTime": 1786626401728,
+    "lastModifiedBy": null,
+    "exportSource": null
+  },
+  "_key": "!folders!0xSd5lYH688fkXeJ"
+}

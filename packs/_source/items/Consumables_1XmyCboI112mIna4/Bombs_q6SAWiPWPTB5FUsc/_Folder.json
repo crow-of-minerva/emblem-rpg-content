@@ -1,0 +1,21 @@
+{
+  "_id": "q6SAWiPWPTB5FUsc",
+  "name": "Bombs",
+  "folder": "1XmyCboI112mIna4",
+  "sorting": "a",
+  "sort": 0,
+  "type": "Item",
+  "description": "",
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.366",
+    "systemId": "emblem-rpg",
+    "systemVersion": "0.2.0",
+    "createdTime": 1787462976334,
+    "modifiedTime": 1787462976334,
+    "lastModifiedBy": "emblembuilder000",
+    "exportSource": null
+  },
+  "_key": "!folders!q6SAWiPWPTB5FUsc"
+}

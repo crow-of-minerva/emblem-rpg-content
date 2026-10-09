@@ -1,0 +1,25 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Staff",
+  "color": null,
+  "flags": {
+    "emblem-rpg": {
+      "icon": "modules/emblem-rpg-content/assets/items/Staff.png"
+    }
+  },
+  "sorting": "m",
+  "_id": "HueewAbwBIERvFDx",
+  "description": "",
+  "sort": 150000,
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "emblem-rpg",
+    "systemVersion": "0.2.0",
+    "createdTime": 1786626626446,
+    "modifiedTime": 1789308399454,
+    "lastModifiedBy": "emblembuilder000",
+    "exportSource": null
+  },
+  "_key": "!folders!HueewAbwBIERvFDx"
+}

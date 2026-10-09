@@ -1,0 +1,235 @@
+{
+  "name": "Vanguard",
+  "type": "Class",
+  "img": "modules/emblem-rpg-content/assets/classes/Vanguard.png",
+  "folder": "LwfXSTDdMACUn2PM",
+  "system": {
+    "description": "The Vanguard is a front-line fighter that makes the most out of using heavy armor and shields. Excellent at clashing against Cavalry units.",
+    "tier": "Intermediate",
+    "baseStats": {
+      "hp": 28,
+      "stn": 3,
+      "mov": 5,
+      "bld": 12,
+      "mgt": 7,
+      "agi": 4,
+      "tqn": 6,
+      "wit": 2,
+      "cha": 4,
+      "def": 4,
+      "res": 1,
+      "spd": 2,
+      "eva": 9,
+      "acc": 0,
+      "crit": 0
+    },
+    "baseGrowths": {
+      "hp": 40,
+      "mgt": 30,
+      "agi": 15,
+      "tqn": 30,
+      "wit": 10,
+      "cha": 15,
+      "def": 20,
+      "res": 10
+    },
+    "baseCaps": {
+      "hp": 46,
+      "mgt": 16,
+      "agi": 12,
+      "tqn": 16,
+      "wit": 10,
+      "cha": 13,
+      "def": 15,
+      "res": 8
+    },
+    "proficiencies": {
+      "brawling": 0,
+      "blade": 1,
+      "polearm": 1,
+      "heavy": 1,
+      "bow": 0,
+      "covert": 0,
+      "arcane": 0,
+      "elemental": 0,
+      "divine": 0,
+      "occult": 0,
+      "armor": 3,
+      "riding": false,
+      "flying": false
+    },
+    "skills": {
+      "athletics": 1,
+      "finesse": 0,
+      "trading": 0,
+      "civics": 1,
+      "handicraft": 1,
+      "sociability": 0,
+      "command": 1,
+      "nature": 0,
+      "perception": 0,
+      "performance": 0,
+      "reason": 0,
+      "esoteric": 0
+    },
+    "unitType": {
+      "infantry": true,
+      "dragon": false,
+      "monster": false,
+      "beast": false,
+      "undead": false
+    },
+    "features": [
+      {
+        "_id": "detEfiPEsQuMyfQg",
+        "lvl": 7,
+        "acquisitionType": "all",
+        "choiceCount": 1,
+        "unique": true,
+        "exceptions": "",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.JqPeDTQis3tNCcCb",
+            "name": "Knightkneeler",
+            "img": "modules/emblem-rpg-content/assets/abilities/weapon-arts/Knightkneeler.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      },
+      {
+        "_id": "lLoCx8GcaG1xt7DE",
+        "lvl": 17,
+        "acquisitionType": "choice",
+        "choiceCount": 1,
+        "unique": false,
+        "exceptions": "",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.PVA0cBPj8gKzPPZ6",
+            "name": "Shield Wall",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/Shield Wall.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.U6CBb9LBWi8BbHGk",
+            "name": "Last Stand",
+            "img": "modules/emblem-rpg-content/assets/abilities/active/Last Stand.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      },
+      {
+        "_id": "BA1ApZkOrN8VNHbd",
+        "lvl": 13,
+        "acquisitionType": "choice",
+        "choiceCount": 1,
+        "unique": false,
+        "exceptions": "",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.IFtcC81tuTmAuS46",
+            "name": "Armored Strike",
+            "img": "modules/emblem-rpg-content/assets/abilities/weapon-arts/Armored Strike.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.kNRumQL0EMmobMDL",
+            "name": "Shield Mastery",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/Shield Mastery.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      },
+      {
+        "_id": "r1hsmY7yXKdRBUNX",
+        "lvl": 9,
+        "acquisitionType": "choice",
+        "choiceCount": 1,
+        "unique": false,
+        "exceptions": "",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.gnp3y53xQJ4TCFC1",
+            "name": "Prowess: Blade",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/Prowess_ Blade.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.aABuAu2iBUbZdVkP",
+            "name": "Prowess: Polearm",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/Prowess_ Polearm.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.GpY0Q9NXTd7RpOA5",
+            "name": "Hold the Line+",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/Hold%20the%20Line.png?1787674715415?1787675066111",
+            "type": "Ability",
+            "replace": {
+              "uuid": "Compendium.emblem-rpg-content.features.Item.dEXJfdUF2EhtjgPz",
+              "name": "Hold the Line",
+              "img": "modules/emblem-rpg-content/assets/abilities/passive/Hold%20the%20Line.png?1787674715415?1788790006644?1788790129385?1788790130335?1788790132484"
+            }
+          }
+        ]
+      }
+    ],
+    "promotions": []
+  },
+  "_id": "eMBvoQxg0rbQfymU",
+  "effects": [],
+  "flags": {
+    "emblem-rpg": {
+      "pixelArt": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1787671992673,
+    "modifiedTime": 1790612897677,
+    "lastModifiedBy": "emblembuilder000",
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "sort": 1200000,
+  "_key": "!items!eMBvoQxg0rbQfymU"
+}

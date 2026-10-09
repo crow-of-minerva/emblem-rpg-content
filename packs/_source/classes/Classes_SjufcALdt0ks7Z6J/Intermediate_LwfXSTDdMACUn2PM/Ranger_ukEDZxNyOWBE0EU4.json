@@ -1,0 +1,209 @@
+{
+  "name": "Ranger",
+  "type": "Class",
+  "img": "modules/emblem-rpg-content/assets/classes/Ranger.png",
+  "folder": "LwfXSTDdMACUn2PM",
+  "system": {
+    "description": "A specialist marksman, the Ranger has access to powerful abilities that make them a formidable wielder of the bow. Flying units must beware a Ranger's watchful aim.",
+    "tier": "Intermediate",
+    "baseStats": {
+      "hp": 24,
+      "stn": 3,
+      "mov": 5,
+      "bld": 6,
+      "mgt": 5,
+      "agi": 6,
+      "tqn": 8,
+      "wit": 3,
+      "cha": 2,
+      "def": 1,
+      "res": 0,
+      "spd": 3,
+      "eva": 10,
+      "acc": 1,
+      "crit": 0
+    },
+    "baseGrowths": {
+      "hp": 30,
+      "mgt": 25,
+      "agi": 25,
+      "tqn": 35,
+      "wit": 25,
+      "cha": 10,
+      "def": 5,
+      "res": 15
+    },
+    "baseCaps": {
+      "hp": 36,
+      "mgt": 15,
+      "agi": 17,
+      "tqn": 20,
+      "wit": 13,
+      "cha": 10,
+      "def": 7,
+      "res": 7
+    },
+    "proficiencies": {
+      "brawling": 0,
+      "blade": 1,
+      "polearm": 0,
+      "heavy": 0,
+      "bow": 2,
+      "covert": 0,
+      "arcane": 0,
+      "elemental": 0,
+      "divine": 0,
+      "occult": 0,
+      "armor": 1,
+      "riding": false,
+      "flying": false
+    },
+    "skills": {
+      "athletics": 0,
+      "finesse": 1,
+      "trading": 0,
+      "civics": 0,
+      "handicraft": 0,
+      "sociability": 0,
+      "command": 0,
+      "nature": 1,
+      "perception": 2,
+      "performance": 0,
+      "reason": 0,
+      "esoteric": 0
+    },
+    "unitType": {
+      "infantry": true,
+      "dragon": false,
+      "monster": false,
+      "beast": false,
+      "undead": false
+    },
+    "features": [
+      {
+        "_id": "Tmt94Ipv0QR9PCsN",
+        "lvl": 17,
+        "acquisitionType": "all",
+        "choiceCount": 1,
+        "unique": false,
+        "exceptions": "",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.lthl2vTbOHpZ4kqH",
+            "name": "Fell the Mighty",
+            "img": "modules/emblem-rpg-content/assets/abilities/weapon-arts/Fell the Mighty.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      },
+      {
+        "_id": "9EhIawpixvsNT4a4",
+        "lvl": 13,
+        "acquisitionType": "all",
+        "choiceCount": 1,
+        "unique": false,
+        "exceptions": "",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.KHQAnZBttfQBvoWm",
+            "name": "Bow Rng +1",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/Bow Rng +1.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      },
+      {
+        "_id": "8Bu73BZtqe30rgIV",
+        "lvl": 7,
+        "acquisitionType": "choice",
+        "choiceCount": 1,
+        "unique": false,
+        "exceptions": "",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.p3lw3zOMRfGrKscu",
+            "name": "Scouting Arrow",
+            "img": "modules/emblem-rpg-content/assets/abilities/weapon-arts/Scouting Arrow.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.RXQUDUVmoNeNA8VI",
+            "name": "Serpentsting",
+            "img": "modules/emblem-rpg-content/assets/abilities/weapon-arts/Serpentsting.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      },
+      {
+        "_id": "WZMBHBwIUHeJ9uCP",
+        "lvl": 9,
+        "acquisitionType": "choice",
+        "choiceCount": 1,
+        "unique": false,
+        "exceptions": "",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.fpMdc8ElKPPIZBxl",
+            "name": "Prowess: Bow",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/Prowess_ Bow.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.5PDVBMqIW2B7rCLw",
+            "name": "Resistance +2",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/Resistance +2.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      }
+    ],
+    "promotions": []
+  },
+  "_id": "ukEDZxNyOWBE0EU4",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1789180690757,
+    "modifiedTime": 1790612897677,
+    "lastModifiedBy": "emblembuilder000",
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "sort": 1100000,
+  "_key": "!items!ukEDZxNyOWBE0EU4"
+}

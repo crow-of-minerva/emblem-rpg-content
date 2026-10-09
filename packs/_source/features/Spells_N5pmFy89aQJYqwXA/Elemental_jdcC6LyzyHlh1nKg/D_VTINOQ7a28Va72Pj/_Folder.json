@@ -1,0 +1,21 @@
+{
+  "name": "D",
+  "type": "Item",
+  "folder": "jdcC6LyzyHlh1nKg",
+  "_id": "VTINOQ7a28Va72Pj",
+  "description": "",
+  "sorting": "a",
+  "sort": 125000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "emblem-rpg",
+    "systemVersion": "0.2.0",
+    "lastModifiedBy": "emblembuilder000",
+    "createdTime": 1786298770033,
+    "modifiedTime": 1788975039832
+  },
+  "_key": "!folders!VTINOQ7a28Va72Pj"
+}

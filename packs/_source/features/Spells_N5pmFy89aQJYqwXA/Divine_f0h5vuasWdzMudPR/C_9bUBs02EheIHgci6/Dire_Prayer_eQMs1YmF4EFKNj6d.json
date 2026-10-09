@@ -1,0 +1,817 @@
+{
+  "name": "Dire Prayer",
+  "type": "Spell",
+  "img": "modules/emblem-rpg-content/assets/spells/divine/Dire Prayer.png",
+  "system": {
+    "isWielded": false,
+    "isWorn": false,
+    "isEquipped": false,
+    "description": "As a Bonus Action, you heal a friendly unit other than yourself. This spell is more powerful the closer your target is to death. \n\nA target above 50% HP will heal only 1d6 HP and 1 Stn.\nA target below 50% HP will heal 2d6 + Cha HP and 3 Stn.\nA target below 25% HP will heal 4d6 + Cha HP and 5 Stn.&nbsp;<div><br></div><div style=\"\">&nbsp;Gain an additional use of this spell at A-Rank Divine Proficiency.</div>",
+    "itemType": "Utility",
+    "cost": 0,
+    "wgt": 0,
+    "stealable": {
+      "flag": "None",
+      "dc": 10
+    },
+    "actionType": "Bonus Action",
+    "uses": {
+      "current": 2,
+      "max": 2,
+      "type": "conditional",
+      "scaling": {
+        "factor": "Proficiency",
+        "subject": "divine",
+        "type": "Threshold",
+        "multiplier": 1,
+        "thresholds": [
+          {
+            "at": 5,
+            "uses": 1
+          }
+        ],
+        "formula": "",
+        "addToBase": true,
+        "roundDown": false
+      }
+    },
+    "aura": {
+      "enabled": false,
+      "rng": 0
+    },
+    "wepArtData": {
+      "cost": 0,
+      "brawling": false,
+      "blade": false,
+      "polearm": false,
+      "heavy": false,
+      "bow": false,
+      "covert": false
+    },
+    "requirements": [],
+    "modifiers": [],
+    "effectData": {
+      "params": [],
+      "type": "",
+      "rng": "1-3",
+      "rngType": "Single",
+      "rngShape": "Normal",
+      "losRule": "normal",
+      "rngScaling": {
+        "factor": "None",
+        "subject": "",
+        "type": "Additive",
+        "multiplier": 1,
+        "thresholds": [],
+        "formula": "",
+        "addToBase": false,
+        "roundDown": false
+      },
+      "targets": 1,
+      "targetType": "Friendly",
+      "locationRng": 0,
+      "gridColor": "Green",
+      "groundValidSquares": "All",
+      "groundMaxElevDiff": 0,
+      "deliveryType": "Saving Throw",
+      "savingThrowDC": {
+        "required": false,
+        "base": 0,
+        "attribute": "Cha",
+        "targetAttribute": "None",
+        "ignoreForFriendly": false
+      },
+      "skillCheckDC": {
+        "required": false,
+        "base": 0,
+        "skill": "None",
+        "targetAttribute": "None",
+        "ignoreForFriendly": false
+      },
+      "consumeOnFailure": true,
+      "groundUnoccupiedOnly": true
+    },
+    "consumableData": {
+      "effect": "",
+      "stat": "",
+      "statValue": 0,
+      "growth": "",
+      "growthValue": 0
+    },
+    "weapon": {
+      "req": "Divine",
+      "rank": 3,
+      "twoHanded": false,
+      "dmgTypes": {
+        "slashing": false,
+        "slashingConditionTree": null,
+        "piercing": false,
+        "piercingConditionTree": null,
+        "crushing": false,
+        "crushingConditionTree": null,
+        "missile": false,
+        "missileConditionTree": null,
+        "fire": true,
+        "fireConditionTree": null,
+        "ice": false,
+        "iceConditionTree": null,
+        "lightning": false,
+        "lightningConditionTree": null,
+        "wind": false,
+        "windConditionTree": null,
+        "arcane": false,
+        "arcaneConditionTree": null,
+        "decay": false,
+        "decayConditionTree": null,
+        "shadow": false,
+        "shadowConditionTree": null,
+        "holy": false,
+        "holyConditionTree": null,
+        "randomize": false
+      },
+      "atkStat": "Wit",
+      "atk": "6",
+      "rng": "1-3",
+      "acc": 0,
+      "brk": 1,
+      "crit": 0,
+      "extraAttacks": 0,
+      "noExtraAttacks": false,
+      "effectiveAgainst": {
+        "infantry": false,
+        "armored": false,
+        "cavalry": false,
+        "flying": false,
+        "dragon": false,
+        "beast": false,
+        "monster": false,
+        "undead": false,
+        "magic": false
+      },
+      "breaker": {
+        "brawling": false,
+        "blade": false,
+        "polearm": false,
+        "heavy": false,
+        "bow": false,
+        "covert": false,
+        "elemental": false,
+        "divine": false,
+        "occult": false,
+        "arcane": false
+      }
+    },
+    "armor": {
+      "req": "",
+      "def": 0,
+      "res": 0,
+      "stn": 0,
+      "eva": 0,
+      "brkRed": 0,
+      "critRed": 0,
+      "vulns": {
+        "slashing": false,
+        "piercing": false,
+        "crushing": false,
+        "missile": false,
+        "fire": false,
+        "ice": false,
+        "lightning": false,
+        "wind": false,
+        "arcane": false,
+        "decay": false,
+        "shadow": false,
+        "holy": false
+      },
+      "prots": {
+        "slashing": false,
+        "piercing": false,
+        "crushing": false,
+        "missile": false,
+        "fire": false,
+        "ice": false,
+        "lightning": false,
+        "wind": false,
+        "arcane": false,
+        "decay": false,
+        "shadow": false,
+        "holy": false
+      }
+    },
+    "mountData": {
+      "stats": {
+        "mov": 0,
+        "hp": 0,
+        "stn": 0,
+        "eva": 0,
+        "atk": 0,
+        "spd": 0,
+        "acc": 0,
+        "crit": 0
+      },
+      "unitTypes": {
+        "cavalry": false,
+        "flying": false,
+        "dragon": false,
+        "beast": false,
+        "monster": false,
+        "undead": false
+      }
+    },
+    "craftingData": {
+      "forging": {
+        "enabled": false,
+        "forgeMult": 1,
+        "skillCheck": "Handicraft",
+        "materials": []
+      },
+      "refinement": {
+        "tiers": [
+          {
+            "enabled": false,
+            "xpReq": 2,
+            "forgeMult": null,
+            "skillCheck": "",
+            "materials": [],
+            "modifiers": {
+              "atk": null,
+              "brk": null,
+              "wgt": null,
+              "acc": null,
+              "crit": null,
+              "durability": null,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": "",
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              }
+            }
+          },
+          {
+            "enabled": false,
+            "xpReq": 4,
+            "forgeMult": null,
+            "skillCheck": "",
+            "materials": [],
+            "modifiers": {
+              "atk": null,
+              "brk": null,
+              "wgt": null,
+              "acc": null,
+              "crit": null,
+              "durability": null,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": "",
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              }
+            }
+          },
+          {
+            "enabled": false,
+            "xpReq": 6,
+            "forgeMult": null,
+            "skillCheck": "",
+            "materials": [],
+            "modifiers": {
+              "atk": null,
+              "brk": null,
+              "wgt": null,
+              "acc": null,
+              "crit": null,
+              "durability": null,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": "",
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              }
+            }
+          },
+          {
+            "enabled": false,
+            "xpReq": 8,
+            "forgeMult": null,
+            "skillCheck": "",
+            "materials": [],
+            "modifiers": {
+              "atk": null,
+              "brk": null,
+              "wgt": null,
+              "acc": null,
+              "crit": null,
+              "durability": null,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": "",
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              }
+            }
+          },
+          {
+            "enabled": false,
+            "xpReq": 10,
+            "forgeMult": null,
+            "skillCheck": "",
+            "materials": [],
+            "modifiers": {
+              "atk": null,
+              "brk": null,
+              "wgt": null,
+              "acc": null,
+              "crit": null,
+              "durability": null,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": "",
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              }
+            }
+          }
+        ]
+      },
+      "creation": {
+        "materials": [],
+        "difficultyClass": 0,
+        "skillCheck": "Nature"
+      },
+      "forgingXP": 0
+    },
+    "refreshes": true,
+    "tradeDisabled": false,
+    "anim": {
+      "attack": null,
+      "critical": null,
+      "activation": {
+        "melee": {
+          "steps": [
+            {
+              "kind": "sound",
+              "file": "modules/emblem-rpg-content/sound/magic/light-cast-2.wav",
+              "volume": 1.2,
+              "audioChannel": "interface",
+              "duration": 1200,
+              "fadeOutAudio": 200
+            },
+            {
+              "kind": "effect",
+              "layer": "aboveInterface",
+              "attachTo": "token",
+              "stretchTo": "target",
+              "fadeOut": 400,
+              "playbackRate": 1.2,
+              "scale": 0.5,
+              "file": "blfx.spell.range.projectile.light.guiding_bolt1.color1",
+              "duration": 900,
+              "repeats": {
+                "count": 5,
+                "delayMin": 200
+              },
+              "waitUntilFinished": -300
+            }
+          ],
+          "duration": 1700
+        },
+        "ranged": {
+          "steps": [
+            {
+              "kind": "sound",
+              "file": "modules/emblem-rpg-content/sound/magic/light-cast-2.wav",
+              "volume": 1.2,
+              "audioChannel": "interface",
+              "duration": 1200,
+              "fadeOutAudio": 200
+            },
+            {
+              "kind": "effect",
+              "layer": "aboveInterface",
+              "attachTo": "token",
+              "stretchTo": "target",
+              "fadeOut": 400,
+              "playbackRate": 1.2,
+              "scale": 0.5,
+              "file": "blfx.spell.range.projectile.light.guiding_bolt1.color1",
+              "duration": 900,
+              "repeats": {
+                "count": 5,
+                "delayMin": 200
+              },
+              "waitUntilFinished": -300
+            }
+          ],
+          "duration": 1700
+        }
+      }
+    },
+    "effects": [
+      {
+        "trigger": "onActivation",
+        "name": "Light Wound (>50% HP)",
+        "itemNames": [],
+        "itemUuids": [],
+        "delayMs": 0,
+        "condition": {
+          "kind": "compare",
+          "left": "target.hp / target.maxHp",
+          "op": ">",
+          "right": {
+            "literal": 0.5
+          }
+        },
+        "action": {
+          "steps": [
+            {
+              "kind": "animation",
+              "animation": {
+                "steps": [
+                  {
+                    "kind": "effect",
+                    "file": "jb2a.dancing_light.blueteal",
+                    "atLocation": "target",
+                    "layer": "aboveInterface",
+                    "scale": 0.5,
+                    "playbackRate": 1,
+                    "opacity": 0.6,
+                    "fadeIn": 500,
+                    "fadeOut": 500,
+                    "randomizeMirrorY": true,
+                    "duration": 2000,
+                    "repeats": {
+                      "count": 2,
+                      "delayMin": 100,
+                      "delayMax": 100
+                    },
+                    "filter": {
+                      "type": "ColorMatrix",
+                      "params": {
+                        "hue": -150
+                      }
+                    }
+                  },
+                  {
+                    "kind": "effect",
+                    "file": "jb2a.glint",
+                    "atLocation": "target",
+                    "layer": "aboveInterface",
+                    "scaleToObject": 0.8,
+                    "fadeIn": 500,
+                    "fadeOut": 500,
+                    "delay": 500,
+                    "duration": 2000
+                  },
+                  {
+                    "kind": "sound",
+                    "file": "modules/emblem-rpg-content/sound/magic/heal-1.wav",
+                    "audioChannel": "interface",
+                    "volume": 0.8,
+                    "fadeOutAudio": 300,
+                    "delay": 0,
+                    "repeats": {
+                      "count": 1,
+                      "delayMin": 400,
+                      "delayMax": 400
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "kind": "heal",
+              "target": "target",
+              "formula": "1d6",
+              "stnAmount": "1"
+            }
+          ]
+        },
+        "tokenAwaits": false
+      },
+      {
+        "trigger": "onActivation",
+        "name": "Wounded (25–50% HP)",
+        "itemNames": [],
+        "itemUuids": [],
+        "delayMs": 0,
+        "condition": {
+          "kind": "group",
+          "op": "and",
+          "children": [
+            {
+              "kind": "compare",
+              "left": "target.hp / target.maxHp",
+              "op": "<=",
+              "right": {
+                "literal": 0.5
+              }
+            },
+            {
+              "kind": "compare",
+              "left": "target.hp / target.maxHp",
+              "op": ">",
+              "right": {
+                "literal": 0.25
+              }
+            }
+          ]
+        },
+        "action": {
+          "steps": [
+            {
+              "kind": "animation",
+              "animation": {
+                "steps": [
+                  {
+                    "kind": "effect",
+                    "file": "jb2a.healing_generic.400px.yellow02",
+                    "atLocation": "target",
+                    "layer": "aboveInterface",
+                    "scaleToObject": 1,
+                    "playbackRate": 0.9,
+                    "opacity": 0.6,
+                    "fadeIn": 500,
+                    "fadeOut": 500,
+                    "duration": 2000,
+                    "repeats": {
+                      "count": 2,
+                      "delayMin": 100,
+                      "delayMax": 100
+                    }
+                  },
+                  {
+                    "kind": "effect",
+                    "file": "jb2a.glint",
+                    "atLocation": "target",
+                    "layer": "aboveInterface",
+                    "scaleToObject": 1.2,
+                    "fadeIn": 500,
+                    "fadeOut": 500,
+                    "delay": 500,
+                    "duration": 2000
+                  },
+                  {
+                    "kind": "sound",
+                    "file": "modules/emblem-rpg-content/sound/magic/heal-1.wav",
+                    "audioChannel": "interface",
+                    "volume": 0.8,
+                    "fadeOutAudio": 300,
+                    "delay": 0,
+                    "repeats": {
+                      "count": 1,
+                      "delayMin": 400,
+                      "delayMax": 400
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "kind": "heal",
+              "target": "target",
+              "formula": "2d6+casterCha",
+              "stnAmount": "3"
+            }
+          ]
+        },
+        "tokenAwaits": false
+      },
+      {
+        "trigger": "onActivation",
+        "name": "Dire (≤25% HP)",
+        "itemNames": [],
+        "itemUuids": [],
+        "delayMs": 0,
+        "condition": {
+          "kind": "compare",
+          "left": "target.hp / target.maxHp",
+          "op": "<=",
+          "right": {
+            "literal": 0.25
+          }
+        },
+        "action": {
+          "steps": [
+            {
+              "kind": "animation",
+              "animation": {
+                "steps": [
+                  {
+                    "kind": "effect",
+                    "file": "jb2a.dancing_light.pink",
+                    "atLocation": "target",
+                    "layer": "aboveInterface",
+                    "scaleToObject": 1,
+                    "opacity": 0.6,
+                    "fadeIn": 500,
+                    "fadeOut": 500,
+                    "randomizeMirrorY": true,
+                    "duration": 2500,
+                    "repeats": {
+                      "count": 2,
+                      "delayMin": 100,
+                      "delayMax": 100
+                    }
+                  },
+                  {
+                    "kind": "effect",
+                    "file": "jb2a.healing_generic.03.burst.orangepurple",
+                    "atLocation": "target",
+                    "layer": "aboveInterface",
+                    "scaleToObject": 1,
+                    "delay": 250
+                  },
+                  {
+                    "kind": "effect",
+                    "file": "jb2a.glint",
+                    "atLocation": "target",
+                    "layer": "aboveInterface",
+                    "scaleToObject": 1.5,
+                    "fadeIn": 500,
+                    "fadeOut": 500,
+                    "delay": 500,
+                    "duration": 2000
+                  },
+                  {
+                    "kind": "sound",
+                    "file": "modules/emblem-rpg-content/sound/magic/heal-2.wav",
+                    "audioChannel": "environment"
+                  }
+                ]
+              }
+            },
+            {
+              "kind": "heal",
+              "target": "target",
+              "formula": "4d6+casterCha",
+              "stnAmount": "5"
+            }
+          ]
+        },
+        "tokenAwaits": false
+      }
+    ]
+  },
+  "folder": "9bUBs02EheIHgci6",
+  "_id": "eQMs1YmF4EFKNj6d",
+  "effects": [],
+  "flags": {
+    "emblem-rpg-enemy-ai": {
+      "aiData": {
+        "role": "heal",
+        "threshold": 90,
+        "amount": 16
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1788788467876,
+    "modifiedTime": 1790612898340,
+    "lastModifiedBy": "emblembuilder000",
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "sort": 500000,
+  "_key": "!items!eQMs1YmF4EFKNj6d"
+}

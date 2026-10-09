@@ -1,0 +1,21 @@
+{
+  "type": "Item",
+  "folder": "1XmyCboI112mIna4",
+  "name": "Potions",
+  "color": null,
+  "sorting": "a",
+  "_id": "iTGCxlExfqSwruYF",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "exportSource": null,
+    "coreVersion": "14.366",
+    "systemId": "emblem-rpg",
+    "systemVersion": "0.2.0",
+    "lastModifiedBy": null,
+    "createdTime": null,
+    "modifiedTime": null
+  },
+  "_key": "!folders!iTGCxlExfqSwruYF"
+}

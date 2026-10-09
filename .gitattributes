@@ -1,1 +1,2 @@
 packs/** -text
+packs/_source/** text eol=lf

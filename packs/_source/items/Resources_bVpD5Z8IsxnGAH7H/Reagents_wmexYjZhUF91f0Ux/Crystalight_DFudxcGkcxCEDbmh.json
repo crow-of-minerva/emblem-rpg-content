@@ -1,0 +1,36 @@
+{
+  "folder": "wmexYjZhUF91f0Ux",
+  "name": "Crystalight",
+  "type": "Resource",
+  "img": "modules/emblem-rpg-content/assets/items/resources/Crystalight.png",
+  "system": {
+    "description": "A condensed mote of radiant energy, formed when morning dew captures solar magic and crystallizes. Sometimes worn decoratively in jewelery, but has potent magical properties in the right hands.",
+    "resourceType": "Reagent",
+    "foodType": "",
+    "amount": 1,
+    "cost": {
+      "perUnit": 150
+    },
+    "stealable": {
+      "flag": "None",
+      "dc": 10
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "exportSource": null,
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1787462976384,
+    "modifiedTime": 1790612899328,
+    "lastModifiedBy": "emblembuilder000"
+  },
+  "_id": "DFudxcGkcxCEDbmh",
+  "ownership": {
+    "default": 0
+  },
+  "sort": 900000,
+  "_key": "!items!DFudxcGkcxCEDbmh"
+}

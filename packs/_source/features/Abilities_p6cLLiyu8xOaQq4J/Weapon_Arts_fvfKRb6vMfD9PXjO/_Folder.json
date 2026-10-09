@@ -1,0 +1,21 @@
+{
+  "type": "Item",
+  "folder": "p6cLLiyu8xOaQq4J",
+  "name": "Weapon Arts",
+  "color": null,
+  "sorting": "a",
+  "_id": "fvfKRb6vMfD9PXjO",
+  "description": "",
+  "sort": 250000,
+  "flags": {},
+  "_stats": {
+    "exportSource": null,
+    "coreVersion": "14.366",
+    "systemId": "emblem-rpg",
+    "systemVersion": "0.2.0",
+    "lastModifiedBy": null,
+    "createdTime": null,
+    "modifiedTime": null
+  },
+  "_key": "!folders!fvfKRb6vMfD9PXjO"
+}

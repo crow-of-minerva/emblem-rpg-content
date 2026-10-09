@@ -1,0 +1,36 @@
+{
+  "name": "Caviar",
+  "type": "Resource",
+  "img": "modules/emblem-rpg-content/assets/items/resources/Caviar.png",
+  "folder": "UMzhOzhivY3Pp1Kn",
+  "ownership": {
+    "default": 0
+  },
+  "sort": 0,
+  "effects": [],
+  "flags": {},
+  "system": {
+    "description": "Black roe from a river sturgeon, packed in salt and ice. Reserved by old law for the crown, and by newer custom for anyone able to pay.",
+    "resourceType": "Ingredient",
+    "foodType": "Seafood",
+    "amount": 1,
+    "cost": {
+      "perUnit": 20
+    },
+    "stealable": {
+      "flag": "None",
+      "dc": 10
+    }
+  },
+  "_id": "hOYtXBeaWmVaGO20",
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1789663508318,
+    "modifiedTime": 1790612899634,
+    "lastModifiedBy": "emblembuilder000",
+    "exportSource": null
+  },
+  "_key": "!items!hOYtXBeaWmVaGO20"
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Barley",
+  "type": "Resource",
+  "img": "modules/emblem-rpg-content/assets/items/resources/Barley.png",
+  "folder": "UMzhOzhivY3Pp1Kn",
+  "ownership": {
+    "default": 0
+  },
+  "sort": 0,
+  "effects": [],
+  "flags": {},
+  "system": {
+    "description": "A hardy field grain. Goes into pottage, into bread, and more often into beer.",
+    "resourceType": "Ingredient",
+    "foodType": "Grain",
+    "amount": 1,
+    "cost": {
+      "perUnit": 2
+    },
+    "stealable": {
+      "flag": "None",
+      "dc": 10
+    }
+  },
+  "_id": "wu6VxjVmLEp5seaO",
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1789663508319,
+    "modifiedTime": 1790612899862,
+    "lastModifiedBy": "emblembuilder000",
+    "exportSource": null
+  },
+  "_key": "!items!wu6VxjVmLEp5seaO"
+}

@@ -1,0 +1,36 @@
+{
+  "folder": "UMzhOzhivY3Pp1Kn",
+  "name": "Cheese",
+  "type": "Resource",
+  "img": "modules/emblem-rpg-content/assets/items/resources/Cheese.png",
+  "system": {
+    "description": "A firm wedge of farmhouse cheese. Keeps well, travels better.",
+    "resourceType": "Ingredient",
+    "foodType": "Dairy",
+    "amount": 1,
+    "cost": {
+      "perUnit": 3
+    },
+    "stealable": {
+      "flag": "None",
+      "dc": 10
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "exportSource": null,
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1790551542647,
+    "modifiedTime": 1790612899321,
+    "lastModifiedBy": "emblembuilder000"
+  },
+  "_id": "6ZY4efeUMATUoNzi",
+  "ownership": {
+    "default": 0
+  },
+  "sort": 0,
+  "_key": "!items!6ZY4efeUMATUoNzi"
+}

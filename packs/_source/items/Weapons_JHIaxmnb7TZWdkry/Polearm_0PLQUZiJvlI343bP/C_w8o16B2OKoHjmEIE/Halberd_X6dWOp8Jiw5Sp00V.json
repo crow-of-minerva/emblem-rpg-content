@@ -1,0 +1,748 @@
+{
+  "name": "Halberd",
+  "type": "Equipment",
+  "img": "modules/emblem-rpg-content/assets/items/weapons/polearms/Halberd.png",
+  "system": {
+    "isWielded": false,
+    "isWorn": false,
+    "isEquipped": false,
+    "description": "A mighty polearm weapon capable of either Slashing or Piercing damage.&nbsp;<div><br></div><div><span style=\"color: var(--color-light-2);\">Bladebreaker</span></div>",
+    "itemType": "Weapon",
+    "cost": 900,
+    "wgt": 8,
+    "stealable": {
+      "flag": "None",
+      "dc": 10
+    },
+    "actionType": "Standard Action",
+    "uses": {
+      "current": 30,
+      "max": 30,
+      "type": "limited",
+      "scaling": {
+        "factor": "Level",
+        "subject": "",
+        "type": "Additive",
+        "multiplier": 1,
+        "thresholds": [],
+        "formula": "",
+        "addToBase": false,
+        "roundDown": false
+      }
+    },
+    "aura": {
+      "enabled": false,
+      "rng": 0
+    },
+    "wepArtData": {
+      "cost": 0,
+      "brawling": false,
+      "blade": false,
+      "polearm": false,
+      "heavy": false,
+      "bow": false,
+      "covert": false
+    },
+    "requirements": [],
+    "modifiers": [],
+    "effectData": {
+      "params": [],
+      "type": "",
+      "rng": "1",
+      "rngType": "Single",
+      "rngShape": "Normal",
+      "losRule": "normal",
+      "rngScaling": {
+        "factor": "None",
+        "subject": "",
+        "type": "Additive",
+        "multiplier": 1,
+        "thresholds": [],
+        "formula": "",
+        "addToBase": false,
+        "roundDown": false
+      },
+      "targets": 1,
+      "targetType": "Any",
+      "locationRng": 0,
+      "gridColor": "Red",
+      "groundValidSquares": "All",
+      "groundMaxElevDiff": 0,
+      "deliveryType": "Saving Throw",
+      "savingThrowDC": {
+        "required": false,
+        "base": 0,
+        "attribute": "None",
+        "targetAttribute": "None",
+        "ignoreForFriendly": false
+      },
+      "skillCheckDC": {
+        "required": false,
+        "base": 0,
+        "skill": "None",
+        "targetAttribute": "None",
+        "ignoreForFriendly": false
+      },
+      "consumeOnFailure": true,
+      "groundUnoccupiedOnly": true
+    },
+    "consumableData": {
+      "effect": "",
+      "stat": "",
+      "statValue": 0,
+      "growth": "",
+      "growthValue": 0
+    },
+    "weapon": {
+      "req": "Polearm",
+      "rank": 3,
+      "twoHanded": true,
+      "dmgTypes": {
+        "slashing": true,
+        "slashingConditionTree": null,
+        "piercing": true,
+        "piercingConditionTree": null,
+        "crushing": false,
+        "crushingConditionTree": null,
+        "missile": false,
+        "missileConditionTree": null,
+        "fire": false,
+        "fireConditionTree": null,
+        "ice": false,
+        "iceConditionTree": null,
+        "lightning": false,
+        "lightningConditionTree": null,
+        "wind": false,
+        "windConditionTree": null,
+        "arcane": false,
+        "arcaneConditionTree": null,
+        "decay": false,
+        "decayConditionTree": null,
+        "shadow": false,
+        "shadowConditionTree": null,
+        "holy": false,
+        "holyConditionTree": null,
+        "randomize": false
+      },
+      "atkStat": "Might",
+      "atk": "10",
+      "rng": "1",
+      "acc": -1,
+      "brk": 2,
+      "crit": 0,
+      "extraAttacks": 0,
+      "noExtraAttacks": false,
+      "effectiveAgainst": {
+        "infantry": false,
+        "armored": false,
+        "cavalry": false,
+        "flying": false,
+        "dragon": false,
+        "beast": false,
+        "monster": false,
+        "undead": false,
+        "magic": false
+      },
+      "breaker": {
+        "brawling": false,
+        "blade": true,
+        "polearm": false,
+        "heavy": false,
+        "bow": false,
+        "covert": false,
+        "elemental": false,
+        "divine": false,
+        "occult": false,
+        "arcane": false
+      }
+    },
+    "armor": {
+      "req": "Heavy",
+      "def": 0,
+      "res": 0,
+      "stn": 0,
+      "eva": 0,
+      "brkRed": 0,
+      "critRed": 0,
+      "vulns": {
+        "slashing": false,
+        "piercing": false,
+        "crushing": false,
+        "missile": false,
+        "fire": false,
+        "ice": false,
+        "lightning": false,
+        "wind": false,
+        "arcane": false,
+        "decay": false,
+        "shadow": false,
+        "holy": false
+      },
+      "prots": {
+        "slashing": false,
+        "piercing": false,
+        "crushing": false,
+        "missile": false,
+        "fire": false,
+        "ice": false,
+        "lightning": false,
+        "wind": false,
+        "arcane": false,
+        "decay": false,
+        "shadow": false,
+        "holy": false
+      }
+    },
+    "mountData": {
+      "stats": {
+        "mov": 0,
+        "hp": 0,
+        "stn": 0,
+        "eva": 0,
+        "atk": 0,
+        "spd": 0,
+        "acc": 0,
+        "crit": 0
+      },
+      "unitTypes": {
+        "cavalry": false,
+        "flying": false,
+        "dragon": false,
+        "beast": false,
+        "monster": false,
+        "undead": false
+      }
+    },
+    "craftingData": {
+      "refinement": {
+        "tiers": [
+          {
+            "enabled": true,
+            "xpReq": 30,
+            "forgeMult": null,
+            "skillCheck": "",
+            "materials": [],
+            "modifiers": {
+              "atk": null,
+              "brk": null,
+              "wgt": null,
+              "acc": 1,
+              "crit": null,
+              "durability": null,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": ""
+            }
+          },
+          {
+            "enabled": true,
+            "xpReq": 60,
+            "forgeMult": null,
+            "skillCheck": "",
+            "materials": [
+              {
+                "uuid": "Compendium.emblem-rpg-content.items.Item.WyEYDp4jpJNcuuiS",
+                "name": "Steel",
+                "img": "modules/emblem-rpg-content/assets/items/resources/Steel.png",
+                "quantity": 4
+              },
+              {
+                "uuid": "Compendium.emblem-rpg-content.items.Item.fj0YOkSnrXYYCBbM",
+                "name": "Wood",
+                "img": "modules/emblem-rpg-content/assets/items/resources/Wood.png",
+                "quantity": 1
+              }
+            ],
+            "modifiers": {
+              "atk": 1,
+              "brk": null,
+              "wgt": null,
+              "acc": 1,
+              "crit": null,
+              "durability": 5,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": ""
+            }
+          },
+          {
+            "enabled": true,
+            "xpReq": 90,
+            "forgeMult": null,
+            "skillCheck": "",
+            "materials": [
+              {
+                "uuid": "Compendium.emblem-rpg-content.items.Item.XZhzxkpjIj8UWK8A",
+                "name": "Silver",
+                "img": "modules/emblem-rpg-content/assets/items/resources/Silver.png",
+                "quantity": 1
+              },
+              {
+                "uuid": "Compendium.emblem-rpg-content.items.Item.vLWkZ2rfaLxJ0gG8",
+                "name": "Refined Wood",
+                "img": "modules/emblem-rpg-content/assets/items/resources/Refined%20Wood.png",
+                "quantity": 1
+              }
+            ],
+            "modifiers": {
+              "atk": 2,
+              "brk": null,
+              "wgt": 1,
+              "acc": 1,
+              "crit": null,
+              "durability": 10,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": ""
+            }
+          },
+          {
+            "enabled": true,
+            "xpReq": 120,
+            "forgeMult": null,
+            "skillCheck": "",
+            "materials": [
+              {
+                "uuid": "Compendium.emblem-rpg-content.items.Item.XZhzxkpjIj8UWK8A",
+                "name": "Silver",
+                "img": "modules/emblem-rpg-content/assets/items/resources/Silver.png",
+                "quantity": 2
+              }
+            ],
+            "modifiers": {
+              "atk": 2,
+              "brk": 0.5,
+              "wgt": 1,
+              "acc": 2,
+              "crit": null,
+              "durability": 10,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": ""
+            }
+          },
+          {
+            "enabled": true,
+            "xpReq": 150,
+            "forgeMult": null,
+            "skillCheck": "",
+            "materials": [
+              {
+                "uuid": "Compendium.emblem-rpg-content.items.Item.XZhzxkpjIj8UWK8A",
+                "name": "Silver",
+                "img": "modules/emblem-rpg-content/assets/items/resources/Silver.png",
+                "quantity": 3
+              }
+            ],
+            "modifiers": {
+              "atk": 3,
+              "brk": 1,
+              "wgt": 2,
+              "acc": 2,
+              "crit": null,
+              "durability": 10,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": ""
+            }
+          }
+        ]
+      },
+      "creation": {
+        "materials": [],
+        "difficultyClass": 0,
+        "skillCheck": "Nature"
+      },
+      "forging": {
+        "enabled": true,
+        "forgeMult": 1,
+        "skillCheck": "Handicraft",
+        "materials": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.items.Item.WyEYDp4jpJNcuuiS",
+            "name": "Steel",
+            "img": "modules/emblem-rpg-content/assets/items/resources/Steel.png",
+            "quantity": 3
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.items.Item.fj0YOkSnrXYYCBbM",
+            "name": "Wood",
+            "img": "modules/emblem-rpg-content/assets/items/resources/Wood.png",
+            "quantity": 1
+          }
+        ]
+      },
+      "forgingXP": 0
+    },
+    "refreshes": false,
+    "tradeDisabled": false,
+    "anim": {
+      "attack": {
+        "melee": {
+          "steps": [
+            {
+              "kind": "effect",
+              "layer": "aboveInterface",
+              "atLocation": "token",
+              "stretchTo": "target",
+              "file": [
+                "jb2a.halberd.melee.01.white.2",
+                "jb2a.halberd.melee.01.white.4"
+              ],
+              "filter": {
+                "type": "ColorMatrix",
+                "params": {
+                  "hue": 170
+                }
+              },
+              "randomizeMirrorY": true
+            },
+            {
+              "kind": "sound",
+              "file": "modules/emblem-rpg-content/sound/weapon/heavy-swing-5.wav",
+              "audioChannel": "environment",
+              "delay": 800
+            }
+          ],
+          "duration": 2000
+        },
+        "ranged": {
+          "steps": [
+            {
+              "kind": "effect",
+              "layer": "aboveInterface",
+              "atLocation": "token",
+              "stretchTo": "target",
+              "file": [
+                "jb2a.halberd.melee.01.white.2",
+                "jb2a.halberd.melee.01.white.4"
+              ],
+              "filter": {
+                "type": "ColorMatrix",
+                "params": {
+                  "hue": 170
+                }
+              },
+              "randomizeMirrorY": true
+            },
+            {
+              "kind": "sound",
+              "file": "modules/emblem-rpg-content/sound/weapon/heavy-swing-5.wav",
+              "audioChannel": "environment",
+              "delay": 800
+            }
+          ],
+          "duration": 2000
+        }
+      },
+      "critical": {
+        "melee": {
+          "steps": [
+            {
+              "kind": "sound",
+              "file": "modules/emblem-rpg-content/sound/weapon/swing-3.mp3",
+              "repeats": {
+                "count": 2,
+                "delayMin": 250,
+                "delayMax": 250
+              },
+              "audioChannel": "environment",
+              "delay": 50
+            },
+            {
+              "kind": "effect",
+              "layer": "aboveInterface",
+              "mirrorY": true,
+              "duration": 1100,
+              "startTime": 500,
+              "filter": {
+                "type": "ColorMatrix",
+                "params": {
+                  "hue": 140
+                }
+              },
+              "atLocation": "token",
+              "stretchTo": "target",
+              "file": "jb2a.halberd.melee.01.white.3",
+              "fadeIn": 100,
+              "fadeOut": 100,
+              "waitUntilFinished": true
+            },
+            {
+              "kind": "sound",
+              "audioChannel": "environment",
+              "file": "modules/emblem-rpg-content/sound/weapon/polearm-swing-1.mp3",
+              "repeats": {
+                "count": 3,
+                "delayMin": 200,
+                "delayMax": 200
+              },
+              "delay": 50
+            },
+            {
+              "kind": "effect",
+              "layer": "aboveInterface",
+              "filter": {
+                "type": "ColorMatrix",
+                "params": {
+                  "hue": 140
+                }
+              },
+              "startTime": 500,
+              "atLocation": "token",
+              "stretchTo": "target",
+              "file": "jb2a.halberd.melee.01.white.5",
+              "fadeIn": 100,
+              "fadeOut": 100
+            },
+            {
+              "kind": "sound",
+              "audioChannel": "environment",
+              "file": "modules/emblem-rpg-content/sound/weapon/heavy-swing-4.wav",
+              "delay": 700
+            }
+          ],
+          "duration": 2500
+        },
+        "ranged": {
+          "steps": [
+            {
+              "kind": "sound",
+              "file": "modules/emblem-rpg-content/sound/weapon/swing-3.mp3",
+              "repeats": {
+                "count": 2,
+                "delayMin": 250,
+                "delayMax": 250
+              },
+              "audioChannel": "environment",
+              "delay": 50
+            },
+            {
+              "kind": "effect",
+              "layer": "aboveInterface",
+              "mirrorY": true,
+              "duration": 1100,
+              "startTime": 500,
+              "filter": {
+                "type": "ColorMatrix",
+                "params": {
+                  "hue": 140
+                }
+              },
+              "atLocation": "token",
+              "stretchTo": "target",
+              "file": "jb2a.halberd.melee.01.white.3",
+              "fadeIn": 100,
+              "fadeOut": 100,
+              "waitUntilFinished": true
+            },
+            {
+              "kind": "sound",
+              "audioChannel": "environment",
+              "file": "modules/emblem-rpg-content/sound/weapon/polearm-swing-1.mp3",
+              "repeats": {
+                "count": 3,
+                "delayMin": 200,
+                "delayMax": 200
+              },
+              "delay": 50
+            },
+            {
+              "kind": "effect",
+              "layer": "aboveInterface",
+              "filter": {
+                "type": "ColorMatrix",
+                "params": {
+                  "hue": 140
+                }
+              },
+              "startTime": 500,
+              "atLocation": "token",
+              "stretchTo": "target",
+              "file": "jb2a.halberd.melee.01.white.5",
+              "fadeIn": 100,
+              "fadeOut": 100
+            },
+            {
+              "kind": "sound",
+              "audioChannel": "environment",
+              "file": "modules/emblem-rpg-content/sound/weapon/heavy-swing-4.wav",
+              "delay": 700
+            }
+          ],
+          "duration": 2500
+        }
+      },
+      "activation": null
+    },
+    "effects": []
+  },
+  "folder": "w8o16B2OKoHjmEIE",
+  "_id": "X6dWOp8Jiw5Sp00V",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1789186130808,
+    "modifiedTime": 1790612899613,
+    "lastModifiedBy": "emblembuilder000",
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "sort": 350000,
+  "_key": "!items!X6dWOp8Jiw5Sp00V"
+}

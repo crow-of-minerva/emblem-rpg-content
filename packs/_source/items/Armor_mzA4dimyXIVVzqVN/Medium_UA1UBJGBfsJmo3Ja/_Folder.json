@@ -1,0 +1,21 @@
+{
+  "type": "Item",
+  "folder": "mzA4dimyXIVVzqVN",
+  "name": "Medium",
+  "color": null,
+  "sorting": "a",
+  "_id": "UA1UBJGBfsJmo3Ja",
+  "description": "",
+  "sort": 300000,
+  "flags": {},
+  "_stats": {
+    "exportSource": null,
+    "coreVersion": "14.366",
+    "systemId": "emblem-rpg",
+    "systemVersion": "0.2.0",
+    "lastModifiedBy": null,
+    "createdTime": 1786800003472,
+    "modifiedTime": 1787106182373
+  },
+  "_key": "!folders!UA1UBJGBfsJmo3Ja"
+}

@@ -1,0 +1,246 @@
+{
+  "name": "Sorcerer",
+  "type": "Class",
+  "img": "modules/emblem-rpg-content/assets/classes/Sorcerer.png",
+  "folder": "LwfXSTDdMACUn2PM",
+  "system": {
+    "description": "Sorcerers are offensive spellcasters who wield elemental magic at range, and can lock down a field with spells like Stasis and Silence. They remain fragile and should be kept out of reach.",
+    "tier": "Intermediate",
+    "baseStats": {
+      "hp": 23,
+      "stn": 3,
+      "mov": 5,
+      "bld": 6,
+      "mgt": 2,
+      "agi": 4,
+      "tqn": 6,
+      "wit": 11,
+      "cha": 5,
+      "def": 1,
+      "res": 3,
+      "spd": 3,
+      "eva": 11,
+      "acc": 0,
+      "crit": 0
+    },
+    "baseGrowths": {
+      "hp": 30,
+      "mgt": 10,
+      "agi": 25,
+      "tqn": 25,
+      "wit": 35,
+      "cha": 20,
+      "def": 0,
+      "res": 10
+    },
+    "baseCaps": {
+      "hp": 36,
+      "mgt": 8,
+      "agi": 14,
+      "tqn": 16,
+      "wit": 22,
+      "cha": 13,
+      "def": 5,
+      "res": 10
+    },
+    "proficiencies": {
+      "brawling": 0,
+      "blade": 0,
+      "polearm": 0,
+      "heavy": 0,
+      "bow": 0,
+      "covert": 0,
+      "arcane": 1,
+      "elemental": 2,
+      "divine": 0,
+      "occult": 0,
+      "armor": 0,
+      "riding": false,
+      "flying": false
+    },
+    "skills": {
+      "athletics": 0,
+      "finesse": 0,
+      "trading": 0,
+      "civics": 0,
+      "handicraft": 0,
+      "sociability": 0,
+      "command": 0,
+      "nature": 1,
+      "perception": 0,
+      "performance": 0,
+      "reason": 2,
+      "esoteric": 1
+    },
+    "unitType": {
+      "infantry": true,
+      "dragon": false,
+      "monster": false,
+      "beast": false,
+      "undead": false
+    },
+    "features": [
+      {
+        "_id": "WSZDbZmabztBgnFc",
+        "lvl": 17,
+        "acquisitionType": "choice",
+        "choiceCount": 1,
+        "unique": false,
+        "exceptions": "",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.wOGdaq8Hjnl6GZfk",
+            "name": "Fireball",
+            "img": "modules/emblem-rpg-content/assets/spells/elemental/Fireball.png",
+            "type": "Spell",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.qoIJxU9JLDrBtSkB",
+            "name": "Lightning Bolt",
+            "img": "modules/emblem-rpg-content/assets/spells/elemental/Lightning Bolt.png",
+            "type": "Spell",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      },
+      {
+        "_id": "dFqla5eRmNKODaHB",
+        "lvl": 9,
+        "acquisitionType": "choice",
+        "choiceCount": 1,
+        "unique": false,
+        "exceptions": "",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.IAxjQOKRdF6l0vc3",
+            "name": "Flamestrike",
+            "img": "modules/emblem-rpg-content/assets/spells/elemental/Flamestrike.png",
+            "type": "Spell",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.gCgFPTVerAlTSNXG",
+            "name": "Icewind",
+            "img": "modules/emblem-rpg-content/assets/spells/elemental/Icewind.png",
+            "type": "Spell",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      },
+      {
+        "_id": "UKFHqhexJip01TXW",
+        "lvl": 13,
+        "acquisitionType": "choice",
+        "choiceCount": 1,
+        "unique": false,
+        "exceptions": "",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.oXa1KPkfxEfKbyGh",
+            "name": "Stasis",
+            "img": "modules/emblem-rpg-content/assets/spells/arcane/Stasis.png",
+            "type": "Spell",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.16fYzA6Vu1Fig3od",
+            "name": "Stoneskin",
+            "img": "modules/emblem-rpg-content/assets/spells/elemental/Stoneskin.png",
+            "type": "Spell",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.34kr38IhoRCBmDkr",
+            "name": "Silence",
+            "img": "modules/emblem-rpg-content/assets/spells/occult/Silence.png",
+            "type": "Spell",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      },
+      {
+        "_id": "KfozHNCT6QY5ZPsD",
+        "lvl": 7,
+        "acquisitionType": "choice",
+        "choiceCount": 1,
+        "unique": true,
+        "exceptions": "",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.Gpfb4yEq13g8jiPg",
+            "name": "Blink",
+            "img": "modules/emblem-rpg-content/assets/spells/arcane/Blink.png",
+            "type": "Spell",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.baKlGKb7IyLq87Em",
+            "name": "Spell Nexus",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/Spell Nexus.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      }
+    ],
+    "promotions": []
+  },
+  "_id": "rRkounNDXOpJdaEu",
+  "effects": [],
+  "flags": {
+    "emblem-rpg": {
+      "pixelArt": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1788974901859,
+    "modifiedTime": 1790612897677,
+    "lastModifiedBy": "emblembuilder000",
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "sort": 1300000,
+  "_key": "!items!rRkounNDXOpJdaEu"
+}

@@ -1,0 +1,224 @@
+{
+  "name": "Wyverner",
+  "type": "Class",
+  "img": "modules/emblem-rpg-content/assets/classes/Wyverner.png",
+  "folder": "LwfXSTDdMACUn2PM",
+  "system": {
+    "description": "A terror of the skies, Wyverners battle atop ferocious draconic companions. Though they are capable of wreaking devastation, they are vulnerable to arrowfire and some forms of anti-Dragon magic.",
+    "tier": "Intermediate",
+    "baseStats": {
+      "hp": 20,
+      "stn": 2,
+      "mov": 5,
+      "bld": 7,
+      "mgt": 5,
+      "agi": 4,
+      "tqn": 3,
+      "wit": 3,
+      "cha": 2,
+      "def": 1,
+      "res": 0,
+      "spd": 2,
+      "eva": 10,
+      "acc": 0,
+      "crit": 0
+    },
+    "baseGrowths": {
+      "hp": 40,
+      "mgt": 30,
+      "agi": 25,
+      "tqn": 25,
+      "wit": 10,
+      "cha": 15,
+      "def": 15,
+      "res": 5
+    },
+    "baseCaps": {
+      "hp": 39,
+      "mgt": 17,
+      "agi": 19,
+      "tqn": 16,
+      "wit": 12,
+      "cha": 9,
+      "def": 7,
+      "res": 4
+    },
+    "proficiencies": {
+      "brawling": 0,
+      "blade": 0,
+      "polearm": 1,
+      "heavy": 2,
+      "bow": 0,
+      "covert": 0,
+      "arcane": 0,
+      "elemental": 0,
+      "divine": 0,
+      "occult": 0,
+      "armor": 2,
+      "riding": false,
+      "flying": true
+    },
+    "skills": {
+      "athletics": 0,
+      "finesse": 1,
+      "trading": 0,
+      "civics": 0,
+      "handicraft": 0,
+      "sociability": 0,
+      "command": 2,
+      "nature": 0,
+      "perception": 2,
+      "performance": 0,
+      "reason": 0,
+      "esoteric": 0
+    },
+    "unitType": {
+      "infantry": true,
+      "dragon": false,
+      "monster": false,
+      "beast": false,
+      "undead": false
+    },
+    "features": [
+      {
+        "_id": "dpoblvDxqqLICZoF",
+        "lvl": 5,
+        "acquisitionType": "all",
+        "choiceCount": 1,
+        "unique": true,
+        "exceptions": "",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.UUxil9Zjic5XaEdD",
+            "name": "Wyvern",
+            "img": "modules/emblem-rpg-content/assets/abilities/Wyvern.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      },
+      {
+        "_id": "SeuD8sZ5LrBdrl61",
+        "lvl": 13,
+        "acquisitionType": "all",
+        "choiceCount": 1,
+        "unique": true,
+        "exceptions": "",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.bMPIknAOIO5ba59k",
+            "name": "Drakefire",
+            "img": "modules/emblem-rpg-content/assets/abilities/active/Drakefire.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      },
+      {
+        "_id": "bMmwUfaNgFxpM63N",
+        "lvl": 17,
+        "acquisitionType": "choice",
+        "choiceCount": 1,
+        "unique": true,
+        "exceptions": "",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.enef4FgHjroLzY7K",
+            "name": "Draconic Vitality",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/Draconic Vitality.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.WSWlWQe8OAMsL2yV",
+            "name": "Death From Above",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/Death From Above.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      },
+      {
+        "_id": "dTKkipGLb25IVmNC",
+        "lvl": 9,
+        "acquisitionType": "choice",
+        "choiceCount": 1,
+        "unique": false,
+        "exceptions": "",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.TGBdDi9iEHAV4fO0",
+            "name": "Prowess: Heavy",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/Prowess%20Heavy.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.aABuAu2iBUbZdVkP",
+            "name": "Prowess: Polearm",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/Prowess_ Polearm.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.egtCopUjLL6kiC9V",
+            "name": "Build +2",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/Build +2.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      }
+    ],
+    "promotions": []
+  },
+  "_id": "qq5Pp509cUxbyqUh",
+  "effects": [],
+  "flags": {
+    "emblem-rpg": {
+      "pixelArt": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1788974662077,
+    "modifiedTime": 1790612897677,
+    "lastModifiedBy": "emblembuilder000",
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "sort": 1500000,
+  "_key": "!items!qq5Pp509cUxbyqUh"
+}

@@ -1,0 +1,281 @@
+{
+  "name": "Initiate",
+  "type": "Class",
+  "img": "modules/emblem-rpg-content/assets/classes/Initiate.png",
+  "folder": "uf0WcopezUNyj7zH",
+  "system": {
+    "description": "A novice spellcaster, capable of learning a wide variety of elemental and arcane magic. While bringing versatility and damage to a party, they are also fragile and should not be left in vulnerable positions.",
+    "tier": "Novice",
+    "baseStats": {
+      "hp": 23,
+      "stn": 2,
+      "mov": 5,
+      "bld": 4,
+      "mgt": 2,
+      "agi": 4,
+      "tqn": 5,
+      "wit": 9,
+      "cha": 4,
+      "def": 0,
+      "res": 2,
+      "spd": 2,
+      "eva": 9,
+      "acc": 0,
+      "crit": 0
+    },
+    "baseGrowths": {
+      "hp": 20,
+      "mgt": 10,
+      "agi": 20,
+      "tqn": 20,
+      "wit": 30,
+      "cha": 20,
+      "def": 0,
+      "res": 10
+    },
+    "baseCaps": {
+      "hp": 28,
+      "mgt": 6,
+      "agi": 8,
+      "tqn": 9,
+      "wit": 14,
+      "cha": 9,
+      "def": 3,
+      "res": 5
+    },
+    "proficiencies": {
+      "brawling": 0,
+      "blade": 0,
+      "polearm": 0,
+      "heavy": 0,
+      "bow": 0,
+      "covert": 0,
+      "arcane": 1,
+      "elemental": 2,
+      "divine": 0,
+      "occult": 0,
+      "armor": 0,
+      "riding": false,
+      "flying": false
+    },
+    "skills": {
+      "athletics": 0,
+      "finesse": 0,
+      "trading": 0,
+      "civics": 0,
+      "handicraft": 0,
+      "sociability": 0,
+      "command": 0,
+      "nature": 1,
+      "perception": 0,
+      "performance": 0,
+      "reason": 2,
+      "esoteric": 1
+    },
+    "unitType": {
+      "infantry": true,
+      "dragon": false,
+      "monster": false,
+      "beast": false,
+      "undead": false
+    },
+    "features": [
+      {
+        "_id": "gPzNPkozkOcD9wem",
+        "lvl": 1,
+        "acquisitionType": "choice",
+        "choiceCount": 1,
+        "unique": false,
+        "exceptions": "",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.POPSg6q67cMTgZti",
+            "name": "Firebolt",
+            "img": "modules/emblem-rpg-content/assets/spells/elemental/Firebolt.png",
+            "type": "Spell",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.1Zc95kZ3XHRJ0JUr",
+            "name": "Gale",
+            "img": "modules/emblem-rpg-content/assets/spells/elemental/Gale.png",
+            "type": "Spell",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.SkY0cpBy5Te7BSR0",
+            "name": "Frostbolt",
+            "img": "modules/emblem-rpg-content/assets/spells/elemental/Frostbolt.png",
+            "type": "Spell",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      },
+      {
+        "_id": "9iZXMyHsfB1K7RL7",
+        "lvl": 3,
+        "acquisitionType": "choice",
+        "choiceCount": 1,
+        "unique": false,
+        "exceptions": "",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.d5L65EjUtq863raK",
+            "name": "Mage Armor",
+            "img": "modules/emblem-rpg-content/assets/spells/arcane/Mage Armor.png",
+            "type": "Spell",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.UE2RhEdDeBF0Gyvw",
+            "name": "Electrify",
+            "img": "modules/emblem-rpg-content/assets/spells/elemental/Electrify.png",
+            "type": "Spell",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.YwIBhZK72MXEdovu",
+            "name": "Hoarfrost",
+            "img": "modules/emblem-rpg-content/assets/spells/elemental/Hoarfrost.png",
+            "type": "Spell",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      },
+      {
+        "_id": "2XDM4h4ruq5QDF8R",
+        "lvl": 5,
+        "acquisitionType": "choice",
+        "choiceCount": 1,
+        "unique": false,
+        "exceptions": "",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.KlvDnqMmEnm9dR0a",
+            "name": "Truestrike",
+            "img": "modules/emblem-rpg-content/assets/spells/arcane/Truestrike.png",
+            "type": "Spell",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.4t7teOAs3A61TzlJ",
+            "name": "Illusion",
+            "img": "modules/emblem-rpg-content/assets/spells/arcane/Illusion.png",
+            "type": "Spell",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      },
+      {
+        "_id": "eHweIxsCWhXzhngc",
+        "lvl": 1,
+        "acquisitionType": "all",
+        "choiceCount": 1,
+        "unique": true,
+        "exceptions": "Sorcerer,Archmage",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.LF37VzrdYusqPk3r",
+            "name": "Magic Missiles",
+            "img": "modules/emblem-rpg-content/assets/spells/arcane/Magic Missiles.png",
+            "type": "Spell",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      }
+    ],
+    "promotions": [
+      {
+        "_id": "mhzx1GA8GzF6h2iG",
+        "lvl": 5,
+        "classUuid": "Compendium.emblem-rpg-content.classes.Item.rRkounNDXOpJdaEu",
+        "className": "Sorcerer",
+        "classImg": "modules/emblem-rpg-content/assets/classes/Sorcerer.png",
+        "promotionItem": {
+          "uuid": "Compendium.emblem-rpg-content.items.Item.pE2aULLrSUJYmxE0",
+          "name": "Runescroll",
+          "img": "modules/emblem-rpg-content/assets/items/consumables/promotions/Runescroll.png"
+        },
+        "proficiencies": {
+          "brawling": 0,
+          "blade": 0,
+          "polearm": 0,
+          "heavy": 0,
+          "bow": 0,
+          "covert": 0,
+          "arcane": 0,
+          "elemental": 0,
+          "divine": 0,
+          "occult": 0
+        },
+        "skills": {
+          "athletics": 0,
+          "finesse": 0,
+          "trading": 0,
+          "civics": 0,
+          "handicraft": 0,
+          "sociability": 0,
+          "command": 0,
+          "nature": 0,
+          "perception": 0,
+          "performance": 0,
+          "reason": 0,
+          "esoteric": 0
+        }
+      }
+    ]
+  },
+  "_id": "DNNAkOyzcvWwjUnA",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "exportSource": null,
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1786236611000,
+    "modifiedTime": 1790612897675,
+    "lastModifiedBy": "emblembuilder000"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "sort": 0,
+  "_key": "!items!DNNAkOyzcvWwjUnA"
+}

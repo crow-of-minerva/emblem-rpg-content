@@ -1,0 +1,40 @@
+{
+  "name": "Quicksilver",
+  "type": "Resource",
+  "img": "modules/emblem-rpg-content/assets/items/resources/Quicksilver.png",
+  "system": {
+    "description": "",
+    "resourceType": "Reagent",
+    "foodType": "",
+    "amount": 1,
+    "cost": {
+      "perUnit": 100
+    },
+    "stealable": {
+      "flag": "None",
+      "dc": 10
+    }
+  },
+  "folder": "wmexYjZhUF91f0Ux",
+  "effects": [],
+  "flags": {
+    "emblem-rpg": {
+      "pixelArt": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1787465488572,
+    "modifiedTime": 1790612899631,
+    "lastModifiedBy": "emblembuilder000",
+    "exportSource": null
+  },
+  "_id": "ggk6TJR60n4TWD7a",
+  "ownership": {
+    "default": 0
+  },
+  "sort": 400000,
+  "_key": "!items!ggk6TJR60n4TWD7a"
+}

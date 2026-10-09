@@ -1,0 +1,36 @@
+{
+  "name": "Simple Herbs",
+  "type": "Resource",
+  "img": "modules/emblem-rpg-content/assets/items/resources/Simple%20Herbs.png",
+  "system": {
+    "description": "Common plants with minor alchemical or medicinal properties. Used in basic potions and remedies. Easily found in the wild.",
+    "resourceType": "Reagent",
+    "foodType": "",
+    "amount": 1,
+    "cost": {
+      "perUnit": 10
+    },
+    "stealable": {
+      "flag": "None",
+      "dc": 10
+    }
+  },
+  "folder": "wmexYjZhUF91f0Ux",
+  "_id": "hRnJzo8QV9Duw4Su",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "exportSource": null,
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1786773642211,
+    "modifiedTime": 1790612899634,
+    "lastModifiedBy": "emblembuilder000"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "sort": 1200000,
+  "_key": "!items!hRnJzo8QV9Duw4Su"
+}

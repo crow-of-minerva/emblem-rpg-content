@@ -1,0 +1,25 @@
+{
+  "name": "Armored Melee",
+  "type": "Actor",
+  "sort": 144141,
+  "color": null,
+  "flags": {
+    "emblem-rpg": {
+      "icon": "modules/emblem-rpg-content/assets/classes/Guardian.png"
+    }
+  },
+  "_id": "RP4kI9L5Bn50D5np",
+  "description": "",
+  "folder": "zJ2bHaaG7PBFwI3M",
+  "sorting": "m",
+  "_stats": {
+    "coreVersion": "14.366",
+    "systemId": "emblem-rpg",
+    "systemVersion": "0.2.0",
+    "createdTime": 1786570428072,
+    "modifiedTime": 1786626399641,
+    "lastModifiedBy": null,
+    "exportSource": null
+  },
+  "_key": "!folders!RP4kI9L5Bn50D5np"
+}

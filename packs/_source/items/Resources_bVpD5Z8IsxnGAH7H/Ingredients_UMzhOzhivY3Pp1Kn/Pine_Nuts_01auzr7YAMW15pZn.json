@@ -1,0 +1,36 @@
+{
+  "name": "Pine Nuts",
+  "type": "Resource",
+  "img": "modules/emblem-rpg-content/assets/items/resources/Pine%20Nuts.png",
+  "folder": "UMzhOzhivY3Pp1Kn",
+  "ownership": {
+    "default": 0
+  },
+  "sort": 0,
+  "effects": [],
+  "flags": {},
+  "system": {
+    "description": "Tiny seeds prised one at a time from pine cones. A day's work fills a small bowl, which explains everything about the price.",
+    "resourceType": "Ingredient",
+    "foodType": "Nut",
+    "amount": 1,
+    "cost": {
+      "perUnit": 14
+    },
+    "stealable": {
+      "flag": "None",
+      "dc": 10
+    }
+  },
+  "_id": "01auzr7YAMW15pZn",
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1789663508315,
+    "modifiedTime": 1790612899314,
+    "lastModifiedBy": "emblembuilder000",
+    "exportSource": null
+  },
+  "_key": "!items!01auzr7YAMW15pZn"
+}

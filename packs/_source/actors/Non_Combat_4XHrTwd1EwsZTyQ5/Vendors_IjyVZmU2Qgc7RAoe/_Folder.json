@@ -1,0 +1,21 @@
+{
+  "_id": "IjyVZmU2Qgc7RAoe",
+  "name": "Vendors",
+  "type": "Actor",
+  "folder": "4XHrTwd1EwsZTyQ5",
+  "sort": 100000,
+  "sorting": "a",
+  "description": "",
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "emblem-rpg",
+    "systemVersion": "0.2.0",
+    "createdTime": 1787634394376,
+    "modifiedTime": 1789185915932,
+    "lastModifiedBy": "emblembuilder000",
+    "exportSource": null
+  },
+  "_key": "!folders!IjyVZmU2Qgc7RAoe"
+}

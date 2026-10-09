@@ -1,0 +1,25 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Armor",
+  "color": null,
+  "sorting": "m",
+  "_id": "mzA4dimyXIVVzqVN",
+  "description": "",
+  "sort": 200000,
+  "flags": {
+    "emblem-rpg": {
+      "icon": "modules/emblem-rpg-content/assets/items/armor/Tunic.png"
+    }
+  },
+  "_stats": {
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "emblem-rpg",
+    "systemVersion": "0.2.0",
+    "lastModifiedBy": "emblembuilder000",
+    "createdTime": 1786800003472,
+    "modifiedTime": 1789185757084
+  },
+  "_key": "!folders!mzA4dimyXIVVzqVN"
+}

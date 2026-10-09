@@ -1,0 +1,25 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Accessory",
+  "color": null,
+  "flags": {
+    "emblem-rpg": {
+      "icon": "modules/emblem-rpg-content/assets/items/Accessory.png"
+    }
+  },
+  "sorting": "m",
+  "_id": "VtjiUHDgnXngt5aH",
+  "description": "",
+  "sort": 175000,
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "emblem-rpg",
+    "systemVersion": "0.2.0",
+    "createdTime": 1789182735115,
+    "modifiedTime": 1789308399454,
+    "lastModifiedBy": "emblembuilder000",
+    "exportSource": null
+  },
+  "_key": "!folders!VtjiUHDgnXngt5aH"
+}

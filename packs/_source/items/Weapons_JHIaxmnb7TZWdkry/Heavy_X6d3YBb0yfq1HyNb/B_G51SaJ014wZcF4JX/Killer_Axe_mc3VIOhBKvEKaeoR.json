@@ -1,0 +1,874 @@
+{
+  "name": "Killer Axe",
+  "type": "Equipment",
+  "img": "modules/emblem-rpg-content/assets/items/weapons/heavy/Killer%20Axe.png",
+  "system": {
+    "isWielded": false,
+    "isWorn": false,
+    "isEquipped": false,
+    "description": "This menacing axe has a penchant for striking vital points.",
+    "itemType": "Weapon",
+    "cost": 2000,
+    "wgt": 8,
+    "stealable": {
+      "flag": "None",
+      "dc": 10
+    },
+    "actionType": "Standard Action",
+    "uses": {
+      "current": 20,
+      "max": 20,
+      "type": "limited",
+      "scaling": {
+        "factor": "Level",
+        "subject": "",
+        "type": "Additive",
+        "multiplier": 1,
+        "thresholds": [],
+        "formula": "",
+        "addToBase": false,
+        "roundDown": false
+      }
+    },
+    "aura": {
+      "enabled": false,
+      "rng": 0
+    },
+    "wepArtData": {
+      "cost": 0,
+      "brawling": false,
+      "blade": false,
+      "polearm": false,
+      "heavy": false,
+      "bow": false,
+      "covert": false
+    },
+    "requirements": [],
+    "modifiers": [],
+    "effectData": {
+      "params": [],
+      "type": "",
+      "rng": "1",
+      "rngType": "Single",
+      "rngShape": "Normal",
+      "losRule": "normal",
+      "rngScaling": {
+        "factor": "None",
+        "subject": "",
+        "type": "Additive",
+        "multiplier": 1,
+        "thresholds": [],
+        "formula": "",
+        "addToBase": false,
+        "roundDown": false
+      },
+      "targets": 1,
+      "targetType": "Any",
+      "locationRng": 0,
+      "gridColor": "Red",
+      "groundValidSquares": "All",
+      "groundMaxElevDiff": 0,
+      "deliveryType": "Saving Throw",
+      "savingThrowDC": {
+        "required": false,
+        "base": 0,
+        "attribute": "None",
+        "targetAttribute": "None",
+        "ignoreForFriendly": false
+      },
+      "skillCheckDC": {
+        "required": false,
+        "base": 0,
+        "skill": "None",
+        "targetAttribute": "None",
+        "ignoreForFriendly": false
+      },
+      "consumeOnFailure": true,
+      "groundUnoccupiedOnly": true
+    },
+    "consumableData": {
+      "effect": "",
+      "stat": "",
+      "statValue": 0,
+      "growth": "",
+      "growthValue": 0
+    },
+    "weapon": {
+      "req": "Heavy",
+      "rank": 4,
+      "twoHanded": false,
+      "dmgTypes": {
+        "slashing": true,
+        "slashingConditionTree": null,
+        "piercing": false,
+        "piercingConditionTree": null,
+        "crushing": false,
+        "crushingConditionTree": null,
+        "missile": false,
+        "missileConditionTree": null,
+        "fire": false,
+        "fireConditionTree": null,
+        "ice": false,
+        "iceConditionTree": null,
+        "lightning": false,
+        "lightningConditionTree": null,
+        "wind": false,
+        "windConditionTree": null,
+        "arcane": false,
+        "arcaneConditionTree": null,
+        "decay": false,
+        "decayConditionTree": null,
+        "shadow": false,
+        "shadowConditionTree": null,
+        "holy": false,
+        "holyConditionTree": null,
+        "randomize": false
+      },
+      "atkStat": "Might",
+      "atk": "11",
+      "rng": "1",
+      "acc": -3,
+      "brk": 2,
+      "crit": 30,
+      "extraAttacks": 0,
+      "noExtraAttacks": false,
+      "effectiveAgainst": {
+        "infantry": false,
+        "armored": false,
+        "cavalry": false,
+        "flying": false,
+        "dragon": false,
+        "beast": false,
+        "monster": false,
+        "undead": false,
+        "magic": false
+      },
+      "breaker": {
+        "brawling": false,
+        "blade": false,
+        "polearm": false,
+        "heavy": false,
+        "bow": false,
+        "covert": false,
+        "elemental": false,
+        "divine": false,
+        "occult": false,
+        "arcane": false
+      }
+    },
+    "armor": {
+      "req": "Light",
+      "def": 0,
+      "res": 0,
+      "stn": 0,
+      "eva": 0,
+      "brkRed": 0,
+      "critRed": 0,
+      "vulns": {
+        "slashing": false,
+        "piercing": false,
+        "crushing": false,
+        "missile": false,
+        "fire": false,
+        "ice": false,
+        "lightning": false,
+        "wind": false,
+        "arcane": false,
+        "decay": false,
+        "shadow": false,
+        "holy": false
+      },
+      "prots": {
+        "slashing": false,
+        "piercing": false,
+        "crushing": false,
+        "missile": false,
+        "fire": false,
+        "ice": false,
+        "lightning": false,
+        "wind": false,
+        "arcane": false,
+        "decay": false,
+        "shadow": false,
+        "holy": false
+      }
+    },
+    "mountData": {
+      "stats": {
+        "mov": 0,
+        "hp": 0,
+        "stn": 0,
+        "eva": 0,
+        "atk": 0,
+        "spd": 0,
+        "acc": 0,
+        "crit": 0
+      },
+      "unitTypes": {
+        "cavalry": false,
+        "flying": false,
+        "dragon": false,
+        "beast": false,
+        "monster": false,
+        "undead": false
+      }
+    },
+    "craftingData": {
+      "forging": {
+        "enabled": true,
+        "forgeMult": 1,
+        "skillCheck": "Esoteric",
+        "materials": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.items.Item.WyEYDp4jpJNcuuiS",
+            "name": "Steel",
+            "img": "modules/emblem-rpg-content/assets/items/resources/Steel.png",
+            "quantity": 1
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.items.Item.W55FCj34d0poObPY",
+            "name": "Infernal Blood",
+            "img": "modules/emblem-rpg-content/assets/items/resources/Infernal%20Blood.png",
+            "quantity": 1
+          }
+        ]
+      },
+      "refinement": {
+        "tiers": [
+          {
+            "enabled": true,
+            "xpReq": 20,
+            "forgeMult": null,
+            "skillCheck": "Esoteric",
+            "materials": [],
+            "modifiers": {
+              "atk": null,
+              "brk": null,
+              "wgt": null,
+              "acc": 1,
+              "crit": null,
+              "durability": null,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": ""
+            }
+          },
+          {
+            "enabled": true,
+            "xpReq": 40,
+            "forgeMult": null,
+            "skillCheck": "Esoteric",
+            "materials": [],
+            "modifiers": {
+              "atk": 1,
+              "brk": null,
+              "wgt": null,
+              "acc": 1,
+              "crit": null,
+              "durability": 5,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": ""
+            }
+          },
+          {
+            "enabled": true,
+            "xpReq": 60,
+            "forgeMult": null,
+            "skillCheck": "Esoteric",
+            "materials": [],
+            "modifiers": {
+              "atk": 1,
+              "brk": null,
+              "wgt": 1,
+              "acc": 2,
+              "crit": null,
+              "durability": 5,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": ""
+            }
+          },
+          {
+            "enabled": true,
+            "xpReq": 80,
+            "forgeMult": null,
+            "skillCheck": "Esoteric",
+            "materials": [],
+            "modifiers": {
+              "atk": 1,
+              "brk": 1,
+              "wgt": 1,
+              "acc": 2,
+              "crit": null,
+              "durability": 5,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": ""
+            }
+          },
+          {
+            "enabled": true,
+            "xpReq": 100,
+            "forgeMult": null,
+            "skillCheck": "Esoteric",
+            "materials": [],
+            "modifiers": {
+              "atk": 2,
+              "brk": 1,
+              "wgt": 1,
+              "acc": 3,
+              "crit": null,
+              "durability": 10,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": ""
+            }
+          }
+        ]
+      },
+      "creation": {
+        "materials": [],
+        "difficultyClass": 0,
+        "skillCheck": "Nature"
+      },
+      "forgingXP": 0
+    },
+    "refreshes": false,
+    "tradeDisabled": false,
+    "anim": {
+      "attack": {
+        "melee": {
+          "steps": [
+            {
+              "kind": "sound",
+              "audioChannel": "interface",
+              "file": "modules/emblem-rpg-content/sound/weapon/swing-1.wav",
+              "delay": 250
+            },
+            {
+              "kind": "effect",
+              "layer": "aboveInterface",
+              "atLocation": "token",
+              "stretchTo": "target",
+              "file": "jb2a.melee_attack.02.battleaxe.01.0",
+              "randomizeMirrorY": true,
+              "filter": {
+                "type": "Glow",
+                "params": {
+                  "distance": 5,
+                  "outerStrength": 2,
+                  "color": 16711680
+                }
+              },
+              "waitUntilFinished": -1000
+            },
+            {
+              "kind": "effect",
+              "layer": "aboveInterface",
+              "atLocation": "target",
+              "file": "jb2a.liquid.splash.red",
+              "scaleToObject": 0.9
+            },
+            {
+              "kind": "effect",
+              "layer": "aboveInterface",
+              "atLocation": "target",
+              "delay": 60,
+              "file": [
+                "jb2a.impact.dark_red.5",
+                "jb2a.impact.dark_red.3",
+                "jb2a.impact.dark_red.2",
+                "jb2a.impact.dark_red.0",
+                "jb2a.impact.dark_red.6"
+              ],
+              "scaleToObject": 0.8,
+              "randomRotation": true
+            }
+          ],
+          "duration": 1000
+        },
+        "ranged": {
+          "steps": [
+            {
+              "kind": "sound",
+              "audioChannel": "interface",
+              "file": "modules/emblem-rpg-content/sound/weapon/swing-1.wav",
+              "delay": 250
+            },
+            {
+              "kind": "effect",
+              "layer": "aboveInterface",
+              "atLocation": "token",
+              "stretchTo": "target",
+              "file": "jb2a.melee_attack.02.battleaxe.01.0",
+              "randomizeMirrorY": true,
+              "filter": {
+                "type": "Glow",
+                "params": {
+                  "distance": 5,
+                  "outerStrength": 2,
+                  "color": 16711680
+                }
+              },
+              "waitUntilFinished": -1000
+            },
+            {
+              "kind": "effect",
+              "layer": "aboveInterface",
+              "atLocation": "target",
+              "file": "jb2a.liquid.splash.red",
+              "scaleToObject": 0.9
+            },
+            {
+              "kind": "effect",
+              "layer": "aboveInterface",
+              "atLocation": "target",
+              "delay": 60,
+              "file": [
+                "jb2a.impact.dark_red.5",
+                "jb2a.impact.dark_red.3",
+                "jb2a.impact.dark_red.2",
+                "jb2a.impact.dark_red.0",
+                "jb2a.impact.dark_red.6"
+              ],
+              "scaleToObject": 0.8,
+              "randomRotation": true
+            }
+          ],
+          "duration": 1000
+        }
+      },
+      "critical": {
+        "melee": {
+          "steps": [
+            {
+              "kind": "sound",
+              "audioChannel": "interface",
+              "file": "modules/emblem-rpg-content/sound/weapon/heavy-swing-2.wav",
+              "delay": 250
+            },
+            {
+              "kind": "effect",
+              "layer": "aboveInterface",
+              "atLocation": "token",
+              "stretchTo": "target",
+              "file": "jb2a.melee_attack.02.battleaxe.01.0",
+              "mirrorY": true,
+              "filter": {
+                "type": "Glow",
+                "params": {
+                  "distance": 5,
+                  "outerStrength": 2,
+                  "color": 16711680
+                }
+              },
+              "playbackRate": 1.5,
+              "waitUntilFinished": -500
+            },
+            {
+              "kind": "effect",
+              "layer": "aboveInterface",
+              "atLocation": "target",
+              "delay": 300,
+              "file": [
+                "jb2a.impact.dark_red.0",
+                "jb2a.impact.dark_red.6",
+                "jb2a.impact.dark_red.5",
+                "jb2a.impact.dark_red.1"
+              ],
+              "scaleToObject": 0.7,
+              "randomRotation": true
+            },
+            {
+              "kind": "sound",
+              "audioChannel": "interface",
+              "file": "modules/emblem-rpg-content/sound/weapon/heavy-swing-3.wav",
+              "delay": 250
+            },
+            {
+              "kind": "effect",
+              "layer": "aboveInterface",
+              "atLocation": "token",
+              "stretchTo": "target",
+              "file": "jb2a.melee_attack.02.battleaxe.01.1",
+              "playbackRate": 1.5,
+              "filter": {
+                "type": "Glow",
+                "params": {
+                  "distance": 5,
+                  "outerStrength": 2,
+                  "color": 16711680
+                }
+              },
+              "waitUntilFinished": -500
+            },
+            {
+              "kind": "effect",
+              "layer": "aboveInterface",
+              "atLocation": "target",
+              "delay": 300,
+              "file": [
+                "jb2a.impact.dark_red.5",
+                "jb2a.impact.dark_red.1",
+                "jb2a.impact.dark_red.0",
+                "jb2a.impact.dark_red.2",
+                "jb2a.impact.dark_red.3"
+              ],
+              "scaleToObject": 0.7,
+              "randomRotation": true
+            },
+            {
+              "kind": "sound",
+              "audioChannel": "interface",
+              "file": "modules/emblem-rpg-content/sound/weapon/heavy-swing-1.wav",
+              "delay": 250
+            },
+            {
+              "kind": "effect",
+              "layer": "aboveInterface",
+              "atLocation": "token",
+              "stretchTo": "target",
+              "file": "jb2a.melee_attack.02.battleaxe.01.2",
+              "playbackRate": 1.5,
+              "filter": {
+                "type": "Glow",
+                "params": {
+                  "distance": 5,
+                  "outerStrength": 2,
+                  "color": 16711680
+                }
+              },
+              "waitUntilFinished": -1000
+            },
+            {
+              "kind": "effect",
+              "layer": "aboveInterface",
+              "atLocation": "target",
+              "delay": 250,
+              "file": "jb2a.liquid.splash.red",
+              "scaleToObject": 1.2
+            },
+            {
+              "kind": "effect",
+              "layer": "aboveInterface",
+              "atLocation": "target",
+              "delay": 300,
+              "file": "jb2a.impact.011.dark_red",
+              "scaleToObject": 1.1
+            },
+            {
+              "kind": "effect",
+              "layer": "aboveInterface",
+              "atLocation": "target",
+              "delay": 380,
+              "file": "jb2a.impact.012.dark_red",
+              "scaleToObject": 0.9,
+              "waitUntilFinished": true
+            }
+          ],
+          "duration": 1800
+        },
+        "ranged": {
+          "steps": [
+            {
+              "kind": "sound",
+              "audioChannel": "interface",
+              "file": "modules/emblem-rpg-content/sound/weapon/heavy-swing-2.wav",
+              "delay": 250
+            },
+            {
+              "kind": "effect",
+              "layer": "aboveInterface",
+              "atLocation": "token",
+              "stretchTo": "target",
+              "file": "jb2a.melee_attack.02.battleaxe.01.0",
+              "mirrorY": true,
+              "filter": {
+                "type": "Glow",
+                "params": {
+                  "distance": 5,
+                  "outerStrength": 2,
+                  "color": 16711680
+                }
+              },
+              "playbackRate": 1.5,
+              "waitUntilFinished": -500
+            },
+            {
+              "kind": "effect",
+              "layer": "aboveInterface",
+              "atLocation": "target",
+              "delay": 300,
+              "file": [
+                "jb2a.impact.dark_red.0",
+                "jb2a.impact.dark_red.6",
+                "jb2a.impact.dark_red.5",
+                "jb2a.impact.dark_red.1"
+              ],
+              "scaleToObject": 0.7,
+              "randomRotation": true
+            },
+            {
+              "kind": "sound",
+              "audioChannel": "interface",
+              "file": "modules/emblem-rpg-content/sound/weapon/heavy-swing-3.wav",
+              "delay": 250
+            },
+            {
+              "kind": "effect",
+              "layer": "aboveInterface",
+              "atLocation": "token",
+              "stretchTo": "target",
+              "file": "jb2a.melee_attack.02.battleaxe.01.1",
+              "playbackRate": 1.5,
+              "filter": {
+                "type": "Glow",
+                "params": {
+                  "distance": 5,
+                  "outerStrength": 2,
+                  "color": 16711680
+                }
+              },
+              "waitUntilFinished": -500
+            },
+            {
+              "kind": "effect",
+              "layer": "aboveInterface",
+              "atLocation": "target",
+              "delay": 300,
+              "file": [
+                "jb2a.impact.dark_red.5",
+                "jb2a.impact.dark_red.1",
+                "jb2a.impact.dark_red.0",
+                "jb2a.impact.dark_red.2",
+                "jb2a.impact.dark_red.3"
+              ],
+              "scaleToObject": 0.7,
+              "randomRotation": true
+            },
+            {
+              "kind": "sound",
+              "audioChannel": "interface",
+              "file": "modules/emblem-rpg-content/sound/weapon/heavy-swing-1.wav",
+              "delay": 250
+            },
+            {
+              "kind": "effect",
+              "layer": "aboveInterface",
+              "atLocation": "token",
+              "stretchTo": "target",
+              "file": "jb2a.melee_attack.02.battleaxe.01.2",
+              "playbackRate": 1.5,
+              "filter": {
+                "type": "Glow",
+                "params": {
+                  "distance": 5,
+                  "outerStrength": 2,
+                  "color": 16711680
+                }
+              },
+              "waitUntilFinished": -1000
+            },
+            {
+              "kind": "effect",
+              "layer": "aboveInterface",
+              "atLocation": "target",
+              "delay": 250,
+              "file": "jb2a.liquid.splash.red",
+              "scaleToObject": 1.2
+            },
+            {
+              "kind": "effect",
+              "layer": "aboveInterface",
+              "atLocation": "target",
+              "delay": 300,
+              "file": "jb2a.impact.011.dark_red",
+              "scaleToObject": 1.1
+            },
+            {
+              "kind": "effect",
+              "layer": "aboveInterface",
+              "atLocation": "target",
+              "delay": 380,
+              "file": "jb2a.impact.012.dark_red",
+              "scaleToObject": 0.9,
+              "waitUntilFinished": true
+            }
+          ],
+          "duration": 1800
+        }
+      },
+      "activation": null
+    },
+    "effects": []
+  },
+  "folder": "G51SaJ014wZcF4JX",
+  "_id": "mc3VIOhBKvEKaeoR",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1789694339029,
+    "modifiedTime": 1790612899638,
+    "lastModifiedBy": "emblembuilder000",
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "sort": 0,
+  "_key": "!items!mc3VIOhBKvEKaeoR"
+}

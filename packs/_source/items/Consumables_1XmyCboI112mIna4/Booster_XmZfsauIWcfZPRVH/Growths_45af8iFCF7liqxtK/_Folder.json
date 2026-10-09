@@ -1,0 +1,25 @@
+{
+  "type": "Item",
+  "folder": "XmZfsauIWcfZPRVH",
+  "name": "Growths",
+  "color": null,
+  "flags": {
+    "emblem-rpg": {
+      "icon": ""
+    }
+  },
+  "sorting": "m",
+  "_id": "45af8iFCF7liqxtK",
+  "description": "",
+  "sort": 100000,
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "emblem-rpg",
+    "systemVersion": "0.2.0",
+    "createdTime": 1789188875855,
+    "modifiedTime": 1789188875895,
+    "lastModifiedBy": "emblembuilder000",
+    "exportSource": null
+  },
+  "_key": "!folders!45af8iFCF7liqxtK"
+}

@@ -1,0 +1,25 @@
+{
+  "type": "Item",
+  "folder": "KLtvftUNklUyeryP",
+  "name": "B",
+  "color": null,
+  "flags": {
+    "emblem-rpg": {
+      "icon": ""
+    }
+  },
+  "sorting": "m",
+  "_id": "U7xz2kbtnCzqscNk",
+  "description": "",
+  "sort": 250000,
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "0.2.0",
+    "createdTime": 1789694346763,
+    "modifiedTime": 1789694349396,
+    "lastModifiedBy": "emblembuilder000",
+    "exportSource": null
+  },
+  "_key": "!folders!U7xz2kbtnCzqscNk"
+}

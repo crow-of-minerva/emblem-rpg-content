@@ -1,0 +1,25 @@
+{
+  "type": "Item",
+  "folder": "JHIaxmnb7TZWdkry",
+  "name": "Brawling",
+  "color": null,
+  "flags": {
+    "emblem-rpg": {
+      "icon": ""
+    }
+  },
+  "sorting": "m",
+  "_id": "bRLCBz3LSMoVNtXY",
+  "description": "",
+  "sort": 200000,
+  "_stats": {
+    "coreVersion": "14.366",
+    "systemId": "emblem-rpg",
+    "systemVersion": "0.2.0",
+    "createdTime": 1786220061331,
+    "modifiedTime": 1787432326772,
+    "lastModifiedBy": null,
+    "exportSource": null
+  },
+  "_key": "!folders!bRLCBz3LSMoVNtXY"
+}

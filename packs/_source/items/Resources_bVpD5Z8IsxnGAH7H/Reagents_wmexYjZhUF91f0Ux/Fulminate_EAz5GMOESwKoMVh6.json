@@ -1,0 +1,40 @@
+{
+  "name": "Fulminate",
+  "type": "Resource",
+  "img": "modules/emblem-rpg-content/assets/items/resources/Fulminate.png",
+  "system": {
+    "description": "Fulminate, or 'bottled lightning', is an alchemical solution that carries a volatile, electric current.",
+    "resourceType": "Reagent",
+    "foodType": "",
+    "amount": 1,
+    "cost": {
+      "perUnit": 125
+    },
+    "stealable": {
+      "flag": "None",
+      "dc": 10
+    }
+  },
+  "folder": "wmexYjZhUF91f0Ux",
+  "effects": [],
+  "flags": {
+    "emblem-rpg": {
+      "pixelArt": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1789213819140,
+    "modifiedTime": 1790612899329,
+    "lastModifiedBy": "emblembuilder000",
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_id": "EAz5GMOESwKoMVh6",
+  "sort": 0,
+  "_key": "!items!EAz5GMOESwKoMVh6"
+}

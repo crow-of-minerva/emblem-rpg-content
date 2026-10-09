@@ -1,0 +1,25 @@
+{
+  "type": "Actor",
+  "folder": "RP4kI9L5Bn50D5np",
+  "name": "Veterans (Lv 10-14)",
+  "color": null,
+  "sorting": "m",
+  "_id": "Sg1DocS2LBXFImAj",
+  "description": "",
+  "sort": 100000,
+  "flags": {
+    "emblem-rpg": {
+      "icon": ""
+    }
+  },
+  "_stats": {
+    "exportSource": null,
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "0.2.0",
+    "createdTime": 1786800000000,
+    "modifiedTime": 1789920229751,
+    "lastModifiedBy": "emblembuilder000"
+  },
+  "_key": "!folders!Sg1DocS2LBXFImAj"
+}

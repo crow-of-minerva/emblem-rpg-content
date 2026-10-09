@@ -1,0 +1,40 @@
+{
+  "name": "Game Meat",
+  "type": "Resource",
+  "img": "modules/emblem-rpg-content/assets/items/resources/Game%20Meat.png",
+  "folder": "UMzhOzhivY3Pp1Kn",
+  "ownership": {
+    "default": 0
+  },
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "emblem-rpg": {
+      "pixelArt": true
+    }
+  },
+  "system": {
+    "description": "Venison or boar, taken from a lord's forest. In most provinces the hunting of it is a hanging matter, which is rather the point.",
+    "resourceType": "Ingredient",
+    "foodType": "Meat",
+    "amount": 1,
+    "cost": {
+      "perUnit": 14
+    },
+    "stealable": {
+      "flag": "None",
+      "dc": 10
+    }
+  },
+  "_id": "ciFwq0WaZz6rh4PO",
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1789663508318,
+    "modifiedTime": 1790612899624,
+    "lastModifiedBy": "emblembuilder000",
+    "exportSource": null
+  },
+  "_key": "!items!ciFwq0WaZz6rh4PO"
+}

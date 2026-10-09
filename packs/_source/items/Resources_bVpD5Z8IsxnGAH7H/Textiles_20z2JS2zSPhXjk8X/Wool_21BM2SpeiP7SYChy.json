@@ -1,0 +1,40 @@
+{
+  "folder": "20z2JS2zSPhXjk8X",
+  "name": "Wool",
+  "type": "Resource",
+  "_id": "21BM2SpeiP7SYChy",
+  "img": "modules/emblem-rpg-content/assets/items/resources/Wool.png",
+  "system": {
+    "description": "",
+    "resourceType": "Textile",
+    "foodType": "",
+    "amount": 1,
+    "cost": {
+      "perUnit": 100
+    },
+    "stealable": {
+      "flag": "None",
+      "dc": 10
+    }
+  },
+  "effects": [],
+  "sort": 500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "emblem-rpg": {
+      "pixelArt": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1787138640447,
+    "modifiedTime": 1790612899315,
+    "lastModifiedBy": "emblembuilder000",
+    "exportSource": null
+  },
+  "_key": "!items!21BM2SpeiP7SYChy"
+}

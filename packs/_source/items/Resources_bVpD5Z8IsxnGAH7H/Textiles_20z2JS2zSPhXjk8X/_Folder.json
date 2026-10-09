@@ -1,0 +1,25 @@
+{
+  "type": "Item",
+  "folder": "bVpD5Z8IsxnGAH7H",
+  "name": "Textiles",
+  "color": null,
+  "flags": {
+    "emblem-rpg": {
+      "icon": ""
+    }
+  },
+  "sorting": "m",
+  "_id": "20z2JS2zSPhXjk8X",
+  "description": "",
+  "sort": 200000,
+  "_stats": {
+    "coreVersion": "14.366",
+    "systemId": "emblem-rpg",
+    "systemVersion": "0.2.0",
+    "createdTime": 1787102813942,
+    "modifiedTime": 1787102818546,
+    "lastModifiedBy": null,
+    "exportSource": null
+  },
+  "_key": "!folders!20z2JS2zSPhXjk8X"
+}

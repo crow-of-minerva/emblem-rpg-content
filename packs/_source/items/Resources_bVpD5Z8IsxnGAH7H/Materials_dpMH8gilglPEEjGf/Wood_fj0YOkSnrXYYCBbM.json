@@ -1,0 +1,36 @@
+{
+  "name": "Wood",
+  "type": "Resource",
+  "img": "modules/emblem-rpg-content/assets/items/resources/Wood.png",
+  "system": {
+    "description": "A basic natural resource gathered from trees. Used for crafting tools, weapons, structures, and fuel. Common and easy to obtain.",
+    "resourceType": "Material",
+    "foodType": "",
+    "amount": 1,
+    "cost": {
+      "perUnit": 10
+    },
+    "stealable": {
+      "flag": "None",
+      "dc": 10
+    }
+  },
+  "folder": "dpMH8gilglPEEjGf",
+  "_id": "fj0YOkSnrXYYCBbM",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "exportSource": null,
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1786773642206,
+    "modifiedTime": 1790612899629,
+    "lastModifiedBy": "emblembuilder000"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "sort": 500000,
+  "_key": "!items!fj0YOkSnrXYYCBbM"
+}

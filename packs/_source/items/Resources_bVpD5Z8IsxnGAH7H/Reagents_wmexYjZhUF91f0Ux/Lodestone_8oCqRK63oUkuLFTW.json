@@ -1,0 +1,40 @@
+{
+  "name": "Lodestone",
+  "type": "Resource",
+  "img": "modules/emblem-rpg-content/assets/items/resources/Lodestone.png",
+  "system": {
+    "description": "A crystalline mineral infused with highly volatile magic.",
+    "resourceType": "Reagent",
+    "foodType": "",
+    "amount": 1,
+    "cost": {
+      "perUnit": 1000
+    },
+    "stealable": {
+      "flag": "None",
+      "dc": 10
+    }
+  },
+  "folder": "wmexYjZhUF91f0Ux",
+  "effects": [],
+  "flags": {
+    "emblem-rpg": {
+      "pixelArt": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1787465525385,
+    "modifiedTime": 1790612899324,
+    "lastModifiedBy": "emblembuilder000",
+    "exportSource": null
+  },
+  "_id": "8oCqRK63oUkuLFTW",
+  "ownership": {
+    "default": 0
+  },
+  "sort": 1000000,
+  "_key": "!items!8oCqRK63oUkuLFTW"
+}

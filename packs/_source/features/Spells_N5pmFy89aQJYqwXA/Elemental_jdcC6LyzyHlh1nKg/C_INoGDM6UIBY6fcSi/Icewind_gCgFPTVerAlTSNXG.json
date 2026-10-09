@@ -1,0 +1,929 @@
+{
+  "name": "Icewind",
+  "type": "Spell",
+  "img": "modules/emblem-rpg-content/assets/spells/elemental/Icewind.png",
+  "system": {
+    "isWielded": false,
+    "isWorn": false,
+    "isEquipped": false,
+    "description": "Frigid air sails around your target, dealing massive Brk damage.\n\nIf this attack puts your target into Stance Break, or if it hits a Stance Broken unit, the target is Frozen for 1 turn. A Frozen unit cannot move, take any action, or recover from Stance Break at the end of their turn.<div style=\"\"><br></div><div style=\"\">Gain 1 additional use of this spell for each Elemental Proficiency rank above C.</div>",
+    "itemType": "Attack",
+    "cost": 0,
+    "wgt": 9,
+    "stealable": {
+      "flag": "None",
+      "dc": 10
+    },
+    "actionType": "Standard Action",
+    "uses": {
+      "current": 5,
+      "max": 5,
+      "type": "conditional",
+      "scaling": {
+        "factor": "Proficiency",
+        "subject": "elemental",
+        "type": "Threshold",
+        "multiplier": 1,
+        "thresholds": [
+          {
+            "at": 4,
+            "uses": 6
+          },
+          {
+            "at": 5,
+            "uses": 7
+          },
+          {
+            "at": 6,
+            "uses": 8
+          }
+        ],
+        "formula": "",
+        "addToBase": false,
+        "roundDown": false
+      }
+    },
+    "aura": {
+      "enabled": false,
+      "rng": 0
+    },
+    "wepArtData": {
+      "cost": 0,
+      "brawling": false,
+      "blade": false,
+      "polearm": false,
+      "heavy": false,
+      "bow": false,
+      "covert": false
+    },
+    "requirements": [],
+    "modifiers": [],
+    "effectData": {
+      "params": [],
+      "type": "",
+      "rng": "1",
+      "rngType": "Single",
+      "rngShape": "Normal",
+      "losRule": "normal",
+      "rngScaling": {
+        "factor": "None",
+        "subject": "",
+        "type": "Additive",
+        "multiplier": 1,
+        "thresholds": [],
+        "formula": "",
+        "addToBase": false,
+        "roundDown": false
+      },
+      "targets": 1,
+      "targetType": "Any",
+      "locationRng": 0,
+      "gridColor": "Red",
+      "groundValidSquares": "All",
+      "groundMaxElevDiff": 0,
+      "deliveryType": "Saving Throw",
+      "savingThrowDC": {
+        "required": false,
+        "base": 0,
+        "attribute": "None",
+        "targetAttribute": "None",
+        "ignoreForFriendly": false
+      },
+      "skillCheckDC": {
+        "required": false,
+        "base": 0,
+        "skill": "None",
+        "targetAttribute": "None",
+        "ignoreForFriendly": false
+      },
+      "consumeOnFailure": true,
+      "groundUnoccupiedOnly": true
+    },
+    "consumableData": {
+      "effect": "",
+      "stat": "",
+      "statValue": 0,
+      "growth": "",
+      "growthValue": 0
+    },
+    "weapon": {
+      "req": "Elemental",
+      "rank": 3,
+      "twoHanded": false,
+      "dmgTypes": {
+        "slashing": false,
+        "slashingConditionTree": null,
+        "piercing": false,
+        "piercingConditionTree": null,
+        "crushing": false,
+        "crushingConditionTree": null,
+        "missile": false,
+        "missileConditionTree": null,
+        "fire": false,
+        "fireConditionTree": null,
+        "ice": true,
+        "iceConditionTree": null,
+        "lightning": false,
+        "lightningConditionTree": null,
+        "wind": false,
+        "windConditionTree": null,
+        "arcane": false,
+        "arcaneConditionTree": null,
+        "decay": false,
+        "decayConditionTree": null,
+        "shadow": false,
+        "shadowConditionTree": null,
+        "holy": false,
+        "holyConditionTree": null,
+        "randomize": false
+      },
+      "atkStat": "Wit",
+      "atk": "8",
+      "rng": "3",
+      "acc": -3,
+      "brk": 6,
+      "crit": 0,
+      "extraAttacks": 0,
+      "noExtraAttacks": false,
+      "effectiveAgainst": {
+        "infantry": false,
+        "armored": false,
+        "cavalry": false,
+        "flying": false,
+        "dragon": false,
+        "beast": false,
+        "monster": false,
+        "undead": false,
+        "magic": false
+      },
+      "breaker": {
+        "brawling": false,
+        "blade": false,
+        "polearm": false,
+        "heavy": false,
+        "bow": false,
+        "covert": false,
+        "elemental": false,
+        "divine": false,
+        "occult": false,
+        "arcane": false
+      }
+    },
+    "armor": {
+      "req": "",
+      "def": 0,
+      "res": 0,
+      "stn": 0,
+      "eva": 0,
+      "brkRed": 0,
+      "critRed": 0,
+      "vulns": {
+        "slashing": false,
+        "piercing": false,
+        "crushing": false,
+        "missile": false,
+        "fire": false,
+        "ice": false,
+        "lightning": false,
+        "wind": false,
+        "arcane": false,
+        "decay": false,
+        "shadow": false,
+        "holy": false
+      },
+      "prots": {
+        "slashing": false,
+        "piercing": false,
+        "crushing": false,
+        "missile": false,
+        "fire": false,
+        "ice": false,
+        "lightning": false,
+        "wind": false,
+        "arcane": false,
+        "decay": false,
+        "shadow": false,
+        "holy": false
+      }
+    },
+    "mountData": {
+      "stats": {
+        "mov": 0,
+        "hp": 0,
+        "stn": 0,
+        "eva": 0,
+        "atk": 0,
+        "spd": 0,
+        "acc": 0,
+        "crit": 0
+      },
+      "unitTypes": {
+        "cavalry": false,
+        "flying": false,
+        "dragon": false,
+        "beast": false,
+        "monster": false,
+        "undead": false
+      }
+    },
+    "craftingData": {
+      "refinement": {
+        "tiers": [
+          {
+            "materials": [],
+            "skillCheck": "",
+            "modifiers": {
+              "atk": null,
+              "brk": null,
+              "wgt": null,
+              "acc": null,
+              "crit": null,
+              "durability": null,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": ""
+            },
+            "enabled": false,
+            "xpReq": 5,
+            "forgeMult": null
+          },
+          {
+            "materials": [],
+            "skillCheck": "",
+            "modifiers": {
+              "atk": null,
+              "brk": null,
+              "wgt": null,
+              "acc": null,
+              "crit": null,
+              "durability": null,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": ""
+            },
+            "enabled": false,
+            "xpReq": 10,
+            "forgeMult": null
+          },
+          {
+            "materials": [],
+            "skillCheck": "",
+            "modifiers": {
+              "atk": null,
+              "brk": null,
+              "wgt": null,
+              "acc": null,
+              "crit": null,
+              "durability": null,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": ""
+            },
+            "enabled": false,
+            "xpReq": 15,
+            "forgeMult": null
+          },
+          {
+            "materials": [],
+            "skillCheck": "",
+            "modifiers": {
+              "atk": null,
+              "brk": null,
+              "wgt": null,
+              "acc": null,
+              "crit": null,
+              "durability": null,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": ""
+            },
+            "enabled": false,
+            "xpReq": 20,
+            "forgeMult": null
+          },
+          {
+            "materials": [],
+            "skillCheck": "",
+            "modifiers": {
+              "atk": null,
+              "brk": null,
+              "wgt": null,
+              "acc": null,
+              "crit": null,
+              "durability": null,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": ""
+            },
+            "enabled": false,
+            "xpReq": 25,
+            "forgeMult": null
+          }
+        ]
+      },
+      "creation": {
+        "materials": [],
+        "difficultyClass": 0,
+        "skillCheck": "Nature"
+      },
+      "forging": {
+        "enabled": false,
+        "forgeMult": 1,
+        "skillCheck": "Handicraft",
+        "materials": []
+      },
+      "forgingXP": 0
+    },
+    "refreshes": true,
+    "tradeDisabled": false,
+    "anim": {
+      "attack": {
+        "melee": {
+          "steps": [
+            {
+              "kind": "sound",
+              "file": "psfx.2nd-level-spells.misty-step.v1.intro.generic",
+              "audioChannel": "environment"
+            },
+            {
+              "kind": "effect",
+              "file": "blfx.spell.cast.blink.1.gravity.color6",
+              "atLocation": "token",
+              "layer": "aboveInterface",
+              "scaleToObject": 1.5,
+              "waitUntilFinished": true
+            },
+            {
+              "kind": "sound",
+              "file": "psfx.cantrips.ray-of-frost.v1.0",
+              "audioChannel": "environment",
+              "startTime": 1300
+            },
+            {
+              "kind": "effect",
+              "file": "blfx.spell.template.line.ice.frost.ground1.color01",
+              "atLocation": "token",
+              "stretchTo": "target",
+              "layer": "belowTokens",
+              "scale": 0.5,
+              "waitUntilFinished": -4400
+            },
+            {
+              "kind": "sound",
+              "file": "modules/emblem-rpg-content/sound/magic/ice-1.mp3",
+              "audioChannel": "environment"
+            },
+            {
+              "kind": "effect",
+              "file": "jb2a.impact.ground_crack.frost.01.white",
+              "atLocation": "target",
+              "layer": "belowTokens",
+              "scaleToObject": 1.3,
+              "playbackRate": 1.8
+            },
+            {
+              "kind": "effect",
+              "file": "blfx.spell.impact.frost.ice.color1",
+              "atLocation": "target",
+              "layer": "aboveInterface",
+              "scaleToObject": 3,
+              "rotateIn": {
+                "value": 180,
+                "ms": 720
+              }
+            },
+            {
+              "kind": "effect",
+              "file": "blfx.spell.impact.frost.ice.color1",
+              "atLocation": "target",
+              "layer": "aboveInterface",
+              "scaleToObject": 3.5,
+              "mirrorX": true,
+              "mirrorY": true,
+              "rotateIn": {
+                "value": -180,
+                "ms": 720
+              }
+            },
+            {
+              "kind": "effect",
+              "file": "blfx.spell.impact.frost.ice2.color1",
+              "atLocation": "target",
+              "layer": "aboveInterface",
+              "scaleToObject": 2
+            }
+          ],
+          "duration": 4500
+        },
+        "ranged": {
+          "steps": [
+            {
+              "kind": "sound",
+              "file": "psfx.2nd-level-spells.misty-step.v1.intro.generic",
+              "audioChannel": "environment"
+            },
+            {
+              "kind": "effect",
+              "file": "blfx.spell.cast.blink.1.gravity.color6",
+              "atLocation": "token",
+              "layer": "aboveInterface",
+              "scaleToObject": 1.5,
+              "waitUntilFinished": true
+            },
+            {
+              "kind": "sound",
+              "file": "psfx.cantrips.ray-of-frost.v1.0",
+              "audioChannel": "environment",
+              "startTime": 1300
+            },
+            {
+              "kind": "effect",
+              "file": "blfx.spell.template.line.ice.frost.ground1.color01",
+              "atLocation": "token",
+              "stretchTo": "target",
+              "layer": "belowTokens",
+              "scale": 0.5,
+              "waitUntilFinished": -4400
+            },
+            {
+              "kind": "sound",
+              "file": "modules/emblem-rpg-content/sound/magic/ice-1.mp3",
+              "audioChannel": "environment"
+            },
+            {
+              "kind": "effect",
+              "file": "jb2a.impact.ground_crack.frost.01.white",
+              "atLocation": "target",
+              "layer": "belowTokens",
+              "scaleToObject": 1.3,
+              "playbackRate": 1.8
+            },
+            {
+              "kind": "effect",
+              "file": "blfx.spell.impact.frost.ice.color1",
+              "atLocation": "target",
+              "layer": "aboveInterface",
+              "scaleToObject": 3,
+              "rotateIn": {
+                "value": 180,
+                "ms": 720
+              }
+            },
+            {
+              "kind": "effect",
+              "file": "blfx.spell.impact.frost.ice.color1",
+              "atLocation": "target",
+              "layer": "aboveInterface",
+              "scaleToObject": 3.5,
+              "mirrorX": true,
+              "mirrorY": true,
+              "rotateIn": {
+                "value": -180,
+                "ms": 720
+              }
+            },
+            {
+              "kind": "effect",
+              "file": "blfx.spell.impact.frost.ice2.color1",
+              "atLocation": "target",
+              "layer": "aboveInterface",
+              "scaleToObject": 2
+            }
+          ],
+          "duration": 4500
+        }
+      },
+      "critical": {
+        "melee": {
+          "steps": [
+            {
+              "kind": "sound",
+              "audioChannel": "environment",
+              "file": "psfx.casting.generic.002.001.0",
+              "duration": 2200,
+              "fadeInAudio": 300,
+              "fadeOutAudio": 600,
+              "volume": 0.35
+            },
+            {
+              "kind": "effect",
+              "file": "jb2a.particle_burst.01.circle.bluepurple",
+              "atLocation": "token",
+              "layer": "aboveInterface",
+              "filter": {
+                "type": "ColorMatrix",
+                "params": {
+                  "hue": -30
+                }
+              },
+              "startTime": 600,
+              "scaleToObject": 1.25,
+              "opacity": 1,
+              "waitUntilFinished": -500
+            },
+            {
+              "kind": "sound",
+              "audioChannel": "environment",
+              "file": "psfx.2nd-level-spells.misty-step.v1.intro.generic"
+            },
+            {
+              "kind": "effect",
+              "atLocation": "token",
+              "file": "blfx.spell.cast.blink.1.gravity.color6",
+              "layer": "aboveInterface",
+              "scaleToObject": 1.5,
+              "waitUntilFinished": true
+            },
+            {
+              "kind": "sound",
+              "audioChannel": "environment",
+              "delay": 500,
+              "file": "modules/emblem-rpg-content/sound/magic/ice-2.mp3"
+            },
+            {
+              "kind": "sound",
+              "audioChannel": "environment",
+              "startTime": 1300,
+              "file": "psfx.cantrips.ray-of-frost.v1.0"
+            },
+            {
+              "kind": "effect",
+              "atLocation": "token",
+              "stretchTo": "target",
+              "file": "blfx.spell.template.line.ice.frost.ground1.color01",
+              "layer": "belowTokens",
+              "waitUntilFinished": -4400
+            },
+            {
+              "kind": "sound",
+              "audioChannel": "environment",
+              "file": "modules/emblem-rpg-content/sound/magic/ice-1.mp3"
+            },
+            {
+              "kind": "effect",
+              "atLocation": "target",
+              "scaleToObject": 4,
+              "file": "blfx.spell.impact.frost.ice2.color1",
+              "layer": "aboveInterface"
+            },
+            {
+              "kind": "effect",
+              "atLocation": "target",
+              "scaleToObject": 3,
+              "file": "blfx.spell.impact.frost.ice2.color1",
+              "layer": "aboveInterface",
+              "mirrorX": true,
+              "delay": 300
+            },
+            {
+              "kind": "effect",
+              "atLocation": "target",
+              "scaleToObject": 4,
+              "file": "blfx.spell.impact.frost.ice2.color1",
+              "layer": "aboveInterface",
+              "mirrorX": true,
+              "delay": 500
+            },
+            {
+              "kind": "effect",
+              "atLocation": "target",
+              "scaleToObject": 3,
+              "file": "blfx.spell.impact.frost.ice2.color1",
+              "layer": "aboveInterface",
+              "delay": 700
+            }
+          ],
+          "duration": 5000
+        },
+        "ranged": {
+          "steps": [
+            {
+              "kind": "sound",
+              "audioChannel": "environment",
+              "file": "psfx.casting.generic.002.001.0",
+              "duration": 2200,
+              "fadeInAudio": 300,
+              "fadeOutAudio": 600,
+              "volume": 0.35
+            },
+            {
+              "kind": "effect",
+              "file": "jb2a.particle_burst.01.circle.bluepurple",
+              "atLocation": "token",
+              "layer": "aboveInterface",
+              "filter": {
+                "type": "ColorMatrix",
+                "params": {
+                  "hue": -30
+                }
+              },
+              "startTime": 600,
+              "scaleToObject": 1.25,
+              "opacity": 1,
+              "waitUntilFinished": -500
+            },
+            {
+              "kind": "sound",
+              "audioChannel": "environment",
+              "file": "psfx.2nd-level-spells.misty-step.v1.intro.generic"
+            },
+            {
+              "kind": "effect",
+              "atLocation": "token",
+              "file": "blfx.spell.cast.blink.1.gravity.color6",
+              "layer": "aboveInterface",
+              "scaleToObject": 1.5,
+              "waitUntilFinished": true
+            },
+            {
+              "kind": "sound",
+              "audioChannel": "environment",
+              "delay": 500,
+              "file": "modules/emblem-rpg-content/sound/magic/ice-2.mp3"
+            },
+            {
+              "kind": "sound",
+              "audioChannel": "environment",
+              "startTime": 1300,
+              "file": "psfx.cantrips.ray-of-frost.v1.0"
+            },
+            {
+              "kind": "effect",
+              "atLocation": "token",
+              "stretchTo": "target",
+              "file": "blfx.spell.template.line.ice.frost.ground1.color01",
+              "layer": "belowTokens",
+              "waitUntilFinished": -4400
+            },
+            {
+              "kind": "sound",
+              "audioChannel": "environment",
+              "file": "modules/emblem-rpg-content/sound/magic/ice-1.mp3"
+            },
+            {
+              "kind": "effect",
+              "atLocation": "target",
+              "scaleToObject": 4,
+              "file": "blfx.spell.impact.frost.ice2.color1",
+              "layer": "aboveInterface"
+            },
+            {
+              "kind": "effect",
+              "atLocation": "target",
+              "scaleToObject": 3,
+              "file": "blfx.spell.impact.frost.ice2.color1",
+              "layer": "aboveInterface",
+              "mirrorX": true,
+              "delay": 300
+            },
+            {
+              "kind": "effect",
+              "atLocation": "target",
+              "scaleToObject": 4,
+              "file": "blfx.spell.impact.frost.ice2.color1",
+              "layer": "aboveInterface",
+              "mirrorX": true,
+              "delay": 500
+            },
+            {
+              "kind": "effect",
+              "atLocation": "target",
+              "scaleToObject": 3,
+              "file": "blfx.spell.impact.frost.ice2.color1",
+              "layer": "aboveInterface",
+              "delay": 700
+            }
+          ],
+          "duration": 5000
+        }
+      },
+      "activation": null
+    },
+    "effects": [
+      {
+        "trigger": "onHitOrCrit",
+        "name": "Icewind Hit Effect",
+        "itemNames": [],
+        "itemUuids": [],
+        "delayMs": 0,
+        "condition": {
+          "kind": "group",
+          "op": "and",
+          "children": [
+            {
+              "kind": "compare",
+              "left": "targetStn",
+              "op": "<=",
+              "right": {
+                "literal": 0
+              }
+            },
+            {
+              "kind": "truthy",
+              "expr": "target.frozen",
+              "negate": true
+            }
+          ]
+        },
+        "action": {
+          "steps": [
+            {
+              "kind": "applyEffect",
+              "target": "target",
+              "preset": "frozen",
+              "linkAnimationTag": "frozen-effect"
+            },
+            {
+              "kind": "animation",
+              "persistent": true,
+              "tag": "frozen-effect",
+              "attachTarget": "target",
+              "attachToEffectName": "Frozen",
+              "animation": {
+                "steps": [
+                  {
+                    "kind": "effect",
+                    "file": "jb2a.aura_themed.01.orbit.loop.cold.01.blue",
+                    "atLocation": "target",
+                    "attachTo": "target",
+                    "scaleToObject": 1.4,
+                    "fadeIn": 200
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "tokenAwaits": false
+      }
+    ]
+  },
+  "folder": "INoGDM6UIBY6fcSi",
+  "_id": "gCgFPTVerAlTSNXG",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1788974958385,
+    "modifiedTime": 1790612898342,
+    "lastModifiedBy": "emblembuilder000",
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "sort": -100000,
+  "_key": "!items!gCgFPTVerAlTSNXG"
+}

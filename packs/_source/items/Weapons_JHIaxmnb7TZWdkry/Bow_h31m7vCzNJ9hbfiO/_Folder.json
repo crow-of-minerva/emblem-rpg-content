@@ -1,0 +1,25 @@
+{
+  "type": "Item",
+  "folder": "JHIaxmnb7TZWdkry",
+  "name": "Bow",
+  "color": null,
+  "flags": {
+    "emblem-rpg": {
+      "icon": ""
+    }
+  },
+  "sorting": "m",
+  "_id": "h31m7vCzNJ9hbfiO",
+  "description": "",
+  "sort": 700000,
+  "_stats": {
+    "coreVersion": "14.366",
+    "systemId": "emblem-rpg",
+    "systemVersion": "0.2.0",
+    "createdTime": 1786220112798,
+    "modifiedTime": 1787432326772,
+    "lastModifiedBy": null,
+    "exportSource": null
+  },
+  "_key": "!folders!h31m7vCzNJ9hbfiO"
+}

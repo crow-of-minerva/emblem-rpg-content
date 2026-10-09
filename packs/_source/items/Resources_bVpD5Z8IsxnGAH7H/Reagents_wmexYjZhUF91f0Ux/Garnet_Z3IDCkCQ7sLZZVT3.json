@@ -1,0 +1,40 @@
+{
+  "name": "Garnet",
+  "type": "Resource",
+  "img": "modules/emblem-rpg-content/assets/items/resources/Garnet.png",
+  "system": {
+    "description": "A precious, fiery gem.",
+    "resourceType": "Reagent",
+    "foodType": "",
+    "amount": 1,
+    "cost": {
+      "perUnit": 200
+    },
+    "stealable": {
+      "flag": "None",
+      "dc": 10
+    }
+  },
+  "folder": "wmexYjZhUF91f0Ux",
+  "effects": [],
+  "flags": {
+    "emblem-rpg": {
+      "pixelArt": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1787465464455,
+    "modifiedTime": 1790612899617,
+    "lastModifiedBy": "emblembuilder000",
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_id": "Z3IDCkCQ7sLZZVT3",
+  "sort": 300000,
+  "_key": "!items!Z3IDCkCQ7sLZZVT3"
+}

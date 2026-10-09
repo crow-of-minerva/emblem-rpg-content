@@ -1,0 +1,25 @@
+{
+  "type": "Actor",
+  "folder": null,
+  "name": "Combatants",
+  "color": null,
+  "flags": {
+    "emblem-rpg": {
+      "icon": "modules/emblem-rpg-content/assets/actors/Enemy Compendium.png"
+    }
+  },
+  "sorting": "m",
+  "_id": "zJ2bHaaG7PBFwI3M",
+  "description": "",
+  "sort": 300000,
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "0.2.0",
+    "createdTime": 1786626363959,
+    "modifiedTime": 1790652653358,
+    "lastModifiedBy": "emblembuilder000",
+    "exportSource": null
+  },
+  "_key": "!folders!zJ2bHaaG7PBFwI3M"
+}

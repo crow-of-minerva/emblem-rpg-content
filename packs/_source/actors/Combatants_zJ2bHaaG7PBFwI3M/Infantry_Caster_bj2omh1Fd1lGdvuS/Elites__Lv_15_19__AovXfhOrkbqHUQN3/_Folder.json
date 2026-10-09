@@ -1,0 +1,25 @@
+{
+  "type": "Actor",
+  "folder": "bj2omh1Fd1lGdvuS",
+  "name": "Elites (Lv 15-19)",
+  "color": null,
+  "sorting": "m",
+  "_id": "AovXfhOrkbqHUQN3",
+  "description": "",
+  "sort": -12500,
+  "flags": {
+    "emblem-rpg": {
+      "icon": ""
+    }
+  },
+  "_stats": {
+    "exportSource": null,
+    "coreVersion": "14.366",
+    "systemId": "emblem-rpg",
+    "systemVersion": "0.2.0",
+    "createdTime": 1786800000000,
+    "modifiedTime": 1786800000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!AovXfhOrkbqHUQN3"
+}

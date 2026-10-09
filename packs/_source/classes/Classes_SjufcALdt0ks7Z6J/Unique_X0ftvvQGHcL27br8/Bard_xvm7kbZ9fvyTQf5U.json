@@ -1,0 +1,124 @@
+{
+  "name": "Bard",
+  "type": "Class",
+  "img": "modules/emblem-rpg-content/assets/classes/Bard.png",
+  "folder": "X0ftvvQGHcL27br8",
+  "system": {
+    "description": "These wandering troubadours are frail and unprepared to do any real fighting themselves, but their songs provide invaluable benefit to their party. Their unique 'Inspire' ability allows other units to regain use of their turn after they have already taken action in the round.",
+    "tier": "Unique",
+    "baseStats": {
+      "hp": 19,
+      "stn": 2,
+      "mov": 5,
+      "bld": 3,
+      "mgt": 3,
+      "agi": 5,
+      "tqn": 2,
+      "wit": 4,
+      "cha": 5,
+      "def": 0,
+      "res": 2,
+      "spd": 2,
+      "eva": 9,
+      "acc": 0,
+      "crit": 0
+    },
+    "baseGrowths": {
+      "hp": 30,
+      "mgt": 10,
+      "agi": 30,
+      "tqn": 20,
+      "wit": 20,
+      "cha": 30,
+      "def": 5,
+      "res": 15
+    },
+    "baseCaps": {
+      "hp": 30,
+      "mgt": 7,
+      "agi": 12,
+      "tqn": 8,
+      "wit": 10,
+      "cha": 14,
+      "def": 3,
+      "res": 5
+    },
+    "proficiencies": {
+      "brawling": 0,
+      "blade": 0,
+      "polearm": 0,
+      "heavy": 0,
+      "bow": 0,
+      "covert": 0,
+      "arcane": 0,
+      "elemental": 0,
+      "divine": 0,
+      "occult": 0,
+      "armor": 1,
+      "riding": false,
+      "flying": false
+    },
+    "skills": {
+      "athletics": 0,
+      "finesse": 0,
+      "trading": 1,
+      "civics": 0,
+      "handicraft": 0,
+      "sociability": 1,
+      "command": 0,
+      "nature": 0,
+      "perception": 0,
+      "performance": 2,
+      "reason": 0,
+      "esoteric": 0
+    },
+    "unitType": {
+      "infantry": true,
+      "dragon": false,
+      "monster": false,
+      "beast": false,
+      "undead": false
+    },
+    "features": [
+      {
+        "_id": "XEl8t9Xa6nvazlEC",
+        "lvl": 1,
+        "acquisitionType": "all",
+        "choiceCount": 1,
+        "unique": true,
+        "exceptions": "",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.wqpNz3IZux609nRt",
+            "name": "Inspire",
+            "img": "modules/emblem-rpg-content/assets/abilities/active/Inspire.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      }
+    ],
+    "promotions": []
+  },
+  "_id": "xvm7kbZ9fvyTQf5U",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "exportSource": null,
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1786236611000,
+    "modifiedTime": 1790612897678,
+    "lastModifiedBy": "emblembuilder000"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "sort": 100000,
+  "_key": "!items!xvm7kbZ9fvyTQf5U"
+}

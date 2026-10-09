@@ -1,0 +1,249 @@
+{
+  "name": "Thief",
+  "type": "Class",
+  "img": "modules/emblem-rpg-content/assets/classes/Thief.png",
+  "folder": "uf0WcopezUNyj7zH",
+  "system": {
+    "description": "A speicalty unit, capable of using Covert weapons, lockpicking, disarming traps, and stealing items from other units. Quick and agile, but frail in constitution.",
+    "tier": "Novice",
+    "baseStats": {
+      "hp": 21,
+      "stn": 2,
+      "mov": 5,
+      "bld": 3,
+      "mgt": 4,
+      "agi": 5,
+      "tqn": 5,
+      "wit": 4,
+      "cha": 2,
+      "def": 0,
+      "res": 1,
+      "spd": 4,
+      "eva": 10,
+      "acc": 1,
+      "crit": 0
+    },
+    "baseGrowths": {
+      "hp": 25,
+      "mgt": 15,
+      "agi": 35,
+      "tqn": 30,
+      "wit": 15,
+      "cha": 15,
+      "def": 5,
+      "res": 10
+    },
+    "baseCaps": {
+      "hp": 30,
+      "mgt": 9,
+      "agi": 12,
+      "tqn": 11,
+      "wit": 9,
+      "cha": 8,
+      "def": 3,
+      "res": 4
+    },
+    "proficiencies": {
+      "brawling": 0,
+      "blade": 0,
+      "polearm": 0,
+      "heavy": 0,
+      "bow": 0,
+      "covert": 2,
+      "arcane": 0,
+      "elemental": 0,
+      "divine": 0,
+      "occult": 0,
+      "armor": 0,
+      "riding": false,
+      "flying": false
+    },
+    "skills": {
+      "athletics": 0,
+      "finesse": 1,
+      "trading": 2,
+      "civics": 0,
+      "handicraft": 2,
+      "sociability": 0,
+      "command": 0,
+      "nature": 0,
+      "perception": 1,
+      "performance": 0,
+      "reason": 0,
+      "esoteric": 0
+    },
+    "unitType": {
+      "infantry": true,
+      "dragon": false,
+      "monster": false,
+      "beast": false,
+      "undead": false
+    },
+    "features": [
+      {
+        "_id": "wF9WNXT5uZ8Y4bMg",
+        "lvl": 1,
+        "acquisitionType": "all",
+        "choiceCount": 1,
+        "unique": true,
+        "exceptions": "Rogue,Assassin",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.Lels9TPoa5RQSXQd",
+            "name": "Sneak",
+            "img": "modules/emblem-rpg-content/assets/abilities/active/Sneak.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.bTnVo5CMX3IGP1bE",
+            "name": "Steal",
+            "img": "modules/emblem-rpg-content/assets/abilities/active/Steal.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.E7sfF6dm12pMfzWm",
+            "name": "Locktouch",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/Locktouch.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      },
+      {
+        "_id": "sEkC9t8Ax4NHBiPX",
+        "lvl": 3,
+        "acquisitionType": "choice",
+        "choiceCount": 1,
+        "unique": false,
+        "exceptions": "",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.LtJS8QnVGj1acmGd",
+            "name": "Dash",
+            "img": "modules/emblem-rpg-content/assets/abilities/active/Dash.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.yIKvNOmbF25YqF3X",
+            "name": "Swap",
+            "img": "modules/emblem-rpg-content/assets/abilities/active/Swap.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      },
+      {
+        "_id": "LJquLfh3esmeeaW4",
+        "lvl": 5,
+        "acquisitionType": "choice",
+        "choiceCount": 1,
+        "unique": false,
+        "exceptions": "",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.bw3AngGa4C9pXrsD",
+            "name": "Poisoned Strike",
+            "img": "modules/emblem-rpg-content/assets/abilities/weapon-arts/Poisoned Strike.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.qga195TgQsY4YPjX",
+            "name": "Uncanny Dodge",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/Uncanny Dodge.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      }
+    ],
+    "promotions": [
+      {
+        "_id": "7QLo1L72X7JRAe6m",
+        "lvl": 5,
+        "classUuid": "Compendium.emblem-rpg-content.classes.Item.GXZglM6rsU6m7044",
+        "className": "Rogue",
+        "classImg": "modules/emblem-rpg-content/assets/classes/Rogue.png",
+        "promotionItem": {
+          "uuid": "Compendium.emblem-rpg-content.items.Item.Jke9zzOYYaMhtXMK",
+          "name": "Purloined Signet",
+          "img": "modules/emblem-rpg-content/assets/items/consumables/promotions/Purloined%20Signet.png"
+        },
+        "proficiencies": {
+          "brawling": 0,
+          "blade": 0,
+          "polearm": 0,
+          "heavy": 0,
+          "bow": 0,
+          "covert": 0,
+          "arcane": 0,
+          "elemental": 0,
+          "divine": 0,
+          "occult": 0
+        },
+        "skills": {
+          "athletics": 0,
+          "finesse": 0,
+          "trading": 0,
+          "civics": 0,
+          "handicraft": 0,
+          "sociability": 0,
+          "command": 0,
+          "nature": 0,
+          "perception": 0,
+          "performance": 0,
+          "reason": 0,
+          "esoteric": 0
+        }
+      }
+    ]
+  },
+  "_id": "Vu0NVNCyWju7Gh1N",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "exportSource": null,
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1786236611000,
+    "modifiedTime": 1790612897676,
+    "lastModifiedBy": "emblembuilder000"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "sort": 0,
+  "_key": "!items!Vu0NVNCyWju7Gh1N"
+}

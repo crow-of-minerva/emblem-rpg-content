@@ -1,0 +1,241 @@
+{
+  "name": "Swordsman",
+  "type": "Class",
+  "img": "modules/emblem-rpg-content/assets/classes/Swordsman.png",
+  "folder": "LwfXSTDdMACUn2PM",
+  "system": {
+    "description": "Swordsmen make it their mission to excel at the use of Blade weapons. Quick and accurate, they rely on evasion rather than armor.",
+    "tier": "Intermediate",
+    "baseStats": {
+      "hp": 25,
+      "stn": 3,
+      "mov": 5,
+      "bld": 7,
+      "mgt": 6,
+      "agi": 8,
+      "tqn": 5,
+      "wit": 4,
+      "cha": 3,
+      "def": 0,
+      "res": 1,
+      "spd": 4,
+      "eva": 11,
+      "acc": 2,
+      "crit": 2
+    },
+    "baseGrowths": {
+      "hp": 25,
+      "mgt": 30,
+      "agi": 35,
+      "tqn": 25,
+      "wit": 25,
+      "cha": 10,
+      "def": 5,
+      "res": 10
+    },
+    "baseCaps": {
+      "hp": 39,
+      "mgt": 16,
+      "agi": 22,
+      "tqn": 18,
+      "wit": 15,
+      "cha": 11,
+      "def": 7,
+      "res": 5
+    },
+    "proficiencies": {
+      "brawling": 0,
+      "blade": 3,
+      "polearm": 0,
+      "heavy": 0,
+      "bow": 0,
+      "covert": 0,
+      "arcane": 0,
+      "elemental": 0,
+      "divine": 0,
+      "occult": 0,
+      "armor": 1,
+      "riding": false,
+      "flying": false
+    },
+    "skills": {
+      "athletics": 0,
+      "finesse": 2,
+      "trading": 0,
+      "civics": 0,
+      "handicraft": 1,
+      "sociability": 0,
+      "command": 0,
+      "nature": 0,
+      "perception": 1,
+      "performance": 0,
+      "reason": 0,
+      "esoteric": 0
+    },
+    "unitType": {
+      "infantry": true,
+      "dragon": false,
+      "monster": false,
+      "beast": false,
+      "undead": false
+    },
+    "features": [
+      {
+        "_id": "kYBUOSd24J4NpafJ",
+        "lvl": 13,
+        "acquisitionType": "all",
+        "choiceCount": 1,
+        "unique": true,
+        "exceptions": "",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.0HvMQeMmdSN3ldhA",
+            "name": "Critical Edge",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/Critical Edge.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      },
+      {
+        "_id": "mFZPTXjmuP49unT4",
+        "lvl": 17,
+        "acquisitionType": "choice",
+        "choiceCount": 1,
+        "unique": false,
+        "exceptions": "",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.GoqVsuquj3vJuMjP",
+            "name": "First Strike",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/First Strike.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.zt4y3AWLHaXJ2nDR",
+            "name": "Perfect Finish",
+            "img": "modules/emblem-rpg-content/assets/abilities/weapon-arts/Perfect Finish.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      },
+      {
+        "_id": "dmc6ZeQA2wgRE1mC",
+        "lvl": 7,
+        "acquisitionType": "choice",
+        "choiceCount": 1,
+        "unique": false,
+        "exceptions": "",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.vMBJ9MBl2SOZcokL",
+            "name": "Vanishing Blade",
+            "img": "modules/emblem-rpg-content/assets/abilities/weapon-arts/Vanishing Blade.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.CJtqUbUHkgATkUvE",
+            "name": "Seeking Blade",
+            "img": "modules/emblem-rpg-content/assets/abilities/weapon-arts/Seeking Blade.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      },
+      {
+        "_id": "0AbDIeZVr6gvL9ex",
+        "lvl": 9,
+        "acquisitionType": "all",
+        "choiceCount": 1,
+        "unique": false,
+        "exceptions": "",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.gnp3y53xQJ4TCFC1",
+            "name": "Prowess: Blade",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/Prowess_ Blade.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.TFjLR8gWq4MansDm",
+            "name": "Wit +2",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/Wit +2.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      },
+      {
+        "_id": "VzI7ezFQJyg3buGq",
+        "lvl": 5,
+        "acquisitionType": "all",
+        "choiceCount": 1,
+        "unique": true,
+        "exceptions": "",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.S4xPXHMtNBk6VhJV",
+            "name": "Swordsman's Art",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/Swordsman%27s%20Art.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      }
+    ],
+    "promotions": []
+  },
+  "_id": "1Dqz92p8FF4PAHnH",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1789177801197,
+    "modifiedTime": 1790612897673,
+    "lastModifiedBy": "emblembuilder000",
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "sort": 400000,
+  "_key": "!items!1Dqz92p8FF4PAHnH"
+}

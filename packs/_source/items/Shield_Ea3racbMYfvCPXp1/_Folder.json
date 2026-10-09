@@ -1,0 +1,25 @@
+{
+  "name": "Shield",
+  "type": "Item",
+  "folder": null,
+  "_id": "Ea3racbMYfvCPXp1",
+  "description": "",
+  "sorting": "a",
+  "sort": 300000,
+  "color": null,
+  "flags": {
+    "emblem-rpg": {
+      "icon": "modules/emblem-rpg-content/assets/items/Shield.png"
+    }
+  },
+  "_stats": {
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "emblem-rpg",
+    "systemVersion": "0.2.0",
+    "lastModifiedBy": "emblembuilder000",
+    "createdTime": 1786773425120,
+    "modifiedTime": 1789308399454
+  },
+  "_key": "!folders!Ea3racbMYfvCPXp1"
+}

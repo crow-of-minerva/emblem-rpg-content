@@ -1,0 +1,25 @@
+{
+  "name": "Rookies (Lv 1-4)",
+  "sort": -100000,
+  "type": "Actor",
+  "folder": "OCDmWXHgict0B6nZ",
+  "flags": {
+    "emblem-rpg": {
+      "icon": ""
+    }
+  },
+  "_id": "n1j55F1jGrV26tno",
+  "description": "",
+  "sorting": "a",
+  "color": null,
+  "_stats": {
+    "coreVersion": "14.366",
+    "systemId": "emblem-rpg",
+    "systemVersion": "0.2.0",
+    "createdTime": 1786390692646,
+    "modifiedTime": 1786446703790,
+    "lastModifiedBy": null,
+    "exportSource": null
+  },
+  "_key": "!folders!n1j55F1jGrV26tno"
+}

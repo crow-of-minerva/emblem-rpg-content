@@ -1,0 +1,36 @@
+{
+  "name": "Peppercorns",
+  "type": "Resource",
+  "img": "modules/emblem-rpg-content/assets/items/resources/Peppercorns.png",
+  "folder": "UMzhOzhivY3Pp1Kn",
+  "ownership": {
+    "default": 0
+  },
+  "sort": 0,
+  "effects": [],
+  "flags": {},
+  "system": {
+    "description": "Hard black corns carried in from across the sea. Counted out by the piece, and in lean seasons accepted as payment.",
+    "resourceType": "Ingredient",
+    "foodType": "Spice",
+    "amount": 1,
+    "cost": {
+      "perUnit": 8
+    },
+    "stealable": {
+      "flag": "None",
+      "dc": 10
+    }
+  },
+  "_id": "hZ9DTEjQvC8jh4fh",
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1789663508319,
+    "modifiedTime": 1790612899634,
+    "lastModifiedBy": "emblembuilder000",
+    "exportSource": null
+  },
+  "_key": "!items!hZ9DTEjQvC8jh4fh"
+}

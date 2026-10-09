@@ -1,0 +1,21 @@
+{
+  "name": "E",
+  "type": "Item",
+  "folder": "Ti32IeOUFA4Dd73e",
+  "_id": "dbP2GJagDTyKfl1b",
+  "description": "",
+  "sorting": "a",
+  "sort": 100000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "exportSource": null,
+    "coreVersion": "14.366",
+    "systemId": "emblem-rpg",
+    "systemVersion": "0.2.0",
+    "lastModifiedBy": null,
+    "createdTime": 1787235360706,
+    "modifiedTime": 1787235360706
+  },
+  "_key": "!folders!dbP2GJagDTyKfl1b"
+}

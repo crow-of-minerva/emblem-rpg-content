@@ -1,0 +1,25 @@
+{
+  "name": "Undead",
+  "type": "Actor",
+  "folder": "zJ2bHaaG7PBFwI3M",
+  "sort": 146290,
+  "sorting": "m",
+  "description": "",
+  "color": null,
+  "flags": {
+    "emblem-rpg": {
+      "icon": "modules/emblem-rpg-content/assets/classes/Abomination.png"
+    }
+  },
+  "_id": "QkZtrwyClfjSaIkh",
+  "_stats": {
+    "coreVersion": "14.366",
+    "systemId": "emblem-rpg",
+    "systemVersion": "0.2.0",
+    "createdTime": 1786570471043,
+    "modifiedTime": 1786626404128,
+    "lastModifiedBy": null,
+    "exportSource": null
+  },
+  "_key": "!folders!QkZtrwyClfjSaIkh"
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Shellfish",
+  "type": "Resource",
+  "img": "modules/emblem-rpg-content/assets/items/resources/Shellfish.png",
+  "folder": "UMzhOzhivY3Pp1Kn",
+  "ownership": {
+    "default": 0
+  },
+  "sort": 0,
+  "effects": [],
+  "flags": {},
+  "system": {
+    "description": "Mussels and clams pulled off the rocks at low tide. Free, given a coastline and some patience.",
+    "resourceType": "Ingredient",
+    "foodType": "Seafood",
+    "amount": 1,
+    "cost": {
+      "perUnit": 2
+    },
+    "stealable": {
+      "flag": "None",
+      "dc": 10
+    }
+  },
+  "_id": "et9cuwfAxZEvv0w3",
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1789663508318,
+    "modifiedTime": 1790612899628,
+    "lastModifiedBy": "emblembuilder000",
+    "exportSource": null
+  },
+  "_key": "!items!et9cuwfAxZEvv0w3"
+}

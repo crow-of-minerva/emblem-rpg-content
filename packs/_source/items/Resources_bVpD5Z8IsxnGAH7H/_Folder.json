@@ -1,0 +1,25 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Resources",
+  "color": null,
+  "sorting": "a",
+  "_id": "bVpD5Z8IsxnGAH7H",
+  "description": "",
+  "sort": 350000,
+  "flags": {
+    "emblem-rpg": {
+      "icon": "modules/emblem-rpg-content/assets/items/resources/Refined%20Wood.png"
+    }
+  },
+  "_stats": {
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "emblem-rpg",
+    "systemVersion": "0.2.0",
+    "createdTime": 1786773642188,
+    "modifiedTime": 1789185813382,
+    "lastModifiedBy": "emblembuilder000"
+  },
+  "_key": "!folders!bVpD5Z8IsxnGAH7H"
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Toxins",
+  "type": "Resource",
+  "img": "modules/emblem-rpg-content/assets/items/resources/Toxins.png",
+  "system": {
+    "description": "",
+    "resourceType": "Reagent",
+    "foodType": "",
+    "amount": 1,
+    "cost": {
+      "perUnit": 35
+    },
+    "stealable": {
+      "flag": "None",
+      "dc": 10
+    }
+  },
+  "folder": "wmexYjZhUF91f0Ux",
+  "_id": "yJwxkBjR521akNqf",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "exportSource": null,
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1786773642211,
+    "modifiedTime": 1790612899864,
+    "lastModifiedBy": "emblembuilder000"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "sort": 1400000,
+  "_key": "!items!yJwxkBjR521akNqf"
+}

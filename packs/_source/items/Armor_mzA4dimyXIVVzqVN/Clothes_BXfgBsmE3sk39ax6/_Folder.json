@@ -1,0 +1,25 @@
+{
+  "type": "Item",
+  "folder": "mzA4dimyXIVVzqVN",
+  "name": "Clothes",
+  "color": null,
+  "flags": {
+    "emblem-rpg": {
+      "icon": ""
+    }
+  },
+  "sorting": "m",
+  "_id": "BXfgBsmE3sk39ax6",
+  "description": "",
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "14.366",
+    "systemId": "emblem-rpg",
+    "systemVersion": "0.2.0",
+    "createdTime": 1787635333559,
+    "modifiedTime": 1787635333559,
+    "lastModifiedBy": "emblembuilder000",
+    "exportSource": null
+  },
+  "_key": "!folders!BXfgBsmE3sk39ax6"
+}

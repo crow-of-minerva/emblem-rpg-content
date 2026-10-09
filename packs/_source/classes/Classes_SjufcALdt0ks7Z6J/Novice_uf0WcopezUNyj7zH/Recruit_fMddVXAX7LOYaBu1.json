@@ -1,0 +1,286 @@
+{
+  "name": "Recruit",
+  "type": "Class",
+  "img": "modules/emblem-rpg-content/assets/classes/Recruit.png",
+  "folder": "uf0WcopezUNyj7zH",
+  "system": {
+    "description": "Trained as a soldier, the Recruit is a proficient martial class that specializes at fighting on the front lines and protecting their allies.",
+    "tier": "Novice",
+    "baseStats": {
+      "hp": 26,
+      "stn": 3,
+      "mov": 5,
+      "bld": 9,
+      "mgt": 6,
+      "agi": 3,
+      "tqn": 5,
+      "wit": 2,
+      "cha": 4,
+      "def": 1,
+      "res": 1,
+      "spd": 2,
+      "eva": 8,
+      "acc": 0,
+      "crit": 0
+    },
+    "baseGrowths": {
+      "hp": 35,
+      "mgt": 30,
+      "agi": 15,
+      "tqn": 25,
+      "wit": 10,
+      "cha": 15,
+      "def": 15,
+      "res": 10
+    },
+    "baseCaps": {
+      "hp": 32,
+      "mgt": 11,
+      "agi": 10,
+      "tqn": 10,
+      "wit": 7,
+      "cha": 8,
+      "def": 7,
+      "res": 3
+    },
+    "proficiencies": {
+      "brawling": 0,
+      "blade": 1,
+      "polearm": 2,
+      "heavy": 0,
+      "bow": 0,
+      "covert": 0,
+      "arcane": 0,
+      "elemental": 0,
+      "divine": 0,
+      "occult": 0,
+      "armor": 2,
+      "riding": false,
+      "flying": false
+    },
+    "skills": {
+      "athletics": 1,
+      "finesse": 0,
+      "trading": 0,
+      "civics": 1,
+      "handicraft": 1,
+      "sociability": 0,
+      "command": 1,
+      "nature": 0,
+      "perception": 0,
+      "performance": 0,
+      "reason": 0,
+      "esoteric": 0
+    },
+    "unitType": {
+      "infantry": true,
+      "dragon": false,
+      "monster": false,
+      "beast": false,
+      "undead": false
+    },
+    "features": [
+      {
+        "_id": "Vb9gweRoRdftXdR2",
+        "lvl": 1,
+        "acquisitionType": "choice",
+        "choiceCount": 1,
+        "unique": true,
+        "exceptions": "Vanguard,Knight",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.BPuHj3HA679Dq4zx",
+            "name": "Guard",
+            "img": "modules/emblem-rpg-content/assets/abilities/active/Guard.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.dEXJfdUF2EhtjgPz",
+            "name": "Hold the Line",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/Hold%20the%20Line.png?1787674715415",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      },
+      {
+        "_id": "MhS9c2ZkQaon3sAi",
+        "lvl": 3,
+        "acquisitionType": "all",
+        "choiceCount": 1,
+        "unique": false,
+        "exceptions": "",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.uvIXI7qiuik5JmSg",
+            "name": "Shield Fighter",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/Shield Fighter.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      },
+      {
+        "_id": "DCA53JkRN3MMqwYK",
+        "lvl": 5,
+        "acquisitionType": "choice",
+        "choiceCount": 1,
+        "unique": false,
+        "exceptions": "",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.nOayh7WhQhyzKuNo",
+            "name": "Impale",
+            "img": "modules/emblem-rpg-content/assets/abilities/weapon-arts/Impale.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.FeRu4n15H0iAGKFM",
+            "name": "Second Wind",
+            "img": "modules/emblem-rpg-content/assets/abilities/active/Second Wind.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      },
+      {
+        "_id": "YYRLXrcslLFWhh0g",
+        "lvl": 1,
+        "acquisitionType": "all",
+        "choiceCount": 1,
+        "unique": false,
+        "exceptions": "",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.WAorDL65BTLwUvAf",
+            "name": "Retrieve",
+            "img": "modules/emblem-rpg-content/assets/abilities/active/Retrieve.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      }
+    ],
+    "promotions": [
+      {
+        "_id": "Y6BP14rauPBbZ1yQ",
+        "lvl": 5,
+        "classUuid": "Compendium.emblem-rpg-content.classes.Item.eMBvoQxg0rbQfymU",
+        "className": "Vanguard",
+        "classImg": "modules/emblem-rpg-content/assets/classes/Vanguard.png",
+        "promotionItem": {
+          "uuid": "Compendium.emblem-rpg-content.items.Item.6P5PWoBOWRCJKc3Y",
+          "name": "Knight's Crest",
+          "img": "modules/emblem-rpg-content/assets/items/consumables/promotions/Knight%27s%20Crest.png"
+        },
+        "proficiencies": {
+          "brawling": 0,
+          "blade": 0,
+          "polearm": 0,
+          "heavy": 0,
+          "bow": 0,
+          "covert": 0,
+          "arcane": 0,
+          "elemental": 0,
+          "divine": 0,
+          "occult": 0
+        },
+        "skills": {
+          "athletics": 0,
+          "finesse": 0,
+          "trading": 0,
+          "civics": 0,
+          "handicraft": 0,
+          "sociability": 0,
+          "command": 0,
+          "nature": 0,
+          "perception": 0,
+          "performance": 0,
+          "reason": 0,
+          "esoteric": 0
+        }
+      },
+      {
+        "_id": "hYrWtPZN0zrnopSK",
+        "lvl": 5,
+        "classUuid": "Compendium.emblem-rpg-content.classes.Item.JEf9Db5YVNgVadep",
+        "className": "Knight",
+        "classImg": "modules/emblem-rpg-content/assets/classes/Knight.png",
+        "promotionItem": {
+          "uuid": "Compendium.emblem-rpg-content.items.Item.6P5PWoBOWRCJKc3Y",
+          "name": "Knight's Crest",
+          "img": "modules/emblem-rpg-content/assets/items/consumables/promotions/Knight%27s%20Crest.png"
+        },
+        "proficiencies": {
+          "brawling": 0,
+          "blade": 0,
+          "polearm": 0,
+          "heavy": 0,
+          "bow": 0,
+          "covert": 0,
+          "arcane": 0,
+          "elemental": 0,
+          "divine": 0,
+          "occult": 0
+        },
+        "skills": {
+          "athletics": 0,
+          "finesse": 0,
+          "trading": 0,
+          "civics": 0,
+          "handicraft": 0,
+          "sociability": 0,
+          "command": 0,
+          "nature": 0,
+          "perception": 0,
+          "performance": 0,
+          "reason": 0,
+          "esoteric": 0
+        }
+      }
+    ]
+  },
+  "_id": "fMddVXAX7LOYaBu1",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "exportSource": null,
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1786236611000,
+    "modifiedTime": 1790612897677,
+    "lastModifiedBy": "emblembuilder000"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "sort": 0,
+  "_key": "!items!fMddVXAX7LOYaBu1"
+}

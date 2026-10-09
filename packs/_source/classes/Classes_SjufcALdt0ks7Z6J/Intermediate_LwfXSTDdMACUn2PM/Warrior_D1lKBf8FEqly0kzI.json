@@ -1,0 +1,220 @@
+{
+  "name": "Warrior",
+  "type": "Class",
+  "img": "modules/emblem-rpg-content/assets/classes/Warrior.png",
+  "folder": "LwfXSTDdMACUn2PM",
+  "system": {
+    "description": "An advanced frontline fighter, high in both health and melee offensive capabilities. Warriors have little defense against magic.",
+    "tier": "Intermediate",
+    "baseStats": {
+      "hp": 28,
+      "stn": 3,
+      "mov": 5,
+      "bld": 10,
+      "mgt": 7,
+      "agi": 5,
+      "tqn": 4,
+      "wit": 2,
+      "cha": 3,
+      "def": 1,
+      "res": 0,
+      "spd": 2,
+      "eva": 9,
+      "acc": 0,
+      "crit": 0
+    },
+    "baseGrowths": {
+      "hp": 45,
+      "mgt": 40,
+      "agi": 25,
+      "tqn": 25,
+      "wit": 10,
+      "cha": 10,
+      "def": 10,
+      "res": 5
+    },
+    "baseCaps": {
+      "hp": 46,
+      "mgt": 21,
+      "agi": 18,
+      "tqn": 14,
+      "wit": 9,
+      "cha": 10,
+      "def": 7,
+      "res": 4
+    },
+    "proficiencies": {
+      "brawling": 1,
+      "blade": 0,
+      "polearm": 0,
+      "heavy": 2,
+      "bow": 0,
+      "covert": 0,
+      "arcane": 0,
+      "elemental": 0,
+      "divine": 0,
+      "occult": 0,
+      "armor": 1,
+      "riding": false,
+      "flying": false
+    },
+    "skills": {
+      "athletics": 2,
+      "finesse": 0,
+      "trading": 0,
+      "civics": 0,
+      "handicraft": 1,
+      "sociability": 0,
+      "command": 2,
+      "nature": 0,
+      "perception": 0,
+      "performance": 0,
+      "reason": 0,
+      "esoteric": 0
+    },
+    "unitType": {
+      "infantry": true,
+      "dragon": false,
+      "monster": false,
+      "beast": false,
+      "undead": false
+    },
+    "features": [
+      {
+        "_id": "Vd6T05wbX3U43Pzv",
+        "lvl": 13,
+        "acquisitionType": "all",
+        "choiceCount": 1,
+        "unique": false,
+        "exceptions": "",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.LEvrRnsIN1gFdmck",
+            "name": "Dire Rage",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/Dire Rage.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      },
+      {
+        "_id": "mD5ZsNN1mnSiOGso",
+        "lvl": 17,
+        "acquisitionType": "choice",
+        "choiceCount": 1,
+        "unique": false,
+        "exceptions": "",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.BxQjDOInKBdw5sAC",
+            "name": "Reckless Abandon",
+            "img": "modules/emblem-rpg-content/assets/abilities/weapon-arts/Reckless Abandon.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.OAwprZ5NZ1s2lxEJ",
+            "name": "Warrior's Grit",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/Warrior%27s%20Grit.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      },
+      {
+        "_id": "WrceLatvahI2oh6A",
+        "lvl": 7,
+        "acquisitionType": "choice",
+        "choiceCount": 1,
+        "unique": false,
+        "exceptions": "",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.jJviTqJgRYVmjTJp",
+            "name": "Mighty Blow",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/Mighty Blow.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.oiUJjWeEHHds7pch",
+            "name": "Sunder Armor",
+            "img": "modules/emblem-rpg-content/assets/abilities/weapon-arts/Sunder Armor.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      },
+      {
+        "_id": "Inbe5rju8yl77kQH",
+        "lvl": 9,
+        "acquisitionType": "choice",
+        "choiceCount": 1,
+        "unique": false,
+        "exceptions": "",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.TGBdDi9iEHAV4fO0",
+            "name": "Prowess: Heavy",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/Prowess_ Heavy.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.zVQODoA95wYFTgW8",
+            "name": "Prowess: Brawling",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/Prowess_ Brawling.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      }
+    ],
+    "promotions": []
+  },
+  "_id": "D1lKBf8FEqly0kzI",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1789179783132,
+    "modifiedTime": 1790612897674,
+    "lastModifiedBy": "emblembuilder000",
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "sort": 500000,
+  "_key": "!items!D1lKBf8FEqly0kzI"
+}

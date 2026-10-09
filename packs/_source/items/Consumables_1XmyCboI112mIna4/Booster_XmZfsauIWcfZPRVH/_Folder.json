@@ -1,0 +1,25 @@
+{
+  "type": "Item",
+  "folder": "1XmyCboI112mIna4",
+  "name": "Booster",
+  "color": null,
+  "flags": {
+    "emblem-rpg": {
+      "icon": ""
+    }
+  },
+  "sorting": "m",
+  "_id": "XmZfsauIWcfZPRVH",
+  "description": "",
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "emblem-rpg",
+    "systemVersion": "0.2.0",
+    "createdTime": 1789182943758,
+    "modifiedTime": 1789182943758,
+    "lastModifiedBy": "emblembuilder000",
+    "exportSource": null
+  },
+  "_key": "!folders!XmZfsauIWcfZPRVH"
+}

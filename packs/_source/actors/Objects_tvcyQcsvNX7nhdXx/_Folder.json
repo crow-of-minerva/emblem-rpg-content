@@ -1,0 +1,25 @@
+{
+  "type": "Actor",
+  "folder": null,
+  "name": "Objects",
+  "color": null,
+  "flags": {
+    "emblem-rpg": {
+      "icon": "modules/emblem-rpg-content/assets/actors/Objects.png"
+    }
+  },
+  "sorting": "m",
+  "_id": "tvcyQcsvNX7nhdXx",
+  "description": "",
+  "sort": 100000,
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "0.2.0",
+    "createdTime": 1787613609316,
+    "modifiedTime": 1790652653358,
+    "lastModifiedBy": "emblembuilder000",
+    "exportSource": null
+  },
+  "_key": "!folders!tvcyQcsvNX7nhdXx"
+}

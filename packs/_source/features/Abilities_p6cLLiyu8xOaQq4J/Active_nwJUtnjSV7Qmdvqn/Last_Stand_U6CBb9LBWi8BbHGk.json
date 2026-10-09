@@ -1,0 +1,662 @@
+{
+  "name": "Last Stand",
+  "type": "Ability",
+  "img": "modules/emblem-rpg-content/assets/abilities/active/Last Stand.png",
+  "system": {
+    "isWielded": false,
+    "isWorn": false,
+    "isEquipped": false,
+    "description": "You seize upon a moment of heroism as you face up against challenging odds. Until the start of your next turn, you gain the following bonuses:\n\n- Immunity to Break damage\n- Bonus +4 Def and Res\n- If struck by a fatal attack, if your HP is greater than 1, it will be reduced to 1 instead.",
+    "itemType": "Active",
+    "cost": 0,
+    "wgt": 0,
+    "actionType": "Bonus Action",
+    "uses": {
+      "current": 1,
+      "max": 1,
+      "type": "limited",
+      "scaling": {
+        "factor": "Level",
+        "subject": "",
+        "type": "Additive",
+        "multiplier": 1,
+        "thresholds": [],
+        "formula": "",
+        "addToBase": false,
+        "roundDown": false
+      }
+    },
+    "aura": {
+      "enabled": false,
+      "rng": 0
+    },
+    "wepArtData": {
+      "cost": 0,
+      "brawling": false,
+      "blade": false,
+      "polearm": false,
+      "heavy": false,
+      "bow": false,
+      "covert": false
+    },
+    "modifiers": [],
+    "effectData": {
+      "params": [],
+      "type": "",
+      "rng": "1",
+      "rngType": "Single",
+      "rngShape": "Normal",
+      "targets": 1,
+      "targetType": "Self",
+      "locationRng": 0,
+      "deliveryType": "Saving Throw",
+      "savingThrowDC": {
+        "required": false,
+        "base": 0,
+        "attribute": "None",
+        "targetAttribute": "None",
+        "ignoreForFriendly": false
+      },
+      "skillCheckDC": {
+        "required": false,
+        "base": 0,
+        "skill": "None",
+        "targetAttribute": "None",
+        "ignoreForFriendly": false
+      },
+      "losRule": "normal",
+      "rngScaling": {
+        "factor": "None",
+        "subject": "",
+        "type": "Additive",
+        "multiplier": 1,
+        "thresholds": [],
+        "formula": "",
+        "addToBase": false,
+        "roundDown": false
+      },
+      "gridColor": "Red",
+      "groundValidSquares": "All",
+      "groundUnoccupiedOnly": true,
+      "groundMaxElevDiff": 0,
+      "consumeOnFailure": true
+    },
+    "consumableData": {
+      "effect": "",
+      "stat": "",
+      "statValue": 0,
+      "growth": "",
+      "growthValue": 0
+    },
+    "weapon": {
+      "req": "",
+      "rank": 0,
+      "twoHanded": false,
+      "dmgTypes": {
+        "slashing": false,
+        "piercing": false,
+        "crushing": false,
+        "missile": false,
+        "fire": false,
+        "ice": false,
+        "lightning": false,
+        "wind": false,
+        "arcane": false,
+        "decay": false,
+        "shadow": false,
+        "holy": false,
+        "randomize": false,
+        "slashingConditionTree": null,
+        "piercingConditionTree": null,
+        "crushingConditionTree": null,
+        "missileConditionTree": null,
+        "fireConditionTree": null,
+        "iceConditionTree": null,
+        "lightningConditionTree": null,
+        "windConditionTree": null,
+        "arcaneConditionTree": null,
+        "decayConditionTree": null,
+        "shadowConditionTree": null,
+        "holyConditionTree": null
+      },
+      "atkStat": "",
+      "atk": "0",
+      "rng": "1",
+      "acc": 0,
+      "brk": 0,
+      "crit": 0,
+      "extraAttacks": 0,
+      "noExtraAttacks": false,
+      "effectiveAgainst": {
+        "infantry": false,
+        "armored": false,
+        "cavalry": false,
+        "flying": false,
+        "dragon": false,
+        "beast": false,
+        "monster": false,
+        "undead": false,
+        "magic": false
+      },
+      "breaker": {
+        "brawling": false,
+        "blade": false,
+        "polearm": false,
+        "heavy": false,
+        "bow": false,
+        "covert": false,
+        "elemental": false,
+        "divine": false,
+        "occult": false,
+        "arcane": false
+      }
+    },
+    "armor": {
+      "req": "",
+      "def": 0,
+      "res": 0,
+      "stn": 0,
+      "eva": 0,
+      "brkRed": 0,
+      "critRed": 0,
+      "vulns": {
+        "slashing": false,
+        "piercing": false,
+        "crushing": false,
+        "missile": false,
+        "fire": false,
+        "ice": false,
+        "lightning": false,
+        "wind": false,
+        "arcane": false,
+        "decay": false,
+        "shadow": false,
+        "holy": false
+      },
+      "prots": {
+        "slashing": false,
+        "piercing": false,
+        "crushing": false,
+        "missile": false,
+        "fire": false,
+        "ice": false,
+        "lightning": false,
+        "wind": false,
+        "arcane": false,
+        "decay": false,
+        "shadow": false,
+        "holy": false
+      }
+    },
+    "craftingData": {
+      "forging": {
+        "enabled": false,
+        "forgeMult": 1,
+        "skillCheck": "Handicraft",
+        "materials": []
+      },
+      "refinement": {
+        "tiers": [
+          {
+            "enabled": false,
+            "xpReq": 1,
+            "forgeMult": null,
+            "skillCheck": "",
+            "materials": [],
+            "modifiers": {
+              "atk": null,
+              "brk": null,
+              "wgt": null,
+              "acc": null,
+              "crit": null,
+              "durability": null,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": ""
+            }
+          },
+          {
+            "enabled": false,
+            "xpReq": 2,
+            "forgeMult": null,
+            "skillCheck": "",
+            "materials": [],
+            "modifiers": {
+              "atk": null,
+              "brk": null,
+              "wgt": null,
+              "acc": null,
+              "crit": null,
+              "durability": null,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": ""
+            }
+          },
+          {
+            "enabled": false,
+            "xpReq": 3,
+            "forgeMult": null,
+            "skillCheck": "",
+            "materials": [],
+            "modifiers": {
+              "atk": null,
+              "brk": null,
+              "wgt": null,
+              "acc": null,
+              "crit": null,
+              "durability": null,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": ""
+            }
+          },
+          {
+            "enabled": false,
+            "xpReq": 4,
+            "forgeMult": null,
+            "skillCheck": "",
+            "materials": [],
+            "modifiers": {
+              "atk": null,
+              "brk": null,
+              "wgt": null,
+              "acc": null,
+              "crit": null,
+              "durability": null,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": ""
+            }
+          },
+          {
+            "enabled": false,
+            "xpReq": 5,
+            "forgeMult": null,
+            "skillCheck": "",
+            "materials": [],
+            "modifiers": {
+              "atk": null,
+              "brk": null,
+              "wgt": null,
+              "acc": null,
+              "crit": null,
+              "durability": null,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": ""
+            }
+          }
+        ]
+      },
+      "forgingXP": 0,
+      "creation": {
+        "materials": [],
+        "difficultyClass": 0,
+        "skillCheck": "Nature"
+      }
+    },
+    "refreshes": true,
+    "tradeDisabled": false,
+    "stealable": {
+      "flag": "None",
+      "dc": 10
+    },
+    "requirements": [],
+    "mountData": {
+      "stats": {
+        "mov": 0,
+        "hp": 0,
+        "stn": 0,
+        "eva": 0,
+        "atk": 0,
+        "spd": 0,
+        "acc": 0,
+        "crit": 0
+      },
+      "unitTypes": {
+        "cavalry": false,
+        "flying": false,
+        "dragon": false,
+        "beast": false,
+        "monster": false,
+        "undead": false
+      }
+    },
+    "anim": {
+      "attack": null,
+      "critical": null,
+      "activation": {
+        "melee": {
+          "steps": [
+            {
+              "kind": "sound",
+              "file": "psfx.magic-signs.circle.v1.conjuration.intro",
+              "audioChannel": "environment"
+            },
+            {
+              "kind": "sound",
+              "file": "psfx.conditions.boon.001.01",
+              "audioChannel": "environment",
+              "delay": 2400
+            },
+            {
+              "kind": "effect",
+              "file": "blfx.spell.melee.heal3.particles1.glow.arcane_vigor1.color1",
+              "atLocation": "token",
+              "layer": "aboveInterface",
+              "scaleToObject": 1.5,
+              "waitUntilFinished": -200
+            },
+            {
+              "kind": "effect",
+              "file": "jb2a.markers.shield_rampart.complete.01.orange",
+              "atLocation": "token",
+              "scaleToObject": 1.2,
+              "duration": 500
+            }
+          ],
+          "duration": 3100
+        },
+        "ranged": {
+          "steps": [
+            {
+              "kind": "sound",
+              "file": "psfx.magic-signs.circle.v1.conjuration.intro",
+              "audioChannel": "environment"
+            },
+            {
+              "kind": "sound",
+              "file": "psfx.conditions.boon.001.01",
+              "audioChannel": "environment",
+              "delay": 2400
+            },
+            {
+              "kind": "effect",
+              "file": "blfx.spell.melee.heal3.particles1.glow.arcane_vigor1.color1",
+              "atLocation": "token",
+              "layer": "aboveInterface",
+              "scaleToObject": 1.5,
+              "waitUntilFinished": -200
+            },
+            {
+              "kind": "effect",
+              "file": "jb2a.markers.shield_rampart.complete.01.orange",
+              "atLocation": "token",
+              "scaleToObject": 1.2,
+              "duration": 500
+            }
+          ],
+          "duration": 3100
+        }
+      }
+    },
+    "effects": [
+      {
+        "trigger": "onActivation",
+        "name": "Last Stand",
+        "itemNames": [],
+        "itemUuids": [],
+        "delayMs": 0,
+        "condition": null,
+        "action": {
+          "steps": [
+            {
+              "kind": "applyEffect",
+              "target": "target",
+              "preset": "custom",
+              "linkAnimationTag": "${effectName}",
+              "customData": {
+                "name": "Last Stand",
+                "changes": [
+                  {
+                    "key": "system.statuses.lastStand",
+                    "value": true,
+                    "priority": 20,
+                    "type": "override"
+                  },
+                  {
+                    "key": "system.stats.brkRed.mod",
+                    "value": 999,
+                    "priority": 20,
+                    "type": "add"
+                  },
+                  {
+                    "key": "system.stats.def.mod",
+                    "value": 4,
+                    "priority": 20,
+                    "type": "add"
+                  },
+                  {
+                    "key": "system.stats.res.mod",
+                    "value": 4,
+                    "priority": 20,
+                    "type": "add"
+                  }
+                ],
+                "statuses": [
+                  "LastStand"
+                ],
+                "flags": {
+                  "core": {
+                    "statusId": "LastStand"
+                  },
+                  "emblem-rpg": {
+                    "removeOnFactionPhase": true,
+                    "hiddenOnToken": false,
+                    "harmful": false,
+                    "beneficial": false,
+                    "duration": 1,
+                    "removeOnFactionPhaseEnd": false,
+                    "removeOnAnyPhaseEnd": false,
+                    "removeOnCombatSequenceEnd": false,
+                    "removeOnStanceBreak": false,
+                    "removeWhenAttacked": false,
+                    "removeOnHostileAction": false,
+                    "removeOnHostileTargeted": false,
+                    "stackable": false,
+                    "stackCount": 1,
+                    "stackLimit": null,
+                    "removeStackWhenHit": false,
+                    "triggerSheds": {}
+                  }
+                },
+                "img": "systems/emblem-rpg/assets/status/LastStand.png"
+              }
+            },
+            {
+              "kind": "animation",
+              "persistent": true,
+              "tag": "${effectName}",
+              "attachTarget": "target",
+              "attachToEffectName": "Last Stand",
+              "animation": {
+                "steps": [
+                  {
+                    "kind": "effect",
+                    "file": "jb2a.markers.shield_rampart.loop.01.orange",
+                    "attachTo": "token",
+                    "layer": "aboveInterface",
+                    "scaleToObject": 1.25,
+                    "opacity": 0.75,
+                    "fadeIn": 200
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "tokenAwaits": false
+      }
+    ],
+    "retractable": false
+  },
+  "_id": "U6CBb9LBWi8BbHGk",
+  "effects": [],
+  "folder": "nwJUtnjSV7Qmdvqn",
+  "sort": 50000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "exportSource": null,
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.2a",
+    "createdTime": 1779460473585,
+    "modifiedTime": 1791053371136,
+    "lastModifiedBy": "emblembuilder000"
+  },
+  "_key": "!items!U6CBb9LBWi8BbHGk"
+}

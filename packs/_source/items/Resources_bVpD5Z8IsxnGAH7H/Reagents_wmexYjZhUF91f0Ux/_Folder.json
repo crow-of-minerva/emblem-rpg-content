@@ -1,0 +1,21 @@
+{
+  "type": "Item",
+  "folder": "bVpD5Z8IsxnGAH7H",
+  "name": "Reagents",
+  "color": null,
+  "sorting": "a",
+  "_id": "wmexYjZhUF91f0Ux",
+  "description": "",
+  "sort": 500000,
+  "flags": {},
+  "_stats": {
+    "exportSource": null,
+    "coreVersion": "14.366",
+    "systemId": "emblem-rpg",
+    "systemVersion": "0.2.0",
+    "lastModifiedBy": null,
+    "createdTime": 1786773642188,
+    "modifiedTime": 1787102818546
+  },
+  "_key": "!folders!wmexYjZhUF91f0Ux"
+}

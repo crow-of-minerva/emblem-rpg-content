@@ -1,0 +1,202 @@
+{
+  "name": "Nomad",
+  "type": "Class",
+  "img": "modules/emblem-rpg-content/assets/classes/Nomad.png",
+  "folder": "LwfXSTDdMACUn2PM",
+  "system": {
+    "description": "An expert rider, skilled with the art of mounted archery. Nomads strike from a distance and reposition quickly, but wear little armor.",
+    "tier": "Intermediate",
+    "baseStats": {
+      "hp": 24,
+      "stn": 2,
+      "mov": 5,
+      "bld": 5,
+      "mgt": 4,
+      "agi": 6,
+      "tqn": 6,
+      "wit": 3,
+      "cha": 2,
+      "def": 0,
+      "res": 0,
+      "spd": 2,
+      "eva": 9,
+      "acc": 0,
+      "crit": 0
+    },
+    "baseGrowths": {
+      "hp": 30,
+      "mgt": 20,
+      "agi": 25,
+      "tqn": 35,
+      "wit": 25,
+      "cha": 15,
+      "def": 5,
+      "res": 15
+    },
+    "baseCaps": {
+      "hp": 36,
+      "mgt": 15,
+      "agi": 17,
+      "tqn": 20,
+      "wit": 13,
+      "cha": 10,
+      "def": 7,
+      "res": 7
+    },
+    "proficiencies": {
+      "brawling": 0,
+      "blade": 0,
+      "polearm": 0,
+      "heavy": 0,
+      "bow": 2,
+      "covert": 0,
+      "arcane": 0,
+      "elemental": 0,
+      "divine": 0,
+      "occult": 0,
+      "armor": 1,
+      "riding": true,
+      "flying": false
+    },
+    "skills": {
+      "athletics": 0,
+      "finesse": 1,
+      "trading": 0,
+      "civics": 0,
+      "handicraft": 0,
+      "sociability": 0,
+      "command": 0,
+      "nature": 1,
+      "perception": 2,
+      "performance": 0,
+      "reason": 0,
+      "esoteric": 0
+    },
+    "unitType": {
+      "infantry": true,
+      "dragon": false,
+      "monster": false,
+      "beast": false,
+      "undead": false
+    },
+    "features": [
+      {
+        "_id": "Tmt94Ipv0QR9PCsN",
+        "lvl": 17,
+        "acquisitionType": "choice",
+        "choiceCount": 1,
+        "unique": false,
+        "exceptions": "",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.rp9aAv5zUilYUe1d",
+            "name": "Marking Shot",
+            "img": "modules/emblem-rpg-content/assets/abilities/weapon-arts/Marking Shot.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      },
+      {
+        "_id": "9EhIawpixvsNT4a4",
+        "lvl": 13,
+        "acquisitionType": "all",
+        "choiceCount": 1,
+        "unique": true,
+        "exceptions": "",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.v4MchS8Dp1bs4uGO",
+            "name": "Canter",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/Canter.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      },
+      {
+        "_id": "8Bu73BZtqe30rgIV",
+        "lvl": 5,
+        "acquisitionType": "all",
+        "choiceCount": 1,
+        "unique": true,
+        "exceptions": "",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.vP4YByLwRiAkMSGt",
+            "name": "Warhorse",
+            "img": "modules/emblem-rpg-content/assets/abilities/Warhorse.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      },
+      {
+        "_id": "WZMBHBwIUHeJ9uCP",
+        "lvl": 9,
+        "acquisitionType": "choice",
+        "choiceCount": 1,
+        "unique": false,
+        "exceptions": "",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.fpMdc8ElKPPIZBxl",
+            "name": "Prowess: Bow",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/Prowess_ Bow.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.5PDVBMqIW2B7rCLw",
+            "name": "Resistance +2",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/Resistance +2.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      }
+    ],
+    "promotions": []
+  },
+  "effects": [],
+  "flags": {
+    "emblem-rpg": {
+      "pixelArt": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1789181087663,
+    "modifiedTime": 1790612897675,
+    "lastModifiedBy": "emblembuilder000",
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_id": "GWjbvmZM8BjFW7tN",
+  "sort": 900000,
+  "_key": "!items!GWjbvmZM8BjFW7tN"
+}

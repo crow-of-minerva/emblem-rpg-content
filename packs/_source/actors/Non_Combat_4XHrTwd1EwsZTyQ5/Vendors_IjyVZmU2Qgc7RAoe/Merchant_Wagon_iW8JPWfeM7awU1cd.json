@@ -1,0 +1,745 @@
+{
+  "name": "Merchant Wagon",
+  "type": "Vendor",
+  "img": "modules/emblem-rpg-content/assets/actors/merchant-wagon-1cd/merchant-wagon-avatar.png",
+  "system": {
+    "faction": {
+      "name": "",
+      "color": "#808080"
+    },
+    "art": {
+      "avatarScale": 2.67
+    },
+    "capacity": 100,
+    "disposition": 0,
+    "gp": 0,
+    "notes": {
+      "description": ""
+    },
+    "acceptedMerchandise": {
+      "weapon": true,
+      "staff": true,
+      "armor": true,
+      "shield": true,
+      "accessory": true,
+      "miscellaneous": true,
+      "potion": true,
+      "poison": true,
+      "bomb": true,
+      "trap": true,
+      "booster": true,
+      "promotion": true,
+      "material": true,
+      "textile": true,
+      "reagent": true,
+      "ingredient": true
+    },
+    "randomization": {
+      "gp": {
+        "min": 1000,
+        "max": 5000
+      },
+      "armor": {
+        "price": {
+          "min": 0,
+          "max": 5000
+        }
+      },
+      "staff": {
+        "stock": {
+          "min": 5,
+          "max": 10
+        },
+        "price": {
+          "min": 0,
+          "max": 5000
+        }
+      },
+      "shield": {
+        "stock": {
+          "min": 5,
+          "max": 10
+        },
+        "price": {
+          "min": 0,
+          "max": 5000
+        }
+      },
+      "accessory": {
+        "stock": {
+          "min": 5,
+          "max": 10
+        },
+        "price": {
+          "min": 0,
+          "max": 5000
+        }
+      },
+      "miscellaneous": {
+        "stock": {
+          "min": 5,
+          "max": 10
+        },
+        "price": {
+          "min": 0,
+          "max": 5000
+        }
+      },
+      "potion": {
+        "stock": {
+          "min": 5,
+          "max": 10
+        },
+        "price": {
+          "min": 0,
+          "max": 5000
+        }
+      },
+      "poison": {
+        "stock": {
+          "min": 5,
+          "max": 10
+        },
+        "price": {
+          "min": 0,
+          "max": 5000
+        }
+      },
+      "bomb": {
+        "stock": {
+          "min": 5,
+          "max": 10
+        },
+        "price": {
+          "min": 0,
+          "max": 5000
+        }
+      },
+      "trap": {
+        "stock": {
+          "min": 5,
+          "max": 10
+        },
+        "price": {
+          "min": 0,
+          "max": 5000
+        }
+      },
+      "booster": {
+        "stock": {
+          "min": 5,
+          "max": 10
+        },
+        "price": {
+          "min": 0,
+          "max": 5000
+        }
+      },
+      "promotion": {
+        "stock": {
+          "min": 5,
+          "max": 10
+        },
+        "price": {
+          "min": 0,
+          "max": 5000
+        }
+      },
+      "material": {
+        "stock": {
+          "min": 5,
+          "max": 10
+        },
+        "price": {
+          "min": 0,
+          "max": 5000
+        }
+      },
+      "textile": {
+        "stock": {
+          "min": 5,
+          "max": 10
+        },
+        "price": {
+          "min": 0,
+          "max": 5000
+        }
+      },
+      "reagent": {
+        "stock": {
+          "min": 5,
+          "max": 10
+        },
+        "price": {
+          "min": 0,
+          "max": 5000
+        }
+      },
+      "ingredient": {
+        "stock": {
+          "min": 5,
+          "max": 10
+        },
+        "price": {
+          "min": 0,
+          "max": 5000
+        }
+      },
+      "weaponTypes": {
+        "blade": {
+          "enabled": true,
+          "stock": {
+            "min": 5,
+            "max": 10
+          },
+          "rankMin": "E",
+          "rankMax": "S"
+        },
+        "bow": {
+          "enabled": true,
+          "stock": {
+            "min": 5,
+            "max": 10
+          },
+          "rankMin": "E",
+          "rankMax": "S"
+        },
+        "brawling": {
+          "enabled": true,
+          "stock": {
+            "min": 5,
+            "max": 10
+          },
+          "rankMin": "E",
+          "rankMax": "S"
+        },
+        "covert": {
+          "enabled": true,
+          "stock": {
+            "min": 5,
+            "max": 10
+          },
+          "rankMin": "E",
+          "rankMax": "S"
+        },
+        "heavy": {
+          "enabled": true,
+          "stock": {
+            "min": 5,
+            "max": 10
+          },
+          "rankMin": "E",
+          "rankMax": "S"
+        },
+        "polearm": {
+          "enabled": true,
+          "stock": {
+            "min": 5,
+            "max": 10
+          },
+          "rankMin": "E",
+          "rankMax": "S"
+        }
+      },
+      "armorClasses": {
+        "clothing": {
+          "enabled": true,
+          "stock": {
+            "min": 5,
+            "max": 10
+          }
+        },
+        "light": {
+          "enabled": true,
+          "stock": {
+            "min": 5,
+            "max": 10
+          }
+        },
+        "medium": {
+          "enabled": true,
+          "stock": {
+            "min": 5,
+            "max": 10
+          }
+        },
+        "heavy": {
+          "enabled": true,
+          "stock": {
+            "min": 5,
+            "max": 10
+          }
+        }
+      }
+    }
+  },
+  "prototypeToken": {
+    "name": "Merchant Wagon",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "depth": 1,
+    "texture": {
+      "src": "modules/emblem-rpg-content/assets/actors/merchant-wagon-1cd/merchant-wagon-default.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 2,
+      "scaleY": 2,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 50,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 5,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": {},
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {
+      "barbrawl": {
+        "resourceBars": {}
+      }
+    },
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "items": [],
+  "effects": [],
+  "folder": "IjyVZmU2Qgc7RAoe",
+  "sort": 300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "emblem-rpg-studio": {
+      "tokenComp": {
+        "Default__none__default": {
+          "layers": [
+            {
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "opacity": 1,
+              "visible": true,
+              "isFecc": true,
+              "feccType": "token",
+              "feccName": "merchant-m-wagon",
+              "customName": "merchant-m-wagon",
+              "palette": {
+                "outline": "#382040",
+                "hair": {
+                  "base": {
+                    "r": 92,
+                    "g": 60,
+                    "b": 52
+                  },
+                  "lighter": {
+                    "r": 120,
+                    "g": 80,
+                    "b": 56
+                  },
+                  "light_mid": {
+                    "r": 106,
+                    "g": 70,
+                    "b": 54
+                  },
+                  "neutral": {
+                    "r": 92,
+                    "g": 60,
+                    "b": 52
+                  },
+                  "dark_mid": {
+                    "r": 82,
+                    "g": 52,
+                    "b": 46
+                  },
+                  "darker": {
+                    "r": 72,
+                    "g": 44,
+                    "b": 40
+                  },
+                  "darker_darker": {
+                    "r": 61,
+                    "g": 40,
+                    "b": 34
+                  },
+                  "darker_darker_darker": {
+                    "r": 48,
+                    "g": 31,
+                    "b": 27
+                  }
+                },
+                "eye": {
+                  "base": {
+                    "r": 144,
+                    "g": 73,
+                    "b": 57
+                  },
+                  "lighter": {
+                    "r": 186,
+                    "g": 116,
+                    "b": 94
+                  },
+                  "light_mid": {
+                    "r": 170,
+                    "g": 91,
+                    "b": 70
+                  },
+                  "neutral": {
+                    "r": 144,
+                    "g": 73,
+                    "b": 57
+                  },
+                  "dark_mid": {
+                    "r": 117,
+                    "g": 56,
+                    "b": 45
+                  },
+                  "darker": {
+                    "r": 89,
+                    "g": 41,
+                    "b": 33
+                  },
+                  "darker_darker": {
+                    "r": 95,
+                    "g": 48,
+                    "b": 38
+                  },
+                  "darker_darker_darker": {
+                    "r": 75,
+                    "g": 38,
+                    "b": 30
+                  }
+                },
+                "skin": {
+                  "base": {
+                    "r": 240,
+                    "g": 208,
+                    "b": 168
+                  },
+                  "neutral": {
+                    "r": 238,
+                    "g": 156,
+                    "b": 82
+                  },
+                  "lighter": {
+                    "r": 248,
+                    "g": 213,
+                    "b": 139
+                  },
+                  "darker": {
+                    "r": 238,
+                    "g": 145,
+                    "b": 83
+                  },
+                  "darker_darker": {
+                    "r": 184,
+                    "g": 112,
+                    "b": 80
+                  },
+                  "darker_darker_darker": {
+                    "r": 112,
+                    "g": 80,
+                    "b": 72
+                  }
+                },
+                "metal": {
+                  "base": {
+                    "r": 176,
+                    "g": 120,
+                    "b": 56
+                  },
+                  "lighter": {
+                    "r": 240,
+                    "g": 176,
+                    "b": 88
+                  },
+                  "light_mid": {
+                    "r": 208,
+                    "g": 148,
+                    "b": 72
+                  },
+                  "neutral": {
+                    "r": 176,
+                    "g": 120,
+                    "b": 56
+                  },
+                  "dark_mid": {
+                    "r": 142,
+                    "g": 94,
+                    "b": 52
+                  },
+                  "darker": {
+                    "r": 108,
+                    "g": 68,
+                    "b": 48
+                  },
+                  "darker_darker": {
+                    "r": 116,
+                    "g": 79,
+                    "b": 37
+                  },
+                  "darker_darker_darker": {
+                    "r": 92,
+                    "g": 62,
+                    "b": 29
+                  }
+                },
+                "trim": {
+                  "base": {
+                    "r": 68,
+                    "g": 80,
+                    "b": 36
+                  },
+                  "lighter": {
+                    "r": 100,
+                    "g": 120,
+                    "b": 48
+                  },
+                  "light_mid": {
+                    "r": 84,
+                    "g": 100,
+                    "b": 42
+                  },
+                  "neutral": {
+                    "r": 68,
+                    "g": 80,
+                    "b": 36
+                  },
+                  "dark_mid": {
+                    "r": 62,
+                    "g": 64,
+                    "b": 34
+                  },
+                  "darker": {
+                    "r": 56,
+                    "g": 48,
+                    "b": 32
+                  },
+                  "darker_darker": {
+                    "r": 45,
+                    "g": 53,
+                    "b": 24
+                  },
+                  "darker_darker_darker": {
+                    "r": 35,
+                    "g": 42,
+                    "b": 19
+                  }
+                },
+                "cloth": {
+                  "base": {
+                    "r": 108,
+                    "g": 80,
+                    "b": 72
+                  },
+                  "lighter": {
+                    "r": 160,
+                    "g": 120,
+                    "b": 100
+                  },
+                  "light_mid": {
+                    "r": 134,
+                    "g": 100,
+                    "b": 86
+                  },
+                  "neutral": {
+                    "r": 108,
+                    "g": 80,
+                    "b": 72
+                  },
+                  "dark_mid": {
+                    "r": 94,
+                    "g": 66,
+                    "b": 70
+                  },
+                  "darker": {
+                    "r": 80,
+                    "g": 52,
+                    "b": 68
+                  },
+                  "darker_darker": {
+                    "r": 71,
+                    "g": 53,
+                    "b": 48
+                  },
+                  "darker_darker_darker": {
+                    "r": 56,
+                    "g": 42,
+                    "b": 37
+                  }
+                },
+                "leather": {
+                  "base": {
+                    "r": 92,
+                    "g": 64,
+                    "b": 60
+                  },
+                  "lighter": {
+                    "r": 140,
+                    "g": 104,
+                    "b": 84
+                  },
+                  "light_mid": {
+                    "r": 116,
+                    "g": 84,
+                    "b": 72
+                  },
+                  "neutral": {
+                    "r": 92,
+                    "g": 64,
+                    "b": 60
+                  },
+                  "dark_mid": {
+                    "r": 82,
+                    "g": 52,
+                    "b": 58
+                  },
+                  "darker": {
+                    "r": 72,
+                    "g": 40,
+                    "b": 56
+                  },
+                  "darker_darker": {
+                    "r": 61,
+                    "g": 42,
+                    "b": 40
+                  },
+                  "darker_darker_darker": {
+                    "r": 48,
+                    "g": 33,
+                    "b": 31
+                  }
+                },
+                "accessory": {
+                  "base": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0
+                  },
+                  "lighter": {
+                    "r": 67,
+                    "g": 46,
+                    "b": 25
+                  },
+                  "light_mid": {
+                    "r": 23,
+                    "g": 23,
+                    "b": 23
+                  },
+                  "neutral": {
+                    "r": 56,
+                    "g": 32,
+                    "b": 16
+                  },
+                  "dark_mid": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0
+                  },
+                  "darker": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0
+                  },
+                  "darker_darker": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0
+                  },
+                  "darker_darker_darker": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0
+                  }
+                }
+              },
+              "sourceUrl": "modules/emblem-rpg-content/assets/fecc/token/idle/merchant-m-wagon.png",
+              "imageData": "data:image/png;base64,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"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "emblem-rpg",
+    "systemVersion": "0.2.0",
+    "createdTime": 1787634442137,
+    "modifiedTime": 1789308413504,
+    "lastModifiedBy": "emblembuilder000",
+    "exportSource": null
+  },
+  "_id": "iW8JPWfeM7awU1cd",
+  "_key": "!actors!iW8JPWfeM7awU1cd"
+}

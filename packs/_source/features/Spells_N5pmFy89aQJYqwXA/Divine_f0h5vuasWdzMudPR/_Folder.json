@@ -1,0 +1,21 @@
+{
+  "type": "Item",
+  "folder": "N5pmFy89aQJYqwXA",
+  "name": "Divine",
+  "color": null,
+  "sorting": "m",
+  "_id": "f0h5vuasWdzMudPR",
+  "description": "",
+  "sort": 300000,
+  "flags": {},
+  "_stats": {
+    "exportSource": null,
+    "coreVersion": "14.366",
+    "systemId": "emblem-rpg",
+    "systemVersion": "0.2.0",
+    "lastModifiedBy": null,
+    "modifiedTime": 1781854152518,
+    "createdTime": null
+  },
+  "_key": "!folders!f0h5vuasWdzMudPR"
+}

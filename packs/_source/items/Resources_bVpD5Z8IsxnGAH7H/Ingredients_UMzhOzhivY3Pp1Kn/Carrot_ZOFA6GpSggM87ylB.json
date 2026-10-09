@@ -1,0 +1,36 @@
+{
+  "folder": "UMzhOzhivY3Pp1Kn",
+  "name": "Carrot",
+  "type": "Resource",
+  "img": "modules/emblem-rpg-content/assets/items/resources/Carrot.png",
+  "system": {
+    "description": "A sweet orange root, good raw or stewed soft.",
+    "resourceType": "Ingredient",
+    "foodType": "Vegetable",
+    "amount": 1,
+    "cost": {
+      "perUnit": 5
+    },
+    "stealable": {
+      "flag": "None",
+      "dc": 10
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "exportSource": null,
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1790551543077,
+    "modifiedTime": 1790612899618,
+    "lastModifiedBy": "emblembuilder000"
+  },
+  "_id": "ZOFA6GpSggM87ylB",
+  "ownership": {
+    "default": 0
+  },
+  "sort": 0,
+  "_key": "!items!ZOFA6GpSggM87ylB"
+}

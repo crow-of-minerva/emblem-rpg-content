@@ -1,0 +1,231 @@
+{
+  "name": "Warlock",
+  "type": "Class",
+  "img": "modules/emblem-rpg-content/assets/classes/Warlock.png",
+  "folder": "LwfXSTDdMACUn2PM",
+  "system": {
+    "description": "Warlocks are wielders of occult magic, weakening their enemies with curses and draining their strength. They can also call conjured servants to fight in their place.",
+    "tier": "Intermediate",
+    "baseStats": {
+      "hp": 25,
+      "stn": 3,
+      "mov": 5,
+      "bld": 7,
+      "mgt": 4,
+      "agi": 2,
+      "tqn": 3,
+      "wit": 8,
+      "cha": 5,
+      "def": 3,
+      "res": 1,
+      "spd": 3,
+      "eva": 9,
+      "acc": 1,
+      "crit": 0
+    },
+    "baseGrowths": {
+      "hp": 30,
+      "mgt": 15,
+      "agi": 15,
+      "tqn": 20,
+      "wit": 35,
+      "cha": 25,
+      "def": 5,
+      "res": 10
+    },
+    "baseCaps": {
+      "hp": 40,
+      "mgt": 12,
+      "agi": 12,
+      "tqn": 14,
+      "wit": 20,
+      "cha": 15,
+      "def": 5,
+      "res": 8
+    },
+    "proficiencies": {
+      "brawling": 0,
+      "blade": 0,
+      "polearm": 0,
+      "heavy": 0,
+      "bow": 0,
+      "covert": 0,
+      "arcane": 0,
+      "elemental": 0,
+      "divine": 0,
+      "occult": 2,
+      "armor": 0,
+      "riding": false,
+      "flying": false
+    },
+    "skills": {
+      "athletics": 0,
+      "finesse": 0,
+      "trading": 0,
+      "civics": 0,
+      "handicraft": 0,
+      "sociability": 0,
+      "command": 1,
+      "nature": 0,
+      "perception": 0,
+      "performance": 0,
+      "reason": 1,
+      "esoteric": 2
+    },
+    "unitType": {
+      "infantry": true,
+      "dragon": false,
+      "monster": false,
+      "beast": false,
+      "undead": false
+    },
+    "features": [
+      {
+        "_id": "gvpyFXz9Q1LbEOP2",
+        "lvl": 7,
+        "acquisitionType": "choice",
+        "choiceCount": 1,
+        "unique": false,
+        "exceptions": "",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.u4gOpJkKodWJbNI5",
+            "name": "Soulsteal",
+            "img": "modules/emblem-rpg-content/assets/spells/occult/Soulsteal.png",
+            "type": "Spell",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.zACldQm4yN3Z64lO",
+            "name": "Dreadful Presence",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/Dreadful Presence.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      },
+      {
+        "_id": "iwZT1L0PxjDlkwDd",
+        "lvl": 17,
+        "acquisitionType": "choice",
+        "choiceCount": 1,
+        "unique": false,
+        "exceptions": "",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.zTmN6rufMs7KM0O5",
+            "name": "Eclipse",
+            "img": "modules/emblem-rpg-content/assets/spells/occult/Eclipse.png",
+            "type": "Spell",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.6ZjgeJgjQCEK5TyM",
+            "name": "Wither",
+            "img": "modules/emblem-rpg-content/assets/spells/occult/Wither.png",
+            "type": "Spell",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      },
+      {
+        "_id": "3bnOykM7W4BcTZBl",
+        "lvl": 13,
+        "acquisitionType": "choice",
+        "choiceCount": 1,
+        "unique": false,
+        "exceptions": "",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.uEZqNQtMER1V9rKL",
+            "name": "Conjuration",
+            "img": "modules/emblem-rpg-content/assets/spells/occult/Conjuration.png",
+            "type": "Spell",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.oM5Qx14yBNn7vFgT",
+            "name": "Bane",
+            "img": "modules/emblem-rpg-content/assets/spells/occult/Bane.png",
+            "type": "Spell",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      },
+      {
+        "_id": "iF0YuL9NrDs3NGdQ",
+        "lvl": 9,
+        "acquisitionType": "choice",
+        "choiceCount": 1,
+        "unique": false,
+        "exceptions": "",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.bW66pmDctydav8Xv",
+            "name": "Shadow Power",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/Shadow Power.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.3Spik6YLNCWDorwR",
+            "name": "Might +2",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/Might +2.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      }
+    ],
+    "promotions": []
+  },
+  "_id": "w7Qug7jeD82o69sE",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1789180343130,
+    "modifiedTime": 1790612897678,
+    "lastModifiedBy": "emblembuilder000",
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "sort": 800000,
+  "_key": "!items!w7Qug7jeD82o69sE"
+}

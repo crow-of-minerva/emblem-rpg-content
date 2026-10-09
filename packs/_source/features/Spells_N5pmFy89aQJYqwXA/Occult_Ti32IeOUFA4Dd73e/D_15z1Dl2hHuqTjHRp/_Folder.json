@@ -1,0 +1,21 @@
+{
+  "name": "D",
+  "type": "Item",
+  "folder": "Ti32IeOUFA4Dd73e",
+  "_id": "15z1Dl2hHuqTjHRp",
+  "description": "",
+  "sorting": "a",
+  "sort": 200000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "exportSource": null,
+    "coreVersion": "14.366",
+    "systemId": "emblem-rpg",
+    "systemVersion": "0.2.0",
+    "lastModifiedBy": "emblembuilder000",
+    "createdTime": 1787235360706,
+    "modifiedTime": 1787460900295
+  },
+  "_key": "!folders!15z1Dl2hHuqTjHRp"
+}

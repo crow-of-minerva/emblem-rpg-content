@@ -1,0 +1,36 @@
+{
+  "folder": "UMzhOzhivY3Pp1Kn",
+  "name": "Mushrooms",
+  "type": "Resource",
+  "img": "modules/emblem-rpg-content/assets/items/resources/Mushrooms.png",
+  "system": {
+    "description": "Foraged caps from shaded woodland. The safe ones, presumably.",
+    "resourceType": "Ingredient",
+    "foodType": "Vegetable",
+    "amount": 1,
+    "cost": {
+      "perUnit": 2
+    },
+    "stealable": {
+      "flag": "None",
+      "dc": 10
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "exportSource": null,
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1790551543089,
+    "modifiedTime": 1790612899636,
+    "lastModifiedBy": "emblembuilder000"
+  },
+  "_id": "jUIAKvkmXgAU3RoF",
+  "ownership": {
+    "default": 0
+  },
+  "sort": 0,
+  "_key": "!items!jUIAKvkmXgAU3RoF"
+}

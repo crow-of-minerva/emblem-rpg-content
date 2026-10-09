@@ -1,0 +1,25 @@
+{
+  "name": "Conjurations",
+  "type": "Actor",
+  "folder": "zJ2bHaaG7PBFwI3M",
+  "_id": "BijYouzLBvbPi9AQ",
+  "description": "",
+  "sorting": "a",
+  "sort": 146875,
+  "color": null,
+  "flags": {
+    "emblem-rpg": {
+      "icon": "modules/emblem-rpg-content/assets/actors/Conjurations.png"
+    }
+  },
+  "_stats": {
+    "exportSource": null,
+    "coreVersion": "14.366",
+    "systemId": "emblem-rpg",
+    "systemVersion": "0.2.0",
+    "createdTime": 1786327183681,
+    "modifiedTime": 1786626376906,
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!BijYouzLBvbPi9AQ"
+}

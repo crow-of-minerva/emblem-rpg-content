@@ -1,0 +1,21 @@
+{
+  "type": "Item",
+  "folder": "N5pmFy89aQJYqwXA",
+  "name": "Elemental",
+  "color": null,
+  "sorting": "m",
+  "_id": "jdcC6LyzyHlh1nKg",
+  "description": "",
+  "sort": 100000,
+  "flags": {},
+  "_stats": {
+    "exportSource": null,
+    "coreVersion": "14.366",
+    "systemId": "emblem-rpg",
+    "systemVersion": "0.2.0",
+    "lastModifiedBy": null,
+    "createdTime": null,
+    "modifiedTime": null
+  },
+  "_key": "!folders!jdcC6LyzyHlh1nKg"
+}

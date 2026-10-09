@@ -1,0 +1,705 @@
+{
+  "name": "Guardian",
+  "type": "Spell",
+  "img": "modules/emblem-rpg-content/assets/spells/divine/Guardian.png",
+  "system": {
+    "isWielded": false,
+    "isWorn": false,
+    "isEquipped": false,
+    "description": "Summon a Divine Guardian. This is a Flying unit that you control.<div style=\"\"><br></div><div style=\"\">The Divine Guardian has 45 HP, 5 Stn, and can attack with its Holy Sword or heal allies with Salve. It also has access to the Divine Smite weapon art and can use the Guard ability.</div><div style=\"\"><br></div><div style=\"\">The guardian will follow your orders until dismissed, defeated or the battle is over.</div>",
+    "itemType": "Utility",
+    "refreshes": true,
+    "cost": 0,
+    "uses": {
+      "current": 1,
+      "max": 1,
+      "type": "limited",
+      "scaling": {
+        "factor": "Proficiency",
+        "subject": "divine",
+        "type": "Multiple",
+        "multiplier": 5,
+        "thresholds": [],
+        "formula": "",
+        "addToBase": false,
+        "roundDown": false
+      }
+    },
+    "consumableData": {
+      "effect": "",
+      "stat": "",
+      "statValue": 0,
+      "growth": "",
+      "growthValue": 0
+    },
+    "wgt": 0,
+    "modifiers": [],
+    "effectData": {
+      "targetType": "Ground",
+      "rng": "1",
+      "savingThrowDC": {
+        "attribute": "Cha",
+        "required": true,
+        "base": 0,
+        "targetAttribute": "None",
+        "ignoreForFriendly": false
+      },
+      "params": [],
+      "type": "",
+      "rngType": "Location",
+      "rngShape": "Normal",
+      "targets": 1,
+      "locationRng": 0,
+      "deliveryType": "Saving Throw",
+      "skillCheckDC": {
+        "required": false,
+        "base": 0,
+        "skill": "None",
+        "targetAttribute": "None",
+        "ignoreForFriendly": false
+      },
+      "rngScaling": {
+        "factor": "None",
+        "subject": "",
+        "type": "Additive",
+        "multiplier": 1,
+        "thresholds": [],
+        "formula": "",
+        "addToBase": false,
+        "roundDown": false
+      },
+      "gridColor": "Orange",
+      "losRule": "normal",
+      "groundValidSquares": "All",
+      "groundMaxElevDiff": 0,
+      "consumeOnFailure": true,
+      "groundUnoccupiedOnly": true
+    },
+    "actionType": "Standard Action",
+    "wepArtData": {
+      "cost": 0,
+      "brawling": false,
+      "blade": false,
+      "polearm": false,
+      "heavy": false,
+      "bow": false,
+      "covert": false
+    },
+    "craftingData": {
+      "refinement": {
+        "tiers": [
+          {
+            "materials": [],
+            "skillCheck": "",
+            "modifiers": {
+              "atk": null,
+              "brk": null,
+              "wgt": null,
+              "acc": null,
+              "crit": null,
+              "durability": null,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": ""
+            },
+            "enabled": false,
+            "xpReq": 1,
+            "forgeMult": null
+          },
+          {
+            "materials": [],
+            "skillCheck": "",
+            "modifiers": {
+              "atk": null,
+              "brk": null,
+              "wgt": null,
+              "acc": null,
+              "crit": null,
+              "durability": null,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": ""
+            },
+            "enabled": false,
+            "xpReq": 2,
+            "forgeMult": null
+          },
+          {
+            "materials": [],
+            "skillCheck": "",
+            "modifiers": {
+              "atk": null,
+              "brk": null,
+              "wgt": null,
+              "acc": null,
+              "crit": null,
+              "durability": null,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": ""
+            },
+            "enabled": false,
+            "xpReq": 3,
+            "forgeMult": null
+          },
+          {
+            "materials": [],
+            "skillCheck": "",
+            "modifiers": {
+              "atk": null,
+              "brk": null,
+              "wgt": null,
+              "acc": null,
+              "crit": null,
+              "durability": null,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": ""
+            },
+            "enabled": false,
+            "xpReq": 4,
+            "forgeMult": null
+          },
+          {
+            "materials": [],
+            "skillCheck": "",
+            "modifiers": {
+              "atk": null,
+              "brk": null,
+              "wgt": null,
+              "acc": null,
+              "crit": null,
+              "durability": null,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": ""
+            },
+            "enabled": false,
+            "xpReq": 5,
+            "forgeMult": null
+          }
+        ]
+      },
+      "creation": {
+        "materials": [],
+        "difficultyClass": 0,
+        "skillCheck": "Nature"
+      },
+      "forging": {
+        "enabled": false,
+        "forgeMult": 1,
+        "skillCheck": "Handicraft",
+        "materials": []
+      },
+      "forgingXP": 0
+    },
+    "weapon": {
+      "req": "Divine",
+      "rank": 5,
+      "atk": "6",
+      "rng": "1-3",
+      "acc": 0,
+      "brk": 1,
+      "crit": 0,
+      "effectiveAgainst": {
+        "infantry": false,
+        "cavalry": false,
+        "flying": false,
+        "beast": false,
+        "dragon": false,
+        "undead": false,
+        "monster": false,
+        "magic": false,
+        "armored": false
+      },
+      "dmgTypes": {
+        "fire": true,
+        "slashing": false,
+        "piercing": false,
+        "missile": false,
+        "ice": false,
+        "lightning": false,
+        "wind": false,
+        "arcane": false,
+        "decay": false,
+        "shadow": false,
+        "holy": false,
+        "crushing": false,
+        "randomize": false,
+        "slashingConditionTree": null,
+        "piercingConditionTree": null,
+        "crushingConditionTree": null,
+        "missileConditionTree": null,
+        "fireConditionTree": null,
+        "iceConditionTree": null,
+        "lightningConditionTree": null,
+        "windConditionTree": null,
+        "arcaneConditionTree": null,
+        "decayConditionTree": null,
+        "shadowConditionTree": null,
+        "holyConditionTree": null
+      },
+      "breaker": {
+        "blade": false,
+        "polearm": false,
+        "brawling": false,
+        "heavy": false,
+        "bow": false,
+        "covert": false,
+        "elemental": false,
+        "divine": false,
+        "occult": false,
+        "arcane": false
+      },
+      "atkStat": "Wit",
+      "extraAttacks": 0,
+      "noExtraAttacks": false,
+      "twoHanded": false
+    },
+    "armor": {
+      "req": "",
+      "stn": 0,
+      "def": 0,
+      "res": 0,
+      "eva": 0,
+      "vulns": {
+        "slashing": false,
+        "piercing": false,
+        "missile": false,
+        "fire": false,
+        "ice": false,
+        "lightning": false,
+        "wind": false,
+        "arcane": false,
+        "decay": false,
+        "shadow": false,
+        "holy": false,
+        "crushing": false
+      },
+      "prots": {
+        "slashing": false,
+        "piercing": false,
+        "missile": false,
+        "fire": false,
+        "ice": false,
+        "lightning": false,
+        "wind": false,
+        "arcane": false,
+        "decay": false,
+        "shadow": false,
+        "holy": false,
+        "crushing": false
+      },
+      "brkRed": 0,
+      "critRed": 0
+    },
+    "aura": {
+      "enabled": false,
+      "rng": 0
+    },
+    "mountData": {
+      "stats": {
+        "mov": 0,
+        "hp": 0,
+        "stn": 0,
+        "eva": 0,
+        "atk": 0,
+        "spd": 0,
+        "acc": 0,
+        "crit": 0
+      },
+      "unitTypes": {
+        "cavalry": false,
+        "flying": false,
+        "dragon": false,
+        "beast": false,
+        "monster": false,
+        "undead": false
+      }
+    },
+    "stealable": {
+      "flag": "None",
+      "dc": 10
+    },
+    "requirements": [],
+    "tradeDisabled": false,
+    "anim": {
+      "attack": null,
+      "critical": null,
+      "activation": {
+        "melee": {
+          "steps": [
+            {
+              "kind": "sound",
+              "file": "modules/emblem-rpg-content/sound/magic/casting-light.wav",
+              "audioChannel": "environment"
+            },
+            {
+              "kind": "sound",
+              "file": "modules/emblem-rpg-content/sound/magic/light-casting.wav",
+              "audioChannel": "environment",
+              "fadeOutAudio": 500,
+              "duration": 2500
+            },
+            {
+              "kind": "effect",
+              "file": "jb2a.markers.02.yellow",
+              "atLocation": "token",
+              "layer": "aboveInterface",
+              "scaleToObject": 1.5,
+              "fadeIn": 500,
+              "fadeOut": 500
+            },
+            {
+              "kind": "effect",
+              "file": "jb2a.markers.01.yellow",
+              "atLocation": "token",
+              "layer": "aboveInterface",
+              "scaleToObject": 1,
+              "fadeIn": 500,
+              "fadeOut": 500,
+              "duration": 3000,
+              "waitUntilFinished": 0
+            },
+            {
+              "kind": "sound",
+              "file": "modules/emblem-rpg-content/sound/magic/light-casting.wav",
+              "audioChannel": "environment",
+              "volume": 1.2,
+              "fadeOutAudio": 200,
+              "duration": 1200
+            },
+            {
+              "kind": "sound",
+              "file": "blfx.sound.spell.loop_channel.aura.ambience.4",
+              "audioChannel": "environment",
+              "fadeOutAudio": 500
+            },
+            {
+              "kind": "effect",
+              "file": "blfx.spell.cast.impact.holy_light2.color1",
+              "atLocation": "target-location",
+              "layer": "aboveInterface",
+              "scaleToObject": 3,
+              "playbackRate": 1.2,
+              "opacity": 0.8,
+              "fadeIn": 550,
+              "fadeOut": 400,
+              "randomizeMirrorX": true,
+              "randomizeMirrorY": true,
+              "repeats": {
+                "count": 6,
+                "delayMin": 500,
+                "delayMax": 500
+              }
+            },
+            {
+              "kind": "effect",
+              "file": "blfx.spell.template.circle.school.conjuration1.loop.color1",
+              "atLocation": "target-location",
+              "layer": "belowTokens",
+              "scaleToObject": 1.5
+            },
+            {
+              "kind": "effect",
+              "file": "blfx.spell.template.circle.wave1.energy2.color2",
+              "atLocation": "target-location",
+              "layer": "aboveInterface",
+              "scaleToObject": 2,
+              "delay": 3500
+            },
+            {
+              "kind": "sound",
+              "file": "blfx.sound.spell.cast.cure_wounds.2",
+              "audioChannel": "environment",
+              "fadeOutAudio": 500,
+              "delay": 3500
+            }
+          ],
+          "duration": 6800
+        },
+        "ranged": {
+          "steps": [
+            {
+              "kind": "sound",
+              "file": "modules/emblem-rpg-content/sound/magic/casting-light.wav",
+              "audioChannel": "environment"
+            },
+            {
+              "kind": "sound",
+              "file": "modules/emblem-rpg-content/sound/magic/light-casting.wav",
+              "audioChannel": "environment",
+              "fadeOutAudio": 500,
+              "duration": 2500
+            },
+            {
+              "kind": "effect",
+              "file": "jb2a.markers.02.yellow",
+              "atLocation": "token",
+              "layer": "aboveInterface",
+              "scaleToObject": 1.5,
+              "fadeIn": 500,
+              "fadeOut": 500
+            },
+            {
+              "kind": "effect",
+              "file": "jb2a.markers.01.yellow",
+              "atLocation": "token",
+              "layer": "aboveInterface",
+              "scaleToObject": 1,
+              "fadeIn": 500,
+              "fadeOut": 500,
+              "duration": 3000,
+              "waitUntilFinished": 0
+            },
+            {
+              "kind": "sound",
+              "file": "modules/emblem-rpg-content/sound/magic/light-casting.wav",
+              "audioChannel": "environment",
+              "volume": 1.2,
+              "fadeOutAudio": 200,
+              "duration": 1200
+            },
+            {
+              "kind": "sound",
+              "file": "blfx.sound.spell.loop_channel.aura.ambience.4",
+              "audioChannel": "environment",
+              "fadeOutAudio": 500
+            },
+            {
+              "kind": "effect",
+              "file": "blfx.spell.cast.impact.holy_light2.color1",
+              "atLocation": "target-location",
+              "layer": "aboveInterface",
+              "scaleToObject": 3,
+              "playbackRate": 1.2,
+              "opacity": 0.8,
+              "fadeIn": 550,
+              "fadeOut": 400,
+              "randomizeMirrorX": true,
+              "randomizeMirrorY": true,
+              "repeats": {
+                "count": 6,
+                "delayMin": 500,
+                "delayMax": 500
+              }
+            },
+            {
+              "kind": "effect",
+              "file": "blfx.spell.template.circle.school.conjuration1.loop.color1",
+              "atLocation": "target-location",
+              "layer": "belowTokens",
+              "scaleToObject": 1.5
+            },
+            {
+              "kind": "effect",
+              "file": "blfx.spell.template.circle.wave1.energy2.color2",
+              "atLocation": "target-location",
+              "layer": "aboveInterface",
+              "scaleToObject": 2,
+              "delay": 3500
+            },
+            {
+              "kind": "sound",
+              "file": "blfx.sound.spell.cast.cure_wounds.2",
+              "audioChannel": "environment",
+              "fadeOutAudio": 500,
+              "delay": 3500
+            }
+          ],
+          "duration": 6800
+        }
+      }
+    },
+    "effects": [
+      {
+        "trigger": "onActivation",
+        "name": "Conjure Divine Guardian",
+        "itemNames": [],
+        "itemUuids": [],
+        "delayMs": 0,
+        "condition": null,
+        "action": {
+          "steps": [
+            {
+              "kind": "spawnToken",
+              "actorUuid": "Compendium.emblem-rpg-content.actors.Actor.28dVYwPhK5xNpZhC",
+              "location": "targetLocation",
+              "isFriendly": true,
+              "grantOwnership": true
+            }
+          ]
+        },
+        "tokenAwaits": false
+      }
+    ]
+  },
+  "folder": "mW0T2v8RpaOaFfGe",
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_id": "WaKKmHJ4vNCu1dja",
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1789698776695,
+    "modifiedTime": 1790612898335,
+    "lastModifiedBy": "emblembuilder000",
+    "exportSource": null
+  },
+  "_key": "!items!WaKKmHJ4vNCu1dja"
+}

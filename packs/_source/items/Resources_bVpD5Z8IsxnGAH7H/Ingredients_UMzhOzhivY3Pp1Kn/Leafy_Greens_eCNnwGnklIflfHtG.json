@@ -1,0 +1,36 @@
+{
+  "folder": "UMzhOzhivY3Pp1Kn",
+  "name": "Leafy Greens",
+  "type": "Resource",
+  "img": "modules/emblem-rpg-content/assets/items/resources/Leafy%20Greens.png",
+  "system": {
+    "description": "A bundle of bitter greens, pulled from a kitchen garden.",
+    "resourceType": "Ingredient",
+    "foodType": "Vegetable",
+    "amount": 1,
+    "cost": {
+      "perUnit": 1
+    },
+    "stealable": {
+      "flag": "None",
+      "dc": 10
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "exportSource": null,
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1790551543082,
+    "modifiedTime": 1790612899626,
+    "lastModifiedBy": "emblembuilder000"
+  },
+  "_id": "eCNnwGnklIflfHtG",
+  "ownership": {
+    "default": 0
+  },
+  "sort": 0,
+  "_key": "!items!eCNnwGnklIflfHtG"
+}

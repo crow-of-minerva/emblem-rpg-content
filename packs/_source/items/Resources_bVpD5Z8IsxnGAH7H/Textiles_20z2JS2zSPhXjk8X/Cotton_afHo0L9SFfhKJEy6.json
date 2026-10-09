@@ -1,0 +1,40 @@
+{
+  "folder": "20z2JS2zSPhXjk8X",
+  "name": "Cotton",
+  "type": "Resource",
+  "_id": "afHo0L9SFfhKJEy6",
+  "img": "modules/emblem-rpg-content/assets/items/resources/Cotton.png",
+  "system": {
+    "description": "",
+    "resourceType": "Textile",
+    "foodType": "",
+    "amount": 1,
+    "cost": {
+      "perUnit": 50
+    },
+    "stealable": {
+      "flag": "None",
+      "dc": 10
+    }
+  },
+  "effects": [],
+  "sort": 400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "emblem-rpg": {
+      "pixelArt": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1787102517031,
+    "modifiedTime": 1790612899619,
+    "lastModifiedBy": "emblembuilder000",
+    "exportSource": null
+  },
+  "_key": "!items!afHo0L9SFfhKJEy6"
+}

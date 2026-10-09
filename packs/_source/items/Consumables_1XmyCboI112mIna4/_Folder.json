@@ -1,0 +1,25 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Consumables",
+  "color": null,
+  "sorting": "a",
+  "_id": "1XmyCboI112mIna4",
+  "description": "",
+  "sort": 400000,
+  "flags": {
+    "emblem-rpg": {
+      "icon": "modules/emblem-rpg-content/assets/items/consumables/potions/Vulnerary.png"
+    }
+  },
+  "_stats": {
+    "exportSource": null,
+    "coreVersion": "14.366",
+    "systemId": "emblem-rpg",
+    "systemVersion": "0.2.0",
+    "createdTime": 1781667647448,
+    "modifiedTime": 1781667681317,
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!1XmyCboI112mIna4"
+}

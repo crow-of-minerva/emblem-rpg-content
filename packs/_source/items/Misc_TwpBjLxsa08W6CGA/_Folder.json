@@ -1,0 +1,25 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Misc",
+  "color": null,
+  "flags": {
+    "emblem-rpg": {
+      "icon": "modules/emblem-rpg-content/assets/items/Misc.png"
+    }
+  },
+  "sorting": "m",
+  "_id": "TwpBjLxsa08W6CGA",
+  "description": "",
+  "sort": 600000,
+  "_stats": {
+    "coreVersion": "14.367",
+    "systemId": "emblem-rpg",
+    "systemVersion": "0.2.0",
+    "createdTime": 1788019565012,
+    "modifiedTime": 1789308399454,
+    "lastModifiedBy": "emblembuilder000",
+    "exportSource": null
+  },
+  "_key": "!folders!TwpBjLxsa08W6CGA"
+}

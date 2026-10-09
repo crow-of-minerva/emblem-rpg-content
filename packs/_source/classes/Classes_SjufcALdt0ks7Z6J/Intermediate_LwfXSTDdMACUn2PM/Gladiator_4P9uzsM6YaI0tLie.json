@@ -1,0 +1,209 @@
+{
+  "name": "Gladiator",
+  "type": "Class",
+  "img": "modules/emblem-rpg-content/assets/classes/Gladiator.png",
+  "folder": "LwfXSTDdMACUn2PM",
+  "system": {
+    "description": "Gladiators are defensive fighters who can take up almost any melee weapon. They give up specialization in exchange for answering whatever the enemy brings.",
+    "tier": "Intermediate",
+    "baseStats": {
+      "hp": 28,
+      "stn": 3,
+      "mov": 5,
+      "bld": 9,
+      "mgt": 8,
+      "agi": 4,
+      "tqn": 5,
+      "wit": 2,
+      "cha": 3,
+      "def": 3,
+      "res": 1,
+      "spd": 2,
+      "eva": 9,
+      "acc": 0,
+      "crit": 0
+    },
+    "baseGrowths": {
+      "hp": 40,
+      "mgt": 35,
+      "agi": 30,
+      "tqn": 20,
+      "wit": 10,
+      "cha": 20,
+      "def": 15,
+      "res": 10
+    },
+    "baseCaps": {
+      "hp": 44,
+      "mgt": 20,
+      "agi": 16,
+      "tqn": 14,
+      "wit": 9,
+      "cha": 11,
+      "def": 11,
+      "res": 6
+    },
+    "proficiencies": {
+      "brawling": 0,
+      "blade": 1,
+      "polearm": 1,
+      "heavy": 2,
+      "bow": 0,
+      "covert": 0,
+      "arcane": 0,
+      "elemental": 0,
+      "divine": 0,
+      "occult": 0,
+      "armor": 2,
+      "riding": false,
+      "flying": false
+    },
+    "skills": {
+      "athletics": 2,
+      "finesse": 0,
+      "trading": 0,
+      "civics": 0,
+      "handicraft": 1,
+      "sociability": 0,
+      "command": 1,
+      "nature": 0,
+      "perception": 0,
+      "performance": 0,
+      "reason": 0,
+      "esoteric": 0
+    },
+    "unitType": {
+      "infantry": true,
+      "dragon": false,
+      "monster": false,
+      "beast": false,
+      "undead": false
+    },
+    "features": [
+      {
+        "_id": "iQ5PM06r8ayJ9hfe",
+        "lvl": 13,
+        "acquisitionType": "choice",
+        "choiceCount": 1,
+        "unique": false,
+        "exceptions": "",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.kNRumQL0EMmobMDL",
+            "name": "Shield Mastery",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/Shield Mastery.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.FPZN67MKSmp8ZTzM",
+            "name": "Armed to the Teeth",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/Armed to the Teeth.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      },
+      {
+        "_id": "X6DGbMihvICsHZOK",
+        "lvl": 7,
+        "acquisitionType": "choice",
+        "choiceCount": 1,
+        "unique": false,
+        "exceptions": "",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.Dc4Atotelle4Xz4j",
+            "name": "Guarded Blow",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/Guarded Blow.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.lJ3JMZJ7m2ll2VoT",
+            "name": "Sure-Footed",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/Sure-Footed.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      },
+      {
+        "_id": "3YgIXMbcynmXTPdp",
+        "lvl": 17,
+        "acquisitionType": "all",
+        "choiceCount": 1,
+        "unique": false,
+        "exceptions": "",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.U53Lh6IyCAhHQsYD",
+            "name": "Master of Arms",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/Master of Arms.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      },
+      {
+        "_id": "Vazpn13VxhQ84wmL",
+        "lvl": 9,
+        "acquisitionType": "all",
+        "choiceCount": 1,
+        "unique": false,
+        "exceptions": "",
+        "items": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.features.Item.egtCopUjLL6kiC9V",
+            "name": "Build +2",
+            "img": "modules/emblem-rpg-content/assets/abilities/passive/Build +2.png",
+            "type": "Ability",
+            "replace": {
+              "uuid": "",
+              "name": "",
+              "img": ""
+            }
+          }
+        ]
+      }
+    ],
+    "promotions": []
+  },
+  "_id": "4P9uzsM6YaI0tLie",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1789181091021,
+    "modifiedTime": 1790612897674,
+    "lastModifiedBy": "emblembuilder000",
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "sort": 100000,
+  "_key": "!items!4P9uzsM6YaI0tLie"
+}

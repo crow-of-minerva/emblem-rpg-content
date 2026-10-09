@@ -1,0 +1,21 @@
+{
+  "type": "Item",
+  "folder": "p6cLLiyu8xOaQq4J",
+  "name": "Passive",
+  "color": null,
+  "sorting": "m",
+  "_id": "51N1Et0IiXAjd44x",
+  "description": "",
+  "sort": 200000,
+  "flags": {},
+  "_stats": {
+    "exportSource": null,
+    "coreVersion": "14.366",
+    "systemId": "emblem-rpg",
+    "systemVersion": "0.2.0",
+    "lastModifiedBy": null,
+    "createdTime": null,
+    "modifiedTime": null
+  },
+  "_key": "!folders!51N1Et0IiXAjd44x"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Infantry Caster",
+  "type": "Actor",
+  "folder": "zJ2bHaaG7PBFwI3M",
+  "sort": 125000,
+  "flags": {
+    "emblem-rpg": {
+      "icon": "modules/emblem-rpg-content/assets/classes/Warlock.png"
+    }
+  },
+  "_id": "bj2omh1Fd1lGdvuS",
+  "description": "",
+  "sorting": "m",
+  "color": null,
+  "_stats": {
+    "coreVersion": "14.366",
+    "systemId": "emblem-rpg",
+    "systemVersion": "0.2.0",
+    "createdTime": 1786570533634,
+    "modifiedTime": 1786626373136,
+    "lastModifiedBy": null,
+    "exportSource": null
+  },
+  "_key": "!folders!bj2omh1Fd1lGdvuS"
+}

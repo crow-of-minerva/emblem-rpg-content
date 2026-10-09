@@ -1,0 +1,25 @@
+{
+  "type": "Item",
+  "folder": "SjufcALdt0ks7Z6J",
+  "name": "Intermediate",
+  "color": null,
+  "flags": {
+    "emblem-rpg": {
+      "icon": ""
+    }
+  },
+  "sorting": "m",
+  "_id": "LwfXSTDdMACUn2PM",
+  "description": "",
+  "sort": -100000,
+  "_stats": {
+    "coreVersion": "14.366",
+    "systemId": "emblem-rpg",
+    "systemVersion": "0.2.0",
+    "createdTime": 1787671987443,
+    "modifiedTime": 1787674983078,
+    "lastModifiedBy": "emblembuilder000",
+    "exportSource": null
+  },
+  "_key": "!folders!LwfXSTDdMACUn2PM"
+}

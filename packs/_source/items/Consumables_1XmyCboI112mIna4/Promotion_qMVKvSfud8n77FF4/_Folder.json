@@ -1,0 +1,21 @@
+{
+  "_id": "qMVKvSfud8n77FF4",
+  "name": "Promotion",
+  "folder": "1XmyCboI112mIna4",
+  "sorting": "m",
+  "sort": 0,
+  "type": "Item",
+  "description": "",
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.366",
+    "systemId": "emblem-rpg",
+    "systemVersion": "0.2.0",
+    "createdTime": 1787462976339,
+    "modifiedTime": 1787462976339,
+    "lastModifiedBy": "emblembuilder000",
+    "exportSource": null
+  },
+  "_key": "!folders!qMVKvSfud8n77FF4"
+}

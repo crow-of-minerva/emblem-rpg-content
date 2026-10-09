@@ -1,0 +1,25 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Spells",
+  "color": null,
+  "sorting": "m",
+  "_id": "N5pmFy89aQJYqwXA",
+  "description": "",
+  "sort": 300000,
+  "flags": {
+    "emblem-rpg": {
+      "icon": "modules/emblem-rpg-content/assets/spells/Spells.png"
+    }
+  },
+  "_stats": {
+    "exportSource": null,
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "0.2.0",
+    "createdTime": 1781667647448,
+    "modifiedTime": 1790652687534,
+    "lastModifiedBy": "emblembuilder000"
+  },
+  "_key": "!folders!N5pmFy89aQJYqwXA"
+}

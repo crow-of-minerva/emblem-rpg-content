@@ -1,0 +1,40 @@
+{
+  "name": "Putrefact",
+  "type": "Resource",
+  "_id": "ebFivI2z4Pkqys3J",
+  "img": "modules/emblem-rpg-content/assets/items/resources/Putrefact.png",
+  "system": {
+    "description": "Ash and bone dust, left behind by slain undead. Traces of dark magic still linger in these remains, which a skilled alchemist may yet bring out.",
+    "resourceType": "Material",
+    "foodType": "",
+    "amount": 1,
+    "cost": {
+      "perUnit": 10
+    },
+    "stealable": {
+      "flag": "None",
+      "dc": 10
+    }
+  },
+  "effects": [],
+  "folder": "wmexYjZhUF91f0Ux",
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "emblem-rpg": {
+      "pixelArt": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1789242585302,
+    "modifiedTime": 1790612899626,
+    "lastModifiedBy": "emblembuilder000",
+    "exportSource": null
+  },
+  "sort": 0,
+  "_key": "!items!ebFivI2z4Pkqys3J"
+}

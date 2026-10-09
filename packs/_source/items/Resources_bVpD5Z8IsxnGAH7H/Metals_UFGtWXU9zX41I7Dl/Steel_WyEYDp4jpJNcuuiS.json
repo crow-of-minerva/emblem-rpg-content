@@ -1,0 +1,36 @@
+{
+  "name": "Steel",
+  "type": "Resource",
+  "img": "modules/emblem-rpg-content/assets/items/resources/Steel.png",
+  "system": {
+    "description": "A refined metal made from iron and carbon. Stronger and more durable than iron, it’s commonly used for quality weapons, armor, and reinforced structures. A dependable mid-tier crafting material.",
+    "resourceType": "Material",
+    "foodType": "",
+    "amount": 1,
+    "cost": {
+      "perUnit": 100
+    },
+    "stealable": {
+      "flag": "None",
+      "dc": 10
+    }
+  },
+  "folder": "UFGtWXU9zX41I7Dl",
+  "_id": "WyEYDp4jpJNcuuiS",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "exportSource": null,
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1786773642209,
+    "modifiedTime": 1790612899613,
+    "lastModifiedBy": "emblembuilder000"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "sort": 175000,
+  "_key": "!items!WyEYDp4jpJNcuuiS"
+}

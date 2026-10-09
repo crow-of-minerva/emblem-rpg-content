@@ -1,0 +1,944 @@
+{
+  "name": "Recurve Bow",
+  "type": "Equipment",
+  "img": "modules/emblem-rpg-content/assets/items/weapons/bows/Recurve Bow.png",
+  "system": {
+    "isWielded": false,
+    "isWorn": false,
+    "isEquipped": false,
+    "description": "A bow reliant on the marksman's strength and skill. Delivers incredible results for the talented archer.\n\nEffective against Flying units.",
+    "itemType": "Weapon",
+    "cost": 350,
+    "tradeDisabled": false,
+    "wgt": 6,
+    "stealable": {
+      "flag": "None",
+      "dc": 10
+    },
+    "actionType": "Standard Action",
+    "uses": {
+      "current": 20,
+      "max": 20,
+      "type": "limited",
+      "scaling": {
+        "factor": "Level",
+        "subject": "",
+        "type": "Additive",
+        "multiplier": 1,
+        "thresholds": [],
+        "formula": "",
+        "addToBase": false,
+        "roundDown": false
+      }
+    },
+    "aura": {
+      "enabled": false,
+      "rng": 0
+    },
+    "wepArtData": {
+      "cost": 0,
+      "brawling": false,
+      "blade": false,
+      "polearm": false,
+      "heavy": false,
+      "bow": false,
+      "covert": false
+    },
+    "requirements": [],
+    "modifiers": [],
+    "effectData": {
+      "params": [],
+      "type": "",
+      "rng": "1",
+      "rngType": "Single",
+      "rngShape": "Normal",
+      "losRule": "normal",
+      "rngScaling": {
+        "factor": "None",
+        "subject": "",
+        "type": "Additive",
+        "multiplier": 1,
+        "thresholds": [],
+        "formula": "",
+        "addToBase": false,
+        "roundDown": false
+      },
+      "targets": 1,
+      "targetType": "Any",
+      "locationRng": 0,
+      "gridColor": "Red",
+      "groundValidSquares": "All",
+      "groundMaxElevDiff": 0,
+      "deliveryType": "Saving Throw",
+      "savingThrowDC": {
+        "required": false,
+        "base": 0,
+        "attribute": "None",
+        "targetAttribute": "None",
+        "ignoreForFriendly": false
+      },
+      "skillCheckDC": {
+        "required": false,
+        "base": 0,
+        "skill": "None",
+        "targetAttribute": "None",
+        "ignoreForFriendly": false
+      },
+      "consumeOnFailure": true,
+      "groundUnoccupiedOnly": true
+    },
+    "consumableData": {
+      "effect": "",
+      "stat": "",
+      "statValue": 0,
+      "growth": "",
+      "growthValue": 0
+    },
+    "weapon": {
+      "req": "Bow",
+      "rank": 2,
+      "twoHanded": true,
+      "dmgTypes": {
+        "slashing": false,
+        "slashingConditionTree": null,
+        "piercing": false,
+        "piercingConditionTree": null,
+        "crushing": false,
+        "crushingConditionTree": null,
+        "missile": true,
+        "missileConditionTree": null,
+        "fire": false,
+        "fireConditionTree": null,
+        "ice": false,
+        "iceConditionTree": null,
+        "lightning": false,
+        "lightningConditionTree": null,
+        "wind": false,
+        "windConditionTree": null,
+        "arcane": false,
+        "arcaneConditionTree": null,
+        "decay": false,
+        "decayConditionTree": null,
+        "shadow": false,
+        "shadowConditionTree": null,
+        "holy": false,
+        "holyConditionTree": null,
+        "randomize": false
+      },
+      "atkStat": "Might",
+      "atk": "8",
+      "rng": "2-3",
+      "acc": -2,
+      "brk": 2,
+      "crit": 5,
+      "extraAttacks": 0,
+      "noExtraAttacks": false,
+      "effectiveAgainst": {
+        "infantry": false,
+        "armored": false,
+        "cavalry": false,
+        "flying": true,
+        "dragon": false,
+        "beast": false,
+        "monster": false,
+        "undead": false,
+        "magic": false
+      },
+      "breaker": {
+        "brawling": false,
+        "blade": false,
+        "polearm": false,
+        "heavy": false,
+        "bow": false,
+        "covert": false,
+        "elemental": false,
+        "divine": false,
+        "occult": false,
+        "arcane": false
+      }
+    },
+    "armor": {
+      "req": "None",
+      "def": 0,
+      "res": 0,
+      "stn": 0,
+      "eva": 0,
+      "brkRed": 0,
+      "critRed": 0,
+      "vulns": {
+        "slashing": false,
+        "piercing": false,
+        "crushing": false,
+        "missile": false,
+        "fire": false,
+        "ice": false,
+        "lightning": false,
+        "wind": false,
+        "arcane": false,
+        "decay": false,
+        "shadow": false,
+        "holy": false
+      },
+      "prots": {
+        "slashing": false,
+        "piercing": false,
+        "crushing": false,
+        "missile": false,
+        "fire": false,
+        "ice": false,
+        "lightning": false,
+        "wind": false,
+        "arcane": false,
+        "decay": false,
+        "shadow": false,
+        "holy": false
+      }
+    },
+    "mountData": {
+      "stats": {
+        "mov": 0,
+        "hp": 0,
+        "stn": 0,
+        "eva": 0,
+        "atk": 0,
+        "spd": 0,
+        "acc": 0,
+        "crit": 0
+      },
+      "unitTypes": {
+        "cavalry": false,
+        "flying": false,
+        "dragon": false,
+        "beast": false,
+        "monster": false,
+        "undead": false
+      }
+    },
+    "craftingData": {
+      "forging": {
+        "enabled": true,
+        "forgeMult": 1,
+        "skillCheck": "Handicraft",
+        "materials": [
+          {
+            "uuid": "Compendium.emblem-rpg-content.items.Item.vLWkZ2rfaLxJ0gG8",
+            "name": "Refined Wood",
+            "img": "modules/emblem-rpg-content/assets/items/resources/Refined%20Wood.png",
+            "quantity": 1
+          },
+          {
+            "uuid": "Compendium.emblem-rpg-content.items.Item.fj0YOkSnrXYYCBbM",
+            "name": "Wood",
+            "img": "modules/emblem-rpg-content/assets/items/resources/Wood.png",
+            "quantity": 2
+          }
+        ]
+      },
+      "refinement": {
+        "tiers": [
+          {
+            "enabled": true,
+            "xpReq": 20,
+            "forgeMult": null,
+            "skillCheck": "",
+            "materials": [],
+            "modifiers": {
+              "atk": null,
+              "brk": null,
+              "wgt": null,
+              "acc": 1,
+              "crit": null,
+              "durability": null,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": ""
+            }
+          },
+          {
+            "enabled": true,
+            "xpReq": 40,
+            "forgeMult": null,
+            "skillCheck": "",
+            "materials": [
+              {
+                "uuid": "Compendium.emblem-rpg-content.items.Item.vLWkZ2rfaLxJ0gG8",
+                "name": "Refined Wood",
+                "img": "modules/emblem-rpg-content/assets/items/resources/Refined%20Wood.png",
+                "quantity": 1
+              },
+              {
+                "uuid": "Compendium.emblem-rpg-content.items.Item.CqfqlPdkjMYe9H34",
+                "name": "Leather",
+                "img": "modules/emblem-rpg-content/assets/items/resources/Leather.png",
+                "quantity": 1
+              }
+            ],
+            "modifiers": {
+              "atk": 1,
+              "brk": null,
+              "wgt": null,
+              "acc": 1,
+              "crit": null,
+              "durability": 5,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": ""
+            }
+          },
+          {
+            "enabled": true,
+            "xpReq": 60,
+            "forgeMult": null,
+            "skillCheck": "",
+            "materials": [
+              {
+                "uuid": "Compendium.emblem-rpg-content.items.Item.WyEYDp4jpJNcuuiS",
+                "name": "Steel",
+                "img": "modules/emblem-rpg-content/assets/items/resources/Steel.png",
+                "quantity": 1
+              },
+              {
+                "uuid": "Compendium.emblem-rpg-content.items.Item.vLWkZ2rfaLxJ0gG8",
+                "name": "Refined Wood",
+                "img": "modules/emblem-rpg-content/assets/items/resources/Refined%20Wood.png",
+                "quantity": 1
+              }
+            ],
+            "modifiers": {
+              "atk": 1,
+              "brk": null,
+              "wgt": 1,
+              "acc": 2,
+              "crit": null,
+              "durability": 5,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": ""
+            }
+          },
+          {
+            "enabled": true,
+            "xpReq": 80,
+            "forgeMult": null,
+            "skillCheck": "",
+            "materials": [
+              {
+                "uuid": "Compendium.emblem-rpg-content.items.Item.WyEYDp4jpJNcuuiS",
+                "name": "Steel",
+                "img": "modules/emblem-rpg-content/assets/items/resources/Steel.png",
+                "quantity": 2
+              },
+              {
+                "uuid": "Compendium.emblem-rpg-content.items.Item.vLWkZ2rfaLxJ0gG8",
+                "name": "Refined Wood",
+                "img": "modules/emblem-rpg-content/assets/items/resources/Refined%20Wood.png",
+                "quantity": 1
+              }
+            ],
+            "modifiers": {
+              "atk": 2,
+              "brk": 0.5,
+              "wgt": 1,
+              "acc": 2,
+              "crit": null,
+              "durability": 10,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": ""
+            }
+          },
+          {
+            "enabled": true,
+            "xpReq": 100,
+            "forgeMult": null,
+            "skillCheck": "",
+            "materials": [
+              {
+                "uuid": "Compendium.emblem-rpg-content.items.Item.XZhzxkpjIj8UWK8A",
+                "name": "Silver",
+                "img": "modules/emblem-rpg-content/assets/items/resources/Silver.png",
+                "quantity": 1
+              },
+              {
+                "uuid": "Compendium.emblem-rpg-content.items.Item.vLWkZ2rfaLxJ0gG8",
+                "name": "Refined Wood",
+                "img": "modules/emblem-rpg-content/assets/items/resources/Refined%20Wood.png",
+                "quantity": 1
+              }
+            ],
+            "modifiers": {
+              "atk": 2,
+              "brk": 0.5,
+              "wgt": 1,
+              "acc": 2,
+              "crit": 5,
+              "durability": 10,
+              "stn": null,
+              "def": null,
+              "res": null,
+              "wgtRed": null,
+              "prots": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "dmgTypes": {
+                "slashing": false,
+                "piercing": false,
+                "crushing": false,
+                "missile": false,
+                "fire": false,
+                "ice": false,
+                "lightning": false,
+                "wind": false,
+                "arcane": false,
+                "decay": false,
+                "shadow": false,
+                "holy": false
+              },
+              "prot": ""
+            }
+          }
+        ]
+      },
+      "creation": {
+        "materials": [],
+        "difficultyClass": 0,
+        "skillCheck": "Nature"
+      },
+      "forgingXP": 0
+    },
+    "refreshes": false,
+    "anim": {
+      "attack": {
+        "melee": {
+          "steps": [
+            {
+              "kind": "sound",
+              "audioChannel": "environment",
+              "file": "modules/emblem-rpg-content/sound/weapon/bow-draw-1.wav"
+            },
+            {
+              "kind": "effect",
+              "attachTo": "token",
+              "rotateTowards": "target",
+              "layer": "aboveInterface",
+              "center": true,
+              "filter": {
+                "type": "ColorMatrix",
+                "params": {
+                  "hue": 340
+                }
+              },
+              "file": "blfx.weapon.range.bow3.attack1.color1",
+              "scaleToObject": 0.9
+            },
+            {
+              "kind": "effect",
+              "atLocation": "token",
+              "stretchTo": "target",
+              "delay": 350,
+              "layer": "aboveInterface",
+              "scale": 0.5,
+              "file": "jb2a.arrow.physical.white.01.15ft",
+              "randomizeMirrorY": true
+            },
+            {
+              "kind": "sound",
+              "endTime": 200,
+              "file": "modules/emblem-rpg-content/sound/weapon/bow-projectile.wav",
+              "audioChannel": "environment",
+              "delay": 450
+            },
+            {
+              "kind": "sound",
+              "fadeOutAudio": 100,
+              "file": "modules/emblem-rpg-content/sound/weapon/bow-fire-1.wav",
+              "audioChannel": "environment",
+              "delay": 500
+            }
+          ],
+          "duration": 1400
+        },
+        "ranged": {
+          "steps": [
+            {
+              "kind": "sound",
+              "audioChannel": "environment",
+              "file": "modules/emblem-rpg-content/sound/weapon/bow-draw-1.wav"
+            },
+            {
+              "kind": "effect",
+              "attachTo": "token",
+              "rotateTowards": "target",
+              "layer": "aboveInterface",
+              "center": true,
+              "filter": {
+                "type": "ColorMatrix",
+                "params": {
+                  "hue": 340
+                }
+              },
+              "file": "blfx.weapon.range.bow3.attack1.color1",
+              "scaleToObject": 0.9
+            },
+            {
+              "kind": "effect",
+              "atLocation": "token",
+              "stretchTo": "target",
+              "delay": 350,
+              "layer": "aboveInterface",
+              "scale": 0.5,
+              "file": "jb2a.arrow.physical.white.01.15ft",
+              "randomizeMirrorY": true
+            },
+            {
+              "kind": "sound",
+              "endTime": 200,
+              "file": "modules/emblem-rpg-content/sound/weapon/bow-projectile.wav",
+              "audioChannel": "environment",
+              "delay": 450
+            },
+            {
+              "kind": "sound",
+              "fadeOutAudio": 100,
+              "file": "modules/emblem-rpg-content/sound/weapon/bow-fire-1.wav",
+              "audioChannel": "environment",
+              "delay": 500
+            }
+          ],
+          "duration": 1400
+        }
+      },
+      "critical": {
+        "melee": {
+          "steps": [
+            {
+              "kind": "sound",
+              "startTime": 200,
+              "endTime": 100,
+              "file": "modules/emblem-rpg-content/sound/weapon/bow-draw-2.wav",
+              "audioChannel": "environment"
+            },
+            {
+              "kind": "effect",
+              "attachTo": "token",
+              "rotateTowards": "target",
+              "layer": "aboveInterface",
+              "center": true,
+              "filter": {
+                "type": "ColorMatrix",
+                "params": {
+                  "hue": 340
+                }
+              },
+              "file": "blfx.weapon.range.bow3.attack1.color1",
+              "scaleToObject": 0.9,
+              "playbackRate": 0.2025,
+              "endTime": 500,
+              "fadeOut": 250
+            },
+            {
+              "kind": "sound",
+              "endTime": 200,
+              "file": "modules/emblem-rpg-content/sound/weapon/bow-projectile.wav",
+              "audioChannel": "environment",
+              "delay": 1650
+            },
+            {
+              "kind": "sound",
+              "fadeOutAudio": 100,
+              "file": "modules/emblem-rpg-content/sound/weapon/bow-fire-1.wav",
+              "audioChannel": "environment",
+              "delay": 1800
+            },
+            {
+              "kind": "effect",
+              "atLocation": "token",
+              "stretchTo": "target",
+              "delay": 1600,
+              "layer": "aboveInterface",
+              "file": "jb2a.arrow.physical.white.01.15ft",
+              "randomizeMirrorY": true,
+              "spriteOffset": {
+                "x": -0.1053,
+                "y": 0
+              },
+              "scale": 0.5,
+              "waitUntilFinished": -1200
+            },
+            {
+              "kind": "sound",
+              "endTime": 200,
+              "file": "modules/emblem-rpg-content/sound/weapon/bow-projectile.wav",
+              "audioChannel": "environment"
+            },
+            {
+              "kind": "sound",
+              "fadeOutAudio": 100,
+              "file": "modules/emblem-rpg-content/sound/weapon/bow-fire-1.wav",
+              "audioChannel": "environment",
+              "delay": 150
+            },
+            {
+              "kind": "effect",
+              "atLocation": "token",
+              "stretchTo": "target",
+              "layer": "aboveInterface",
+              "scale": 0.5,
+              "file": "jb2a.arrow.physical.white.01.15ft",
+              "randomizeMirrorY": true,
+              "spriteOffset": {
+                "x": 0,
+                "y": 0.1053
+              },
+              "waitUntilFinished": -1200
+            },
+            {
+              "kind": "sound",
+              "endTime": 200,
+              "file": "modules/emblem-rpg-content/sound/weapon/bow-projectile.wav",
+              "audioChannel": "environment"
+            },
+            {
+              "kind": "sound",
+              "fadeOutAudio": 100,
+              "file": "modules/emblem-rpg-content/sound/weapon/bow-fire-1.wav",
+              "audioChannel": "environment",
+              "delay": 150
+            },
+            {
+              "kind": "effect",
+              "atLocation": "token",
+              "stretchTo": "target",
+              "layer": "aboveInterface",
+              "scale": 0.5,
+              "file": "jb2a.arrow.physical.white.01.15ft",
+              "randomizeMirrorY": true,
+              "spriteOffset": {
+                "x": 0.1053,
+                "y": 0
+              },
+              "waitUntilFinished": -1200
+            },
+            {
+              "kind": "sound",
+              "endTime": 200,
+              "file": "modules/emblem-rpg-content/sound/weapon/bow-projectile.wav",
+              "audioChannel": "environment"
+            },
+            {
+              "kind": "sound",
+              "fadeOutAudio": 100,
+              "file": "modules/emblem-rpg-content/sound/weapon/bow-fire-1.wav",
+              "audioChannel": "environment",
+              "delay": 350
+            },
+            {
+              "kind": "effect",
+              "atLocation": "token",
+              "stretchTo": "target",
+              "layer": "aboveInterface",
+              "scale": 0.5,
+              "file": "jb2a.arrow.physical.white.01.15ft",
+              "randomizeMirrorY": true,
+              "spriteOffset": {
+                "x": 0,
+                "y": 0
+              }
+            }
+          ],
+          "duration": 4600
+        },
+        "ranged": {
+          "steps": [
+            {
+              "kind": "sound",
+              "startTime": 200,
+              "endTime": 100,
+              "file": "modules/emblem-rpg-content/sound/weapon/bow-draw-2.wav",
+              "audioChannel": "environment"
+            },
+            {
+              "kind": "effect",
+              "attachTo": "token",
+              "rotateTowards": "target",
+              "layer": "aboveInterface",
+              "center": true,
+              "filter": {
+                "type": "ColorMatrix",
+                "params": {
+                  "hue": 340
+                }
+              },
+              "file": "blfx.weapon.range.bow3.attack1.color1",
+              "scaleToObject": 0.9,
+              "playbackRate": 0.2025,
+              "endTime": 500,
+              "fadeOut": 250
+            },
+            {
+              "kind": "sound",
+              "endTime": 200,
+              "file": "modules/emblem-rpg-content/sound/weapon/bow-projectile.wav",
+              "audioChannel": "environment",
+              "delay": 1650
+            },
+            {
+              "kind": "sound",
+              "fadeOutAudio": 100,
+              "file": "modules/emblem-rpg-content/sound/weapon/bow-fire-1.wav",
+              "audioChannel": "environment",
+              "delay": 1800
+            },
+            {
+              "kind": "effect",
+              "atLocation": "token",
+              "stretchTo": "target",
+              "delay": 1600,
+              "layer": "aboveInterface",
+              "file": "jb2a.arrow.physical.white.01.15ft",
+              "randomizeMirrorY": true,
+              "spriteOffset": {
+                "x": -0.1053,
+                "y": 0
+              },
+              "scale": 0.5,
+              "waitUntilFinished": -1200
+            },
+            {
+              "kind": "sound",
+              "endTime": 200,
+              "file": "modules/emblem-rpg-content/sound/weapon/bow-projectile.wav",
+              "audioChannel": "environment"
+            },
+            {
+              "kind": "sound",
+              "fadeOutAudio": 100,
+              "file": "modules/emblem-rpg-content/sound/weapon/bow-fire-1.wav",
+              "audioChannel": "environment",
+              "delay": 150
+            },
+            {
+              "kind": "effect",
+              "atLocation": "token",
+              "stretchTo": "target",
+              "layer": "aboveInterface",
+              "scale": 0.5,
+              "file": "jb2a.arrow.physical.white.01.15ft",
+              "randomizeMirrorY": true,
+              "spriteOffset": {
+                "x": 0,
+                "y": 0.1053
+              },
+              "waitUntilFinished": -1200
+            },
+            {
+              "kind": "sound",
+              "endTime": 200,
+              "file": "modules/emblem-rpg-content/sound/weapon/bow-projectile.wav",
+              "audioChannel": "environment"
+            },
+            {
+              "kind": "sound",
+              "fadeOutAudio": 100,
+              "file": "modules/emblem-rpg-content/sound/weapon/bow-fire-1.wav",
+              "audioChannel": "environment",
+              "delay": 150
+            },
+            {
+              "kind": "effect",
+              "atLocation": "token",
+              "stretchTo": "target",
+              "layer": "aboveInterface",
+              "scale": 0.5,
+              "file": "jb2a.arrow.physical.white.01.15ft",
+              "randomizeMirrorY": true,
+              "spriteOffset": {
+                "x": 0.1053,
+                "y": 0
+              },
+              "waitUntilFinished": -1200
+            },
+            {
+              "kind": "sound",
+              "endTime": 200,
+              "file": "modules/emblem-rpg-content/sound/weapon/bow-projectile.wav",
+              "audioChannel": "environment"
+            },
+            {
+              "kind": "sound",
+              "fadeOutAudio": 100,
+              "file": "modules/emblem-rpg-content/sound/weapon/bow-fire-1.wav",
+              "audioChannel": "environment",
+              "delay": 350
+            },
+            {
+              "kind": "effect",
+              "atLocation": "token",
+              "stretchTo": "target",
+              "layer": "aboveInterface",
+              "scale": 0.5,
+              "file": "jb2a.arrow.physical.white.01.15ft",
+              "randomizeMirrorY": true,
+              "spriteOffset": {
+                "x": 0,
+                "y": 0
+              }
+            }
+          ],
+          "duration": 4600
+        }
+      },
+      "activation": null
+    },
+    "effects": []
+  },
+  "folder": "KWX4uH8MbnuOzVNQ",
+  "_id": "910G4e6aHgmzm8fB",
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "exportSource": null,
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1787637027879,
+    "modifiedTime": 1790612899325,
+    "lastModifiedBy": "emblembuilder000"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "sort": 0,
+  "_key": "!items!910G4e6aHgmzm8fB"
+}

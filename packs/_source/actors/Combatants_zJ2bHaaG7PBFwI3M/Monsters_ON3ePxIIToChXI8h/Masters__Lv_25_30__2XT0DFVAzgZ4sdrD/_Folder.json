@@ -1,0 +1,21 @@
+{
+  "_id": "2XT0DFVAzgZ4sdrD",
+  "name": "Masters (Lv 25-30)",
+  "type": "Actor",
+  "folder": "ON3ePxIIToChXI8h",
+  "sort": 6250,
+  "sorting": "m",
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "0.2.0",
+    "createdTime": 1789694570601,
+    "modifiedTime": 1789694570601,
+    "lastModifiedBy": "emblembuilder000",
+    "exportSource": null
+  },
+  "_key": "!folders!2XT0DFVAzgZ4sdrD"
+}

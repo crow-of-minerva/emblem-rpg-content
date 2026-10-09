@@ -1,0 +1,40 @@
+{
+  "name": "Dragonscale",
+  "type": "Resource",
+  "img": "modules/emblem-rpg-content/assets/items/resources/Dragonscale.png",
+  "system": {
+    "description": "",
+    "resourceType": "Material",
+    "foodType": "",
+    "amount": 1,
+    "cost": {
+      "perUnit": 1200
+    },
+    "stealable": {
+      "flag": "None",
+      "dc": 10
+    }
+  },
+  "folder": "dpMH8gilglPEEjGf",
+  "effects": [],
+  "flags": {
+    "emblem-rpg": {
+      "pixelArt": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1787465510166,
+    "modifiedTime": 1790612899338,
+    "lastModifiedBy": "emblembuilder000",
+    "exportSource": null
+  },
+  "_id": "PZF0irQjYooywPwg",
+  "ownership": {
+    "default": 0
+  },
+  "sort": 0,
+  "_key": "!items!PZF0irQjYooywPwg"
+}

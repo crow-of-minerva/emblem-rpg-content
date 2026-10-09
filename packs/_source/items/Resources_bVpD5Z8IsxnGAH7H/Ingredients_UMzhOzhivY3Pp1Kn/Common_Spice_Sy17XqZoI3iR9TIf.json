@@ -1,0 +1,36 @@
+{
+  "folder": "UMzhOzhivY3Pp1Kn",
+  "name": "Common Spice",
+  "type": "Resource",
+  "_id": "Sy17XqZoI3iR9TIf",
+  "img": "modules/emblem-rpg-content/assets/items/resources/Common%20Spice.png",
+  "system": {
+    "description": "A pinch of whatever the market had that morning. Salt, mostly.",
+    "resourceType": "Ingredient",
+    "foodType": "Spice",
+    "amount": 1,
+    "cost": {
+      "perUnit": 2
+    },
+    "stealable": {
+      "flag": "None",
+      "dc": 10
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "exportSource": null,
+    "coreVersion": "14.368",
+    "systemId": "emblem-rpg",
+    "systemVersion": "1.0.0",
+    "createdTime": 1790551542888,
+    "modifiedTime": 1790612899340,
+    "lastModifiedBy": "emblembuilder000"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "sort": 0,
+  "_key": "!items!Sy17XqZoI3iR9TIf"
+}
